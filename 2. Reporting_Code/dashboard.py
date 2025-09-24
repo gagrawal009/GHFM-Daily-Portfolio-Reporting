@@ -136,8 +136,15 @@ def load_data(today_str):
         trades_df = pd.read_csv(trade_file)
        
         return perf_df, mv_df, pnl_df, all_symbol_pnl_df, trades_df
-    except FileNotFoundError:
-        st.error(f"Data files for {today_str} not found.")
+    except FileNotFoundError as e:
+        st.error(f"❌ Missing file: {e.filename}")
+        st.write("🔎 Paths attempted:")
+        st.write(pnl_file)
+        st.write(perf_file)
+        st.write(mv_file)
+        st.write(all_symbol_pnl_file)
+        st.write(trade_file)
+        
         return pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
 # --- Create Tables ---

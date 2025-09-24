@@ -1,0 +1,17 @@
+﻿Statement,Header,Field Name,Field Value,,,,,,,,,,,,,
+Statement,Data,Title,Activity Summary,,,,,,,,,,,,,
+Statement,Data,Period,18-Jul-25,,,,,,,,,,,,,
+Statement,Data,WhenGenerated,"2025-07-20, 21:59:35 EDT",,,,,,,,,,,,,
+Disclaimer,Header,Field Name,Field Value,,,,,,,,,,,,,
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website.",,,,,,,,,,,,,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,BABA,"2025-07-18, 11:09:12",900,120.7033333,120.23,-108633,-0.47079225,108633.4708,0,-426,O;P
+Trades,SubTotal,,Stocks,USD,BABA,,,900,,,-108633,-0.47079225,108633.4708,0,-426,
+Trades,Data,Order,Stocks,USD,U18135473,CRCL,"2025-07-18, 11:06:39","1,100",227.5736364,223.78,-250331,-0.575412749,250331.5754,0,-4173,O;P
+Trades,SubTotal,,Stocks,USD,CRCL,,,1100,,,-250331,-0.575412749,250331.5754,0,-4173,
+Trades,Data,Order,Stocks,USD,U18135473,IBIT,"2025-07-18, 11:12:55",100,66.95,66.68,-6695,-0.10245725,6695.102457,0,-27,O
+Trades,Data,Order,Stocks,USD,U18135473,IBIT,"2025-07-18, 11:39:07","1,400",66.8495,66.68,-93589.3,-1.4938435,93590.79384,0,-237.3,O;P
+Trades,SubTotal,,Stocks,USD,IBIT,,,1500,,,-100284.3,-1.59630075,100285.8963,0,-264.3,
+Trades,Data,Order,Stocks,USD,U18135473,NTDU,"2025-07-18, 04:36:19","150,000",0.955,0.95,-143250,-134.082,143384.082,0,-750,O
+Trades,SubTotal,,Stocks,USD,NTDU,,,150000,,,-143250,-134.082,143384.082,0,-750,
+Trades,Total,,Stocks,USD,,,,,,,-602498.3,-136.7245057,602635.0245,0,-5613.3, 

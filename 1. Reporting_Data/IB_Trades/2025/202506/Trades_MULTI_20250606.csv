@@ -1,0 +1,15 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"June 6, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 02:07:59 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,1810,"2025-06-05, 21:52:30","10,000",53.25,53.1,-532500,-855.1625,533355.1625,0,-1500,O
+Trades,SubTotal,,Stocks,HKD,1810,,,10000,,,-532500,-855.1625,533355.1625,0,-1500,
+Trades,Data,Order,Stocks,HKD,U18135473,9961,"2025-06-05, 21:56:14","1,000",481,466.8,-481000,-774.043,481774.043,0,-14200,O;P
+Trades,SubTotal,,Stocks,HKD,9961,,,1000,,,-481000,-774.043,481774.043,0,-14200,
+Trades,Total,,Stocks,HKD,,,,,,,-1013500,-1629.2055,1015129.2055,0,-15700, 
+Trades,Total,,Stocks,USD,,,,,,,-129160.44,-207.62594892,129368.06594892,0,-2000.808, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

@@ -1,0 +1,63 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 6, 2025"
+Statement,Data,WhenGenerated,"2025-01-06, 23:26:06 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,NVDA,"2025-01-03, 16:20:00","-5,000",140,149.43,700000,-20.29,-602297.289491,103997.40698,-47150,A;C
+Trades,SubTotal,,Stocks,USD,NVDA,,-5000,,,700000,-20.29,-602297.289491,103997.40698,-47150,
+Trades,Total,,Stocks,USD,,,,,,700000,-20.29,-602297.289491,103997.40698,-47150, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,ANF 03JAN25 155 P,"2025-01-03, 16:20:00",5,0,0,0,0,725.139645,725.139645,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,ANF 03JAN25 155 P,,5,,,0,0,725.139645,725.139645,0,
+Trades,Data,Order,Equity and Index Options,USD,ASML 03JAN25 680 P,"2025-01-03, 16:20:00",5,0,0,0,0,649.64823,649.64823,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,ASML 03JAN25 680 P,,5,,,0,0,649.64823,649.64823,0,
+Trades,Data,Order,Equity and Index Options,USD,BX 10JAN25 175 P,"2025-01-06, 09:39:15",-5,1.32,2.1249,660,-3.618548,-656.381452,0,-402.45,O;P
+Trades,SubTotal,,Equity and Index Options,USD,BX 10JAN25 175 P,,-5,,,660,-3.618548,-656.381452,0,-402.45,
+Trades,Data,Order,Equity and Index Options,USD,JPM 03JAN25 242.5 P,"2025-01-03, 16:20:00",5,0,0,0,0,237.738128,237.738128,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,JPM 03JAN25 242.5 P,,5,,,0,0,237.738128,237.738128,0,
+Trades,Data,Order,Equity and Index Options,USD,JPM 10JAN25 242.5 P,"2025-01-06, 10:37:32",-5,1.8,2.9273,900,-2.28022,-897.71978,0,-563.65,O
+Trades,SubTotal,,Equity and Index Options,USD,JPM 10JAN25 242.5 P,,-5,,,900,-2.28022,-897.71978,0,-563.65,
+Trades,Data,Order,Equity and Index Options,USD,MCD 03JAN25 300 C,"2025-01-03, 16:20:00",10,0,0,0,0,715.512584,715.512584,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,MCD 03JAN25 300 C,,10,,,0,0,715.512584,715.512584,0,
+Trades,Data,Order,Equity and Index Options,USD,NVDA 03JAN25 140 C,"2025-01-03, 16:20:00",50,0,4.47,0,0,6314.98647,0,22350,A;C
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 03JAN25 140 C,,50,,,0,0,6314.98647,0,22350,
+Trades,Data,Order,Equity and Index Options,USD,NVDA 10JAN25 157.5 C,"2025-01-06, 09:38:13",-50,0.7,0.95,3500,-34.6493,-3465.3507,0,-1250,O
+Trades,Data,Order,Equity and Index Options,USD,NVDA 10JAN25 157.5 C,"2025-01-06, 10:08:33",-50,1,0.95,5000,-32.836,-4967.164,0,250,O;P
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 10JAN25 157.5 C,,-100,,,8500,-67.4853,-8432.5147,0,-1000,
+Trades,Data,Order,Equity and Index Options,USD,NVDA 10JAN25 145 P,"2025-01-06, 09:43:45",-50,1.36,1.615,6800,-35.98604,-6764.01396,0,-1275,O;P
+Trades,Data,Order,Equity and Index Options,USD,NVDA 10JAN25 145 P,"2025-01-06, 10:08:49",-50,1.13,1.615,5650,-35.20907,-5614.79093,0,-2425,O
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 10JAN25 145 P,,-100,,,12450,-71.19511,-12378.80489,0,-3700,
+Trades,Data,Order,Equity and Index Options,USD,ORCL 03JAN25 165 P,"2025-01-03, 16:20:00",10,0,0,0,0,1132.975908,1132.975908,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,ORCL 03JAN25 165 P,,10,,,0,0,1132.975908,1132.975908,0,
+Trades,Data,Order,Equity and Index Options,USD,PDD 10JAN25 106 C,"2025-01-06, 09:44:36",-10,0.55,0.22,550,-4.52569,-545.47431,0,330,O
+Trades,SubTotal,,Equity and Index Options,USD,PDD 10JAN25 106 C,,-10,,,550,-4.52569,-545.47431,0,330,
+Trades,Data,Order,Equity and Index Options,USD,QQQ 03JAN25 519 C,"2025-01-03, 16:20:00",20,0,0,0,0,1066.149176,1066.149176,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 03JAN25 519 C,,20,,,0,0,1066.149176,1066.149176,0,
+Trades,Data,Order,Equity and Index Options,USD,QQQ 06JAN25 529 C,"2025-01-06, 10:40:55",-20,0.4,0,800,-13.84304,-786.15696,0,800,O
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 06JAN25 529 C,,-20,,,800,-13.84304,-786.15696,0,800,
+Trades,Data,Order,Equity and Index Options,USD,QQQ 10JAN25 535 C,"2025-01-06, 10:59:09",-50,1.05,0.47,5250,-34.69795,-5215.30205,0,2900,O
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 10JAN25 535 C,,-50,,,5250,-34.69795,-5215.30205,0,2900,
+Trades,Data,Order,Equity and Index Options,USD,SNOW 03JAN25 160 P,"2025-01-03, 16:20:00",5,0,0,0,0,706.484062,706.484062,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,SNOW 03JAN25 160 P,,5,,,0,0,706.484062,706.484062,0,
+Trades,Data,Order,Equity and Index Options,USD,TSM 10JAN25 212.5 P,"2025-01-06, 09:33:41",-50,1.4,1.255,7000,-23.5966,-6976.4034,0,725,O
+Trades,Data,Order,Equity and Index Options,USD,TSM 10JAN25 212.5 P,"2025-01-06, 10:04:56",-50,1.61,1.255,8050,-35.40079,-8014.59921,0,1775,O;P
+Trades,SubTotal,,Equity and Index Options,USD,TSM 10JAN25 212.5 P,,-100,,,15050,-58.99739,-14991.00261,0,2500,
+Trades,Data,Order,Equity and Index Options,USD,TSM 10JAN25 215 P,"2025-01-06, 10:55:42",-50,1.82,1.9,9100,-35.30498,-9064.69502,0,-400,O
+Trades,SubTotal,,Equity and Index Options,USD,TSM 10JAN25 215 P,,-50,,,9100,-35.30498,-9064.69502,0,-400,
+Trades,Data,Order,Equity and Index Options,USD,XLF 10JAN25 49 C,"2025-01-06, 10:07:11",-100,0.31,0.135,3100,-69.19018,-3030.80982,0,1750,O
+Trades,SubTotal,,Equity and Index Options,USD,XLF 10JAN25 49 C,,-100,,,3100,-69.19018,-3030.80982,0,1750,
+Trades,Data,Order,Equity and Index Options,USD,XLK 10JAN25 242.5 C,"2025-01-06, 10:50:04",-100,1.12,0.555,11200,-47.11536,-11152.88464,0,5650,O;P
+Trades,SubTotal,,Equity and Index Options,USD,XLK 10JAN25 242.5 C,,-100,,,11200,-47.11536,-11152.88464,0,5650,
+Trades,Total,,Equity and Index Options,USD,,,,,,67560,-408.253768,-55603.112029,5233.647733,30213.9, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Options On Futures,USD,ES 06JAN25 6070 C,"2025-01-06, 10:41:25",-10,3.35,0,1675,-14.2,-1660.8,0,1675,O
+Trades,Data,Order,Options On Futures,USD,ES 06JAN25 6070 C,"2025-01-06, 17:15:00",10,0,0,0,0,1660.8,1660.8,0,C;Ep
+Trades,SubTotal,,Options On Futures,USD,ES 06JAN25 6070 C,,0,,,1675,-14.2,0,1660.8,1675,
+Trades,Data,Order,Options On Futures,USD,NQ 06JAN25 21900 C,"2025-01-06, 10:42:08",-10,30,0,6000,-14.2,-5985.8,0,6000,O
+Trades,Data,Order,Options On Futures,USD,NQ 06JAN25 21900 C,"2025-01-06, 17:15:00",10,0,0,0,0,5985.8,5985.8,0,C;Ep
+Trades,SubTotal,,Options On Futures,USD,NQ 06JAN25 21900 C,,0,,,6000,-14.2,0,5985.8,6000,
+Trades,Data,Order,Options On Futures,USD,NQ 07JAN25 21900 C,"2025-01-06, 10:04:04",-10,64.25,26.75,12850,-14.2,-12835.8,0,7500,O;P
+Trades,SubTotal,,Options On Futures,USD,NQ 07JAN25 21900 C,,-10,,,12850,-14.2,-12835.8,0,7500,
+Trades,Total,,Options On Futures,USD,,,,,,20525,-42.6,-12835.8,7646.6,15175, 

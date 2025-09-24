@@ -1,0 +1,15 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 24, 2025"
+Statement,Data,WhenGenerated,"2025-01-26, 21:03:56 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,HKD,1211 24JAN25 280 C,"2025-01-24, 07:00:00",10,0,0,0,0,17085.7,17085.7,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,HKD,1211 24JAN25 280 C,,10,,,0,0,17085.7,17085.7,0,
+Trades,Total,,Equity and Index Options,HKD,,,,,,0,0,17085.7,17085.7,0, 
+Trades,Total,,Equity and Index Options,USD,,,,,,0,0,2194.145594,2194.145594,0, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Options On Futures,USD,NQ 24JAN25 22000 C,"2025-01-24, 17:15:00",10,0,0,0,0,9585.8,9585.8,0,C;Ep
+Trades,SubTotal,,Options On Futures,USD,NQ 24JAN25 22000 C,,10,,,0,0,9585.8,9585.8,0,
+Trades,Total,,Options On Futures,USD,,,,,,0,0,9585.8,9585.8,0, 

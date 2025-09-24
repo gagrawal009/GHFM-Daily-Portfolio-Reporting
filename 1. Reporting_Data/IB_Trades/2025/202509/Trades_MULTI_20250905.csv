@@ -1,0 +1,33 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"September 5, 2025"
+Statement,Data,WhenGenerated,"2025-09-07, 22:08:19 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,1698,"2025-09-05, 03:39:22","19,800",96.261616162,96.6,-1905980,-3146.04946,1909126.049460002,0,6700,O;P
+Trades,SubTotal,,Stocks,HKD,1698,,,19800,,,-1905980,-3146.04946,1909126.049460002,0,6700,
+Trades,Total,,Stocks,HKD,,,,,,,-1905980,-3146.04946,1909126.049460002,0,6700, 
+Trades,Total,,Stocks,USD,,,,,,,-244460.9948,-403.51230374,244864.50710374,0,859.342, 
+Trades,Data,Order,Stocks,USD,U18135473,NOC,"2025-09-05, 14:51:40",100,578.2,580.8,-57820,-0.25245725,57820.25245725,0,260,O
+Trades,SubTotal,,Stocks,USD,NOC,,,100,,,-57820,-0.25245725,57820.25245725,0,260,
+Trades,Data,Order,Stocks,USD,U18135473,SPMO,"2025-09-05, 10:56:29","2,200",116.328181818,117.05,-255922,-5.0540595,255927.0540595,0,1588,O;P
+Trades,Data,Order,Stocks,USD,U18135473,SPMO,"2025-09-05, 11:32:21","1,010",116.607722772,117.05,-117773.8,-2.191818225,117775.991818225,0,446.7,O;P
+Trades,Data,Order,Stocks,USD,U18135473,SPMO,"2025-09-05, 12:36:05",200,116.635,117.05,-23327,-0.4249145,23327.4249145,0,83,O;P
+Trades,SubTotal,,Stocks,USD,SPMO,,,3410,,,-397022.8,-7.670792225,397030.470792225,0,2117.7,
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-09-05, 10:56:05","5,000",91.0134872,91.82,-455067.436,-25.4105725,455092.8465725,0,4032.564,O;P
+Trades,SubTotal,,Stocks,USD,TQQQ,,,5000,,,-455067.436,-25.4105725,455092.8465725,0,4032.564,
+Trades,Data,Order,Stocks,USD,U18135473,XSMO,"2025-09-05, 14:47:41",900,73.075555556,73.22,-65768,-2.07261525,65770.07261525,0,130,O;P
+Trades,Data,Order,Stocks,USD,U18135473,XSMO,"2025-09-05, 15:32:14","6,000",73.212573333,73.22,-439275.44,-19.307860001,439294.747860001,0,44.56,O;P
+Trades,SubTotal,,Stocks,USD,XSMO,,,6900,,,-505043.44,-21.380475251,505064.820475251,0,174.56,
+Trades,Total,,Stocks,USD,,,,,,,-1414953.676,-54.714297226,1415008.390297226,0,6584.824, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,U18135473,PLTR 17DEC27 60 C,"2025-09-05, 11:51:58",38,102.47,103.9524,-389386,-26.7197,389412.7197,0,5633.12,O;P
+Trades,SubTotal,,Equity and Index Options,USD,PLTR 17DEC27 60 C,,,38,,,-389386,-26.7197,389412.7197,0,5633.12,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,PLTR 17DEC27 165 P,"2025-09-05, 11:51:58",-38,52.31,51.2,198778,-26.82572,-198751.17428,0,4218,O;P
+Trades,SubTotal,,Equity and Index Options,USD,PLTR 17DEC27 165 P,,,-38,,,198778,-26.82572,-198751.17428,0,4218,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,PLTR 17DEC27 210 P,"2025-09-05, 11:51:58",-76,82.64,81.7794,628064,-53.65144,-628010.34856,0,6540.56,O;P
+Trades,SubTotal,,Equity and Index Options,USD,PLTR 17DEC27 210 P,,,-76,,,628064,-53.65144,-628010.34856,0,6540.56,
+Trades,Total,,Equity and Index Options,USD,,,,,,,437456,-107.19686,-437348.80314,0,16391.68, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

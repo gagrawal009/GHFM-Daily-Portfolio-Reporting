@@ -1,0 +1,20 @@
+﻿Statement,Header,Field Name,Field Value,,,,,,,,,,,,,
+Statement,Data,Title,Activity Summary,,,,,,,,,,,,,
+Statement,Data,Period,16-Jul-25,,,,,,,,,,,,,
+Statement,Data,WhenGenerated,"2025-07-17, 01:18:27 EDT",,,,,,,,,,,,,
+Disclaimer,Header,Field Name,Field Value,,,,,,,,,,,,,
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website.",,,,,,,,,,,,,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,DFDV,"2025-07-16, 11:59:59",100,28.57,30.36,-2857,-0.24245725,2857.242457,0,179,O
+Trades,Data,Order,Stocks,USD,U18135473,DFDV,"2025-07-16, 14:09:24","3,400",29.78355294,30.36,-101264.08,-2.451448501,101266.5314,0,1959.92,O;P
+Trades,SubTotal,,Stocks,USD,DFDV,,,3500,,,-104121.08,-2.693905751,104123.7739,0,2138.92,
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-16, 11:44:34","17,800",19.38288708,19.07,-345015.39,-7.2757245,345022.6657,0,-5569.39,O;P
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-16, 11:53:43","134,400",19.46,19.07,-2615424,-56.864976,2615480.865,0,-52416,O;P
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-16, 13:12:25","-152,200",19.12400854,19.07,2910674.1,-281.1112005,-2960503.531,-50110.5419,8220.1,C;P
+Trades,SubTotal,,Stocks,USD,SQQQ,,,0,,,-49765.29,-345.251901,0.000012499,-50110.5419,-49765.29,
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-07-16, 13:13:02","-1,200",84.9407,85.07,101928.84,-2.272923,-100419.0337,1507.533354,-155.16,C;IA
+Trades,SubTotal,,Stocks,USD,TQQQ,,,-1200,,,101928.84,-2.272923,-100419.0337,1507.533354,-155.16,
+Trades,Data,Order,Stocks,USD,U18135473,UVXY,"2025-07-16, 11:40:02","80,215",18.14708035,17.44,-1455668.05,-203.277892,1455871.328,0,-56718.45,O;P
+Trades,Data,Order,Stocks,USD,U18135473,UVXY,"2025-07-16, 13:11:57","-80,215",17.38821498,17.44,1394795.665,-273.773262,-1455871.328,-61349.43657,-4153.9354,C;P
+Trades,SubTotal,,Stocks,USD,UVXY,,,0,,,-60872.3854,-477.0511541,0.000151056,-61349.43657,-60872.3854,
+Trades,Total,,Stocks,USD,,,,,,,-112829.9154,-827.2698838,3704.740346,-109952.4451,-108653.9154, 

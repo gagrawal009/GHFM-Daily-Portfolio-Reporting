@@ -1,0 +1,60 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"August 7, 2025"
+Statement,Data,WhenGenerated,"2025-08-08, 01:52:40 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,1288,"2025-08-07, 03:41:36","-2,310,000",5.39,5.39,12450900,-20365.7143,-11058770.453094989,1371763.832607001,0,C;P
+Trades,SubTotal,,Stocks,HKD,1288,,,-2310000,,,12450900,-20365.7143,-11058770.453094989,1371763.832607001,0,
+Trades,Data,Order,Stocks,HKD,U18135473,2359,"2025-08-07, 02:37:32",800,100.1875,100.1,-80150,-133.25405,80283.25405,0,-70,O;P
+Trades,Data,Order,Stocks,HKD,U18135473,2359,"2025-08-07, 02:50:35","53,000",100.091226415,100.1,-5304835,-8762.131545,5313597.131544996,0,465,O;P
+Trades,SubTotal,,Stocks,HKD,2359,,,53800,,,-5384985,-8895.385595,5393880.385594996,0,395,
+Trades,Total,,Stocks,HKD,,,,,,,7065915,-29261.099895,-5664890.067499993,1371763.832607001,395, 
+Trades,Total,,Stocks,USD,,,,,,,900126.911850002,-3727.571515624,-721650.345698823,174748.994635806,50.31905, 
+Trades,Data,Order,Stocks,SGD,U18135473,D05,"2025-08-06, 23:04:03","-102,300",49.841075269,49.75,5098742,-4772.422512,-4708254.698127984,385714.87936,9317,C;P
+Trades,SubTotal,,Stocks,SGD,D05,,,-102300,,,5098742,-4772.422512,-4708254.698127984,385714.87936,9317,
+Trades,Total,,Stocks,SGD,,,,,,,5098742,-4772.422512,-4708254.698127984,385714.87936,9317, 
+Trades,Total,,Stocks,USD,,,,,,,3973551.615439998,-3719.244312052,-3669237.051345123,300595.319782835,7260.92444, 
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-08-07, 11:04:51","-52,200",90.010820498,89.74,4698564.830000001,-173.325600501,-4480906.988338996,217484.516061,14136.83,C;P
+Trades,SubTotal,,Stocks,USD,TQQQ,,,-52200,,,4698564.830000001,-173.325600501,-4480906.988338996,217484.516061,14136.83,
+Trades,Data,Order,Stocks,USD,U18135473,UVXY,"2025-08-07, 12:04:40","32,664",15.375421871,15.24,-502222.78,-82.111985059,502304.891985059,0,-4423.42,O;P
+Trades,Data,Order,Stocks,USD,U18135473,UVXY,"2025-08-07, 15:02:41","-32,664",15.390759328,15.24,502723.7627,-102.98355906,-502304.891963,315.887165,4924.4027,C;P
+Trades,SubTotal,,Stocks,USD,UVXY,,,0,,,500.9827,-185.095544119,0.000022059,315.887165,500.9827,
+Trades,Data,Order,Stocks,USD,U18135473,VIXY,"2025-08-07, 12:02:26","7,813",41.374464354,41.18,-323258.69,-21.175099832,323279.865099832,0,-1519.35,O;P
+Trades,Data,Order,Stocks,USD,U18135473,VIXY,"2025-08-07, 15:03:26","-7,813",41.449264047,41.18,323843.1,-19.584632832,-323279.865095,543.65025,2103.76,C;P
+Trades,SubTotal,,Stocks,USD,VIXY,,,0,,,584.41,-40.759732664,0.000004832,543.65025,584.41,
+Trades,Data,Order,Stocks,USD,U18135473,VXX,"2025-08-07, 12:31:21","11,900",42.188772269,42.21,-502046.39,-39.492419752,502085.882419752,0,252.61,O;P
+Trades,Data,Order,Stocks,USD,U18135473,VXX,"2025-08-07, 12:39:57","64,532",42.464047139,42.21,-2740289.890000001,-163.641265532,2740453.531265549,0,-16394.17,O;P
+Trades,Data,Order,Stocks,USD,U18135473,VXX,"2025-08-07, 15:03:45","-76,432",42.526878663,42.21,3250414.39,-278.743687285,-3242539.413581002,7596.232524,24219.67,C;P
+Trades,SubTotal,,Stocks,USD,VXX,,,0,,,8078.109999999,-481.877372569,0.0001043,7596.232524,8078.11,
+Trades,Total,,Stocks,USD,,,,,,,4707728.332700001,-881.058249853,-4480906.988207805,225940.286,23300.3327, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,U18135473,GLW 17DEC27 40 C,"2025-08-07, 11:44:16",60,27.716666667,27.5566,-166300,-42.237,166342.237,0,-960.4,O;P
+Trades,SubTotal,,Equity and Index Options,USD,GLW 17DEC27 40 C,,,60,,,-166300,-42.237,166342.237,0,-960.4,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,GLW 17DEC27 67.5 P,"2025-08-07, 11:44:16",-30,10.487666667,10.5422,31463,-21.2022,-31441.7978,0,-163.6,O;P
+Trades,SubTotal,,Equity and Index Options,USD,GLW 17DEC27 67.5 P,,,-30,,,31463,-21.2022,-31441.7978,0,-163.6,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,GLW 17DEC27 95 P,"2025-08-07, 11:44:16",-90,30.304666667,30.6988,272742,-63.6066,-272678.3934,0,-3547.2,O;P
+Trades,SubTotal,,Equity and Index Options,USD,GLW 17DEC27 95 P,,,-90,,,272742,-63.6066,-272678.3934,0,-3547.2,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,LLY 17JUN27 500 C,"2025-08-07, 15:50:25",30,214.010666667,208.3239,-642032,-20.766,642052.766,0,-17060.3,O;P
+Trades,SubTotal,,Equity and Index Options,USD,LLY 17JUN27 500 C,,,30,,,-642032,-20.766,642052.766,0,-17060.3,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,LLY 17JUN27 600 P,"2025-08-07, 15:50:25",-60,82.312333333,82.1222,493874,-41.6994,-493832.3006,0,1140.8,O;P
+Trades,SubTotal,,Equity and Index Options,USD,LLY 17JUN27 600 P,,,-60,,,493874,-41.6994,-493832.3006,0,1140.8,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,QQQ 31DEC25 552 C,"2025-08-07, 11:15:16",-800,43.780225,43.2993,3502418,-565.392,-3501852.608,0,38474,O;P
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 31DEC25 552 C,,,-800,,,3502418,-565.392,-3501852.608,0,38474,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,QQQ 31DEC25 553 C,"2025-08-07, 10:48:56",-500,43.6402,42.5798,2182010,-353.37,-2181656.63,0,53020,O;P
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 31DEC25 553 C,,,-500,,,2182010,-353.37,-2181656.63,0,53020,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,QQQ 31DEC25 580 C,"2025-08-07, 10:48:56",500,26.0498,25.115,-1302490,-351.975,1302841.975,0,-46740,O;P
+Trades,Data,Order,Equity and Index Options,USD,U18135473,QQQ 31DEC25 580 C,"2025-08-07, 11:15:16",800,25.609925,25.115,-2048794,-563.16,2049357.16,0,-39594,O;P
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 31DEC25 580 C,,,1300,,,-3351284,-915.135,3352199.135,0,-86334,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,QQQ 16JAN26 569.78 P,"2025-08-07, 10:51:08",1,24.62,25.345,-2462,-1.05395,2791.13576,328.08181,72.5,C
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 16JAN26 569.78 P,,,1,,,-2462,-1.05395,2791.13576,328.08181,72.5,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,QQQ 16JAN26 609.78 P,"2025-08-07, 10:51:08",-1,44.7,46.0102,4470,-1.05674,-5062.04145,-593.09819,-131.02,C
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 16JAN26 609.78 P,,,-1,,,4470,-1.05674,-5062.04145,-593.09819,-131.02,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,SPY 16JAN26 635 P,"2025-08-07, 10:52:34",1,22.93,23.215,-2293,-1.44145,2447.45576,153.01431,28.5,C
+Trades,SubTotal,,Equity and Index Options,USD,SPY 16JAN26 635 P,,,1,,,-2293,-1.44145,2447.45576,153.01431,28.5,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,SPY 16JAN26 675 P,"2025-08-07, 10:52:34",-1,43.99,44.9099,4399,-0.86424,-4708.04145,-309.90569,-91.99,C
+Trades,SubTotal,,Equity and Index Options,USD,SPY 16JAN26 675 P,,,-1,,,4399,-0.86424,-4708.04145,-309.90569,-91.99,
+Trades,Total,,Equity and Index Options,USD,,,,,,,2327005,-2027.82458,-2325399.083180001,-421.90776,-15552.71, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

@@ -1,0 +1,38 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"August 28, 2025"
+Statement,Data,WhenGenerated,"2025-08-29, 01:22:00 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,1258,"2025-08-28, 01:06:52","132,000",9.458030303,9.56,-1248460,-1829.09242,1250289.09242,0,13460,O;P
+Trades,SubTotal,,Stocks,HKD,1258,,,132000,,,-1248460,-1829.09242,1250289.09242,0,13460,
+Trades,Total,,Stocks,HKD,,,,,,,-1248460,-1829.09242,1250289.09242,0,13460, 
+Trades,Total,,Stocks,USD,,,,,,,-160177.418,-234.672557486,160412.090557486,0,1726.918, 
+Trades,Data,Order,Stocks,SGD,U18135473,A17U,"2025-08-28, 01:19:43","365,200",2.71,2.7,-989692,-728.413312,990420.413312,0,-3652,O;P
+Trades,SubTotal,,Stocks,SGD,A17U,,,365200,,,-989692,-728.413312,990420.413312,0,-3652,
+Trades,Data,Order,Stocks,SGD,U18135473,U96,"2025-08-28, 01:28:47","64,800",6.049845679,6.03,-392030,-288.53408,392318.53408,0,-1286,O;P
+Trades,Data,Order,Stocks,SGD,U18135473,U96,"2025-08-28, 04:26:15","13,800",6.050507246,6.03,-83497,-61.453792,83558.453792,0,-283,O;P
+Trades,SubTotal,,Stocks,SGD,U96,,,78600,,,-475527,-349.987872,475876.987872,0,-1569,
+Trades,Total,,Stocks,SGD,,,,,,,-1465219,-1078.401184,1466297.401184,0,-5221, 
+Trades,Total,,Stocks,USD,,,,,,,-1142577.776199999,-840.937243283,1143418.713443284,0,-4071.3358, 
+Trades,Data,Order,Stocks,USD,U18135473,ARKK,"2025-08-28, 12:15:46","3,603",76.024832084,76.07,-273917.47,-3.182538307,273920.652538307,0,162.74,O;P
+Trades,Data,Order,Stocks,USD,U18135473,ARKK,"2025-08-28, 15:17:36","9,597",76.044706679,76.07,-729801.05,-2.344419693,729803.394419692,0,242.74,O;P
+Trades,SubTotal,,Stocks,USD,ARKK,,,13200,,,-1003718.52,-5.526958,1003724.046957999,0,405.48,
+Trades,Data,Order,Stocks,USD,U8251256,SGOV,"2025-08-28, 12:10:42","-9,000",100.680111111,100.68,906121,-2.9229225,-903723.511231,2394.565849,1,C;P
+Trades,SubTotal,,Stocks,USD,SGOV,,,-9000,,,906121,-2.9229225,-903723.511231,2394.565849,1,
+Trades,Total,,Stocks,USD,,,,,,,-97597.52,-8.4498805,100000.535726999,2394.565849,406.48, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,U18135473,NVDA 17JUN27 260 C,"2025-08-28, 11:44:24",90,18.799333333,19.1,-169194,-49.8555,169243.8555,0,2706,O;P
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 17JUN27 260 C,,,90,,,-169194,-49.8555,169243.8555,0,2706,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,NVDA 17JUN27 190 P,"2025-08-28, 11:44:24",-90,38.154444444,37.825,343390,-50.1066,-343339.8934,0,2965,O;P
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 17JUN27 190 P,,,-90,,,343390,-50.1066,-343339.8934,0,2965,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,NVDA 17JUN27 240 P,"2025-08-28, 11:44:24",-60,71.150333333,70.8508,426902,-33.4044,-426868.5956,0,1797.2,O;P
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 17JUN27 240 P,,,-60,,,426902,-33.4044,-426868.5956,0,1797.2,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,SOXX 15JAN27 245 C,"2025-08-28, 12:37:54",90,41.423888889,42.3018,-372815,-49.8555,372864.8555,0,7901.2,O;P
+Trades,SubTotal,,Equity and Index Options,USD,SOXX 15JAN27 245 C,,,90,,,-372815,-49.8555,372864.8555,0,7901.2,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,SOXX 15JAN27 255 P,"2025-08-28, 12:37:54",-135,29.091333333,30.087,392733,-75.1599,-392657.8401,0,-13441.5,O;P
+Trades,SubTotal,,Equity and Index Options,USD,SOXX 15JAN27 255 P,,,-135,,,392733,-75.1599,-392657.8401,0,-13441.5,
+Trades,Total,,Equity and Index Options,USD,,,,,,,621016,-258.3819,-620757.6181,0,1927.9, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

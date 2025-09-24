@@ -1,0 +1,157 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"March 12, 2025"
+Statement,Data,WhenGenerated,"2025-08-05, 22:19:54 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Golden Horse Global Macro Discretionary Fund
+Account Information,Data,Account,U8251256 (Custom Consolidated)
+Account Information,Data,Accounts Included,"U8251256, U8251256F"
+Account Information,Data,Master Name,Golden Horse Fund Management Pte Ltd
+Account Information,Data,Account Type,Institution Master
+Account Information,Data,Customer Type,Corporate
+Account Information,Data,Account Capabilities,Portfolio Margin
+Account Information,Data,Base Currency,USD
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,3908704.537013459,3910302.69403411,-1378.172965739,3908924.521068371,219.984054912
+Net Asset Value,Data,Stock,62781250,62781250,0,62781250,0
+Net Asset Value,Data,Options,21486.5,26032.9,0,26032.9,4546.4
+Net Asset Value,Data,Interest Accruals,2912.8351574,3276.3146375,0,3276.3146375,363.4794801
+Net Asset Value,Data,Total,66714353.872170866,66720861.9086716,-1378.172965739,66719483.73570586,5129.863534994
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,0.007689295%
+Change in Combined NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,66714353.872170866
+Change in NAV,Data,Mark-to-Market,4766.38405492
+Change in NAV,Data,Change in Interest Accruals,363.1570181
+Change in NAV,Data,Other FX Translations,0.322462
+Change in NAV,Data,Ending Value,66719483.73570586
+Change in NAV,Disclaimer,"This section shows your combined total cash position, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,SGOV,625000,625000,100.4500,100.4500,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Equity and Index Options,NVDA 16JAN26 110 C,10,10,21.4865,26.0329,4546.4,0,0,0,4546.4,
+Mark-to-Market Performance Summary,Data,Total,,,,,,4546.4,0,0,0,4546.4,
+Mark-to-Market Performance Summary,Data,Forex,CAD,0.000004515,0.000004515,0.69276,0.69591,0.00000001,0,0,0,0.00000001,
+Mark-to-Market Performance Summary,Data,Forex,CHF,-0.000029287,-0.000029287,1.1328,1.1341,-0.00000004,0,0,0,-0.00000004,
+Mark-to-Market Performance Summary,Data,Forex,EUR,-2.627642087,-2.627642087,1.0919,1.0887,0.00840845,0,0,0,0.00840845,
+Mark-to-Market Performance Summary,Data,Forex,HKD,23899723.37482404,23899723.37482404,0.12869,0.12871,477.9944675,0,0,0,477.9944675,
+Mark-to-Market Performance Summary,Data,Forex,JPY,8325377.1358602,8325377.1358602,0.0067669,0.0067451,-181.49322156,0,0,0,-181.49322156,
+Mark-to-Market Performance Summary,Data,Forex,MXN,-0.00382842,-0.00382842,0.049343,0.049555,-0.00000081,0,0,0,-0.00000081,
+Mark-to-Market Performance Summary,Data,Forex,SEK,0.000335185,0.000335185,0.099877,0.099116,-0.00000025,0,0,0,-0.00000025,
+Mark-to-Market Performance Summary,Data,Forex,SGD,53142.77665738,53142.77665738,0.75163,0.75019,-76.52559838,0,0,0,-76.52559838,
+Mark-to-Market Performance Summary,Data,Forex,USD,736771.305455586,736771.305455586,1.0000,1.0000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,219.98405492,0,0,0,219.98405492,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,4766.38405492,0,0,0,4766.38405492,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,SGOV,0,0,0,0,0,0,65495.788397,0,0,0,65495.788397,65495.788397,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,65495.788397,0,0,0,65495.788397,65495.788397,
+Realized & Unrealized Performance Summary,Data,Equity and Index Options,NVDA 16JAN26 110 C,0,0,0,0,0,0,0,-4824.0525,0,0,-4824.0525,-4824.0525,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,0,-4824.0525,0,0,-4824.0525,-4824.0525,
+Realized & Unrealized Performance Summary,Data,Forex,EUR,0,0,0,0,0,0,0.65054,0,0,0,0.65054,0.65054,
+Realized & Unrealized Performance Summary,Data,Forex,HKD,0,0,0,0,0,0,7404.623651082,-0.655653,0,0,7403.967998082,7403.967998082,
+Realized & Unrealized Performance Summary,Data,Forex,JPY,0,0,0,0,0,0,2274.493033956,0,0,0,2274.493033956,2274.493033956,
+Realized & Unrealized Performance Summary,Data,Forex,SGD,0,0,0,0,0,0,344.517734289,-0.051377,0,0,344.466357289,344.466357289,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,10024.284959327,-0.707054,0,0,10023.577905327,10023.577905327,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,0,0,0,0,0,75520.073356327,-4824.759554,0,0,70695.313802327,70695.313802327,
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,IB-UKL,
+Cash Report,Data,Starting Cash,Base Currency Summary,3908704.537013459,3908608.748241609,0.0010199,95.787751949,
+Cash Report,Data,Cash FX Translation Gain/Loss,Base Currency Summary,219.98405492,219.70534366,0,0.27871126,
+Cash Report,Data,Ending Cash,Base Currency Summary,3908924.52106837,3908828.453585268,0.0010199,96.066463203,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,3908924.52106837,3908828.453585268,0.0010199,96.066463203,
+Cash Report,Data,Starting Cash,EUR,-2.627642087,12.882357913,0,-15.51,
+Cash Report,Data,Ending Cash,EUR,-2.627642087,12.882357913,0,-15.51,
+Cash Report,Data,Ending Settled Cash,EUR,-2.627642087,12.882357913,0,-15.51,
+Cash Report,Data,Starting Cash,HKD,23899723.37482404,23888269.41479098,0,11453.96003306,
+Cash Report,Data,Ending Cash,HKD,23899723.37482404,23888269.41479098,0,11453.96003306,
+Cash Report,Data,Ending Settled Cash,HKD,23899723.37482404,23888269.41479098,0,11453.96003306,
+Cash Report,Data,Starting Cash,JPY,8325377.1358602,8325377.1343547,0,0.0015055,
+Cash Report,Data,Ending Cash,JPY,8325377.1358602,8325377.1343547,0,0.0015055,
+Cash Report,Data,Ending Settled Cash,JPY,8325377.1358602,8325377.1343547,0,0.0015055,
+Cash Report,Data,Starting Cash,SGD,53142.77665738,53142.77671682,0,-0.00005944,
+Cash Report,Data,Ending Cash,SGD,53142.77665738,53142.77671682,0,-0.00005944,
+Cash Report,Data,Ending Settled Cash,SGD,53142.77665738,53142.77671682,0,-0.00005944,
+Cash Report,Data,Starting Cash,USD,736771.305455586,738132.591396902,0.0010199,-1361.286961216,
+Cash Report,Data,Ending Cash,USD,736771.305455586,738132.591396902,0.0010199,-1361.286961216,
+Cash Report,Data,Ending Settled Cash,USD,736771.305455586,738132.591396902,0.0010199,-1361.286961216,
+Cash Report,Disclaimer,"This section shows your combined total cash position in each currency, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,USD,SGOV,625000,1,100.345206739,62715754.211603,100.45,62781250,65495.788397,
+Open Positions,Total,,Stocks,USD,,,,,62715754.211603,,62781250,65495.788397,
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Equity and Index Options,USD,NVDA 16JAN26 110 C,10,100,30.8569525,30856.9525,26.0329,26032.9,-4824.0525,
+Open Positions,Total,,Equity and Index Options,USD,,,,,30856.9525,,26032.9,-4824.0525,
+Forex Balances,Header,Asset Category,Currency,Description,Quantity,Cost Price,Cost Basis in USD,Close Price,Value in USD,Unrealized P/L in USD,Code
+Forex Balances,Data,Forex,USD,EUR,-2.627658,1.072124272,3.511271,1.0887,-2.860731,0.65054,
+Forex Balances,Data,Forex,USD,HKD,23899723.374814995,0.128400207,-3068729.427574918,0.12871,3076133.395572999,7403.967998082,
+Forex Balances,Data,Forex,USD,JPY,8325377.135857999,0.0064719,-53881.008286044,0.0067451,56155.501319,2274.493033956,
+Forex Balances,Data,Forex,USD,SGD,53142.776657,0.743708096,-39522.713261711,0.75019,39867.17962,344.466357289,
+Forex Balances,Data,Forex,USD,USD,736771.305455586,0,-736771.305455586,1,736771.305455586,0,
+Forex Balances,Data,Total,,,,,-3898900.943142259,,3908924.521047585,10023.577905327,
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,2912.8351574
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,363.1570181
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,0
+Interest Accruals,Data,Base Currency Summary,FX Translation,0.322462
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,3276.3146375
+Interest Accruals,Data,HKD,Starting Accrual Balance,17177.18
+Interest Accruals,Data,HKD,Interest Accrued,2202.54
+Interest Accruals,Data,HKD,Accrual Reversal,0
+Interest Accruals,Data,HKD,Ending Accrual Balance,19379.72
+Interest Accruals,Data,HKD,Ending Accrual Balance in USD,2494.3637612
+Interest Accruals,Data,SGD,Starting Accrual Balance,14.64
+Interest Accruals,Data,SGD,Interest Accrued,3.13
+Interest Accruals,Data,SGD,Accrual Reversal,0
+Interest Accruals,Data,SGD,Ending Accrual Balance,17.77
+Interest Accruals,Data,SGD,Ending Accrual Balance in USD,13.3308763
+Interest Accruals,Data,USD,Starting Accrual Balance,691.3
+Interest Accruals,Data,USD,Interest Accrued,77.32
+Interest Accruals,Data,USD,Accrual Reversal,0
+Interest Accruals,Data,USD,Ending Accrual Balance,768.62
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,SGOV,ISHARES 0-3 MONTH TREASURY B,424099317,US46436E7186,SGOV,ARCA,1,ETF,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Underlying,Listing Exch,Multiplier,Expiry,Delivery Month,Type,Strike,Code
+Financial Instrument Information,Data,Equity and Index Options,NVDA  260116C00110000,NVDA 16JAN26 110 C,677933399,NVDA,CBOE,100,2026-01-16,2026-01,C,110,
+Base Currency Exchange Rate,Header,Currency,Rate
+Base Currency Exchange Rate,Data,AED,0.272270
+Base Currency Exchange Rate,Data,AUD,0.632020
+Base Currency Exchange Rate,Data,BGN,0.556660
+Base Currency Exchange Rate,Data,BHD,2.652700
+Base Currency Exchange Rate,Data,BRL,0.172450
+Base Currency Exchange Rate,Data,CAD,0.695910
+Base Currency Exchange Rate,Data,CHF,1.134100
+Base Currency Exchange Rate,Data,CNH,0.138110
+Base Currency Exchange Rate,Data,CNY,0.138170
+Base Currency Exchange Rate,Data,CZK,0.043499
+Base Currency Exchange Rate,Data,DKK,0.145950
+Base Currency Exchange Rate,Data,EUR,1.088700
+Base Currency Exchange Rate,Data,GBP,1.296300
+Base Currency Exchange Rate,Data,HKD,0.128710
+Base Currency Exchange Rate,Data,HUF,0.002727
+Base Currency Exchange Rate,Data,IDR,0.000061
+Base Currency Exchange Rate,Data,ILS,0.274710
+Base Currency Exchange Rate,Data,INR,0.011473
+Base Currency Exchange Rate,Data,JPY,0.006745
+Base Currency Exchange Rate,Data,KRW,0.000689
+Base Currency Exchange Rate,Data,KWD,3.245500
+Base Currency Exchange Rate,Data,MXN,0.049555
+Base Currency Exchange Rate,Data,MYR,0.225710
+Base Currency Exchange Rate,Data,NOK,0.094075
+Base Currency Exchange Rate,Data,NZD,0.572960
+Base Currency Exchange Rate,Data,OMR,2.597500
+Base Currency Exchange Rate,Data,PHP,-1.000000
+Base Currency Exchange Rate,Data,PLN,0.259740
+Base Currency Exchange Rate,Data,QAR,0.274370
+Base Currency Exchange Rate,Data,RON,0.218690
+Base Currency Exchange Rate,Data,RUB,0.011474
+Base Currency Exchange Rate,Data,RUS,0.011474
+Base Currency Exchange Rate,Data,SAR,0.266620
+Base Currency Exchange Rate,Data,SEK,0.099116
+Base Currency Exchange Rate,Data,SGD,0.750190
+Base Currency Exchange Rate,Data,THB,0.029599
+Base Currency Exchange Rate,Data,TRY,0.027331
+Base Currency Exchange Rate,Data,TWD,0.030360
+Base Currency Exchange Rate,Data,ZAR,0.054542
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

@@ -1,0 +1,10 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"February 5, 2025"
+Statement,Data,WhenGenerated,"2025-02-09, 21:04:03 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,NVDA 07FEB25 126 C,"2025-02-05, 10:18:00",-10,1.07,1.7237,1070,-2.910146,-1067.089854,0,-653.7,O
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 07FEB25 126 C,,-10,,,1070,-2.910146,-1067.089854,0,-653.7,
+Trades,Total,,Equity and Index Options,USD,,,,,,1070,-2.910146,-1067.089854,0,-653.7, 

@@ -1,0 +1,47 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"May 8, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 01:58:18 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,AAPL,"2025-05-08, 12:10:52","3,100",198.824354839,197.49,-616355.5,-5.328557,616360.828557,0,-4136.5,IM;O;P
+Trades,SubTotal,,Stocks,USD,AAPL,,,3100,,,-616355.5,-5.328557,616360.828557,0,-4136.5,
+Trades,Data,Order,Stocks,USD,U18135473,AMZN,"2025-05-08, 12:03:03","4,000",192.073415,192.08,-768293.66,-6.542987,768300.202987,0,26.34,IM;O;P
+Trades,SubTotal,,Stocks,USD,AMZN,,,4000,,,-768293.66,-6.542987,768300.202987,0,26.34,
+Trades,Data,Order,Stocks,USD,U18135473,APP,"2025-05-08, 10:49:54","1,500",340.264666667,339.51,-510397,-2.374605,510399.374605,0,-1132,O;P
+Trades,SubTotal,,Stocks,USD,APP,,,1500,,,-510397,-2.374605,510399.374605,0,-1132,
+Trades,Data,Order,Stocks,USD,U18135473,BRK B,"2025-05-08, 10:53:56",800,518,513.25,-414400,-0.829176,414400.829176,0,-3800,O
+Trades,SubTotal,,Stocks,USD,BRK B,,,800,,,-414400,-0.829176,414400.829176,0,-3800,
+Trades,Data,Order,Stocks,USD,U18135473,DG,"2025-05-08, 10:47:15","5,500",91.8,91.97,-504900,-5.700585,504905.700585,0,935,O;P
+Trades,SubTotal,,Stocks,USD,DG,,,5500,,,-504900,-5.700585,504905.700585,0,935,
+Trades,Data,Order,Stocks,USD,U18135473,EBND,"2025-05-08, 12:08:51","55,800",20.614532437,20.6,-1150290.91,-132.586378,1150423.496378,0,-810.91,O;P
+Trades,SubTotal,,Stocks,USD,EBND,,,55800,,,-1150290.91,-132.586378,1150423.496378,0,-810.91,
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-05-08, 10:37:08","21,900",45.495706804,45.1,-996355.979,-18.062719,996374.041719,0,-8665.979,IM;O;P
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-05-08, 10:59:21","5,600",45.68,45.1,-255808,-5.244232,255813.244232,0,-3248,O;P
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-05-08, 12:10:47","13,500",45.400361481,45.1,-612904.88,-14.187145,612919.067145,0,-4054.88,IM;O;P
+Trades,SubTotal,,Stocks,USD,EXC,,,41000,,,-1865068.859,-37.494096,1865106.353096001,0,-15968.859,
+Trades,Data,Order,Stocks,USD,U18135473,IAUM,"2025-05-08, 10:45:40","5,600",33.392946429,32.96,-187000.5,-6.084732,187006.584732,0,-2424.5,O;P
+Trades,Data,Order,Stocks,USD,U18135473,IAUM,"2025-05-08, 11:51:43","24,200",32.991684917,32.96,-798398.775,-25.197697,798423.972697,0,-766.775,O;P
+Trades,SubTotal,,Stocks,USD,IAUM,,,29800,,,-985399.275,-31.282429,985430.557429,0,-3191.275,
+Trades,Data,Order,Stocks,USD,U18135473,KO,"2025-05-08, 10:52:46",600,71.85,71.17,-43110,-0.864082,43110.864082,0,-408,O;P
+Trades,Data,Order,Stocks,USD,U18135473,KO,"2025-05-08, 12:09:25","4,200",71.690867857,71.17,-301101.645,-7.630147,301109.275147,0,-2187.645,IM;O;P
+Trades,SubTotal,,Stocks,USD,KO,,,4800,,,-344211.645,-8.494229,344220.139229,0,-2595.645,
+Trades,Data,Order,Stocks,USD,U18135473,PLTR,"2025-05-08, 10:46:32",100,117.41,119.15,-11741,-0.24375725,11741.24375725,0,174,O
+Trades,Data,Order,Stocks,USD,U18135473,PLTR,"2025-05-08, 10:54:07",500,116.74,119.15,-58370,-0.459335,58370.459335,0,1205,IM;O;P
+Trades,SubTotal,,Stocks,USD,PLTR,,,600,,,-70111,-0.70309225,70111.70309225,0,1379,
+Trades,Data,Order,Stocks,USD,U18135473,PM,"2025-05-08, 10:38:32",300,171.04,172,-51312,-0.310941,51312.310941,0,288,O;P
+Trades,Data,Order,Stocks,USD,U18135473,PM,"2025-05-08, 10:40:14","2,300",171.3,172,-393990,-2.383881,393992.383881,0,1610,O;P
+Trades,Data,Order,Stocks,USD,U18135473,PM,"2025-05-08, 12:07:37","4,100",172.323069512,172,-706524.585,-6.99002,706531.57502,0,-1324.585,IM;O;P
+Trades,Data,Order,Stocks,USD,U18135473,PM,"2025-05-08, 15:56:05",700,171.902714286,172,-120331.9,-1.266629,120333.166629,0,68.1,IM;O;P
+Trades,SubTotal,,Stocks,USD,PM,,,7400,,,-1272158.485,-10.951471,1272169.436471,0,641.515,
+Trades,Data,Order,Stocks,USD,U18135473,QQQ,"2025-05-07, 20:00:00","8,800",483.54,488.29,-4255152,-19.777736,4255171.777736,0,41800,O;P
+Trades,Data,Order,Stocks,USD,U18135473,QQQ,"2025-05-08, 15:59:39","10,300",488.098176699,488.29,-5027411.220000001,-20.548841,5027431.768841,0,1975.78,O;P
+Trades,SubTotal,,Stocks,USD,QQQ,,,19100,,,-9282563.22,-40.326577,9282603.546577,0,43775.78,
+Trades,Data,Order,Stocks,USD,U18135473,TAIL,"2025-05-08, 11:26:04","20,200",12.48,12.48,-252096,-12.856694,252108.856694,0,0,O;P
+Trades,SubTotal,,Stocks,USD,TAIL,,,20200,,,-252096,-12.856694,252108.856694,0,0,
+Trades,Data,Order,Stocks,USD,U18135473,VTIP,"2025-05-08, 12:08:29","20,000",49.979953,49.99,-999599.06,-41.97065,999641.03065,0,200.94,IM;O;P
+Trades,SubTotal,,Stocks,USD,VTIP,,,20000,,,-999599.06,-41.97065,999641.03065,0,200.94,
+Trades,Total,,Stocks,USD,,,,,,,-19035844.614,-337.44152625,19036182.055526253,0,15323.386, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

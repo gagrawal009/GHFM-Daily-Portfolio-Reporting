@@ -1,0 +1,27 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 10, 2025"
+Statement,Data,WhenGenerated,"2025-01-12, 20:14:10 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,6181,"2025-01-09, 22:27:33",100,295,288.4,-29500,-52.5075,29552.5075,0,-660,O
+Trades,Data,Order,Stocks,HKD,6181,"2025-01-09, 22:34:08",900,297.2,288.4,-267480,-442.4758,267922.4758,0,-7920,O;P
+Trades,SubTotal,,Stocks,HKD,6181,,1000,,,-296980,-494.9833,297474.9833,0,-8580,
+Trades,Total,,Stocks,HKD,,,,,,-296980,-494.9833,297474.9833,0,-8580, 
+Trades,Total,,Stocks,USD,,,,,,-38135.2018,-63.560805553,38198.762605553,0,-1101.7578, 
+Trades,Data,Order,Stocks,USD,PLTR,"2025-01-09, 16:20:00","1,000",75,67.26,-75000,0,75000,0,-7740,A;O
+Trades,SubTotal,,Stocks,USD,PLTR,,1000,,,-75000,0,75000,0,-7740,
+Trades,Total,,Stocks,USD,,,,,,-75000,0,75000,0,-7740, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,PLTR 10JAN25 75 P,"2025-01-09, 16:20:00",10,0,7.74,0,0,1912.979224,0,7740,A;C
+Trades,SubTotal,,Equity and Index Options,USD,PLTR 10JAN25 75 P,,10,,,0,0,1912.979224,0,7740,
+Trades,Total,,Equity and Index Options,USD,,,,,,0,0,1912.979224,0,7740, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Notional Value,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Futures,USD,NQH5,"2025-01-10, 17:15:00",10,21500,21016,-4300000,0,4300000,0,-96800,A;O
+Trades,SubTotal,,Futures,USD,NQH5,,10,,,-4300000,0,4300000,0,-96800,
+Trades,Total,,Futures,USD,,,,,,-4300000,0,4300000,0,-96800, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Options On Futures,USD,NQ 10JAN25 21500 P,"2025-01-10, 17:15:00",10,0,484.1,0,-14.2,56087.8,0,96820,A;C
+Trades,SubTotal,,Options On Futures,USD,NQ 10JAN25 21500 P,,10,,,0,-14.2,56087.8,0,96820,
+Trades,Total,,Options On Futures,USD,,,,,,0,-14.2,56087.8,0,96820, 

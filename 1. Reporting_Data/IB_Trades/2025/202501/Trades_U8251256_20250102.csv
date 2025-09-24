@@ -1,0 +1,29 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 2, 2025"
+Statement,Data,WhenGenerated,"2025-01-03, 00:14:21 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,1211,"2024-12-27, 07:00:00","5,000",270,258.2,-1350000,0,1350000,0,-59000,Ca
+Trades,Data,Order,Stocks,HKD,1211,"2024-12-27, 07:00:00","-5,000",270,258.2,1350000,0,-1350000,0,59000,A;O
+Trades,SubTotal,,Stocks,HKD,1211,,0,,,0,0,0,0,0,
+Trades,Data,Order,Stocks,HKD,700,"2024-12-27, 07:00:00","-1,500",420,416,630000,0,-630000,0,6000,Ca
+Trades,Data,Order,Stocks,HKD,700,"2024-12-27, 07:00:00","1,500",420,416,-630000,0,630000,0,-6000,A;O
+Trades,SubTotal,,Stocks,HKD,700,,0,,,0,0,0,0,0,
+Trades,Data,Order,Stocks,HKD,941,"2024-12-30, 07:00:00","25,000",75,75.6,-1875000,0,1875000,0,15000,Ca
+Trades,Data,Order,Stocks,HKD,941,"2024-12-30, 07:00:00","-25,000",75,75.6,1875000,0,-1875000,0,-15000,A;O
+Trades,SubTotal,,Stocks,HKD,941,,0,,,0,0,0,0,0,
+Trades,Data,Order,Stocks,HKD,9961,"2024-12-30, 07:00:00","-1,500",550,520,825000,0,-825000,0,45000,Ca
+Trades,Data,Order,Stocks,HKD,9961,"2024-12-30, 07:00:00","1,500",550,520,-825000,0,825000,0,-45000,A;O
+Trades,SubTotal,,Stocks,HKD,9961,,0,,,0,0,0,0,0,
+Trades,Total,,Stocks,HKD,,,,,,0,0,0,0,0, 
+Trades,Total,,Stocks,USD,,,,,,0,0,0,0,0, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,NVDA 10JAN25 145 C,"2025-01-02, 10:21:54",-100,1.14,1.315,11400,-69.42092,-11330.57908,0,-1750,O
+Trades,SubTotal,,Equity and Index Options,USD,NVDA 10JAN25 145 C,,-100,,,11400,-69.42092,-11330.57908,0,-1750,
+Trades,Data,Order,Equity and Index Options,USD,TSM 10JAN25 210 C,"2025-01-02, 11:13:04",-100,1.6,1.46,16000,-69.0688,-15930.9312,0,1400,O;P
+Trades,SubTotal,,Equity and Index Options,USD,TSM 10JAN25 210 C,,-100,,,16000,-69.0688,-15930.9312,0,1400,
+Trades,Data,Order,Equity and Index Options,USD,XLK 10JAN25 240 C,"2025-01-02, 10:16:50",-100,0.94,0.47,9400,-70.36532,-9329.63468,0,4700,O;P
+Trades,SubTotal,,Equity and Index Options,USD,XLK 10JAN25 240 C,,-100,,,9400,-70.36532,-9329.63468,0,4700,
+Trades,Total,,Equity and Index Options,USD,,,,,,36800,-208.85504,-36591.14496,0,4350, 

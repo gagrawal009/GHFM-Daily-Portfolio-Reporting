@@ -1,0 +1,15 @@
+﻿Statement,Header,Field Name,Field Value,,,,,,,,,,,,
+Statement,Data,BrokerName,Interactive Brokers LLC,,,,,,,,,,,,
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830",,,,,,,,,,,,
+Statement,Data,Title,Activity Statement,,,,,,,,,,,,
+Statement,Data,Period,14-Jul-25,,,,,,,,,,,,
+Statement,Data,WhenGenerated,"2025-07-15, 04:14:00 EDT",,,,,,,,,,,,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,DFDV,"2025-07-14, 14:55:11",10,24,24.5,-240,-0.33947725,240.3394773,0,5,O
+Trades,SubTotal,,Stocks,USD,DFDV,,10,,,-240,-0.33947725,240.3394773,0,5,
+Trades,Total,,Stocks,USD,,,,,,-240,-0.33947725,240.3394773,0,5, 
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,

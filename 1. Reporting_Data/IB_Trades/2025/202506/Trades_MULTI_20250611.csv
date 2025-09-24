@@ -1,0 +1,17 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"June 11, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 02:08:25 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,2097,"2025-06-11, 02:38:23","1,000",527.5,534,-527500,-847.1375,528347.1375,0,6500,O
+Trades,SubTotal,,Stocks,HKD,2097,,,1000,,,-527500,-847.1375,528347.1375,0,6500,
+Trades,Data,Order,Stocks,HKD,U18135473,2899,"2025-06-11, 03:12:53","250,000",19.06,19.06,-4765000,-7700.2402,4772700.240199999,0,0,O;P
+Trades,SubTotal,,Stocks,HKD,2899,,,250000,,,-4765000,-7700.2402,4772700.240199999,0,0,
+Trades,Data,Order,Stocks,HKD,U18135473,883,"2025-06-11, 03:13:54","23,000",18.86,18.88,-433780,-696.4369,434476.4369,0,460,O
+Trades,SubTotal,,Stocks,HKD,883,,,23000,,,-433780,-696.4369,434476.4369,0,460,
+Trades,Total,,Stocks,HKD,,,,,,,-5726280,-9243.8146,5735523.814599999,0,6960, 
+Trades,Total,,Stocks,USD,,,,,,,-729528.072,-1177.66198004,730705.73398004,0,886.704, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

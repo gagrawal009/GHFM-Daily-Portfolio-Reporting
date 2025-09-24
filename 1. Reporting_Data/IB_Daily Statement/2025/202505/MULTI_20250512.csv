@@ -1,0 +1,483 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"May 12, 2025"
+Statement,Data,WhenGenerated,"2025-08-05, 22:29:48 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Golden Horse Global Macro Discretionary Fund
+Account Information,Data,Account,U8251256 (Custom Consolidated)
+Account Information,Data,Accounts Included,"U18135473, U18135473F, U8251256, U8251256F"
+Account Information,Data,Master Name,Golden Horse Fund Management Pte Ltd
+Account Information,Data,Account Type,Institution Master
+Account Information,Data,Customer Type,Corporate
+Account Information,Data,Account Capabilities,Portfolio Margin
+Account Information,Data,Base Currency,USD
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,-50379205.75274517,132089.512572054,-56583445.49476086,-56451355.982188806,-6072150.22944364
+Net Asset Value,Data,Stock,115283360.29184,122016005.696,0,122016005.696,6732645.404159993
+Net Asset Value,Data,Interest Accruals,-8763.8558307,42018.0206845,-67538.1588333,-25520.1381488,-16756.2823181
+Net Asset Value,Data,Dividend Accruals,-37,40020.4,-37,39983.4,40020.4
+Net Asset Value,Data,Total,64895353.68326413,122230133.62925655,-56651020.653594166,65579112.97566238,683759.292398252
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,1.053633663%
+Change in Combined NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,64895353.68326413
+Change in NAV,Data,Mark-to-Market,662516.84562774
+Change in NAV,Data,Change in Dividend Accruals,40020.4
+Change in NAV,Data,Change in Interest Accruals,-16759.256147
+Change in NAV,Data,Commissions,-1435.382812068
+Change in NAV,Data,Transaction Fees,-586.288099304
+Change in NAV,Data,Other FX Translations,2.9738289
+Change in NAV,Data,Ending Value,65579112.97566238
+Change in NAV,Disclaimer,"This section shows your combined total cash position, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,1288,1774000,2274000,4.8500,4.8600,2276.929,2567,-497.67034812,0,4346.25865188,
+Mark-to-Market Performance Summary,Data,Stocks,1810,30000,30000,51.3500,50.6000,-2887.875,0,0,0,-2887.875,
+Mark-to-Market Performance Summary,Data,Stocks,2097,1400,2800,481.8000,450.4000,-5642.266,-287.504,-130.8055922,0,-6060.5755922,
+Mark-to-Market Performance Summary,Data,Stocks,2359,17200,17200,61.1000,62.8000,3752.954,0,0,0,3752.954,
+Mark-to-Market Performance Summary,Data,Stocks,2828,20800,41600,85.3800,88.0000,6994.5616,4324.8816,-139.517209832,0,11179.925990168,
+Mark-to-Market Performance Summary,Data,Stocks,3067,135000,270000,10.8800,11.4000,9010.17,4158.54,-116.99012655,0,13051.71987345,
+Mark-to-Market Performance Summary,Data,Stocks,700,8400,8400,494.6000,517.5000,24689.406,0,0,0,24689.406,
+Mark-to-Market Performance Summary,Data,Stocks,857,104000,104000,6.1100,6.2300,1601.808,0,0,0,1601.808,
+Mark-to-Market Performance Summary,Data,Stocks,883,32000,32000,16.9200,17.3800,1889.312,0,0,0,1889.312,
+Mark-to-Market Performance Summary,Data,Stocks,941,50000,50000,83.5500,84.2500,4492.25,0,0,0,4492.25,
+Mark-to-Market Performance Summary,Data,Stocks,981,80000,110000,43.0000,44.4500,14888.6,4428.075,-267.59627325,0,19049.07872675,
+Mark-to-Market Performance Summary,Data,Stocks,9961,2000,2000,478.6000,507.0000,7290.28,0,0,0,7290.28,
+Mark-to-Market Performance Summary,Data,Stocks,AAPL,6200,6200,198.5300,210.7900,76012,0,0,0,76012,
+Mark-to-Market Performance Summary,Data,Stocks,AMZN,7590,0,193.0600,208.6400,118252.2,-2953.105,-53.42838726,0,115245.66661274,
+Mark-to-Market Performance Summary,Data,Stocks,APP,3000,3000,328.5400,347.9000,58080,0,0,0,58080,
+Mark-to-Market Performance Summary,Data,Stocks,BABA,2500,2500,125.3300,132.5500,18050,0,0,0,18050,
+Mark-to-Market Performance Summary,Data,Stocks,BRK B,7000,7000,513.7400,514.3000,3920,0,0,0,3920,
+Mark-to-Market Performance Summary,Data,Stocks,D05,20000,20000,43.7100,43.7100,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,DAX,14400,14400,42.8250,42.3800,-6408,0,0,0,-6408,
+Mark-to-Market Performance Summary,Data,Stocks,DG,31500,31500,91.6600,89.4900,-68355,0,0,0,-68355,
+Mark-to-Market Performance Summary,Data,Stocks,EBND,128600,128600,20.6700,20.5200,-19290,0,0,0,-19290,
+Mark-to-Market Performance Summary,Data,Stocks,EWZ,22600,22600,27.5600,27.4900,-1582,0,0,0,-1582,
+Mark-to-Market Performance Summary,Data,Stocks,EXC,138900,206900,45.2100,43.6100,-222240,-38080,-63.67996,0,-260383.67996,
+Mark-to-Market Performance Summary,Data,Stocks,IAUM,60400,91400,33.2000,32.2600,-56776,450.28,-32.884874,0,-56358.604874,
+Mark-to-Market Performance Summary,Data,Stocks,KO,8500,16700,70.5200,69.5300,-8415,2353.654,-10.627804,0,-6071.973804,
+Mark-to-Market Performance Summary,Data,Stocks,MELI,40,40,"2,450.0000","2,504.6100",2184.4,0,0,0,2184.4,
+Mark-to-Market Performance Summary,Data,Stocks,MSTR,1400,2800,416.0300,404.9000,-15582,-26558,-2.306458,0,-42142.306458,
+Mark-to-Market Performance Summary,Data,Stocks,PLTR,24200,24200,117.3000,118.4600,28072,0,0,0,28072,
+Mark-to-Market Performance Summary,Data,Stocks,PM,16700,33400,169.7000,164.8300,-81329,4931.53,-58.30331,0,-76455.77331,
+Mark-to-Market Performance Summary,Data,Stocks,QQQ,32800,42800,487.9700,507.8500,652064,97400,-16.4747,0,749447.5253,
+Mark-to-Market Performance Summary,Data,Stocks,SGOV,488700,378900,100.4800,100.4800,0,20.13,-488.08088081,0,-467.95088081,
+Mark-to-Market Performance Summary,Data,Stocks,SPLV,133089,133089,72.6000,72.7200,15970.68,0,0,0,15970.68,
+Mark-to-Market Performance Summary,Data,Stocks,TAIL,294655,294655,12.4300,12.1700,-76610.3,0,0,0,-76610.3,
+Mark-to-Market Performance Summary,Data,Stocks,TQQQ,0,74505,--,66.1100,0,110825.161,-143.30498735,0,110681.85601265,
+Mark-to-Market Performance Summary,Data,Stocks,VST,3200,3200,135.7500,146.0900,33088,0,0,0,33088,
+Mark-to-Market Performance Summary,Data,Stocks,VTIP,47900,47900,50.0200,49.7300,-13891,0,0,0,-13891,
+Mark-to-Market Performance Summary,Data,Total,,,,,,503571.1096,163580.6426,-2021.670911372,0,665130.081288628,
+Mark-to-Market Performance Summary,Data,Forex,CAD,0.000004515,0.000004515,0.71742,0.71556,-0.00000001,0,0,0,-0.00000001,
+Mark-to-Market Performance Summary,Data,Forex,CHF,-0.000029287,-0.000029287,1.2027,1.1827,0.00000059,0,0,0,0.00000059,
+Mark-to-Market Performance Summary,Data,Forex,EUR,2.372357913,2.372357913,1.1248,1.1088,-0.03795773,0,0,0,-0.03795773,
+Mark-to-Market Performance Summary,Data,Forex,HKD,-7328642.810929359,-14982726.78404936,0.12856,0.12835,-4555.34544971,0,0,0,-4555.34544971,
+Mark-to-Market Performance Summary,Data,Forex,JPY,-0.0002138,-0.0002138,0.0068791,0.0067353,0.00000003,0,0,0,0.00000003,
+Mark-to-Market Performance Summary,Data,Forex,MXN,-0.00382842,-0.00382842,0.051425,0.050925,0.00000191,0,0,0,0.00000191,
+Mark-to-Market Performance Summary,Data,Forex,SEK,0.000335185,0.000335185,0.10293,0.1018,-0.00000038,0,0,0,-0.00000038,
+Mark-to-Market Performance Summary,Data,Forex,SGD,-857735.57619633,-857735.57619633,0.77041,0.76558,-79.52316696,0,0,0,-79.52316696,
+Mark-to-Market Performance Summary,Data,Forex,USD,-48776230.035947025,-53871660.42730845,1.0000,1.0000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,-4634.90657226,0,0,0,-4634.90657226,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,498936.20302774,163580.6426,-2021.670911372,0,660495.174716368,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,1288,0,0,0,0,0,0,24678.710299295,0,0,0,24678.710299295,24678.710299295,
+Realized & Unrealized Performance Summary,Data,Stocks,1810,0,0,0,0,0,0,409.9871215,-4543.688816665,0,0,-4133.701695165,-4133.701695165,
+Realized & Unrealized Performance Summary,Data,Stocks,2097,0,0,0,0,0,0,2641.042714855,-4343.637706375,0,0,-1702.59499152,-1702.59499152,
+Realized & Unrealized Performance Summary,Data,Stocks,2359,0,0,0,0,0,0,2099.199555876,-3645.777081269,0,0,-1546.577525393,-1546.577525393,
+Realized & Unrealized Performance Summary,Data,Stocks,2828,0,0,0,0,0,0,9321.723291179,-516.32288888,0,0,8805.400402299,8805.400402299,
+Realized & Unrealized Performance Summary,Data,Stocks,3067,0,0,0,0,0,0,7932.336964427,-1627.230715114,0,0,6305.106249313,6305.106249313,
+Realized & Unrealized Performance Summary,Data,Stocks,700,0,0,0,0,0,0,33005.558478725,-1263.802446375,0,0,31741.75603235,31741.75603235,
+Realized & Unrealized Performance Summary,Data,Stocks,857,0,0,0,0,0,0,37.46695654,-2594.406716685,0,0,-2556.939760145,-2556.939760145,
+Realized & Unrealized Performance Summary,Data,Stocks,883,0,0,0,0,0,0,0,-6823.900008535,0,0,-6823.900008535,-6823.900008535,
+Realized & Unrealized Performance Summary,Data,Stocks,941,0,0,0,0,0,0,14214.820048931,0,0,0,14214.820048931,14214.820048931,
+Realized & Unrealized Performance Summary,Data,Stocks,981,0,0,0,0,0,0,4160.47872675,-23289.448124856,0,0,-19128.969398106,-19128.969398106,
+Realized & Unrealized Performance Summary,Data,Stocks,9961,0,0,0,0,0,0,5359.35636526,0,0,0,5359.35636526,5359.35636526,
+Realized & Unrealized Performance Summary,Data,Stocks,AAPL,0,0,0,0,0,0,78546.086485,0,0,0,78546.086485,78546.086485,
+Realized & Unrealized Performance Summary,Data,Stocks,AMZN,0,105355.10097774,0,0,0,105355.10097774,0,0,0,0,0,105355.10097774,
+Realized & Unrealized Performance Summary,Data,Stocks,APP,0,0,0,0,0,0,37654.734589,0,0,0,37654.734589,37654.734589,
+Realized & Unrealized Performance Summary,Data,Stocks,BABA,0,0,0,0,0,0,22038.529636,0,0,0,22038.529636,22038.529636,
+Realized & Unrealized Performance Summary,Data,Stocks,BRK B,0,0,0,0,0,0,7058.134871,-8514.898855,0,0,-1456.763984,-1456.763984,
+Realized & Unrealized Performance Summary,Data,Stocks,D05,0,0,0,0,0,0,12583.925625876,0,0,0,12583.925625876,12583.925625876,
+Realized & Unrealized Performance Summary,Data,Stocks,DAX,0,0,0,0,0,0,38.647177,-2863.895322,0,0,-2825.248145,-2825.248145,
+Realized & Unrealized Performance Summary,Data,Stocks,DG,0,0,0,0,0,0,0,-69947.280255,0,0,-69947.280255,-69947.280255,
+Realized & Unrealized Performance Summary,Data,Stocks,EBND,0,0,0,0,0,0,0,-18258.197617,0,0,-18258.197617,-18258.197617,
+Realized & Unrealized Performance Summary,Data,Stocks,EWZ,0,0,0,0,0,0,21876.113091,0,0,0,21876.113091,21876.113091,
+Realized & Unrealized Performance Summary,Data,Stocks,EXC,0,0,0,0,0,0,0,-346689.954696,0,0,-346689.954696,-346689.954696,
+Realized & Unrealized Performance Summary,Data,Stocks,IAUM,0,0,0,0,0,0,874.451656,-67996.62913,0,0,-67122.177474,-67122.177474,
+Realized & Unrealized Performance Summary,Data,Stocks,KO,0,0,0,0,0,0,2343.026197,-15592.436164,0,0,-13249.409967,-13249.409967,
+Realized & Unrealized Performance Summary,Data,Stocks,MELI,0,0,0,0,0,0,10337.742086,0,0,0,10337.742086,10337.742086,
+Realized & Unrealized Performance Summary,Data,Stocks,MSTR,0,0,0,0,0,0,15474.00111,-28360.451045,0,0,-12886.449935,-12886.449935,
+Realized & Unrealized Performance Summary,Data,Stocks,PLTR,0,0,0,0,0,0,107230.957353,0,0,0,107230.957353,107230.957353,
+Realized & Unrealized Performance Summary,Data,Stocks,PM,0,0,0,0,0,0,4873.226688,-107369.031409,0,0,-102495.804721,-102495.804721,
+Realized & Unrealized Performance Summary,Data,Stocks,QQQ,0,0,0,0,0,0,794958.474412,0,0,0,794958.474412,794958.474412,
+Realized & Unrealized Performance Summary,Data,Stocks,SGOV,0,8098.33778219,0,0,0,8098.33778219,51120.380441,0,0,0,51120.380441,59218.71822319,
+Realized & Unrealized Performance Summary,Data,Stocks,SPLV,0,0,0,0,0,0,63834.674337,-1315.391643,0,0,62519.282694,62519.282694,
+Realized & Unrealized Performance Summary,Data,Stocks,TAIL,0,0,0,0,0,0,0,-101253.245912,0,0,-101253.245912,-101253.245912,
+Realized & Unrealized Performance Summary,Data,Stocks,TQQQ,0,0,0,0,0,0,110681.856014,0,0,0,110681.856014,110681.856014,
+Realized & Unrealized Performance Summary,Data,Stocks,VST,0,0,0,0,0,0,31996.458887,0,0,0,31996.458887,31996.458887,
+Realized & Unrealized Performance Summary,Data,Stocks,VTIP,0,0,0,0,0,0,0,-9991.957529,0,0,-9991.957529,-9991.957529,
+Realized & Unrealized Performance Summary,Data,Total,,0,113453.43875993,0,0,0,113453.43875993,1477382.101179215,-826801.584081754,0,0,650580.517097461,764033.955857391,
+Realized & Unrealized Performance Summary,Data,Forex,EUR,0,0,0,0,0,0,0.819517,-2.133793,0,0,-1.314276,-1.314276,
+Realized & Unrealized Performance Summary,Data,Forex,HKD,0,0,-2.493046,0,0,-2.493046,4255.778989,-13.877954,0,0,4241.901035,4239.407989,
+Realized & Unrealized Performance Summary,Data,Forex,SGD,0,0,0,0,0,0,7430.150607,-0.000002,0,0,7430.150605,7430.150605,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,-2.493046,0,0,-2.493046,11686.749113,-16.011778,0,0,11670.737335,11668.244289,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,113453.43875993,-2.493046,0,0,113450.94571393,1489068.850292215,-826817.595859754,0,0,662251.254432461,775702.200146391,
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,IB-UKL,
+Cash Report,Data,Starting Cash,Base Currency Summary,-50379205.75274516,-50379295.76932866,0.0010199,90.015563598,
+Cash Report,Data,Commissions,Base Currency Summary,-1435.382812068,-1435.382812068,0,0,
+Cash Report,Data,Trades (Sales),Base Currency Summary,12613348.625,12613348.625,0,0,
+Cash Report,Data,Trades (Purchase),Base Currency Summary,-18689159.023399998,-18689159.023399998,0,0,
+Cash Report,Data,Transaction Fees,Base Currency Summary,-586.288099304,-586.288099304,0,0,
+Cash Report,Data,Cash FX Translation Gain/Loss,Base Currency Summary,5681.83986774,5684.00033418,0,-2.16046644,
+Cash Report,Data,Ending Cash,Base Currency Summary,-56451355.9821888,-56451443.83830586,0.0010199,87.855097161,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,-50374959.295689486,-50375047.15180655,0.0010199,87.855097161,
+Cash Report,Data,Starting Cash,EUR,2.372357913,17.882357913,0,-15.51,
+Cash Report,Data,Ending Cash,EUR,2.372357913,17.882357913,0,-15.51,
+Cash Report,Data,Ending Settled Cash,EUR,2.372357913,17.882357913,0,-15.51,
+Cash Report,Data,Starting Cash,HKD,-7328642.810929359,-7340112.460962419,0,11469.65003306,
+Cash Report,Data,Commissions,HKD,-4412.087656,-4412.087656,0,0,
+Cash Report,Data,Trades (Purchase),HKD,-7645104,-7645104,0,0,
+Cash Report,Data,Transaction Fees,HKD,-4567.885464,-4567.885464,0,0,
+Cash Report,Data,Ending Cash,HKD,-14982726.78404936,-14994196.43408242,0,11469.65003306,
+Cash Report,Data,Ending Settled Cash,HKD,-7333054.89858536,-7344524.54861842,0,11469.65003306,
+Cash Report,Data,Starting Cash,SGD,-857735.57619633,-857735.57613689,0,-0.00005944,
+Cash Report,Data,Ending Cash,SGD,-857735.57619633,-857735.57613689,0,-0.00005944,
+Cash Report,Data,Ending Settled Cash,SGD,-857735.57619633,-857735.57613689,0,-0.00005944,
+Cash Report,Data,Starting Cash,USD,-48776230.035947025,-48774862.96000571,0.0010199,-1367.076961216,
+Cash Report,Data,Commissions,USD,-869.09136142,-869.09136142,0,0,
+Cash Report,Data,Trades (Sales),USD,12613348.625,12613348.625,0,0,
+Cash Report,Data,Trades (Purchase),USD,-17707909.925,-17707909.925,0,0,
+Cash Report,Data,Ending Cash,USD,-53871660.42730845,-53870293.35136713,0.0010199,-1367.076961216,
+Cash Report,Data,Ending Settled Cash,USD,-48777099.12730845,-48775732.051367134,0.0010199,-1367.076961216,
+Cash Report,Disclaimer,"This section shows your combined total cash position in each currency, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,HKD,1288,2274000,1,4.775445617,10859363.3323,4.86,11051640,192276.6677,
+Open Positions,Data,Summary,Stocks,HKD,1810,30000,1,51.67354933,1550206.4799,50.6,1518000,-32206.4799,
+Open Positions,Data,Summary,Stocks,HKD,2097,2800,1,455.137589714,1274385.2512,450.4,1261120,-13265.2512,
+Open Positions,Data,Summary,Stocks,HKD,2359,17200,1,63.500563288,1092209.68855,62.8,1080160,-12049.68855,
+Open Positions,Data,Summary,Stocks,HKD,2828,41600,1,86.350850963,3592195.40006,88,3660800,68604.59994,
+Open Positions,Data,Summary,Stocks,HKD,3067,270000,1,11.218058081,3028875.681735,11.4,3078000,49124.318265,
+Open Positions,Data,Summary,Stocks,HKD,700,8400,1,488.058780833,4099693.759,517.5,4347000,247306.241,
+Open Positions,Data,Summary,Stocks,HKD,857,104000,1,6.421554026,667841.6187,6.23,647920,-19921.6187,
+Open Positions,Data,Summary,Stocks,HKD,883,32000,1,19.041448191,609326.3421,17.38,556160,-53166.3421,
+Open Positions,Data,Summary,Stocks,HKD,941,50000,1,82.034991033,4101749.551625,84.25,4212500,110750.448375,
+Open Positions,Data,Summary,Stocks,HKD,981,110000,1,45.804886808,5038537.548875,44.45,4889500,-149037.548875,
+Open Positions,Data,Summary,Stocks,HKD,9961,2000,1,486.1221022,972244.2044,507,1014000,41755.7956,
+Open Positions,Total,,Stocks,HKD,,,,,36886628.858444996,,37316800,430171.141555,
+Open Positions,Total,,Stocks,USD,,,,,4734398.813981415,,4789611.28,55212.466018584,
+Open Positions,Data,Summary,Stocks,SGD,D05,20000,1,42.888144307,857762.886144,43.71,874200,16437.113856,
+Open Positions,Total,,Stocks,SGD,,,,,857762.886144,,874200,16437.113856,
+Open Positions,Total,,Stocks,USD,,,,,656686.110374124,,669270.036,12583.925625876,
+Open Positions,Data,Summary,Stocks,USD,AAPL,6200,1,198.121276373,1228351.913515,210.79,1306898,78546.086485,
+Open Positions,Data,Summary,Stocks,USD,APP,3000,1,335.348421804,1006045.265411,347.9,1043700,37654.734589,
+Open Positions,Data,Summary,Stocks,USD,BABA,2500,1,123.734588146,309336.470364,132.55,331375,22038.529636,
+Open Positions,Data,Summary,Stocks,USD,BRK B,7000,1,514.508109141,3601556.763984,514.3,3600100,-1456.763984,
+Open Positions,Data,Summary,Stocks,USD,DAX,14400,1,42.576197788,613097.248145,42.38,610272,-2825.248145,
+Open Positions,Data,Summary,Stocks,USD,DG,31500,1,91.71054858,2888882.280255,89.49,2818935,-69947.280255,
+Open Positions,Data,Summary,Stocks,USD,EBND,128600,1,20.661976653,2657130.197617,20.52,2638872,-18258.197617,
+Open Positions,Data,Summary,Stocks,USD,EWZ,22600,1,26.522030394,599397.886909,27.49,621274,21876.113091,
+Open Positions,Data,Summary,Stocks,USD,EXC,206900,1,45.285640187,9369598.954696,43.61,9022909,-346689.954696,
+Open Positions,Data,Summary,Stocks,USD,IAUM,91400,1,32.994378309,3015686.177474,32.26,2948564,-67122.177474,
+Open Positions,Data,Summary,Stocks,USD,KO,16700,1,70.323377842,1174400.409967,69.53,1161151,-13249.409967,
+Open Positions,Data,Summary,Stocks,USD,MELI,40,1,2246.16644785,89846.657914,2504.61,100184.4,10337.742086,
+Open Positions,Data,Summary,Stocks,USD,MSTR,2800,1,409.502303548,1146606.449935,404.9,1133720,-12886.449935,
+Open Positions,Data,Summary,Stocks,USD,PLTR,24200,1,114.028968704,2759501.042647,118.46,2866732,107230.957353,
+Open Positions,Data,Summary,Stocks,USD,PM,33400,1,167.898736668,5607817.804721,164.83,5505322,-102495.804721,
+Open Positions,Data,Summary,Stocks,USD,QQQ,42800,1,489.276203869,20941021.525588,507.85,21735980,794958.474412,
+Open Positions,Data,Summary,Stocks,USD,SGOV,378900,1,100.345082131,38020751.619559,100.48,38071872,51120.380441,
+Open Positions,Data,Summary,Stocks,USD,SPLV,133089,1,72.250244553,9615712.797306001,72.72,9678232.08,62519.282694,
+Open Positions,Data,Summary,Stocks,USD,TAIL,294655,1,12.513633218,3687204.595912,12.17,3585951.35,-101253.245912,
+Open Positions,Data,Summary,Stocks,USD,TQQQ,74505,1,64.624437205,4814843.693986,66.11,4925525.55,110681.856014,
+Open Positions,Data,Summary,Stocks,USD,VST,3200,1,136.091106598,435491.541113,146.09,467488,31996.458887,
+Open Positions,Data,Summary,Stocks,USD,VTIP,47900,1,49.938600366,2392058.957529,49.73,2382067,-9991.957529,
+Open Positions,Total,,Stocks,USD,,,,,115974340.254547,,116557124.38,582784.125453,
+Open Positions,Total,,Stocks,USD,,,,,121365425.17890254,,122016005.696,650580.517097461,
+Forex Balances,Header,Asset Category,Currency,Description,Quantity,Cost Price,Cost Basis in USD,Close Price,Value in USD,Unrealized P/L in USD,Code
+Forex Balances,Data,Forex,USD,EUR,2.372342,1.134874547,-3.944729,1.1088,2.630453,-1.314276,
+Forex Balances,Data,Forex,USD,HKD,-14982726.784056997,0.12863372,1927274.883776,0.12835,-1923032.982742001,4241.901035,
+Forex Balances,Data,Forex,USD,SGD,-857735.576197,0.774240975,664095.353028,0.76558,-656665.202423,7430.150605,
+Forex Balances,Data,Forex,USD,USD,-53871660.42730845,0,53871660.42730845,1,-53871660.42730845,0,
+Forex Balances,Data,Total,,,,,56463026.71954945,,-56451355.982217446,11670.737335,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,1288,"2025-05-12, 02:36:23","500,000",4.82,4.86,-2410000,-3877.4472,2413877.4472,0,20000,O;P
+Trades,SubTotal,,Stocks,HKD,1288,,,500000,,,-2410000,-3877.4472,2413877.4472,0,20000,
+Trades,Data,Order,Stocks,HKD,U18135473,2097,"2025-05-12, 02:40:35","1,400",452,450.4,-632800,-1019.132,633819.132,0,-2240,O;P
+Trades,SubTotal,,Stocks,HKD,2097,,,1400,,,-632800,-1019.132,633819.132,0,-2240,
+Trades,Data,Order,Stocks,HKD,U18135473,2828,"2025-05-12, 02:32:32","20,800",86.38,88,-1796704,-1087.00592,1797791.00592,0,33696,O;P
+Trades,SubTotal,,Stocks,HKD,2828,,,20800,,,-1796704,-1087.00592,1797791.00592,0,33696,
+Trades,Data,Order,Stocks,HKD,U18135473,3067,"2025-05-12, 02:24:42","135,000",11.16,11.4,-1506600,-911.493,1507511.493,0,32400,O;P
+Trades,SubTotal,,Stocks,HKD,3067,,,135000,,,-1506600,-911.493,1507511.493,0,32400,
+Trades,Data,Order,Stocks,HKD,U18135473,981,"2025-05-12, 02:34:38","30,000",43.3,44.45,-1299000,-2084.895,1301084.895,0,34500,O
+Trades,SubTotal,,Stocks,HKD,981,,,30000,,,-1299000,-2084.895,1301084.895,0,34500,
+Trades,Total,,Stocks,HKD,,,,,,,-7645104,-8979.97312,7654083.97312,0,118356, 
+Trades,Total,,Stocks,USD,,,,,,,-981249.0984,-1152.579549952,982401.677949952,0,15190.9926, 
+Trades,Data,Order,Stocks,USD,U18135473,AMZN,"2025-05-12, 10:04:18",-300,208.553333333,208.64,62566,-2.0700758,-59239.392501,3324.537424,-26,C;P
+Trades,Data,Order,Stocks,USD,U18135473,AMZN,"2025-05-12, 11:33:01","-7,290",208.23847668,208.64,1518058.495,-51.358311461,-1415976.573134999,102030.56356,-2927.105,C;P
+Trades,SubTotal,,Stocks,USD,AMZN,,,-7590,,,1580624.495,-53.428387261,-1475215.965636,105355.100984,-2953.105,
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-05-12, 09:58:25","68,000",44.17,43.61,-3003560,-63.67996,3003623.67996,0,-38080,O
+Trades,SubTotal,,Stocks,USD,EXC,,,68000,,,-3003560,-63.67996,3003623.67996,0,-38080,
+Trades,Data,Order,Stocks,USD,U18135473,IAUM,"2025-05-12, 09:43:17","31,000",32.245474839,32.26,-999609.72,-32.884874,999642.604874,0,450.28,O;P
+Trades,SubTotal,,Stocks,USD,IAUM,,,31000,,,-999609.72,-32.884874,999642.604874,0,450.28,
+Trades,Data,Order,Stocks,USD,U18135473,KO,"2025-05-12, 09:43:40","8,200",69.242969024,69.53,-567792.346,-10.627804,567802.973804,0,2353.654,IM;O;P
+Trades,SubTotal,,Stocks,USD,KO,,,8200,,,-567792.346,-10.627804,567802.973804,0,2353.654,
+Trades,Data,Order,Stocks,USD,U18135473,MSTR,"2025-05-12, 01:54:15","1,400",423.87,404.9,-593418,-2.306458,593420.306458,0,-26558,O;P
+Trades,SubTotal,,Stocks,USD,MSTR,,,1400,,,-593418,-2.306458,593420.306458,0,-26558,
+Trades,Data,Order,Stocks,USD,U18135473,PM,"2025-05-12, 09:47:45","16,700",164.534698802,164.83,-2747729.47,-58.30331,2747787.773310001,0,4931.53,O;P
+Trades,SubTotal,,Stocks,USD,PM,,,16700,,,-2747729.47,-58.30331,2747787.773310001,0,4931.53,
+Trades,Data,Order,Stocks,USD,U18135473,QQQ,"2025-05-12, 01:55:54","10,000",498.11,507.85,-4981100,-16.4747,4981116.4747,0,97400,O;P
+Trades,SubTotal,,Stocks,USD,QQQ,,,10000,,,-4981100,-16.4747,4981116.4747,0,97400,
+Trades,Data,Order,Stocks,USD,U18135473,SGOV,"2025-05-12, 09:48:49","-109,800",100.480183333,100.48,11032724.13,-488.080880814,-11024137.711336998,8098.337784,20.13,C;P
+Trades,SubTotal,,Stocks,USD,SGOV,,,-109800,,,11032724.13,-488.080880814,-11024137.711336998,8098.337784,20.13,
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-05-12, 09:45:27","55,300",64.618103797,66.11,-3573381.14,-124.285091,3573505.425091,0,82501.86,O;P
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-05-12, 09:46:55",800,64.5236625,66.11,-51618.93,-0.780276,51619.710276,0,1269.07,IM;O;P
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-05-12, 09:50:19","18,405",64.640060799,66.11,-1189700.319,-18.23962035,1189718.558620351,0,27054.231,IM;O;P
+Trades,SubTotal,,Stocks,USD,TQQQ,,,74505,,,-4814700.389,-143.30498735,4814843.693987351,0,110825.161,
+Trades,Total,,Stocks,USD,,,,,,,-5094561.300000001,-869.091361425,5208883.830120353,113453.438768,148389.65, 
+Transaction Fees,Header,Asset Category,Currency,Account,Date/Time,Symbol,Description,Quantity,Trade Price,Amount,Code
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:24:42",3067,ISHARES HANG SENG TECH E-HKD,"40,700",11.16,-12.945042,
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:24:42",3067,ISHARES HANG SENG TECH E-HKD,"94,300",11.16,-29.993058,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,FRC Transaction Levy,0,0,-0.681318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,SFC Transaction Levy,0,0,-12.263724,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,FRC Transaction Levy,0,0,0.681318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,SFC Transaction Levy,0,0,12.263724,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,FRC Transaction Levy,0,0,-1.578582,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,SFC Transaction Levy,0,0,-28.414476,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,FRC Transaction Levy,0,0,1.578582,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:24:42",3067,SFC Transaction Levy,0,0,28.414476,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:32:32",2828,HANGSENG CHINA ENT INDEX-HKD,"17,400",86.38,-42.835842,
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:32:32",2828,HANGSENG CHINA ENT INDEX-HKD,"3,400",86.38,-8.370222,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,SFC Transaction Levy,0,0,-40.581324,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,FRC Transaction Levy,0,0,2.254518,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,SFC Transaction Levy,0,0,40.581324,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,FRC Transaction Levy,0,0,-2.254518,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,FRC Transaction Levy,0,0,-0.440538,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,SFC Transaction Levy,0,0,-7.929684,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,FRC Transaction Levy,0,0,0.440538,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:32:32",2828,SFC Transaction Levy,0,0,7.929684,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:34:38",981,SEMICONDUCTOR MANUFACTURING,"30,000",43.3,-1336.0215,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:34:38",981,FRC Transaction Levy,0,0,1.9485,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:34:38",981,SFC Transaction Levy,0,0,35.073,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:34:38",981,HK Stamp Tax,0,0,1299,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:34:38",981,FRC Transaction Levy,0,0,-1.9485,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:34:38",981,SFC Transaction Levy,0,0,-35.073,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:34:38",981,HK Stamp Tax,0,0,-1299,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:36:23",1288,AGRICULTURAL BANK OF CHINA-H,"44,000",4.82,-219.04428,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:36:23",1288,FRC Transaction Levy,0,0,-0.31812,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:36:23",1288,SFC Transaction Levy,0,0,-5.72616,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:36:23",1288,HK Stamp Tax,0,0,-213,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:36:23",1288,FRC Transaction Levy,0,0,0.31812,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:36:23",1288,SFC Transaction Levy,0,0,5.72616,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:36:23",1288,HK Stamp Tax,0,0,213,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:37:08",1288,AGRICULTURAL BANK OF CHINA-H,"36,000",4.82,-178.94532,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:08",1288,FRC Transaction Levy,0,0,-0.26028,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:08",1288,SFC Transaction Levy,0,0,-4.68504,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:08",1288,HK Stamp Tax,0,0,-174,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:08",1288,FRC Transaction Levy,0,0,0.26028,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:08",1288,SFC Transaction Levy,0,0,4.68504,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:08",1288,HK Stamp Tax,0,0,174,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:37:23",1288,AGRICULTURAL BANK OF CHINA-H,"53,000",4.82,-263.28061,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:23",1288,FRC Transaction Levy,0,0,0.38319,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:23",1288,SFC Transaction Levy,0,0,6.89742,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:23",1288,HK Stamp Tax,0,0,256,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:23",1288,FRC Transaction Levy,0,0,-0.38319,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:23",1288,SFC Transaction Levy,0,0,-6.89742,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:37:23",1288,HK Stamp Tax,0,0,-256,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:38:08",1288,AGRICULTURAL BANK OF CHINA-H,"19,000",4.82,-94.61003,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:08",1288,FRC Transaction Levy,0,0,0.13737,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:08",1288,SFC Transaction Levy,0,0,2.47266,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:08",1288,HK Stamp Tax,0,0,92,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:08",1288,FRC Transaction Levy,0,0,-0.13737,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:08",1288,SFC Transaction Levy,0,0,-2.47266,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:08",1288,HK Stamp Tax,0,0,-92,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:38:23",1288,AGRICULTURAL BANK OF CHINA-H,"88,000",4.82,-437.08856,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:23",1288,FRC Transaction Levy,0,0,-0.63624,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:23",1288,SFC Transaction Levy,0,0,-11.45232,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:23",1288,HK Stamp Tax,0,0,-425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:23",1288,FRC Transaction Levy,0,0,0.63624,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:23",1288,SFC Transaction Levy,0,0,11.45232,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:38:23",1288,HK Stamp Tax,0,0,425,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:39:08",1288,AGRICULTURAL BANK OF CHINA-H,"35,000",4.82,-173.80795,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:08",1288,FRC Transaction Levy,0,0,-0.25305,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:08",1288,SFC Transaction Levy,0,0,-4.5549,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:08",1288,HK Stamp Tax,0,0,-169,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:08",1288,FRC Transaction Levy,0,0,0.25305,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:08",1288,SFC Transaction Levy,0,0,4.5549,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:08",1288,HK Stamp Tax,0,0,169,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:39:23",1288,AGRICULTURAL BANK OF CHINA-H,"7,000",4.82,-34.96159,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:23",1288,FRC Transaction Levy,0,0,0.05061,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:23",1288,SFC Transaction Levy,0,0,0.91098,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:23",1288,HK Stamp Tax,0,0,34,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:23",1288,FRC Transaction Levy,0,0,-0.05061,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:23",1288,SFC Transaction Levy,0,0,-0.91098,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:23",1288,HK Stamp Tax,0,0,-34,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:39:49",1288,AGRICULTURAL BANK OF CHINA-H,"1,000",4.82,-5.13737,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:49",1288,FRC Transaction Levy,0,0,-0.00723,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:49",1288,SFC Transaction Levy,0,0,-0.13014,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:49",1288,HK Stamp Tax,0,0,-5,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:49",1288,FRC Transaction Levy,0,0,0.00723,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:49",1288,SFC Transaction Levy,0,0,0.13014,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:39:49",1288,HK Stamp Tax,0,0,5,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:40:08",1288,AGRICULTURAL BANK OF CHINA-H,"33,000",4.82,-164.53321,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:08",1288,FRC Transaction Levy,0,0,-0.23859,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:08",1288,SFC Transaction Levy,0,0,-4.29462,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:08",1288,HK Stamp Tax,0,0,-160,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:08",1288,FRC Transaction Levy,0,0,0.23859,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:08",1288,SFC Transaction Levy,0,0,4.29462,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:08",1288,HK Stamp Tax,0,0,160,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:40:23",1288,AGRICULTURAL BANK OF CHINA-H,"100,000",4.82,-495.737,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:23",1288,FRC Transaction Levy,0,0,-0.723,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:23",1288,SFC Transaction Levy,0,0,-13.014,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:23",1288,HK Stamp Tax,0,0,-482,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:23",1288,FRC Transaction Levy,0,0,0.723,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:23",1288,SFC Transaction Levy,0,0,13.014,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:23",1288,HK Stamp Tax,0,0,482,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:40:35",2097,MIXUE GROUP,100,452,-47.2882,
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:40:35",2097,MIXUE GROUP,200,452,-93.5764,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,FRC Transaction Levy,0,0,-0.0678,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,SFC Transaction Levy,0,0,-1.2204,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,HK Stamp Tax,0,0,-46,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,FRC Transaction Levy,0,0,0.0678,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,SFC Transaction Levy,0,0,1.2204,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,HK Stamp Tax,0,0,46,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,FRC Transaction Levy,0,0,0.1356,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,SFC Transaction Levy,0,0,2.4408,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,HK Stamp Tax,0,0,91,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,FRC Transaction Levy,0,0,-0.1356,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,SFC Transaction Levy,0,0,-2.4408,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:35",2097,HK Stamp Tax,0,0,-91,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:40:43",2097,MIXUE GROUP,300,452,-139.8646,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:43",2097,FRC Transaction Levy,0,0,0.2034,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:43",2097,SFC Transaction Levy,0,0,3.6612,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:43",2097,HK Stamp Tax,0,0,136,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:43",2097,FRC Transaction Levy,0,0,-0.2034,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:43",2097,SFC Transaction Levy,0,0,-3.6612,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:43",2097,HK Stamp Tax,0,0,-136,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:40:47",2097,MIXUE GROUP,800,452,-372.3056,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:47",2097,FRC Transaction Levy,0,0,0.5424,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:47",2097,SFC Transaction Levy,0,0,9.7632,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:47",2097,HK Stamp Tax,0,0,362,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:47",2097,FRC Transaction Levy,0,0,-0.5424,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:47",2097,SFC Transaction Levy,0,0,-9.7632,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:40:47",2097,HK Stamp Tax,0,0,-362,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:41:08",1288,AGRICULTURAL BANK OF CHINA-H,"33,000",4.82,-164.53321,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:08",1288,FRC Transaction Levy,0,0,0.23859,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:08",1288,SFC Transaction Levy,0,0,4.29462,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:08",1288,HK Stamp Tax,0,0,160,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:08",1288,FRC Transaction Levy,0,0,-0.23859,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:08",1288,SFC Transaction Levy,0,0,-4.29462,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:08",1288,HK Stamp Tax,0,0,-160,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-05-12, 02:41:23",1288,AGRICULTURAL BANK OF CHINA-H,"51,000",4.82,-253.00587,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:23",1288,FRC Transaction Levy,0,0,0.36873,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:23",1288,SFC Transaction Levy,0,0,6.63714,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:23",1288,HK Stamp Tax,0,0,246,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:23",1288,FRC Transaction Levy,0,0,-0.36873,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:23",1288,SFC Transaction Levy,0,0,-6.63714,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-05-12, 02:41:23",1288,HK Stamp Tax,0,0,-246,Adj
+Transaction Fees,Data,Total,,,,,,,,-4567.885464,
+Transaction Fees,Data,Total in USD,,,,,,,,-586.288099304,
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,-8763.8558307
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,-16759.256147
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,0
+Interest Accruals,Data,Base Currency Summary,FX Translation,2.9738289
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,-25520.1381488
+Interest Accruals,Data,HKD,Starting Accrual Balance,-13229.36
+Interest Accruals,Data,HKD,Interest Accrued,-1525.5
+Interest Accruals,Data,HKD,Accrual Reversal,0
+Interest Accruals,Data,HKD,Ending Accrual Balance,-14754.86
+Interest Accruals,Data,HKD,Ending Accrual Balance in USD,-1893.786281
+Interest Accruals,Data,SGD,Starting Accrual Balance,-40.51
+Interest Accruals,Data,SGD,Interest Accrued,-240.9
+Interest Accruals,Data,SGD,Accrual Reversal,0
+Interest Accruals,Data,SGD,Ending Accrual Balance,-281.41
+Interest Accruals,Data,SGD,Ending Accrual Balance in USD,-215.4418678
+Interest Accruals,Data,USD,Starting Accrual Balance,-7031.88
+Interest Accruals,Data,USD,Interest Accrued,-16379.03
+Interest Accruals,Data,USD,Accrual Reversal,0
+Interest Accruals,Data,USD,Ending Accrual Balance,-23410.91
+Change in Dividend Accruals,Header,Asset Category,Currency,Account,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
+Change in Dividend Accruals,Data,Starting Dividend Accruals in USD,,,,,,,,,,,,-37,
+Change in Dividend Accruals,Data,Stocks,USD,U18135473,AAPL,2025-05-09,2025-05-12,2025-05-15,6200,483.6,0,0.26,1612,1128.4,Po
+Change in Dividend Accruals,Data,Stocks,USD,U18135473,EXC,2025-05-09,2025-05-12,2025-06-13,138900,16668,0,0.4,55560,38892,Po
+Change in Dividend Accruals,Data,Total,,,,,,,,17151.6,0,,57172,40020.4,
+Change in Dividend Accruals,Data,Ending Dividend Accruals in USD,,,,,,,,,,,,39983.4,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,1288,AGRICULTURAL BANK OF CHINA-H,76788432,CNE100000Q43,1288,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,1810,XIAOMI CORP-CLASS B,323608988,KYG9830T1067,1810,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2097,MIXUE GROUP,763554903,CNE100006T36,2097,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2359,WUXI APPTEC CO LTD-H,344422817,CNE100003F19,2359,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2828,HANGSENG CHINA ENT INDEX-HKD,42474946,HK2828013055,2828,SEHK,1,ETF,
+Financial Instrument Information,Data,Stocks,3067,ISHARES HANG SENG TECH E-HKD,445194075,HK0000651213,3067,SEHK,1,ETF,
+Financial Instrument Information,Data,Stocks,700,TENCENT HOLDINGS LTD,152791428,KYG875721634,700,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,857,PETROCHINA CO LTD-H,46636681,CNE1000003W8,857,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,883,CNOOC LTD,12150119,HK0883013259,883,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,941,CHINA MOBILE LTD,3408229,HK0941009539,941,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,981,SEMICONDUCTOR MANUFACTURING,259933925,KYG8020E1199,981,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,9961,TRIP.COM GROUP LTD,481432897,KYG9066F1019,9961,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,AAPL,APPLE INC,265598,US0378331005,AAPL,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,AMZN,AMAZON.COM INC,3691937,US0231351067,AMZN,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,APP,APPLOVIN CORP-CLASS A,481863646,US03831W1080,APP,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,BABA,ALIBABA GROUP HOLDING-SP ADR,166090175,US01609W1027,BABA,NYSE,1,ADR,
+Financial Instrument Information,Data,Stocks,BRK B,BERKSHIRE HATHAWAY INC-CL B,72063691,US0846707026,BRK B,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,D05,DBS GROUP HOLDINGS LTD,15785538,SG1L01001701,D05,SGX,1,COMMON,
+Financial Instrument Information,Data,Stocks,DAX,GLOBAL X DAX GERMANY ETF,346727821,US37954Y4917,DAX,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,DG,DOLLAR GENERAL CORP,70212228,US2566771059,DG,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,EBND,SPDR BLOOMBERG EM BOND,84648107,US78464A3914,EBND,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EWZ,ISHARES MSCI BRAZIL ETF,10753244,US4642864007,EWZ,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EXC,EXELON CORP,11000,US30161N1019,EXC,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,IAUM,ISHARES GOLD TRUST MICRO,499640636,US46436F1030,IAUM,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,KO,COCA-COLA CO/THE,8894,US1912161007,KO,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,MELI,MERCADOLIBRE INC,45602025,US58733R1023,MELI,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,MSTR,MICROSTRATEGY INC-CL A,272110,US5949724083,MSTR,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,PLTR,PALANTIR TECHNOLOGIES INC-A,444857009,US69608A1088,PLTR,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,PM,PHILIP MORRIS INTERNATIONAL,49588376,US7181721090,PM,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,QQQ,INVESCO QQQ TRUST SERIES 1,320227571,US46090E1038,QQQ,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,SGOV,ISHARES 0-3 MONTH TREASURY B,424099317,US46436E7186,SGOV,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SPLV,INVESCO S&P 500 LOW VOLATILI,319357142,US46138E3541,SPLV,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,TAIL,CAMBRIA TAIL RISK ETF,272108657,US1320618622,TAIL,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,TQQQ,PROSHARES ULTRAPRO QQQ,72539702,US74347X8314,TQQQ,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,VST,VISTRA CORP,254457731,US92840M1027,VST,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,VTIP,VANGUARD SHORT-TERM TIPS,115664156,US9220208055,VTIP,NASDAQ,1,ETF,
+Base Currency Exchange Rate,Header,Currency,Rate
+Base Currency Exchange Rate,Data,AED,0.272260
+Base Currency Exchange Rate,Data,AUD,0.637190
+Base Currency Exchange Rate,Data,BGN,0.566890
+Base Currency Exchange Rate,Data,BHD,2.652500
+Base Currency Exchange Rate,Data,BRL,0.176210
+Base Currency Exchange Rate,Data,CAD,0.715560
+Base Currency Exchange Rate,Data,CHF,1.182700
+Base Currency Exchange Rate,Data,CNH,0.138900
+Base Currency Exchange Rate,Data,CNY,0.138830
+Base Currency Exchange Rate,Data,CZK,0.044392
+Base Currency Exchange Rate,Data,DKK,0.148620
+Base Currency Exchange Rate,Data,EUR,1.108800
+Base Currency Exchange Rate,Data,GBP,1.317700
+Base Currency Exchange Rate,Data,HKD,0.128350
+Base Currency Exchange Rate,Data,HUF,0.002739
+Base Currency Exchange Rate,Data,IDR,0.000061
+Base Currency Exchange Rate,Data,ILS,0.280390
+Base Currency Exchange Rate,Data,INR,0.011781
+Base Currency Exchange Rate,Data,JPY,0.006735
+Base Currency Exchange Rate,Data,KRW,0.000706
+Base Currency Exchange Rate,Data,KWD,3.251000
+Base Currency Exchange Rate,Data,MXN,0.050925
+Base Currency Exchange Rate,Data,MYR,0.232720
+Base Currency Exchange Rate,Data,NOK,0.095683
+Base Currency Exchange Rate,Data,NZD,0.585480
+Base Currency Exchange Rate,Data,OMR,2.597600
+Base Currency Exchange Rate,Data,PHP,-1.000000
+Base Currency Exchange Rate,Data,PLN,0.261320
+Base Currency Exchange Rate,Data,QAR,0.274340
+Base Currency Exchange Rate,Data,RON,0.217330
+Base Currency Exchange Rate,Data,RUB,0.012346
+Base Currency Exchange Rate,Data,RUS,0.012346
+Base Currency Exchange Rate,Data,SAR,0.266610
+Base Currency Exchange Rate,Data,SEK,0.101800
+Base Currency Exchange Rate,Data,SGD,0.765580
+Base Currency Exchange Rate,Data,THB,0.029860
+Base Currency Exchange Rate,Data,TRY,0.025791
+Base Currency Exchange Rate,Data,TWD,0.032884
+Base Currency Exchange Rate,Data,ZAR,0.054752
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

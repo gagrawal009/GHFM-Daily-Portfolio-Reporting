@@ -1,0 +1,33 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"July 21, 2025"
+Statement,Data,WhenGenerated,"2025-07-22, 01:36:13 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,1109,"2025-07-21, 02:44:55","100,000",28.95,28.85,-2895000,-4736.165,2899736.165000001,0,-10000,O;P
+Trades,SubTotal,,Stocks,HKD,1109,,,100000,,,-2895000,-4736.165,2899736.165000001,0,-10000,
+Trades,Data,Order,Stocks,HKD,U18135473,2899,"2025-07-21, 03:32:46","124,000",21.65,21.65,-2684600,-4376.2442,2688976.2442,0,0,O;P
+Trades,SubTotal,,Stocks,HKD,2899,,,124000,,,-2684600,-4376.2442,2688976.2442,0,0,
+Trades,Data,Order,Stocks,HKD,U18135473,3888,"2025-07-21, 02:42:14","-75,000",34.7,34.9,2602500,-4244.7675,-3038669.459655,-440414.227154,-15000,C;P
+Trades,SubTotal,,Stocks,HKD,3888,,,-75000,,,2602500,-4244.7675,-3038669.459655,-440414.227154,-15000,
+Trades,Data,Order,Stocks,HKD,U18135473,857,"2025-07-21, 02:33:57","208,000",7.47,7.47,-1553760,-2530.20752,1556290.20752,0,0,O;P
+Trades,Data,Order,Stocks,HKD,U18135473,857,"2025-07-21, 02:41:35","200,000",7.46,7.47,-1492000,-2428.484,1494428.484,0,2000,O;P
+Trades,SubTotal,,Stocks,HKD,857,,,408000,,,-3045760,-4958.69152,3050718.69152,0,2000,
+Trades,Data,Order,Stocks,HKD,U18135473,883,"2025-07-21, 02:34:36","87,000",18.78,18.76,-1633860,-2659.43022,1636519.43022,0,-1740,O;P
+Trades,SubTotal,,Stocks,HKD,883,,,87000,,,-1633860,-2659.43022,1636519.43022,0,-1740,
+Trades,Total,,Stocks,HKD,,,,,,,-7656720,-20975.29844,7237281.071285,-440414.227154,-24740, 
+Trades,Total,,Stocks,USD,,,,,,,-975389.5608,-2672.043268272,921957.235670996,-56104.368397148,-3151.6286, 
+Trades,Data,Order,Stocks,SGD,U18135473,A17U,"2025-07-21, 05:06:58","150,000",2.8,2.8,-420000,-393.12,420393.12,0,0,O
+Trades,SubTotal,,Stocks,SGD,A17U,,,150000,,,-420000,-393.12,420393.12,0,0,
+Trades,Data,Order,Stocks,SGD,U18135473,D05,"2025-07-21, 02:56:34","25,000",47.33,47.26,-1183250,-1107.522,1184357.522,0,-1750,O;P
+Trades,SubTotal,,Stocks,SGD,D05,,,25000,,,-1183250,-1107.522,1184357.522,0,-1750,
+Trades,Data,Order,Stocks,SGD,U18135473,ME8U,"2025-07-21, 05:08:10","300,000",2.05,2.05,-615000,-575.64,615575.64,0,0,O;P
+Trades,SubTotal,,Stocks,SGD,ME8U,,,300000,,,-615000,-575.64,615575.64,0,0,
+Trades,Total,,Stocks,SGD,,,,,,,-2218250,-2076.282,2220326.282,0,-1750, 
+Trades,Total,,Stocks,USD,,,,,,,-1732541.98,-1621.65929328,1734163.63929328,0,-1366.82, 
+Trades,Data,Order,Stocks,USD,U18135473,TLT,"2025-07-21, 12:07:08","41,700",86.267835731,86,-3597368.75,7.735755748,3597361.014244251,0,-11168.75,IM;O;P
+Trades,SubTotal,,Stocks,USD,TLT,,,41700,,,-3597368.75,7.735755748,3597361.014244251,0,-11168.75,
+Trades,Total,,Stocks,USD,,,,,,,-3597368.75,7.735755748,3597361.014244251,0,-11168.75, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

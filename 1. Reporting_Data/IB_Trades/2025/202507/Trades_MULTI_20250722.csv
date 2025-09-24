@@ -1,0 +1,20 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"July 22, 2025"
+Statement,Data,WhenGenerated,"2025-07-23, 02:22:54 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,U18135473,CRCL 20FEB26 135 C,"2025-07-22, 10:51:03",22,72.8,66.2055,-160160,-12.1003,160172.1003,0,-14507.9,O;P
+Trades,SubTotal,,Equity and Index Options,USD,CRCL 20FEB26 135 C,,,22,,,-160160,-12.1003,160172.1003,0,-14507.9,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,CRCL 20FEB26 150 P,"2025-07-22, 10:51:03",-88,25.3,25.1217,222640,-48.64672,-222591.35328,0,1569.04,O;P
+Trades,SubTotal,,Equity and Index Options,USD,CRCL 20FEB26 150 P,,,-88,,,222640,-48.64672,-222591.35328,0,1569.04,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,PM 15JAN27 80 C,"2025-07-22, 10:36:21",12,89.8,86.167,-107760,-1.3438,107761.3438,0,-4359.6,O;P
+Trades,SubTotal,,Equity and Index Options,USD,PM 15JAN27 80 C,,,12,,,-107760,-1.3438,107761.3438,0,-4359.6,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,PM 15JAN27 115 C,"2025-07-22, 10:36:21",24,57.9,54.2695,-138960,-2.6876,138962.6876,0,-8713.2,O;P
+Trades,SubTotal,,Equity and Index Options,USD,PM 15JAN27 115 C,,,24,,,-138960,-2.6876,138962.6876,0,-8713.2,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,PM 15JAN27 190 P,"2025-07-22, 10:36:21",-48,30.4,33.1116,145920,-5.50912,-145914.49088,0,-13015.68,O;P
+Trades,SubTotal,,Equity and Index Options,USD,PM 15JAN27 190 P,,,-48,,,145920,-5.50912,-145914.49088,0,-13015.68,
+Trades,Total,,Equity and Index Options,USD,,,,,,,-38320,-70.28754,38390.28754,0,-39027.34, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

@@ -1,0 +1,23 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"March 21, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 01:45:57 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,DAX,"2025-03-21, 15:41:30",300,40.108333333,40.17,-12032.5,-1.12457175,12033.62457175,0,18.5,O;P
+Trades,SubTotal,,Stocks,USD,DAX,,,300,,,-12032.5,-1.12457175,12033.62457175,0,18.5,
+Trades,Data,Order,Stocks,USD,U18135473,IAUM,"2025-03-21, 15:40:28","1,700",30.122252941,30.13,-51207.83,-7.48877325,51215.31877325,0,13.17,O;P
+Trades,SubTotal,,Stocks,USD,IAUM,,,1700,,,-51207.83,-7.48877325,51215.31877325,0,13.17,
+Trades,Data,Order,Stocks,USD,U18135473,TIP,"2025-03-21, 15:42:33",900,110.145111111,110.1,-99130.6,-2.89041525,99133.49041525,0,-40.6,O;P
+Trades,SubTotal,,Stocks,USD,TIP,,,900,,,-99130.6,-2.89041525,99133.49041525,0,-40.6,
+Trades,Data,Order,Stocks,USD,U18135473,TLT,"2025-03-21, 15:45:17",300,90.701666667,90.7,-27210.5,-0.96525175,27211.46525175,0,-0.5,O;P
+Trades,SubTotal,,Stocks,USD,TLT,,,300,,,-27210.5,-0.96525175,27211.46525175,0,-0.5,
+Trades,Total,,Stocks,USD,,,,,,,-189581.43,-12.469012,189593.899012,0,-9.43, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,,Proceeds,Comm in USD,,,MTM in USD,Code
+Trades,Data,Order,Forex,JPY,U8251256,USD.JPY,"2025-03-20, 22:10:17",0.1064,148.785,,-15.830724,0,,,0.000375,
+Trades,SubTotal,,Forex,JPY,USD.JPY,,,0.1064,,,-15.830724,0,,,0.000375,
+Trades,Total,,Forex,JPY,,,,,,,-15.830724,0,,,0.000375, 
+Trades,Total,,Forex,USD,,,,,,,-0.106024691,0,,,0.000375, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

@@ -1,0 +1,575 @@
+Introduction,Header,Name,Account,Alias,BaseCurrency,AccountType,AnalysisPeriod,PerformanceMeasure
+Introduction,Data,Golden Horse Global Macro Discretionary Fund,U8251256,,USD,Separate Trading Limit,"February 3, 2025 to February 19, 2025 (Daily)",TWR
+Key Statistics,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Key Statistics,Header,BeginningNAV,EndingNAV,CumulativeReturn,5DayReturn,5DayReturnDateRange,10DayReturn,10DayReturnDateRange,BestReturn,BestReturnDate,WorstReturn,WorstReturnDate,MTM,Deposits & Withdrawals,Dividends,Interest,Fees & Commissions,Other,ChangeInNAV
+Key Statistics,Data,66302109.02544817,66632523.484422624,0.498346831,0.296580904,20250213 - 20250219,0.384661106,20250206 - 20250219,0.225987213,20250213,-0.002375159,20250211,138791.65,0,324.82,-472187.0256944,-3633.161035,667118.175703851,330414.458974451
+Historical Performance Benchmark Comparison,MetaInfo,Analysis Period,"March 22, 2018 - February 19, 2025"
+Historical Performance Benchmark Comparison,Header,Account,MTD,QTD,YTD,1 Year,3 Year,5 Year,Since Inception
+Historical Performance Benchmark Comparison,Data,SPXTR,1.800189581,4.635055321,4.635055321,24.408382238,47.963762251,97.14301974,154.385082923
+Historical Performance Benchmark Comparison,Data,EFA,3.066633014,8.014812855,8.014812855,10.747977477,18.467717922,37.306849813,43.637154852
+Historical Performance Benchmark Comparison,Data,VT,2.271413232,5.396663262,5.396663262,19.187542766,31.587658353,66.158812469,91.179861143
+Historical Performance Benchmark Comparison,Data,U8251256,0.498346821,7.117740495,7.117740495,52.184811745,43.782024425,-29.275158492,< -2000000
+Historical Performance Benchmark Comparison,Header,Month,BM1,BM1Return,BM2,BM2Return,BM3,BM3Return,Account,AccountReturn
+Historical Performance Benchmark Comparison,Data,202501,SPXTR,2.784735227,EFA,4.800952255,VT,3.055839292,U8251256,6.586569713
+Historical Performance Benchmark Comparison,Data,202502,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202503,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202504,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202505,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202506,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202507,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202508,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202509,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202510,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202511,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202512,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,202401,SPXTR,1.680411083,EFA,-0.451227605,VT,-0,U8251256,-13.043280056
+Historical Performance Benchmark Comparison,Data,202402,SPXTR,5.33958394,EFA,2.986268498,VT,4.49066874,U8251256,-0.645749828
+Historical Performance Benchmark Comparison,Data,202403,SPXTR,3.217469362,EFA,3.378640777,VT,3.191062404,U8251256,10.31103208
+Historical Performance Benchmark Comparison,Data,202404,SPXTR,-4.084504945,EFA,-3.243175557,VT,-3.583710407,U8251256,-17.763991929
+Historical Performance Benchmark Comparison,Data,202405,SPXTR,4.958517704,EFA,5.060178595,VT,4.599211564,U8251256,22.363101284
+Historical Performance Benchmark Comparison,Data,202406,SPXTR,3.58817542,EFA,-1.807607101,VT,1.587336699,U8251256,7.397797793
+Historical Performance Benchmark Comparison,Data,202407,SPXTR,1.217251819,EFA,2.591599643,VT,1.979934298,U8251256,0.079386436
+Historical Performance Benchmark Comparison,Data,202408,SPXTR,2.425637379,EFA,3.260328522,VT,2.333275292,U8251256,2.534542448
+Historical Performance Benchmark Comparison,Data,202409,SPXTR,2.135700069,EFA,0.783321282,VT,2.19820701,U8251256,5.721671369
+Historical Performance Benchmark Comparison,Data,202410,SPXTR,-0.906800168,EFA,-5.273227311,VT,-2.180451128,U8251256,4.061400202
+Historical Performance Benchmark Comparison,Data,202411,SPXTR,5.870059726,EFA,-0.315576875,VT,4.142112905,U8251256,13.110219254
+Historical Performance Benchmark Comparison,Data,202412,SPXTR,-2.383812664,EFA,-2.947885862,VT,-2.941840299,U8251256,-5.662999777
+Historical Performance Benchmark Comparison,Data,202301,SPXTR,6.283428018,EFA,9.003656307,VT,7.645898596,U8251256,17.152703997
+Historical Performance Benchmark Comparison,Data,202302,SPXTR,-2.439978463,EFA,-3.074772886,VT,-3.179564561,U8251256,-6.51015522
+Historical Performance Benchmark Comparison,Data,202303,SPXTR,3.67143093,EFA,3.129055516,VT,2.846829159,U8251256,7.820084036
+Historical Performance Benchmark Comparison,Data,202304,SPXTR,1.560891489,EFA,2.936241611,VT,1.422521446,U8251256,2.250874812
+Historical Performance Benchmark Comparison,Data,202305,SPXTR,0.43468278,EFA,-4.007063298,VT,-1.209850107,U8251256,5.045564995
+Historical Performance Benchmark Comparison,Data,202306,SPXTR,6.607554677,EFA,4.487244172,VT,5.815409179,U8251256,9.713233996
+Historical Performance Benchmark Comparison,Data,202307,SPXTR,3.212453986,EFA,2.703448276,VT,3.722416993,U8251256,3.767786692
+Historical Performance Benchmark Comparison,Data,202308,SPXTR,-1.592111704,EFA,-3.934998657,VT,-2.843224973,U8251256,-8.36982075
+Historical Performance Benchmark Comparison,Data,202309,SPXTR,-4.767819331,EFA,-3.648818677,VT,-4.254791036,U8251256,-10.573094598
+Historical Performance Benchmark Comparison,Data,202310,SPXTR,-2.102687001,EFA,-2.901915264,VT,-2.919081348,U8251256,-6.366372953
+Historical Performance Benchmark Comparison,Data,202311,SPXTR,9.132586047,EFA,8.218768679,VT,9.009506964,U8251256,18.087668016
+Historical Performance Benchmark Comparison,Data,202312,SPXTR,4.543061964,EFA,5.36389791,VT,5.154049372,U8251256,41.237514541
+Historical Performance Benchmark Comparison,Data,202201,SPXTR,-5.174682327,EFA,-3.634977123,VT,-4.579726333,U8251256,-15.860769446
+Historical Performance Benchmark Comparison,Data,202202,SPXTR,-2.99421748,EFA,-3.42917436,VT,-2.770461418,U8251256,-5.768206802
+Historical Performance Benchmark Comparison,Data,202203,SPXTR,3.713000892,EFA,0.518983884,VT,1.886300543,U8251256,2.063768473
+Historical Performance Benchmark Comparison,Data,202204,SPXTR,-8.720162562,EFA,-6.739130435,VT,-8.095567183,U8251256,-18.135394201
+Historical Performance Benchmark Comparison,Data,202205,SPXTR,0.183403954,EFA,1.995920746,VT,0.494145451,U8251256,-2.226562338
+Historical Performance Benchmark Comparison,Data,202206,SPXTR,-8.254367238,EFA,-8.724869642,VT,-8.135387423,U8251256,-13.935406872
+Historical Performance Benchmark Comparison,Data,202207,SPXTR,9.220447292,EFA,5.168827012,VT,6.983829388,U8251256,15.909445086
+Historical Performance Benchmark Comparison,Data,202208,SPXTR,-4.078135631,EFA,-6.116859404,VT,-4.052573932,U8251256,-12.427437631
+Historical Performance Benchmark Comparison,Data,202209,SPXTR,-9.209951256,EFA,-9.222042139,VT,-9.53196363,U8251256,-11.461498436
+Historical Performance Benchmark Comparison,Data,202210,SPXTR,8.096128705,EFA,5.891805035,VT,6.376774848,U8251256,4.708405787
+Historical Performance Benchmark Comparison,Data,202211,SPXTR,5.588475063,EFA,13.168099815,VT,8.282683828,U8251256,3.371484046
+Historical Performance Benchmark Comparison,Data,202212,SPXTR,-5.761465776,EFA,-1.817759999,VT,-4.432975978,U8251256,-16.396197542
+Historical Performance Benchmark Comparison,Data,202101,SPXTR,-1.009620651,EFA,-0.78125,VT,-0.226830849,U8251256,-0.175444373
+Historical Performance Benchmark Comparison,Data,202102,SPXTR,2.757449867,EFA,2.23787816,VT,2.674028364,U8251256,-7.532891569
+Historical Performance Benchmark Comparison,Data,202103,SPXTR,4.37955557,EFA,2.513173895,VT,2.849812586,U8251256,-3.565930062
+Historical Performance Benchmark Comparison,Data,202104,SPXTR,5.336906808,EFA,2.952418611,VT,4.131976565,U8251256,14.456255116
+Historical Performance Benchmark Comparison,Data,202105,SPXTR,0.698419942,EFA,3.482268596,VT,1.579311026,U8251256,1.381245166
+Historical Performance Benchmark Comparison,Data,202106,SPXTR,2.334539071,EFA,-1.081906136,VT,1.17512798,U8251256,1.994139339
+Historical Performance Benchmark Comparison,Data,202107,SPXTR,2.375435826,EFA,0.773326572,VT,0.617700994,U8251256,4.729317886
+Historical Performance Benchmark Comparison,Data,202108,SPXTR,3.040563788,EFA,1.446722858,VT,2.263788969,U8251256,7.972387806
+Historical Performance Benchmark Comparison,Data,202109,SPXTR,-4.650938456,EFA,-3.26140873,VT,-4.100823139,U8251256,-12.089135705
+Historical Performance Benchmark Comparison,Data,202110,SPXTR,7.006135747,EFA,3.179079605,VT,5.145831287,U8251256,15.850365828
+Historical Performance Benchmark Comparison,Data,202111,SPXTR,-0.692881677,EFA,-4.534724811,VT,-2.615111609,U8251256,0.423867869
+Historical Performance Benchmark Comparison,Data,202112,SPXTR,4.481640621,EFA,4.408873755,VT,3.813091871,U8251256,-1.92338001
+Historical Performance Benchmark Comparison,Data,202001,SPXTR,-0.039215267,EFA,-2.822580645,VT,-1.555747623,U8251256,-0.133336518
+Historical Performance Benchmark Comparison,Data,202002,SPXTR,-8.231872996,EFA,-7.765263782,VT,-7.22438229,U8251256,-68.987227366
+Historical Performance Benchmark Comparison,Data,202003,SPXTR,-12.351353105,EFA,-14.106683805,VT,-14.757098812,U8251256,-18.029591811
+Historical Performance Benchmark Comparison,Data,202004,SPXTR,12.819403325,EFA,5.817433595,VT,10.366242038,U8251256,-0.726687324
+Historical Performance Benchmark Comparison,Data,202005,SPXTR,4.76274585,EFA,5.42690472,VT,5.208483624,U8251256,-6.526991251
+Historical Performance Benchmark Comparison,Data,202006,SPXTR,1.98882111,EFA,3.504830576,VT,3.066893906,U8251256,-0.379110683
+Historical Performance Benchmark Comparison,Data,202007,SPXTR,5.638517114,EFA,1.938557582,VT,5.294117647,U8251256,1.374445332
+Historical Performance Benchmark Comparison,Data,202008,SPXTR,7.187982968,EFA,4.721998388,VT,6.005586592,U8251256,1.530048647
+Historical Performance Benchmark Comparison,Data,202009,SPXTR,-3.799719415,EFA,-2.046783626,VT,-2.925005953,U8251256,0.371077229
+Historical Performance Benchmark Comparison,Data,202010,SPXTR,-2.659264644,EFA,-3.550667714,VT,-2.046130952,U8251256,-4.619348577
+Historical Performance Benchmark Comparison,Data,202011,SPXTR,10.946362497,EFA,14.269424988,VT,12.36865426,U8251256,16.324321124
+Historical Performance Benchmark Comparison,Data,202012,SPXTR,3.844856706,EFA,5.015508303,VT,4.936550816,U8251256,3.93157722
+Historical Performance Benchmark Comparison,Data,201901,SPXTR,8.013490576,EFA,6.634909833,VT,7.989611977,U8251256,-5.738765425
+Historical Performance Benchmark Comparison,Data,201902,SPXTR,3.210844727,EFA,2.53669432,VT,2.815108219,U8251256,-193.738266973
+Historical Performance Benchmark Comparison,Data,201903,SPXTR,1.943133165,EFA,0.918002178,VT,1.06481853,U8251256,21.373603441
+Historical Performance Benchmark Comparison,Data,201904,SPXTR,4.048929642,EFA,2.929386371,VT,3.471368047,U8251256,23.897183728
+Historical Performance Benchmark Comparison,Data,201905,SPXTR,-6.354802751,EFA,-5.032953865,VT,-5.970149254,U8251256,0.848185471
+Historical Performance Benchmark Comparison,Data,201906,SPXTR,7.047671159,EFA,5.910229429,VT,6.368666322,U8251256,0.755986999
+Historical Performance Benchmark Comparison,Data,201907,SPXTR,1.437312233,EFA,-1.947360414,VT,0,U8251256,-0.451410172
+Historical Performance Benchmark Comparison,Data,201908,SPXTR,-1.584136609,EFA,-1.923972071,VT,-2.102182012,U8251256,-7118.630263027
+Historical Performance Benchmark Comparison,Data,201909,SPXTR,1.871069796,EFA,3.16405632,VT,2.276083032,U8251256,-185.475119476
+Historical Performance Benchmark Comparison,Data,201910,SPXTR,2.165899154,EFA,3.389050759,VT,2.793370756,U8251256,-7.990707231
+Historical Performance Benchmark Comparison,Data,201911,SPXTR,3.629903905,EFA,1.12726194,VT,2.561435444,U8251256,3.190902539
+Historical Performance Benchmark Comparison,Data,201912,SPXTR,3.018284823,EFA,2.982980628,VT,3.451526318,U8251256,-8.191300608
+Historical Performance Benchmark Comparison,Data,201801,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,201802,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,201803,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,201804,SPXTR,0.383709085,EFA,1.521239954,VT,0.421024039,U8251256,-6.51496234
+Historical Performance Benchmark Comparison,Data,201805,SPXTR,2.408223314,EFA,-1.894260673,VT,0.568028131,U8251256,8.66924676
+Historical Performance Benchmark Comparison,Data,201806,SPXTR,0.615445366,EFA,-1.566973525,VT,-0.599611694,U8251256,-0.841013687
+Historical Performance Benchmark Comparison,Data,201807,SPXTR,3.721478724,EFA,2.852023294,VT,2.87583481,U8251256,-0.683938802
+Historical Performance Benchmark Comparison,Data,201808,SPXTR,3.258401862,EFA,-2.235772358,VT,0.861155273,U8251256,-32.225149888
+Historical Performance Benchmark Comparison,Data,201809,SPXTR,0.569204998,EFA,0.965250965,VT,0.079409222,U8251256,-0.006173243
+Historical Performance Benchmark Comparison,Data,201810,SPXTR,-6.835004216,EFA,-8.133549051,VT,-7.820123961,U8251256,-0.112637554
+Historical Performance Benchmark Comparison,Data,201811,SPXTR,2.037809922,EFA,0.496317643,VT,1.731044349,U8251256,288321.991821147
+Historical Performance Benchmark Comparison,Data,201812,SPXTR,-9.028985692,EFA,-5.350586032,VT,-7.223237362,U8251256,27.836542627
+Historical Performance Benchmark Comparison,Header,Quarter,BM1,BM1Return,BM2,BM2Return,BM3,BM3Return,Account,AccountReturn
+Historical Performance Benchmark Comparison,Data,2025 Q1,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,2025 Q2,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,2025 Q3,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,2025 Q4,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,2024 Q1,SPXTR,10.555944472,EFA,5.98540146,VT,7.825031186,U8251256,-4.696566439
+Historical Performance Benchmark Comparison,Data,2024 Q2,SPXTR,4.283751225,EFA,-0.184592342,VT,2.451518568,U8251256,8.070677052
+Historical Performance Benchmark Comparison,Data,2024 Q3,SPXTR,5.886547159,EFA,6.766245372,VT,6.653442705,U8251256,8.487287881
+Historical Performance Benchmark Comparison,Data,2024 Q4,SPXTR,2.409171269,EFA,-8.355787953,VT,-1.125547252,U8251256,11.038496257
+Historical Performance Benchmark Comparison,Data,2023 Q1,SPXTR,7.497046962,EFA,8.957952468,VT,7.190284991,U8251256,18.090897066
+Historical Performance Benchmark Comparison,Data,2023 Q2,SPXTR,8.742220852,EFA,3.245435481,VT,6.022236996,U8251256,17.842994683
+Historical Performance Benchmark Comparison,Data,2023 Q3,SPXTR,-3.273439355,EFA,-4.937931034,VT,-3.514340358,U8251256,-14.970565242
+Historical Performance Benchmark Comparison,Data,2023 Q4,SPXTR,11.691579951,EFA,10.714647224,VT,11.281828811,U8251256,56.165990264
+Historical Performance Benchmark Comparison,Data,2022 Q1,SPXTR,-4.598516026,EFA,-6.456532791,VT,-5.473260959,U8251256,-19.077816739
+Historical Performance Benchmark Comparison,Data,2022 Q2,SPXTR,-16.101143432,EFA,-13.177012549,VT,-15.155153455,U8251256,-31.112316659
+Historical Performance Benchmark Comparison,Data,2022 Q3,SPXTR,-4.882634864,EFA,-10.369659145,VT,-7.136161401,U8251256,-10.129108122
+Historical Performance Benchmark Comparison,Data,2022 Q4,SPXTR,7.561086604,EFA,17.657417405,VT,10.081386951,U8251256,-9.508387097
+Historical Performance Benchmark Comparison,Data,2021 Q1,SPXTR,6.174872895,EFA,3.988486842,VT,5.360512266,U8251256,-10.986647375
+Historical Performance Benchmark Comparison,Data,2021 Q2,SPXTR,8.54890708,EFA,5.384862621,VT,7.019554121,U8251256,18.351119594
+Historical Performance Benchmark Comparison,Data,2021 Q3,SPXTR,0.582033775,EFA,-1.102941176,VT,-1.324087973,U8251256,-0.591497713
+Historical Performance Benchmark Comparison,Data,2021 Q4,SPXTR,11.027112241,EFA,2.842941409,VT,6.300609736,U8251256,14.103730722
+Historical Performance Benchmark Comparison,Data,2020 Q1,SPXTR,-19.598020621,EFA,-23.012672811,VT,-22.145729091,U8251256,-74.612599553
+Historical Performance Benchmark Comparison,Data,2020 Q2,SPXTR,20.543346239,EFA,15.470035457,VT,19.675762797,U8251256,-7.558038785
+Historical Performance Benchmark Comparison,Data,2020 Q3,SPXTR,8.929305206,EFA,4.567110235,VT,8.352824238,U8251256,3.307456842
+Historical Performance Benchmark Comparison,Data,2020 Q4,SPXTR,12.14829675,EFA,15.739794304,VT,15.503078502,U8251256,15.313015375
+Historical Performance Benchmark Comparison,Data,2019 Q1,SPXTR,13.647872686,EFA,10.343654304,VT,12.211900562,U8251256,-207.244317435
+Historical Performance Benchmark Comparison,Data,2019 Q2,SPXTR,4.303852441,EFA,3.526187879,VT,3.490301428,U8251256,25.89265274
+Historical Performance Benchmark Comparison,Data,2019 Q3,SPXTR,1.69830322,EFA,-0.791115168,VT,0.126053612,U8251256,5872.101682373
+Historical Performance Benchmark Comparison,Data,2019 Q4,SPXTR,9.070014762,EFA,7.673357141,VT,9.065175033,U8251256,-12.832028725
+Historical Performance Benchmark Comparison,Data,2018 Q1,SPXTR,-,EFA,-,VT,-,U8251256,-
+Historical Performance Benchmark Comparison,Data,2018 Q2,SPXTR,3.433858026,EFA,-1.962513815,VT,0.385887199,U8251256,0.735104775
+Historical Performance Benchmark Comparison,Data,2018 Q3,SPXTR,7.710766367,EFA,1.523070031,VT,3.844151889,U8251256,-32.692843677
+Historical Performance Benchmark Comparison,Data,2018 Q4,SPXTR,-13.519750426,EFA,-12.617389105,VT,-12.998080032,U8251256,368193.398055844
+Historical Performance Benchmark Comparison,Header,Year,BM1,BM1Return,BM2,BM2Return,BM3,BM3Return,Account,AccountReturn
+Historical Performance Benchmark Comparison,Data,YTD,SPXTR,4.635055321,EFA,8.014812855,VT,5.396663262,U8251256,7.117740495
+Historical Performance Benchmark Comparison,Data,2024,SPXTR,25.019679836,EFA,3.510080369,VT,16.492231338,U8251256,24.070588942
+Historical Performance Benchmark Comparison,Data,2023,SPXTR,26.287658871,EFA,18.39739215,VT,22.022358083,U8251256,84.788927
+Historical Performance Benchmark Comparison,Data,2022,SPXTR,-18.11088748,EFA,-14.350950515,VT,-18.013816767,U8251256,-54.664693941
+Historical Performance Benchmark Comparison,Data,2021,SPXTR,28.705368362,EFA,11.460595192,VT,18.273627086,U8251256,19.495322139
+Historical Performance Benchmark Comparison,Data,2020,SPXTR,18.398826899,EFA,7.588624171,VT,16.606414531,U8251256,-72.042561161
+Historical Performance Benchmark Comparison,Data,2019,SPXTR,31.486370987,EFA,22.027132795,VT,26.815334006,U8251256,-7128.437807914
+Open Position Summary,MetaInfo,Analysis Period,"February 19, 2025"
+Open Position Summary,Header,Date,FinancialInstrument,Currency,Symbol,Description,Sector,Quantity,ClosePrice,Value,Cost Basis,UnrealizedP&L,FXRateToBase
+Open Position Summary,Data,02/19/2025,ETFs,USD,SGOV,ISHARES 0-3 MONTH TREASURY B,Government,625000,100.52,62825000,62715754.211603,109245.788397,1
+Open Position Summary,Data,Total,ETFs,USD,,,,,,62825000,62715754.211603,109245.788397
+Open Position Summary,Data,02/19/2025,Options,USD,NVDA  260116C00110000,NVDA 16JAN26 110 C,Technology,10,43.65,43650,30856.9525,12793.0475,1
+Open Position Summary,Data,Total,Options,USD,,,,,,43650,30856.9525,12793.0475
+Open Position Summary,Data,02/19/2025,Cash,EUR,EUR,Euro,Cash,-2.627642,1.0423,-2.738791257, , ,1.0423
+Open Position Summary,Data,02/19/2025,Cash,HKD,HKD,Hong Kong Dollar,Cash,23878134.074824,0.12858,3070250.47934087, , ,0.12858
+Open Position Summary,Data,02/19/2025,Cash,JPY,JPY,Japanese Yen,Cash,8325358.13586,0.0066018,54962.349341321, , ,0.0066018
+Open Position Summary,Data,02/19/2025,Cash,SGD,SGD,Singapore Dollar,Cash,53124.666658,0.7447,39561.939260213, , ,0.7447
+Open Position Summary,Data,02/19/2025,Cash,USD,USD,United States Dollar,Cash,599101.455456,1,599101.455456, , ,1
+Open Position Summary,Data,Total,Cash,USD,,,,,,3763873.484607146, , 
+Concentration,MetaInfo,Analysis Period,"February 19, 2025"
+Concentration,Header,SubSection,Symbol,Description,Sector,LongValue,ShortValue,NetValue,LongParsedWeight,ShortParsedWeight,NetParsedWeight
+Concentration,Data,Holdings,B 02/18/25,B 02/18/25,Unclassified,7600772.17651395,0,7600772.17651395,10.329519313,-0,11.407000334
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,7600772.17651395,0,7600772.17651395,,,11.407000334
+Concentration,Data,Holdings,B 02/11/25,B 02/11/25,Unclassified,7484420.04381015,0,7484420.04381015,10.171395695,-0,11.232382705
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,7484420.04381015,0,7484420.04381015,,,11.232382705
+Concentration,Data,Holdings,B 03/18/25,B 03/18/25,Unclassified,7481844.2136585,0,7481844.2136585,10.167895118,-0,11.22851698
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,7481844.2136585,0,7481844.2136585,,,11.22851698
+Concentration,Data,Holdings,B 03/11/25,B 03/11/25,Unclassified,7479519.68400945,0,7479519.68400945,10.164736061,-0,11.225028399
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,7479519.68400945,0,7479519.68400945,,,11.225028399
+Concentration,Data,Holdings,B 02/04/25,B 02/04/25,Unclassified,6769847.06466705,0,6769847.06466705,9.200284442,-0,10.159974005
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,6769847.06466705,0,6769847.06466705,,,10.159974005
+Concentration,Data,Holdings,B 03/04/25,B 03/04/25,Unclassified,6577727.83042935,0,6577727.83042935,8.939192635,-0,9.871647488
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,6577727.83042935,0,6577727.83042935,,,9.871647488
+Concentration,Data,Holdings,Other Assets less Liabilities,Other Assets less Liabilities,Unclassified,0,-6188777.477530201,-6188777.477530201,0,89.040807414,-9.287923005
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,0,-6188777.477530201,-6188777.477530201,,,-9.287923005
+Concentration,Data,Holdings,Unknown United States of America (Government) 0% 01-APR-2025,United States of America (Government) 0% 01-APR-2025,Unclassified,5990941.15685835,0,5990941.15685835,8.141744148,-0,8.991016464
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,5990941.15685835,0,5990941.15685835,,,8.991016464
+Concentration,Data,Holdings,CASH,Cash,Cash,3772004.31013043,-761718.207879552,3010286.102250878,5.126188559,10.959192586,4.517742905
+Concentration,Data,Holdings,    Self,Cash,Cash,3772004.31013043,-8130.825707802,3763873.484422628,,,5.648703197
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,0,-753587.38217175,-753587.38217175,,,-1.130960292
+Concentration,Data,Holdings,B 04/03/25,B 04/03/25,Unclassified,2716181.4823521,0,2716181.4823521,3.691315623,-0,4.076359922
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,2716181.4823521,0,2716181.4823521,,,4.076359922
+Concentration,Data,Holdings,B 02/25/25,B 02/25/25,Unclassified,2204345.18368155,0,2204345.18368155,2.995725384,-0,3.308212069
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,2204345.18368155,0,2204345.18368155,,,3.308212069
+Concentration,Data,Holdings,B 03/06/25,B 03/06/25,Unclassified,2089061.0781138,0,2089061.0781138,2.839053224,-0,3.135197301
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,2089061.0781138,0,2089061.0781138,,,3.135197301
+Concentration,Data,Holdings,United States of America (Government) 0% 13-FEB-2025,United States of America (Government) 0% 13-FEB-2025,Unclassified,2022654.92030175,0,2022654.92030175,2.748806645,-0,3.035537024
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,2022654.92030175,0,2022654.92030175,,,3.035537024
+Concentration,Data,Holdings,B 03/25/25,B 03/25/25,Unclassified,1946573.6931396,0,1946573.6931396,2.645411557,-0,2.921356706
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,1946573.6931396,0,1946573.6931396,,,2.921356706
+Concentration,Data,Holdings,B 05/01/25,B 05/01/25,Unclassified,1735983.8719608,0,1735983.8719608,2.359218053,-0,2.605310112
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,1735983.8719608,0,1735983.8719608,,,2.605310112
+Concentration,Data,Holdings,B 02/20/25,B 02/20/25,Unclassified,1695398.8407909,0,1695398.8407909,2.304062622,-0,2.544401371
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,1695398.8407909,0,1695398.8407909,,,2.544401371
+Concentration,Data,Holdings,B 04/24/25,B 04/24/25,Unclassified,1555550.111094,0,1555550.111094,2.114006912,-0,2.334520786
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,1555550.111094,0,1555550.111094,,,2.334520786
+Concentration,Data,Holdings,United States of America (Government) 0% 13-MAR-2025,United States of America (Government) 0% 13-MAR-2025,Unclassified,1381398.8627922,0,1381398.8627922,1.877333763,-0,2.073160058
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,1381398.8627922,0,1381398.8627922,,,2.073160058
+Concentration,Data,Holdings,B 02/06/25,B 02/06/25,Unclassified,1350426.07584675,0,1350426.07584675,1.835241461,-0,2.026677072
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,1350426.07584675,0,1350426.07584675,,,2.026677072
+Concentration,Data,Holdings,B 03/27/25,B 03/27/25,Unclassified,848076.37114935,0,848076.37114935,1.152543591,-0,1.272766401
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,848076.37114935,0,848076.37114935,,,1.272766401
+Concentration,Data,Holdings,US0669224778,BlackRock Cash Funds: Treasury;SL Agency,Unclassified,836642.19828105,0,836642.19828105,1.137004444,-0,1.255606353
+Concentration,Data,Holdings,    SGOV,ISHARES 0-3 MONTH TREASURY B,Government,836642.19828105,0,836642.19828105,,,1.255606353
+Concentration,Data,Holdings,NVDA  260116C00110000,NVDA 16JAN26 110 C,Technology,43650,0,43650,0.059320752,-0,0.06550855
+Concentration,Data,Holdings,Total,,,73583019.16958109,-6950495.685409753,66632523.48417133,100,100,100
+Concentration,Header,SubSection,AssetClass,LongWeight,LongParsedWeight,+/-,ShortWeight,ShortParsedWeight,+/-
+Concentration,Data,Asset Class Allocation,Fixed Income,94.274284444,85.535742097,-8.738542347,-0,-0,0
+Concentration,Data,Asset Class Allocation,Cash,5.660214998,5.126188559,-0.534026439,100,10.959192586,-89.040807414
+Concentration,Data,Asset Class Allocation,Equities,0.065500557,1.196325196,1.130824639,-0,-0,0
+Concentration,Data,Asset Class Allocation,Other Assets,0,8.141744148,8.141744148,-0,89.040807414,89.040807414
+Concentration,Data,Asset Class Allocation,Total,100,100,0,100,100,0
+Concentration,Header,SubSection,Sector,LongWeight,LongParsedWeight,+/-,ShortWeight,ShortParsedWeight,+/-
+Concentration,Data,Sector Allocation,Unclassified,0,94.814490689,94.814490689,-0,89.040807414,89.040807414
+Concentration,Data,Sector Allocation,Cash,5.660214998,5.126188559,-0.534026439,100,10.959192586,-89.040807414
+Concentration,Data,Sector Allocation,Technology,0.065500557,0.059320752,-0.006179806,-0,-0,0
+Concentration,Data,Sector Allocation,Government,94.274284444,0,-94.274284444,-0,-0,0
+Concentration,Data,Sector Allocation,Total,100,100,0,100,100,0
+Concentration,Header,SubSection,Region,LongWeight,LongParsedWeight,+/-,ShortWeight,ShortParsedWeight,+/-
+Concentration,Data,Region Allocation,North America,95.241132428,82.922234546,-12.318897882,19.215356525,10.864689132,-8.350667394
+Concentration,Data,Region Allocation,Not Available,0,12.767884555,12.767884555,-0,89.040807414,89.040807414
+Concentration,Data,Region Allocation,Asia,4.758847423,4.309862651,-0.448984773,80.585818587,0.094270866,-80.491547722
+Concentration,Data,Region Allocation,Europe,0.000020149,0.000018248,-0.000001901,0.198824887,0.000232589,-0.198592298
+Concentration,Data,Region Allocation,Total,100,100,0,100,100,0
+Concentration,Header,SubSection,Country,LongWeight,LongParsedWeight,+/-,ShortWeight,ShortParsedWeight,+/-
+Concentration,Data,Country Allocation,United States,95.241132428,82.922234546,-12.318897882,19.215354223,10.864689129,-8.350665094
+Concentration,Data,Country Allocation,Not Available,0,12.767884555,12.767884555,-0,89.040807414,89.040807414
+Concentration,Data,Country Allocation,Hong Kong,4.617002792,4.181400689,-0.435602104,80.562433972,0.09424351,-80.468190462
+Concentration,Data,Country Allocation,Japan,0.082478558,0.074696922,-0.007781636,0.023384075,0.000027355,-0.02335672
+Concentration,Data,Country Allocation,Singapore,0.059366073,0.053765039,-0.005601033,0.00000054,0.000000001,-0.00000054
+Concentration,Data,Country Allocation,Eurozone,0.000020149,0.000018248,-0.000001901,0.198824493,0.000232589,-0.198591904
+Concentration,Data,Country Allocation,Mexico,0,0,0,0.000002302,0.000000003,-0.0000023
+Concentration,Data,Country Allocation,Switzerland,0,0,0,0.000000394,0,-0.000000394
+Concentration,Data,Country Allocation,Sweden,0,0,-0,-0,-0,0
+Concentration,Data,Country Allocation,Canada,0,0,-0,-0,-0,0
+Concentration,Data,Country Allocation,Total,100,100,0,100,100,0
+Concentration,Header,SubSection,FinancialInstrument,LongWeight,LongParsedWeight,+/-,ShortWeight,ShortParsedWeight,+/-
+Concentration,Data,Financial Instrument Allocation,Treasury Bills,0,80.90960169,80.90960169,-0,-0,0
+Concentration,Data,Financial Instrument Allocation,Bonds,0,4.626140408,4.626140408,-0,-0,0
+Concentration,Data,Financial Instrument Allocation,Cash,5.660214998,5.126188559,-0.534026439,100,10.959192586,-89.040807414
+Concentration,Data,Financial Instrument Allocation,Stocks,0,1.137004444,1.137004444,-0,-0,0
+Concentration,Data,Financial Instrument Allocation,Unclassified,0,8.141744148,8.141744148,-0,89.040807414,89.040807414
+Concentration,Data,Financial Instrument Allocation,Options,0.065500557,0.059320752,-0.006179806,-0,-0,0
+Concentration,Data,Financial Instrument Allocation,ETFs,94.274284444,0,-94.274284444,-0,-0,0
+Concentration,Data,Financial Instrument Allocation,Total,100,100,0,100,100,0
+Concentration,Header,SubSection,Type,LongAmount,LongPercent,ShortAmount,ShortPercent,GrossAmount,GrossPercent,NetAmount,NetPercent
+Concentration,Data,Exposure,Unparsed,62868649.99999999,94.351296803,0,0,62868649.99999999,94.351296803,62868649.99999999,94.351296803
+Concentration,Data,Exposure,Parsed,69811014.85945065,104.7701801,-6188777.4775302,-9.287923005,75999792.33698085,114.058103105,63622237.38192046,95.482257095
+ESG,MetaInfo,Analysis Period,"February 19, 2025"
+ESG,Header,SubSection,Category,Score
+ESG,Data,RatingsSummary,ESG,7
+ESG,Data,RatingsSummary,Controversies,1
+ESG,Data,RatingsSummary,Combined,4
+ESG,Data,RatingsSummary,Environmental,7
+ESG,Data,RatingsSummary,Resource Use,9
+ESG,Data,RatingsSummary,Emissions,8
+ESG,Data,RatingsSummary,Environmental Innovation,3
+ESG,Data,RatingsSummary,Social,8
+ESG,Data,RatingsSummary,Workforce,9
+ESG,Data,RatingsSummary,Human Rights,5
+ESG,Data,RatingsSummary,Community,8
+ESG,Data,RatingsSummary,Product Responsibility,7
+ESG,Data,RatingsSummary,Governance,9
+ESG,Data,RatingsSummary,Management,9
+ESG,Data,RatingsSummary,Shareholders,8
+ESG,Data,RatingsSummary,CSR Strategy,9
+ESG,Data,RatingsSummary,Coverage Ratio,6.25
+ESG,Header,SubSection,Symbol,Description,Weight (%),ESG,Controversies,Combined,Environmental,Social,Governance
+ESG,Data,HoldingsAnalysis,NVDA,NVIDIA CORP,0.073263605,7,1,4,7,8,9
+Allocation by Asset Class,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Allocation by Asset Class,Header,Date,Equities,Fixed Income,Cash,NAV
+Allocation by Asset Class,Data,20250203,137182.45,63394812,2772396.914335541,66304391.36433554
+Allocation by Asset Class,Data,20250204,142796.05,63407448,2779591.785580127,66329835.835580125
+Allocation by Asset Class,Data,20250205,155823.8,63407448,2813924.427409018,66377196.22740902
+Allocation by Asset Class,Data,20250206,161300.3,63420084,2814535.516761473,66395919.81676147
+Allocation by Asset Class,Data,20250207,163067.9,63439038,2813009.866527504,66415115.766527504
+Allocation by Asset Class,Data,20250210,39903.4,62768750,3623107.601984909,66431761.0019849
+Allocation by Asset Class,Data,20250211,39382.6,62768750,3622050.541765644,66430183.14176565
+Allocation by Asset Class,Data,20250212,38093.6,62775000,3622394.912263674,66435488.51226368
+Allocation by Asset Class,Data,20250213,41151.9,62787500,3756972.320875685,66585624.22087568
+Allocation by Asset Class,Data,20250214,43559.5,62812500,3759143.569839685,66615203.069839686
+Allocation by Asset Class,Data,20250217,43559.5,62812500,3761049.394644677,66617108.89464468
+Allocation by Asset Class,Data,20250218,44024.5,62825000,3764333.85096109,66633358.35096109
+Allocation by Asset Class,Data,20250219,43650,62825000,3763873.484422628,66632523.48442263
+Allocation by Financial Instrument,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Allocation by Financial Instrument,Header,Date,ETFs,Options,Stocks,Cash,NAV
+Allocation by Financial Instrument,Data,20250203,63394812,20522.45,116660,2772396.914335541,66304391.36433554
+Allocation by Financial Instrument,Data,20250204,63407448,24146.05,118650,2779591.785580127,66329835.835580125
+Allocation by Financial Instrument,Data,20250205,63407448,30993.8,124830,2813924.427409018,66377196.22740902
+Allocation by Financial Instrument,Data,20250206,63420084,32620.3,128680,2814535.516761473,66395919.81676147
+Allocation by Financial Instrument,Data,20250207,63439038,33227.9,129840,2813009.866527504,66415115.766527504
+Allocation by Financial Instrument,Data,20250210,62768750,39903.4,0,3623107.601984909,66431761.0019849
+Allocation by Financial Instrument,Data,20250211,62768750,39382.6,0,3622050.541765644,66430183.14176565
+Allocation by Financial Instrument,Data,20250212,62775000,38093.6,0,3622394.912263674,66435488.51226368
+Allocation by Financial Instrument,Data,20250213,62787500,41151.9,0,3756972.320875685,66585624.22087568
+Allocation by Financial Instrument,Data,20250214,62812500,43559.5,0,3759143.569839685,66615203.069839686
+Allocation by Financial Instrument,Data,20250217,62812500,43559.5,0,3761049.394644677,66617108.89464468
+Allocation by Financial Instrument,Data,20250218,62825000,44024.5,0,3764333.85096109,66633358.35096109
+Allocation by Financial Instrument,Data,20250219,62825000,43650,0,3763873.484422628,66632523.48442263
+Allocation and Performance by Region,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Allocation and Performance by Region,Header,Allocation by Region,Ending NAV,Ending %,MTD NAV,MTD %
+Allocation and Performance by Region,Data,Asia,3164774.767942403,4.7495946460473855,9975.300245437305,-0.008460443187474631
+Allocation and Performance by Region,Data,China,0.0,0.0,0.0,0.0
+Allocation and Performance by Region,Data,Hong Kong,3070250.47934087,4.607735560335839,8305.394725054502,-0.010276944734534388
+Allocation and Performance by Region,Data,Japan,54962.34934132054,0.08248576891158814,1167.1302134611542,0.0013520490765618078
+Allocation and Performance by Region,Data,Singapore,39561.9392602126,0.05937331679995792,502.77530692200526,4.644524704979381E-4
+Allocation and Performance by Region,Data,Europe,-2.7387920791399996,-4.11029319605504E-6,-0.021020369289999508,-1.136150551868401E-8
+Allocation and Performance by Region,Data,Eurozone,-2.7387912566,-4.1102919616128235E-6,-0.021021135999999885,-1.1362667976533118E-8
+Allocation and Performance by Region,Data,Sweden,3.1234060000000004E-5,4.687509697468071E-11,9.66810000000003E-7,1.226159736595371E-12
+Allocation and Performance by Region,Data,Switzerland,-3.20566E-5,-4.8109539191464376E-11,-2.000999999999983E-7,-6.370188794107316E-14
+Allocation and Performance by Region,Data,North America,6.34677514552723E7,95.25040946424582,318156.84086202085,0.00846045454897526
+Allocation and Performance by Region,Data,Canada,3.5121500000000003E-6,5.2709244920328925E-12,4.6499999999999894E-8,4.404595701003874E-14
+Allocation and Performance by Region,Data,Mexico,-1.8720833999999998E-4,-2.809564011841239E-10,9.723120000000173E-7,2.8568548127036224E-12
+Allocation and Performance by Region,Data,United States,6.3467751455456E7,95.25040946452152,318156.8408610076,0.008460454546099783
+Allocation and Performance by Region,Data,Total,6.663252348442262E7,100.0,328132.12008708715,0.4948874627082267
+Allocation and Performance by Region,Header,Performance by Region,MTD MTM,MTD %
+Allocation and Performance by Region,Data,Asia,0.0,0.004819877922024318
+Allocation and Performance by Region,Data,China,0.0,0.0
+Allocation and Performance by Region,Data,Hong Kong,0.0,0.0020838528798305944
+Allocation and Performance by Region,Data,Japan,0.0,0.0019864330970564836
+Allocation and Performance by Region,Data,Singapore,0.0,7.495170402993523E-4
+Allocation and Performance by Region,Data,Europe,0.0,-1.8046990568620913E-7
+Allocation and Performance by Region,Data,Eurozone,0.0,-1.8047109362484548E-7
+Allocation and Performance by Region,Data,Sweden,0.0,1.5765166949677223E-12
+Allocation and Performance by Region,Data,Switzerland,0.0,-3.3306690738754696E-13
+Allocation and Performance by Region,Data,North America,138791.65,0.4935119356094697
+Allocation and Performance by Region,Data,Canada,0.0,8.881784197001252E-14
+Allocation and Performance by Region,Data,Mexico,0.0,-3.197442310920451E-12
+Allocation and Performance by Region,Data,United States,138791.65,0.4935119356125339
+Allocation and Performance by Region,Data,Total,138791.65,0.4983468306380079
+Allocation and Performance by Sector,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Allocation and Performance by Sector,Header,Allocation by Sector,Ending NAV,Ending %,MTD NAV,MTD %
+Allocation and Performance by Sector,Data,Broad,0.0,0.0,0.0,0.0
+Allocation and Performance by Sector,Data,Government,6.2825E7,94.28578825277008,-569812.0,-1.3259965710318622
+Allocation and Performance by Sector,Data,Industrial,0.0,0.0,0.0,0.0
+Allocation and Performance by Sector,Data,Technology,43650.0,0.0655085500554463,-93532.44999999998,-0.14138943539803162
+Allocation and Performance by Sector,Data,Total Sector,6.286865E7,94.35129680282553,-663344.4499999955,-1.4673860064298827
+Allocation and Performance by Sector,Data,Cash,3763873.4844226274,5.6487031971744965,991476.5700870869,1.4673860064298945
+Allocation and Performance by Sector,Data,Total,6.663252348442262E7,100.0,328132.12008708715,0.4948874627082267
+Allocation and Performance by Sector,Header,Performance by Sector,MTD MTM,MTD %
+Allocation and Performance by Sector,Data,Broad,0.0,0.0
+Allocation and Performance by Sector,Data,Government,113191.7,0.16525064052623772
+Allocation and Performance by Sector,Data,Industrial,0.0,0.0
+Allocation and Performance by Sector,Data,Technology,25599.949999999997,0.03855507082486387
+Allocation and Performance by Sector,Data,Total Sector,138791.65,0.2038618992357133
+Allocation and Performance by Sector,Data,Cash,0.0,0.2939458487780877
+Allocation and Performance by Sector,Data,Total,138791.65,0.4983468306380079
+Time Period Benchmark Comparison,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Time Period Benchmark Comparison,Header,Date,BM1,BM1Return,BM2,BM2Return,BM3,BM3Return,U8251256,U8251256Return
+Time Period Benchmark Comparison,Data,02/03/25,SPXTR,-0.754782095,EFA,-1.173649672,VT,-0.784670026,U8251256,0.003442332
+Time Period Benchmark Comparison,Data,02/04/25,SPXTR,0.72309226,EFA,1.16204827,VT,0.932400932,U8251256,0.038375243
+Time Period Benchmark Comparison,Data,02/05/25,SPXTR,0.391815444,EFA,0.971976774,VT,0.527878588,U8251256,0.07140134
+Time Period Benchmark Comparison,Data,02/06/25,SPXTR,0.364382288,EFA,0.475059382,VT,0.328191664,U8251256,0.028207864
+Time Period Benchmark Comparison,Data,02/07/25,SPXTR,-0.939779875,EFA,-0.945626478,VT,-0.809617272,U8251256,0.028911339
+Time Period Benchmark Comparison,Data,02/10/25,SPXTR,0.685806723,EFA,0.678306745,VT,0.659576222,U8251256,0.02506242
+Time Period Benchmark Comparison,Data,02/11/25,SPXTR,0.036378229,EFA,0.474111042,VT,0.057334753,U8251256,-0.002375159
+Time Period Benchmark Comparison,Data,02/12/25,SPXTR,-0.261678039,EFA,0.372531976,VT,-0.098231827,U8251256,0.007986385
+Time Period Benchmark Comparison,Data,02/13/25,SPXTR,1.043669796,EFA,1.212421131,VT,1.081612586,U8251256,0.225987213
+Time Period Benchmark Comparison,Data,02/14/25,SPXTR,0.016144716,EFA,0.146681335,VT,0.10538262,U8251256,0.044422275
+Time Period Benchmark Comparison,Data,02/17/25,SPXTR,0,EFA,0,VT,0,U8251256,0.002860946
+Time Period Benchmark Comparison,Data,02/18/25,SPXTR,0.259761513,EFA,0.720126938,VT,0.388695441,U8251256,0.024392317
+Time Period Benchmark Comparison,Data,02/19/25,SPXTR,0.239426859,EFA,-1.03005332,VT,-0.120997015,U8251256,-0.001252926
+Cumulative Benchmark Comparison,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Cumulative Benchmark Comparison,Header,Date,BM1,BM1Return,BM2,BM2Return,BM3,BM3Return,U8251256,U8251256Return
+Cumulative Benchmark Comparison,Data,02/03/25,SPXTR,-0.754782095,EFA,-1.173649672,VT,-0.784670026,U8251256,0.003442332
+Cumulative Benchmark Comparison,Data,02/04/25,SPXTR,-0.037147606,EFA,-0.025239778,VT,0.140414636,U8251256,0.041818896
+Cumulative Benchmark Comparison,Data,02/05/25,SPXTR,0.354522288,EFA,0.946491671,VT,0.669034443,U8251256,0.113250096
+Cumulative Benchmark Comparison,Data,02/06/25,SPXTR,0.720196393,EFA,1.426047451,VT,0.999421822,U8251256,0.141489905
+Cumulative Benchmark Comparison,Data,02/07/25,SPXTR,-0.226351743,EFA,0.466935891,VT,0.181713059,U8251256,0.170442151
+Cumulative Benchmark Comparison,Data,02/10/25,SPXTR,0.457902645,EFA,1.148409894,VT,0.842487817,U8251256,0.195547289
+Cumulative Benchmark Comparison,Data,02/11/25,SPXTR,0.49444745,EFA,1.627965674,VT,0.900305608,U8251256,0.193167485
+Cumulative Benchmark Comparison,Data,02/12/25,SPXTR,0.231475551,EFA,2.006562342,VT,0.801189395,U8251256,0.201169297
+Cumulative Benchmark Comparison,Data,02/13/25,SPXTR,1.277561188,EFA,3.243311459,VT,1.891467746,U8251256,0.427611127
+Cumulative Benchmark Comparison,Data,02/14/25,SPXTR,1.293912163,EFA,3.394750126,VT,1.998843644,U8251256,0.472223356
+Cumulative Benchmark Comparison,Data,02/17/25,SPXTR,1.293912163,EFA,3.394750126,VT,1.998843644,U8251256,0.475097812
+Cumulative Benchmark Comparison,Data,02/18/25,SPXTR,1.557034762,EFA,4.139323574,VT,2.395308499,U8251256,0.499606016
+Cumulative Benchmark Comparison,Data,02/19/25,SPXTR,1.800189581,EFA,3.066633014,VT,2.271413232,U8251256,0.498346831
+Risk Measures Benchmark Comparison,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Risk Measures Benchmark Comparison,Header,RiskRatio,BM1,BM1Return,BM2,BM2Return,BM3,BM3Return,Account,AccountReturn
+Risk Measures Benchmark Comparison,Data,Ending VAMI:,SPXTR,1018.001895809,EFA,1030.666330136,VT,1022.71413232,U8251256,1004.983468306
+Risk Measures Benchmark Comparison,Data,Max Drawdown:,SPXTR,0.939779875,EFA,1.173649672,VT,0.809617272,U8251256,0.002375159
+Risk Measures Benchmark Comparison,Data,Peak-To-Valley:,SPXTR,20250206 - 20250207,EFA,Start - 20250203,VT,20250206 - 20250207,U8251256,20250210 - 20250211
+Risk Measures Benchmark Comparison,Data,Recovery:,SPXTR,4 Days,EFA,2 Days,VT,4 Days,U8251256,1 Day
+Risk Measures Benchmark Comparison,Data,Sharpe Ratio:,SPXTR,3.671122987,EFA,4.52046784,VT,4.641247747,U8251256,6.135488062
+Risk Measures Benchmark Comparison,Data,Sortino Ratio:,SPXTR,5.657117319,EFA,6.882520137,VT,7.898236066,U8251256,39.23871521
+Risk Measures Benchmark Comparison,Data,Standard Deviation:,SPXTR,0.538235788,EFA,0.782748791,VT,0.549551805,U8251256,0.057863975
+Risk Measures Benchmark Comparison,Data,Downside Deviation:,SPXTR,0.349282092,EFA,0.51411266,VT,0.322933634,U8251256,0.009047792
+Risk Measures Benchmark Comparison,Data,Correlation:,SPXTR,0.555278718,EFA,0.504395347,VT,0.590754972,U8251256,-
+Risk Measures Benchmark Comparison,Data,Beta:,SPXTR,0.059696205,EFA,0.037286956,VT,0.062202382,U8251256,-
+Risk Measures Benchmark Comparison,Data,Alpha:,SPXTR,0.038226102,EFA,0.035971845,VT,0.031663704,U8251256,-
+Risk Measures Benchmark Comparison,Data,Mean Return:,SPXTR,0.138787525,EFA,0.23568724,VT,0.174427436,U8251256,0.038263199
+Risk Measures Benchmark Comparison,Data,Positive Periods:,SPXTR,10 (76.923076923),EFA,10 (76.923076923),VT,9 (69.230769231),U8251256,13 (100)
+Risk Measures Benchmark Comparison,Data,Negative Periods:,SPXTR,3 (23.076923077),EFA,3 (23.076923077),VT,4 (30.769230769),U8251256,0 (0.00%)
+Performance Attribution vs. S&P 500,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Performance Attribution vs. S&P 500,Header,SubSection,Sector,AccountContributionToReturn,BM_ContributionToReturn,ContributionToReturnDifference
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Basic Materials,0,0.045490766,-0.045490766
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Broad,0,0,0
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Consumer Cyclicals,0,-0.390003548,0.390003548
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Consumer Non-Cyc,0,0.201017473,-0.201017473
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Education,0,0,0
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Energy,0,0.150939741,-0.150939741
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Financials,0,0.099851808,-0.099851808
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Government,0.165250641,0,0.165250641
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Healthcare,0,-0.035364698,0.035364698
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Industrials,0,-0.020868503,0.020868503
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Institutions,0,0,0
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Real Estate,0,0.040902463,-0.040902463
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Technology,0.038555071,1.88913885,-1.850583779
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Telecomm,0,-0.238142646,0.238142646
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Utilities,0,0.070210086,-0.070210086
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Cash,0.293945849,0,0.293945849
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Fund Cash,0,0,0
+Performance Attribution vs. S&P 500,Data,Contribution To Return,Unclassified,0,0,0
+Performance Attribution vs. S&P 500,Header,SubSection,Sector,Allocation,Selection,Total
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Basic Materials,-0.045490771,0,-0.045490771
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Broad,0,0,0
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Consumer Cyclicals,0.390006462,0,0.390006462
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Consumer Non-Cyc,-0.201017564,0,-0.201017564
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Education,0,0,0
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Energy,-0.150939852,0,-0.150939852
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Financials,-0.099852021,0,-0.099852021
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Government,0,0.146096037,0.146096037
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Healthcare,0.035364829,0,0.035364829
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Industrials,0.020868511,0,0.020868511
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Institutions,0,0,0
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Real Estate,-0.040902465,0,-0.040902465
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Technology,-0.941807788,0.023979137,-0.917828651
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Telecomm,0.238143377,0,0.238143377
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Utilities,-0.07021009,0,-0.07021009
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Cash,0,0.291320563,0.291320563
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Fund Cash,0,0,0
+Performance Attribution vs. S&P 500,Data,Attribution Effect,Unclassified,0,0,0
+Performance by Asset Class,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Performance by Asset Class,Header,Date,Equities,Fixed Income,Cash
+Performance by Asset Class,Data,20250203,-0.011971867,-0.004926091,0.020340289
+Performance by Asset Class,Data,20250204,0.008466408,0.019057561,0.010851274
+Performance by Asset Class,Data,20250205,0.021249623,0,0.050151718
+Performance by Asset Class,Data,20250206,0.008250574,0.019036658,0.000920631
+Performance by Asset Class,Data,20250207,0.002662212,0.028546935,-0.002297807
+Performance by Asset Class,Data,20250210,0.004263835,0.018886604,0.001911981
+Performance by Asset Class,Data,20250211,-0.000783962,0,-0.001591197
+Performance by Asset Class,Data,20250212,-0.001940383,0.009408374,0.000518395
+Performance by Asset Class,Data,20250213,0.004603413,0.018815245,0.202568554
+Performance by Asset Class,Data,20250214,0.003615795,0.037545642,0.003260837
+Performance by Asset Class,Data,20250217,0,0,0.002860946
+Performance by Asset Class,Data,20250218,0.000698019,0.018763948,0.00493035
+Performance by Asset Class,Data,20250219,-0.000562031,0,-0.000690895
+Performance by Asset Class,Data,Total,0.038555071,0.165250641,0.293945849
+Performance by Financial Instrument,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Performance by Financial Instrument,Header,Date,ETFs,Options,Stocks,Cash
+Performance by Financial Instrument,Data,20250203,-0.004926091,-0.006828742,-0.005143124,0.020340289
+Performance by Financial Instrument,Data,20250204,0.019057561,0.005465098,0.00300131,0.010851274
+Performance by Financial Instrument,Data,20250205,0,0.011932549,0.009317074,0.050151718
+Performance by Financial Instrument,Data,20250206,0.019036658,0.00245039,0.005800185,0.000920631
+Performance by Financial Instrument,Data,20250207,0.028546935,0.000915116,0.001747095,-0.002297807
+Performance by Financial Instrument,Data,20250210,0.018886604,0.010051176,-0.00578734,0.001911981
+Performance by Financial Instrument,Data,20250211,0,-0.000783962,0,-0.001591197
+Performance by Financial Instrument,Data,20250212,0.009408374,-0.001940383,0,0.000518395
+Performance by Financial Instrument,Data,20250213,0.018815245,0.004603413,0,0.202568554
+Performance by Financial Instrument,Data,20250214,0.037545642,0.003615795,0,0.003260837
+Performance by Financial Instrument,Data,20250217,0,0,0,0.002860946
+Performance by Financial Instrument,Data,20250218,0.018763948,0.000698019,0,0.00493035
+Performance by Financial Instrument,Data,20250219,0,-0.000562031,0,-0.000690895
+Performance by Financial Instrument,Data,Total,0.165250641,0.029618992,0.008934636,0.293945849
+Performance by Symbol,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Performance by Symbol,Header,Symbol,Description,FinancialInstrument,Sector,AvgWeight,Return,Contribution,Unrealized_P&L,Realized_P&L,Open
+Performance by Symbol,Data,DIA,SPDR DJIA TRUST,ETFs,Broad,0,0,0,0.00,0.00,No
+Performance by Symbol,Data,SGOV,ISHARES 0-3 MONTH TREASURY B,ETFs,Government,94.924176631,0.174083156,0.165250641,"109,245.79",507.67,Yes
+Performance by Symbol,Data,Total ETFs,,,,94.924176631,0.174083156,0.165250641,"109,245.79",507.67,
+Performance by Symbol,Data,NVDA  250131C00126000,NVDA 31JAN25 126 C,Options,Technology,0,0,0,0.00,"2,635.35",No
+Performance by Symbol,Data,NVDA  250131P00115000,NVDA 31JAN25 115 P,Options,Technology,0,0,0,0.00,"3,297.77",No
+Performance by Symbol,Data,NVDA  250131P00119000,NVDA 31JAN25 119 P,Options,Technology,0,0,0,0.00,"2,727.84",No
+Performance by Symbol,Data,NVDA  250207C00126000,NVDA 07FEB25 126 C,Options,Technology,-0.003724412,-100,0.001603662,0.00,0.00,No
+Performance by Symbol,Data,NVDA  250207P00119000,NVDA 07FEB25 119 P,Options,Technology,-0.00327534,-100,0.006181181,0.00,"2,027.06",No
+Performance by Symbol,Data,NVDA  250207P00120000,NVDA 07FEB25 120 P,Options,Technology,-0.001867145,-100,0.003467312,0.00,853.84,No
+Performance by Symbol,Data,NVDA  260116C00110000,NVDA 16JAN26 110 C,Options,Technology,0.056190377,38.791732909,0.018365166,"12,793.05",0.00,Yes
+Performance by Symbol,Data,Total Options,,,,0.052670949,82.307908784,0.029618992,"12,793.05","11,541.86",
+Performance by Symbol,Data,BILI,BILIBILI INC-SPONSORED ADR,Stocks,Technology,0,0,0,0.00,0.00,No
+Performance by Symbol,Data,CAT,CATERPILLAR INC,Stocks,Industrials,0,0,0,0.00,0.00,No
+Performance by Symbol,Data,NVDA,NVIDIA CORP,Stocks,Technology,0.185547753,4.935730157,0.008934636,0.00,"1,919.14",No
+Performance by Symbol,Data,Total Stocks,,,,0.085637424,4.935730157,0.008934636,0.00,"1,919.14",
+Performance by Symbol,Data,CAD,Canadian Dollar,Cash,Cash,0,2.039541539,0,,,Yes
+Performance by Symbol,Data,CHF,Swiss Franc,Cash,Cash,-0,0.719817768,-0,,,Yes
+Performance by Symbol,Data,EUR,Euro,Cash,Cash,-0.000004098,4.56823597,-0.00000018,,,Yes
+Performance by Symbol,Data,HKD,Hong Kong Dollar,Cash,Cash,4.611677359,0.046024116,0.002083853,,,Yes
+Performance by Symbol,Data,JPY,Japanese Yen,Cash,Cash,0.081957307,2.459115349,0.001986433,,,Yes
+Performance by Symbol,Data,MXN,Mexican Peso,Cash,Cash,-0,1.149972078,-0,,,Yes
+Performance by Symbol,Data,SEK,Swedish Krona,Cash,Cash,0,3.481725657,0,,,Yes
+Performance by Symbol,Data,SGD,Singapore Dollar,Cash,Cash,0.059189123,1.273526045,0.000749517,,,Yes
+Performance by Symbol,Data,USD,United States Dollar,Cash,Cash,0.184673455,9.84770378,0.289400378,,,Yes
+Performance by Symbol,Data,Fees,Fees,Cash,Cash,-,-,-0.000284054,,,-
+Performance by Symbol,Data,Total Cash,,,,4.937514996,5.929440703,0.293945849,,,
+Performance by Symbol,Data,Total,,,,100,0.498346831,0.498346831,"122,038.84","13,968.67",
+Performance by Long Short,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Performance by Long Short,Header,Long/Short,Symbol,Description,Sector,FinancialInstrument,AvgWeight,Return,Contribution,Unrealized_P&L,Realized_P&L,Open
+Performance by Long Short,Data,Long,DIA,SPDR DJIA TRUST,Broad,ETFs,0,0,0,0.00,0.00,No
+Performance by Long Short,Data,Total Broad,,,,,0,0,0,0.00,0.00,
+Performance by Long Short,Data,Long,SGOV,ISHARES 0-3 MONTH TREASURY B,Government,ETFs,94.924176631,0.174083156,0.165250641,"109,245.79",507.67,Yes
+Performance by Long Short,Data,Total Government,,,,,94.924176631,0.174083156,0.165250641,"109,245.79",507.67,
+Performance by Long Short,Data,Long,CAT,CATERPILLAR INC,Industrials,Stocks,0,0,0,0.00,0.00,No
+Performance by Long Short,Data,Total Industrials,,,,,0,0,0,0.00,0.00,
+Performance by Long Short,Data,Long,BILI,BILIBILI INC-SPONSORED ADR,Technology,Stocks,0,0,0,0.00,0.00,No
+Performance by Long Short,Data,Long,NVDA,NVIDIA CORP,Technology,Stocks,0.185547753,4.935730157,0.008934636,0.00,"1,919.14",No
+Performance by Long Short,Data,Long,NVDA  260116C00110000,NVDA 16JAN26 110 C,Technology,Options,0.056190377,38.791732909,0.018365166,"12,793.05",0.00,Yes
+Performance by Long Short,Data,Total Technology,,,,,0.141827801,19.770556395,0.02730059,"12,793.05","1,919.14",
+Performance by Long Short,Data,Long,CAD,Canadian Dollar,Cash,Cash,0,2.039541539,0,,,Yes
+Performance by Long Short,Data,Long,HKD,Hong Kong Dollar,Cash,Cash,4.611677359,0.046024116,0.002083853,,,Yes
+Performance by Long Short,Data,Long,JPY,Japanese Yen,Cash,Cash,0.081957307,2.459115349,0.001986433,,,Yes
+Performance by Long Short,Data,Long,SEK,Swedish Krona,Cash,Cash,0,3.481725657,0,,,Yes
+Performance by Long Short,Data,Long,SGD,Singapore Dollar,Cash,Cash,0.059189123,1.273526045,0.000749517,,,Yes
+Performance by Long Short,Data,Long,USD,United States Dollar,Cash,Cash,0.184673455,9.84770378,0.289400378,,,Yes
+Performance by Long Short,Data,Long,Fees,Fees,Cash,Cash,-,-,-0.000284054,,,-
+Performance by Long Short,Data,Total Cash,,,,,4.937519094,5.929440017,0.29394603,,,
+Performance by Long Short,Data,Total Long,,,,100.00%,0.487030641,0.487045298,"122,038.84","2,426.81",
+Performance by Long Short,Data,Short,NVDA  250131C00126000,NVDA 31JAN25 126 C,Technology,Options,0,0,0,0.00,"2,635.35",No
+Performance by Long Short,Data,Short,NVDA  250131P00115000,NVDA 31JAN25 115 P,Technology,Options,0,0,0,0.00,"3,297.77",No
+Performance by Long Short,Data,Short,NVDA  250131P00119000,NVDA 31JAN25 119 P,Technology,Options,0,0,0,0.00,"2,727.84",No
+Performance by Long Short,Data,Short,NVDA  250207C00126000,NVDA 07FEB25 126 C,Technology,Options,-0.003724412,-100,0.001603662,0.00,0.00,No
+Performance by Long Short,Data,Short,NVDA  250207P00119000,NVDA 07FEB25 119 P,Technology,Options,-0.00327534,-100,0.006181181,0.00,"2,027.06",No
+Performance by Long Short,Data,Short,NVDA  250207P00120000,NVDA 07FEB25 120 P,Technology,Options,-0.001867145,-100,0.003467312,0.00,853.84,No
+Performance by Long Short,Data,Total Technology,,,,,-0.007625426,-100,0.011252455,0.00,"11,541.86",
+Performance by Long Short,Data,Short,CHF,Swiss Franc,Cash,Cash,-0,0.719817768,-0,,,Yes
+Performance by Long Short,Data,Short,EUR,Euro,Cash,Cash,-0.000004098,4.56823597,-0.00000018,,,Yes
+Performance by Long Short,Data,Short,MXN,Mexican Peso,Cash,Cash,-0,1.149972078,-0,,,Yes
+Performance by Long Short,Data,Short,Fees,Fees,Cash,Cash,-,-,0,,,-
+Performance by Long Short,Data,Total Cash,,,,,-0.000004099,4.567947679,-0.00000018,,,
+Performance by Long Short,Data,Total Short,,,,0.00%,-99.964584377,0.011252275,0.00,"11,541.86",
+Performance by Long Short,Data,Total,,,,,100.00%,0.498346831,0.498346831,"122,038.84","13,968.67",
+Projected Income,MetaInfo,Analysis Period,"February 19, 2025"
+Projected Income,Header,Financial Instrument,Symbol,Description,Frequency,Quantity,Price,Value,Current Yield %,Principal,Estimated Annual Income,Estimated 2025 Remaining Income
+Projected Income,Data,ETFs,SGOV,Ordinary Dividend,12,625000,100.52,62825000,5.001171906,-,3141986.25,2914863.75
+Projected Income,Data,,Total ETFs,,,,,62825000,5.001171906,,3141986.25,2914863.75
+Projected Income,Data,Stocks,CAT,Ordinary Dividend,1,-,-,0,N/A,-,789.6,789.6
+Projected Income,Data,,Total Stocks,,,,,0,N/A,,789.6,789.6
+Projected Income,Data,Cash,HKD,Credit Interest,12,23884932.52,0.12858,3071124.6234216,2.837961336,-,87157.329387,79894.21860475
+Projected Income,Data,Cash,SGD,Credit Interest,12,53084.4,0.7447,39531.95268,1.306410169,-,516.44945,473.411995833
+Projected Income,Data,Cash,USD,Credit Interest,12,577761.11,1,577761.11,3.763493185,-,21744,19932
+Projected Income,Data,,Total Cash,,,,,3688417.6861016,2.966523538,,109417.778837,100299.630600583
+Projected Income,Data,,Total,,,,,66513417.6861016,4.889530176,,3252193.628837,3015952.980600583
+Trade Summary,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Trade Summary,Header,Financial Instrument,Currency,Symbol,Description,Sector,Quantity Bought,Average Price Bought,Proceeds Bought,Proceeds Bought in Base,Quantity Sold,Average Price Sold,Proceeds Sold,Proceeds Sold in Base
+Trade Summary,Data,ETFs,United States Dollar,SGOV,ISHARES 0-3 MONTH TREASURY B,Government,631800,100.339766223,-63394664.30000003,-63394664.30000003,-6800,100.42,682856,682856
+Trade Summary,Data,Options,United States Dollar,NVDA  250131C00126000,NVDA 31JAN25 126 C,Technology,10,0,0,0,0,0,0,0
+Trade Summary,Data,Options,United States Dollar,NVDA  250131P00115000,NVDA 31JAN25 115 P,Technology,20,0,0,0,0,0,0,0
+Trade Summary,Data,Options,United States Dollar,NVDA  250131P00119000,NVDA 31JAN25 119 P,Technology,10,0,0,0,0,0,0,0
+Trade Summary,Data,Options,United States Dollar,NVDA  250207C00126000,NVDA 07FEB25 126 C,Technology,10,0,0,0,-10,1.07,1070,1070
+Trade Summary,Data,Options,United States Dollar,NVDA  250207P00119000,NVDA 07FEB25 119 P,Technology,10,0,0,0,0,0,0,0
+Trade Summary,Data,Options,United States Dollar,NVDA  250207P00120000,NVDA 07FEB25 120 P,Technology,5,0,0,0,0,0,0,0
+Trade Summary,Data,Stocks,United States Dollar,NVDA,NVIDIA CORP,Technology,0,0,0,0,-1000,126,126000,126000
+Dividends,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Dividends,Header,PayDate,Ex-Date,Symbol,Note,Quantity,DividendPerShare,Amount
+Dividends,Data,20250218,20250117,DIA,Dividend Payment,2000,0.15,296.56
+Dividends,Data,20250218,20250117,DIA,Payment In Lieu,2000,0.01,28.26
+Interest Details,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Interest Details,Header,Date,Description,Amount
+Interest Details,Data,20250205,EUR Debit Interest Paid for January 2025,-2.996064
+Interest Details,Data,20250205,HKD Debit Interest Paid for January 2025,-61317.7245126
+Interest Details,Data,20250205,USD Credit Interest Received for January 2025,27015.42
+Interest Details,Data,20250205,USD Debit Interest Paid for January 2025,-428396.64
+Interest Details,Data,20250205,JPY Credit Interest Paid for January 2025,-1.0812945
+Interest Details,Data,20250205,JPY Debit Interest Paid for January 2025,-370.1500439
+Interest Details,Data,20250205,SGD Credit Interest Received for January 2025,2.5061686
+Interest Details,Data,20250205,SGD Debit Interest Paid for January 2025,-9111.479948
+Interest Details,Data,20250205,USD Debit Interest Paid for January 2025,-4.88
+Fee Summary,MetaInfo,Analysis Period,"February 3, 2025 - February 19, 2025"
+Fee Summary,Header,Date,Description,Amount
+Fee Summary,Data,20250204,J*********61:cme ,-140
+Fee Summary,Data,20250204,J*********61:hkfe Np L2 For Feb 2025 ,-12.83
+Fee Summary,Data,20250204,J*********61:hsi Pro For Feb 2025 ,-2.76
+Fee Summary,Data,20250204,J*********61:opra Pro For Feb 2025 ,-32.75
+Disclosure,"IMPORTANT NOTE: This portfolio analysis was generated using Interactive Brokers' PortfolioAnalyst tool, which allows Interactive Brokers clients to generate analyses of their accounts using market data provided by third parties along with trade and account data contained in Interactive Brokers' systems. This analysis is for information purposes only and is provided AS IS. Interactive Brokers makes no warranty of any kind, express or implied, as to this report analysis and its contents. The data provided for use in this Portfolio Analysis is believed to be accurate but completeness and accuracy of the information is not guaranteed, and Interactive Brokers has no liability with respect thereto. The data regarding accounts held outside of Interactive Brokers is obtained either directly from you or from the financial institutions holding those accounts through a third-party service provider and Interactive Brokers has not reviewed its accuracy.
+
+This material in this analysis is intended only as a reference and should not be relied upon for the maintenance of your books and records for tax, accounting, financial, or regulatory reporting or for any other purposes. This analysis is not an offer or a solicitation of an offer to buy or sell any security. This material does not and is not intended to take into account the particular financial conditions, investment objectives or requirements of individual customers. Before acting on this material, you should consider whether it is suitable for your particular circumstances and, as necessary, seek professional advice."

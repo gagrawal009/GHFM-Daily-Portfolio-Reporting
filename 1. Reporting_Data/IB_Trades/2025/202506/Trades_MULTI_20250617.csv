@@ -1,0 +1,25 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"June 17, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 02:09:55 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,2359,"2025-06-17, 01:08:13","6,500",77.9,76.5,-506350,-834.10975,507184.10975,0,-9100,O;P
+Trades,SubTotal,,Stocks,HKD,2359,,,6500,,,-506350,-834.10975,507184.10975,0,-9100,
+Trades,Data,Order,Stocks,HKD,U18135473,3067,"2025-06-17, 01:14:58","100,000",11.13,11.14,-1113000,-673.365,1113673.365,0,1000,O
+Trades,SubTotal,,Stocks,HKD,3067,,,100000,,,-1113000,-673.365,1113673.365,0,1000,
+Trades,Data,Order,Stocks,HKD,U18135473,883,"2025-06-17, 03:10:31","17,000",18.2,18.28,-309400,-497.187,309897.187,0,1360,O
+Trades,SubTotal,,Stocks,HKD,883,,,17000,,,-309400,-497.187,309897.187,0,1360,
+Trades,Data,Order,Stocks,HKD,U18135473,941,"2025-06-17, 01:12:41","20,000",87.3,87.05,-1746000,-2806.711,1748806.711,0,-5000,O;P
+Trades,SubTotal,,Stocks,HKD,941,,,20000,,,-1746000,-2806.711,1748806.711,0,-5000,
+Trades,Total,,Stocks,HKD,,,,,,,-3674750,-4811.37275,3679561.37275,0,-11740, 
+Trades,Total,,Stocks,USD,,,,,,,-468126.4025,-612.920774623,468739.323274622,0,-1495.5586, 
+Trades,Data,Order,Stocks,SGD,U18135473,BN4,"2025-06-17, 03:45:57","130,000",7.42,7.42,-964600,-902.8656,965502.8656,0,0,O;P
+Trades,SubTotal,,Stocks,SGD,BN4,,,130000,,,-964600,-902.8656,965502.8656,0,0,
+Trades,Data,Order,Stocks,SGD,U18135473,U96,"2025-06-17, 03:14:45","150,000",7.06,7.04,-1059000,-991.224,1059991.224,0,-3000,O;P
+Trades,SubTotal,,Stocks,SGD,U96,,,150000,,,-1059000,-991.224,1059991.224,0,-3000,
+Trades,Total,,Stocks,SGD,,,,,,,-2023600,-1894.0896,2025494.089600001,0,-3000, 
+Trades,Total,,Stocks,USD,,,,,,,-1573227.583999999,-1472.541018624,1574700.125018625,0,-2332.32, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

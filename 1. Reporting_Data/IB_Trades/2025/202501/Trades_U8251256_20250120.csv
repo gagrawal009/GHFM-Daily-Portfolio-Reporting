@@ -1,0 +1,19 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 20, 2025"
+Statement,Data,WhenGenerated,"2025-01-21, 00:19:05 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,HKD,9988 27JAN25 90 C,"2025-01-19, 21:52:19",-20,0.46,0.27,4600,-78,-4522,0,1900,O
+Trades,SubTotal,,Equity and Index Options,HKD,9988 27JAN25 90 C,,-20,,,4600,-78,-4522,0,1900,
+Trades,Data,Order,Equity and Index Options,HKD,2020 27JAN25 85 C,"2025-01-19, 21:48:49",-10,1.19,0.77,2380,-28,-2352,0,840,O
+Trades,SubTotal,,Equity and Index Options,HKD,2020 27JAN25 85 C,,-10,,,2380,-28,-2352,0,840,
+Trades,Data,Order,Equity and Index Options,HKD,1211 24JAN25 280 C,"2025-01-19, 21:47:46",-10,3.43,3.16,17150,-64.3,-17085.7,0,1350,O
+Trades,SubTotal,,Equity and Index Options,HKD,1211 24JAN25 280 C,,-10,,,17150,-64.3,-17085.7,0,1350,
+Trades,Data,Order,Equity and Index Options,HKD,1211 27JAN25 300 C,"2025-01-20, 00:26:52",-10,1.11,0.35,5550,-48,-5502,0,3800,O
+Trades,SubTotal,,Equity and Index Options,HKD,1211 27JAN25 300 C,,-10,,,5550,-48,-5502,0,3800,
+Trades,Data,Order,Equity and Index Options,HKD,2828 27FEB25 80 C,"2025-01-19, 21:58:00",-50,0.9,0.66,45000,-240,-44760,0,12000,O;P
+Trades,SubTotal,,Equity and Index Options,HKD,2828 27FEB25 80 C,,-50,,,45000,-240,-44760,0,12000,
+Trades,Total,,Equity and Index Options,HKD,,,,,,74680,-458.3,-74221.7,0,19890, 
+Trades,Total,,Equity and Index Options,USD,,,,,,9598.6204,-58.905299,-9539.715101,0,2556.4617, 

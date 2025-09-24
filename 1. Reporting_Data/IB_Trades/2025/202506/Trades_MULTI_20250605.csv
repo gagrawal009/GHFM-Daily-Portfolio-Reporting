@@ -1,0 +1,29 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"June 5, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 02:07:50 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,CME,"2025-06-05, 12:01:22",480,275.546875,274.9,-132262.5,-1.5999948,132264.0999948,0,-310.5,O;P
+Trades,SubTotal,,Stocks,USD,CME,,,480,,,-132262.5,-1.5999948,132264.0999948,0,-310.5,
+Trades,Data,Order,Stocks,USD,U18135473,CRWD,"2025-06-05, 12:07:15","1,100",459.324836364,462.94,-505257.32,-3.172429751,505260.492429751,0,3976.68,O;P
+Trades,SubTotal,,Stocks,USD,CRWD,,,1100,,,-505257.32,-3.172429751,505260.492429751,0,3976.68,
+Trades,Data,Order,Stocks,USD,U18135473,IAUM,"2025-06-05, 12:02:41",200,33.315,33.45,-6663,-0.3175145,6663.3175145,0,27,O;P
+Trades,Data,Order,Stocks,USD,U18135473,IAUM,"2025-06-05, 12:25:36",600,33.388333333,33.45,-20033,-1.4925435,20034.4925435,0,37,O;P
+Trades,SubTotal,,Stocks,USD,IAUM,,,800,,,-26696,-1.810058,26697.810058,0,64,
+Trades,Data,Order,Stocks,USD,U18135473,ICE,"2025-06-05, 12:24:15",700,178.518328571,178.56,-124962.83,-1.95795075,124964.78795075,0,29.17,IM;O;P
+Trades,SubTotal,,Stocks,USD,ICE,,,700,,,-124962.83,-1.95795075,124964.78795075,0,29.17,
+Trades,Data,Order,Stocks,USD,U18135473,MELI,"2025-06-05, 12:07:45",60,2566.116666667,2581.74,-153967,-0.28635725,153967.28635725,0,937.4,O;P
+Trades,Data,Order,Stocks,USD,U18135473,MELI,"2025-06-05, 13:58:03",180,2576.994555556,2581.74,-463859.02,-0.46320305,463859.48320305,0,854.18,IM;O;P
+Trades,SubTotal,,Stocks,USD,MELI,,,240,,,-617826.02,-0.7495603,617826.7695603,0,1791.58,
+Trades,Data,Order,Stocks,USD,U18135473,NDAQ,"2025-06-05, 12:17:20",800,83.7124125,84,-66969.93,-2.264458,66972.194458,0,230.07,IM;O;P
+Trades,SubTotal,,Stocks,USD,NDAQ,,,800,,,-66969.93,-2.264458,66972.194458,0,230.07,
+Trades,Data,Order,Stocks,USD,U18135473,PLTR,"2025-06-05, 12:17:32","1,300",124.743846154,119.91,-162167,-3.96384425,162170.96384425,0,-6284,O;P
+Trades,SubTotal,,Stocks,USD,PLTR,,,1300,,,-162167,-3.96384425,162170.96384425,0,-6284,
+Trades,Data,Order,Stocks,USD,U18135473,RTX,"2025-06-05, 12:16:50",900,138.818888889,139.07,-124937,-2.283815249,124939.283815249,0,226,O;P
+Trades,Data,Order,Stocks,USD,U18135473,RTX,"2025-06-05, 13:53:20","2,700",138.971888889,139.07,-375224.1,-7.578045749,375231.678045749,0,264.9,IM;O;P
+Trades,SubTotal,,Stocks,USD,RTX,,,3600,,,-500161.1,-9.861860998,500170.961860998,0,490.9,
+Trades,Total,,Stocks,USD,,,,,,,-2136302.7,-25.380156849,2136328.080156849,0,-12.1, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

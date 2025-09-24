@@ -1,0 +1,31 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 7, 2025"
+Statement,Data,WhenGenerated,"2025-01-07, 22:37:55 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,1810,"2025-01-06, 20:36:33","25,000",35.9,34.15,-897500,-1441.9875,898941.9875,0,-43750,O;P
+Trades,Data,Order,Stocks,HKD,1810,"2025-01-06, 22:53:14","25,000",33.2,34.15,-830000,-1340.6972,831340.6972,0,23750,O;P
+Trades,SubTotal,,Stocks,HKD,1810,,50000,,,-1727500,-2782.6847,1730282.6847,0,-20000,
+Trades,Total,,Stocks,HKD,,,,,,-1727500,-2782.6847,1730282.6847,0,-20000, 
+Trades,Total,,Stocks,USD,,,,,,-222139.225,-357.825425573,222497.050425573,0,-2571.8, 
+Trades,Data,Order,Stocks,USD,IBIT,"2025-01-07, 10:37:47","2,000",55.68942,54.79,-111378.84,-7.577145,111386.417145,0,-1798.84,O;P
+Trades,SubTotal,,Stocks,USD,IBIT,,2000,,,-111378.84,-7.577145,111386.417145,0,-1798.84,
+Trades,Total,,Stocks,USD,,,,,,-111378.84,-7.577145,111386.417145,0,-1798.84, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,HKD,700 27JAN25 370 P,"2025-01-06, 20:32:38",-15,3.22,7.05,4830,-63,-4767,0,-5745,O
+Trades,SubTotal,,Equity and Index Options,HKD,700 27JAN25 370 P,,-15,,,4830,-63,-4767,0,-5745,
+Trades,Data,Order,Equity and Index Options,HKD,700 27JAN25 380 P,"2025-01-06, 20:32:51",-15,5.54,10.6,8310,-63,-8247,0,-7590,O
+Trades,SubTotal,,Equity and Index Options,HKD,700 27JAN25 380 P,,-15,,,8310,-63,-8247,0,-7590,
+Trades,Total,,Equity and Index Options,HKD,,,,,,13140,-126,-13014,0,-13335, 
+Trades,Total,,Equity and Index Options,USD,,,,,,1689.6726,-16.20234,-1673.47026,0,-1714.74765, 
+Trades,Data,Order,Equity and Index Options,USD,QQQ 06JAN25 529 C,"2025-01-06, 16:20:00",20,0,0,0,0,786.15696,786.15696,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 06JAN25 529 C,,20,,,0,0,786.15696,786.15696,0,
+Trades,Data,Order,Equity and Index Options,USD,SNOW 10JAN25 165 P,"2025-01-07, 09:38:23",-5,2.13,6.6024,1065,-2.284807,-1062.715193,0,-2236.2,O;P
+Trades,SubTotal,,Equity and Index Options,USD,SNOW 10JAN25 165 P,,-5,,,1065,-2.284807,-1062.715193,0,-2236.2,
+Trades,Total,,Equity and Index Options,USD,,,,,,1065,-2.284807,-276.558233,786.15696,-2236.2, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Options On Futures,USD,NQ 07JAN25 21900 C,"2025-01-07, 17:15:00",10,0,0,0,0,12835.8,12835.8,0,C;Ep
+Trades,SubTotal,,Options On Futures,USD,NQ 07JAN25 21900 C,,10,,,0,0,12835.8,12835.8,0,
+Trades,Total,,Options On Futures,USD,,,,,,0,0,12835.8,12835.8,0, 

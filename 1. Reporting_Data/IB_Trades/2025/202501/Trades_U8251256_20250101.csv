@@ -1,0 +1,14 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"January 1, 2025"
+Statement,Data,WhenGenerated,"2025-01-02, 22:20:58 EST"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,GLD 31DEC24 254 C,"2024-12-31, 16:20:00",50,0,0,0,0,5215.01705,5215.01705,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,GLD 31DEC24 254 C,,50,,,0,0,5215.01705,5215.01705,0,
+Trades,Data,Order,Equity and Index Options,USD,QQQ 31DEC24 550 C,"2024-12-31, 16:20:00",50,0,0,0,0,3389.56848,3389.56848,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,QQQ 31DEC24 550 C,,50,,,0,0,3389.56848,3389.56848,0,
+Trades,Data,Order,Equity and Index Options,USD,XLF 31DEC24 49 C,"2024-12-31, 16:20:00",250,0,0,0,0,4075.69685,4075.69685,0,C;Ep
+Trades,SubTotal,,Equity and Index Options,USD,XLF 31DEC24 49 C,,250,,,0,0,4075.69685,4075.69685,0,
+Trades,Total,,Equity and Index Options,USD,,,,,,0,0,12680.28238,12680.28238,0, 

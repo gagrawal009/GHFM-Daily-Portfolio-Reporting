@@ -1,0 +1,544 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"July 2, 2025"
+Statement,Data,WhenGenerated,"2025-08-05, 22:14:22 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Golden Horse Global Macro Discretionary Fund
+Account Information,Data,Account,U8251256 (Custom Consolidated)
+Account Information,Data,Accounts Included,"U18135473, U18135473F, U8251256, U8251256F"
+Account Information,Data,Master Name,Golden Horse Fund Management Pte Ltd
+Account Information,Data,Account Type,Institution Master
+Account Information,Data,Customer Type,Corporate
+Account Information,Data,Account Capabilities,Portfolio Margin
+Account Information,Data,Base Currency,USD
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,-124495693.0318074,7018638.909467227,-146950664.66238895,-139932025.75292173,-15436332.721114337
+Net Asset Value,Data,Stock,194928025.25378,210887260.8074,0,210887260.8074,15959235.55361998
+Net Asset Value,Data,Interest Accruals,-358959.315716,380863.0996325,-754052.4159092,-373189.3162767,-14230.0005607
+Net Asset Value,Data,Dividend Accruals,273889.7594683,273889.7694683,0,273889.7694683,0.01
+Net Asset Value,Data,Total,70347262.66572489,218560652.58596802,-147704717.07829815,70855935.50766987,508672.841944978
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,0.723088323%
+Change in Combined NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,70347262.66572489
+Change in NAV,Data,Mark-to-Market,524921.77868729
+Change in NAV,Data,Change in Dividend Accruals,0.01
+Change in NAV,Data,Change in Interest Accruals,-14230.9485683
+Change in NAV,Data,Commissions,-2018.94618158
+Change in NAV,Data,Other FX Translations,0.9480076
+Change in NAV,Data,Ending Value,70855935.50766987
+Change in NAV,Disclaimer,"This section shows your combined total cash position, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,1288,6132000,6132000,5.6000,5.7600,124984.8768,0,0,0,124984.8768,
+Mark-to-Market Performance Summary,Data,Stocks,1398,3852000,3852000,6.2200,6.3400,58884.7536,0,0,0,58884.7536,
+Mark-to-Market Performance Summary,Data,Stocks,1810,100000,100000,59.9500,60.1500,2547.8,0,0,0,2547.8,
+Mark-to-Market Performance Summary,Data,Stocks,2359,72000,72000,78.6500,79.2500,5503.248,0,0,0,5503.248,
+Mark-to-Market Performance Summary,Data,Stocks,2800,121000,121000,24.5200,24.6400,1849.7028,0,0,0,1849.7028,
+Mark-to-Market Performance Summary,Data,Stocks,2828,120000,120000,88.4200,89.0000,8866.344,0,0,0,8866.344,
+Mark-to-Market Performance Summary,Data,Stocks,2899,376000,376000,20.0500,20.6000,26344.252,0,0,0,26344.252,
+Mark-to-Market Performance Summary,Data,Stocks,3067,570000,570000,11.1700,11.1000,-5082.861,0,0,0,-5082.861,
+Mark-to-Market Performance Summary,Data,Stocks,388,15300,15300,418.8000,423.2000,8575.8948,0,0,0,8575.8948,
+Mark-to-Market Performance Summary,Data,Stocks,3888,150000,150000,40.9000,36.9500,-75478.575,0,0,0,-75478.575,
+Mark-to-Market Performance Summary,Data,Stocks,3988,3840000,3840000,4.5600,4.6300,34242.432,0,0,0,34242.432,
+Mark-to-Market Performance Summary,Data,Stocks,700,20000,20000,503.0000,501.5000,-3821.7,0,0,0,-3821.7,
+Mark-to-Market Performance Summary,Data,Stocks,857,208000,208000,6.7500,6.8000,1324.856,0,0,0,1324.856,
+Mark-to-Market Performance Summary,Data,Stocks,883,87000,87000,17.7200,17.8800,1773.2688,0,0,0,1773.2688,
+Mark-to-Market Performance Summary,Data,Stocks,941,120000,120000,87.1000,86.9000,-3057.36,0,0,0,-3057.36,
+Mark-to-Market Performance Summary,Data,Stocks,9961,11000,11000,456.0000,462.0000,8407.74,0,0,0,8407.74,
+Mark-to-Market Performance Summary,Data,Stocks,AAPL,1380,1380,207.8200,212.4400,6375.6,0,0,0,6375.6,
+Mark-to-Market Performance Summary,Data,Stocks,AMD,18600,18600,136.1100,138.5200,44826,0,0,0,44826,
+Mark-to-Market Performance Summary,Data,Stocks,AMGN,8700,8700,290.5200,296.8500,55071,0,0,0,55071,
+Mark-to-Market Performance Summary,Data,Stocks,APP,113,113,336.6900,336.0000,-77.97,0,0,0,-77.97,
+Mark-to-Market Performance Summary,Data,Stocks,AVAV,6200,6200,252.4000,246.2500,-38130,0,0,0,-38130,
+Mark-to-Market Performance Summary,Data,Stocks,AVEM,18300,18300,68.6400,69.0400,7320,0,0,0,7320,
+Mark-to-Market Performance Summary,Data,Stocks,BABA,22375,22375,113.9700,110.7100,-72942.5,0,0,0,-72942.5,
+Mark-to-Market Performance Summary,Data,Stocks,BN4,143000,143000,7.4400,7.6000,17974.9856,0,0,0,17974.9856,
+Mark-to-Market Performance Summary,Data,Stocks,BWXT,10800,10800,140.3700,140.7700,4320,0,0,0,4320,
+Mark-to-Market Performance Summary,Data,Stocks,CEG,5000,5000,307.9200,306.6300,-6450,0,0,0,-6450,
+Mark-to-Market Performance Summary,Data,Stocks,CME,9175,9175,275.4200,275.8200,3670,0,0,0,3670,
+Mark-to-Market Performance Summary,Data,Stocks,COIN,1000,1000,335.3300,354.4500,19120,0,0,0,19120,
+Mark-to-Market Performance Summary,Data,Stocks,CRWD,3600,3600,492.0700,496.1000,14508,0,0,0,14508,
+Mark-to-Market Performance Summary,Data,Stocks,CSCO,36250,36250,69.1000,68.5900,-18487.5,0,0,0,-18487.5,
+Mark-to-Market Performance Summary,Data,Stocks,CTAS,11000,11000,224.3100,215.6600,-95150,0,0,0,-95150,
+Mark-to-Market Performance Summary,Data,Stocks,CVX,17200,17200,145.5700,147.9800,41452,0,0,0,41452,
+Mark-to-Market Performance Summary,Data,Stocks,D05,50000,50000,45.1100,44.8500,-10213.06,0,0,0,-10213.06,
+Mark-to-Market Performance Summary,Data,Stocks,DAX,20025,20025,44.5100,44.7700,5206.5,0,0,0,5206.5,
+Mark-to-Market Performance Summary,Data,Stocks,DG,9000,9000,115.3000,115.4600,1440,0,0,0,1440,
+Mark-to-Market Performance Summary,Data,Stocks,EBND,358491,358491,21.3100,21.3700,21509.46,0,0,0,21509.46,
+Mark-to-Market Performance Summary,Data,Stocks,EFA,28000,28000,89.2400,89.5000,7280,0,0,0,7280,
+Mark-to-Market Performance Summary,Data,Stocks,EWW,48750,48750,61.1200,61.5900,22912.5,0,0,0,22912.5,
+Mark-to-Market Performance Summary,Data,Stocks,EWZ,87600,87600,28.7900,28.9100,10512,0,0,0,10512,
+Mark-to-Market Performance Summary,Data,Stocks,GE,1400,1400,249.0200,244.7500,-5978,0,0,0,-5978,
+Mark-to-Market Performance Summary,Data,Stocks,GEV,2475,2475,506.0000,505.0700,-2301.75,0,0,0,-2301.75,
+Mark-to-Market Performance Summary,Data,Stocks,GS,3600,3600,706.4600,715.8900,33948,0,0,0,33948,
+Mark-to-Market Performance Summary,Data,Stocks,HD,6800,6800,373.1600,371.8500,-8908,0,0,0,-8908,
+Mark-to-Market Performance Summary,Data,Stocks,HO,5181,5181,236.3000,238.3000,12227.16,0,0,0,12227.16,
+Mark-to-Market Performance Summary,Data,Stocks,IAUM,239559,239559,33.2900,33.4900,47911.8,0,0,0,47911.8,
+Mark-to-Market Performance Summary,Data,Stocks,IBIT,41600,41600,59.8400,62.4200,107328,0,0,0,107328,
+Mark-to-Market Performance Summary,Data,Stocks,IBM,8700,8700,291.2000,287.6500,-30885,0,0,0,-30885,
+Mark-to-Market Performance Summary,Data,Stocks,ICE,4500,5200,181.8600,181.7400,-540,851,-0.716429,0,310.283571,
+Mark-to-Market Performance Summary,Data,Stocks,IOT,13000,13000,39.1600,38.3800,-10140,0,0,0,-10140,
+Mark-to-Market Performance Summary,Data,Stocks,JNJ,16300,16300,155.9200,155.5600,-5868,0,0,0,-5868,
+Mark-to-Market Performance Summary,Data,Stocks,JPIB,33819,34119,48.5400,48.4700,-2367.33,3.5,-0.487041,0,-2364.317041,
+Mark-to-Market Performance Summary,Data,Stocks,JPM,8700,8700,290.4100,292.0000,13833,0,0,0,13833,
+Mark-to-Market Performance Summary,Data,Stocks,KO,35125,35125,71.6700,70.9100,-26695,0,0,0,-26695,
+Mark-to-Market Performance Summary,Data,Stocks,MCD,12462,12462,297.4900,294.6300,-35641.32,0,0,0,-35641.32,
+Mark-to-Market Performance Summary,Data,Stocks,MELI,975,975,"2,501.4000","2,472.0500",-28616.25,0,0,0,-28616.25,
+Mark-to-Market Performance Summary,Data,Stocks,MRK,31100,31100,81.8100,82.3900,18038,0,0,0,18038,
+Mark-to-Market Performance Summary,Data,Stocks,NDAQ,28817,28817,88.9400,89.5200,16713.86,0,0,0,16713.86,
+Mark-to-Market Performance Summary,Data,Stocks,NOC,2522,3022,503.5300,498.9000,-11676.86,3545,-0.511735,0,-8132.371735,
+Mark-to-Market Performance Summary,Data,Stocks,NOW,75,75,"1,011.8900","1,009.7600",-159.75,0,0,0,-159.75,
+Mark-to-Market Performance Summary,Data,Stocks,NVDA,19025,19025,153.3000,157.2500,75148.75,0,0,0,75148.75,
+Mark-to-Market Performance Summary,Data,Stocks,NVO,14525,15025,69.8200,69.8200,0,157,-0.511735,0,156.488265,
+Mark-to-Market Performance Summary,Data,Stocks,PANW,9425,9425,197.5800,196.9700,-5749.25,0,0,0,-5749.25,
+Mark-to-Market Performance Summary,Data,Stocks,PG,15700,15700,161.2200,161.2000,-314,0,0,0,-314,
+Mark-to-Market Performance Summary,Data,Stocks,PLTR,15450,15450,130.6800,132.1200,22248,0,0,0,22248,
+Mark-to-Market Performance Summary,Data,Stocks,PM,14158,14158,177.5300,175.9100,-22935.96,0,0,0,-22935.96,
+Mark-to-Market Performance Summary,Data,Stocks,PONY,59025,59025,13.2000,13.1900,-590.25,0,0,0,-590.25,
+Mark-to-Market Performance Summary,Data,Stocks,QQQ,75,75,546.9900,550.8000,285.75,0,0,0,285.75,
+Mark-to-Market Performance Summary,Data,Stocks,RHMd,766,766,"1,702.5000","1,729.5000",24404.76,0,0,0,24404.76,
+Mark-to-Market Performance Summary,Data,Stocks,RTX,17663,17663,144.1900,144.5200,5828.79,0,0,0,5828.79,
+Mark-to-Market Performance Summary,Data,Stocks,SGOV,207975,207975,100.3700,100.3700,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Stocks,SHOP,22600,22600,112.6700,114.7700,47460,0,0,0,47460,
+Mark-to-Market Performance Summary,Data,Stocks,SHYG,94015,94015,42.8600,42.9200,5640.9,0,0,0,5640.9,
+Mark-to-Market Performance Summary,Data,Stocks,SPLV,825,825,73.3400,72.7900,-453.75,0,0,0,-453.75,
+Mark-to-Market Performance Summary,Data,Stocks,SQQQ,62200,841400,20.0700,19.6600,-25502,3897.07,-1558.271212,0,-23163.201212,
+Mark-to-Market Performance Summary,Data,Stocks,STZ,1013,1013,166.4200,173.8700,7546.85,0,0,0,7546.85,
+Mark-to-Market Performance Summary,Data,Stocks,TLT,235000,235000,88.1400,87.5800,-131600,0,0,0,-131600,
+Mark-to-Market Performance Summary,Data,Stocks,TQQQ,91379,72079,80.8900,82.5000,147120.19,61221.6077,-237.455411,0,208104.342289,
+Mark-to-Market Performance Summary,Data,Stocks,TSM,11400,11400,224.6800,233.6000,101688,0,0,0,101688,
+Mark-to-Market Performance Summary,Data,Stocks,U96,150000,150000,6.9300,7.1200,22390.17,0,0,0,22390.17,
+Mark-to-Market Performance Summary,Data,Stocks,UNH,7800,7800,326.1400,307.5600,-144924,0,0,0,-144924,
+Mark-to-Market Performance Summary,Data,Stocks,USMV,75,75,94.2700,93.3800,-66.75,0,0,0,-66.75,
+Mark-to-Market Performance Summary,Data,Stocks,UVXY,0,72514,--,18.6500,0,-591.37,-220.99261858,0,-812.36261858,
+Mark-to-Market Performance Summary,Data,Stocks,VRT,1000,1000,122.5400,124.3300,1790,0,0,0,1790,
+Mark-to-Market Performance Summary,Data,Stocks,VST,7000,7000,185.1000,187.0200,13440,0,0,0,13440,
+Mark-to-Market Performance Summary,Data,Stocks,VTIP,150,150,49.8150,49.8400,3.75,0,0,0,3.75,
+Mark-to-Market Performance Summary,Data,Stocks,VZ,58000,58000,43.6800,43.5900,-5220,0,0,0,-5220,
+Mark-to-Market Performance Summary,Data,Total,,,,,,455774.1984,69083.8077,-2018.94618158,0,522839.05991842,
+Mark-to-Market Performance Summary,Data,Forex,AUD,-15035.682709623,-15035.682709623,0.6583,0.6584,-1.50356827,0,0,0,-1.50356827,
+Mark-to-Market Performance Summary,Data,Forex,CAD,0.000004515,0.000004515,0.73282,0.73572,0.00000001,0,0,0,0.00000001,
+Mark-to-Market Performance Summary,Data,Forex,CHF,-0.000029287,-0.000029287,1.2640,1.2625,0.00000004,0,0,0,0.00000004,
+Mark-to-Market Performance Summary,Data,Forex,EUR,-2644300.775971957,-2644300.775971957,1.1806,1.1800,69.54928558,0,0,0,69.54928558,
+Mark-to-Market Performance Summary,Data,Forex,HKD,-132155881.40529837,-132155881.40529837,0.12739,0.12739,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Forex,JPY,-0.0002138,-0.0002138,0.0069733,0.0069606,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Forex,MXN,-0.00382842,-0.00382842,0.053361,0.053196,0.00000063,0,0,0,0.00000063,
+Mark-to-Market Performance Summary,Data,Forex,SEK,0.000335185,0.000335185,0.10553,0.10505,-0.00000016,0,0,0,-0.00000016,
+Mark-to-Market Performance Summary,Data,Forex,SGD,-4305505.86834833,-4305505.86834833,0.7857,0.78562,-4.27313054,0,0,0,-4.27313054,
+Mark-to-Market Performance Summary,Data,Forex,USD,-101145759.8525808,-116584022.09106238,1.0000,1.0000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,63.77258729,0,0,0,63.77258729,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,455837.97098729,69083.8077,-2018.94618158,0,522902.83250571,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,1288,0,0,0,0,0,0,329511.924887508,-687.919668947,0,0,328824.005218561,328824.005218561,
+Realized & Unrealized Performance Summary,Data,Stocks,1398,0,0,0,0,0,0,78757.137650808,-7809.229053509,0,0,70947.908597299,70947.908597299,
+Realized & Unrealized Performance Summary,Data,Stocks,1810,0,0,0,0,0,0,64637.168860295,0,0,0,64637.168860295,64637.168860295,
+Realized & Unrealized Performance Summary,Data,Stocks,2359,0,0,0,0,0,0,71610.03612378,0,0,0,71610.03612378,71610.03612378,
+Realized & Unrealized Performance Summary,Data,Stocks,2800,0,0,0,0,0,0,0,-2389.074595061,0,0,-2389.074595061,-2389.074595061,
+Realized & Unrealized Performance Summary,Data,Stocks,2828,0,0,0,0,0,0,21243.268073117,-4952.133305566,0,0,16291.134767551,16291.134767551,
+Realized & Unrealized Performance Summary,Data,Stocks,2899,0,0,0,0,0,0,54767.272274987,0,0,0,54767.272274987,54767.272274987,
+Realized & Unrealized Performance Summary,Data,Stocks,3067,0,0,0,0,0,0,3693.79923298,-5589.214244651,0,0,-1895.415011672,-1895.415011672,
+Realized & Unrealized Performance Summary,Data,Stocks,388,0,0,0,0,0,0,4766.070202808,0,0,0,4766.070202808,4766.070202808,
+Realized & Unrealized Performance Summary,Data,Stocks,3888,0,0,0,0,0,0,0,-68128.081412971,0,0,-68128.081412971,-68128.081412971,
+Realized & Unrealized Performance Summary,Data,Stocks,3988,0,0,0,0,0,0,37242.559825914,-13896.842588922,0,0,23345.717236992,23345.717236992,
+Realized & Unrealized Performance Summary,Data,Stocks,700,0,0,0,0,0,0,18918.25513705,-19659.56468112,0,0,-741.30954407,-741.30954407,
+Realized & Unrealized Performance Summary,Data,Stocks,857,0,0,0,0,0,0,5013.864193807,-6381.529233876,0,0,-1367.665040069,-1367.665040069,
+Realized & Unrealized Performance Summary,Data,Stocks,883,0,0,0,0,0,0,0,-8965.471687726,0,0,-8965.471687726,-8965.471687726,
+Realized & Unrealized Performance Summary,Data,Stocks,941,0,0,0,0,0,0,30987.674618491,-8011.32002721,0,0,22976.354591281,22976.354591281,
+Realized & Unrealized Performance Summary,Data,Stocks,9961,0,0,0,0,0,0,0,-39629.982414716,0,0,-39629.982414716,-39629.982414716,
+Realized & Unrealized Performance Summary,Data,Stocks,AAPL,0,0,0,0,0,0,15692.994493,0,0,0,15692.994493,15692.994493,
+Realized & Unrealized Performance Summary,Data,Stocks,AMD,0,0,0,0,0,0,33912.515205,0,0,0,33912.515205,33912.515205,
+Realized & Unrealized Performance Summary,Data,Stocks,AMGN,0,0,0,0,0,0,51362.081878,0,0,0,51362.081878,51362.081878,
+Realized & Unrealized Performance Summary,Data,Stocks,APP,0,0,0,0,0,0,0,-5034.175225,0,0,-5034.175225,-5034.175225,
+Realized & Unrealized Performance Summary,Data,Stocks,AVAV,0,0,0,0,0,0,58792.249297,-23515.937413,0,0,35276.311884,35276.311884,
+Realized & Unrealized Performance Summary,Data,Stocks,AVEM,0,0,0,0,0,0,38044.518524,0,0,0,38044.518524,38044.518524,
+Realized & Unrealized Performance Summary,Data,Stocks,BABA,0,0,0,0,0,0,0,-224837.319624,0,0,-224837.319624,-224837.319624,
+Realized & Unrealized Performance Summary,Data,Stocks,BN4,0,0,0,0,0,0,19952.749571269,0,0,0,19952.749571269,19952.749571269,
+Realized & Unrealized Performance Summary,Data,Stocks,BWXT,0,0,0,0,0,0,13488.791982,-6500.229855,0,0,6988.562127,6988.562127,
+Realized & Unrealized Performance Summary,Data,Stocks,CEG,0,0,0,0,0,0,15123.387485,-5057.198228,0,0,10066.189257,10066.189257,
+Realized & Unrealized Performance Summary,Data,Stocks,CME,0,0,0,0,0,0,29157.122643,0,0,0,29157.122643,29157.122643,
+Realized & Unrealized Performance Summary,Data,Stocks,COIN,0,0,0,0,0,0,68689.063531,0,0,0,68689.063531,68689.063531,
+Realized & Unrealized Performance Summary,Data,Stocks,CRWD,0,0,0,0,0,0,50453.039695,0,0,0,50453.039695,50453.039695,
+Realized & Unrealized Performance Summary,Data,Stocks,CSCO,0,0,0,0,0,0,29570.707914,-12016.438857,0,0,17554.269057,17554.269057,
+Realized & Unrealized Performance Summary,Data,Stocks,CTAS,0,0,0,0,0,0,0,-91436.319095,0,0,-91436.319095,-91436.319095,
+Realized & Unrealized Performance Summary,Data,Stocks,CVX,0,0,0,0,0,0,32371.533225,0,0,0,32371.533225,32371.533225,
+Realized & Unrealized Performance Summary,Data,Stocks,D05,0,0,0,0,0,0,37615.512204236,-1877.163884728,0,0,35738.348319508,35738.348319508,
+Realized & Unrealized Performance Summary,Data,Stocks,DAX,0,0,0,0,0,0,39374.319853,0,0,0,39374.319853,39374.319853,
+Realized & Unrealized Performance Summary,Data,Stocks,DG,0,0,0,0,0,0,80700.778469,0,0,0,80700.778469,80700.778469,
+Realized & Unrealized Performance Summary,Data,Stocks,EBND,0,0,0,0,0,0,173449.515578,0,0,0,173449.515578,173449.515578,
+Realized & Unrealized Performance Summary,Data,Stocks,EFA,0,0,0,0,0,0,8771.62321,0,0,0,8771.62321,8771.62321,
+Realized & Unrealized Performance Summary,Data,Stocks,EWW,0,0,0,0,0,0,54309.338775,-24.788241,0,0,54284.550534,54284.550534,
+Realized & Unrealized Performance Summary,Data,Stocks,EWZ,0,0,0,0,0,0,115013.063003,0,0,0,115013.063003,115013.063003,
+Realized & Unrealized Performance Summary,Data,Stocks,GE,0,0,0,0,0,0,0,-4433.451058,0,0,-4433.451058,-4433.451058,
+Realized & Unrealized Performance Summary,Data,Stocks,GEV,0,0,0,0,0,0,47474.187512,0,0,0,47474.187512,47474.187512,
+Realized & Unrealized Performance Summary,Data,Stocks,GS,0,0,0,0,0,0,68973.443599,0,0,0,68973.443599,68973.443599,
+Realized & Unrealized Performance Summary,Data,Stocks,HD,0,0,0,0,0,0,0,-14614.55409,0,0,-14614.55409,-14614.55409,
+Realized & Unrealized Performance Summary,Data,Stocks,HO,0,0,0,0,0,0,442.85649334,-47499.05051992,0,0,-47056.19402658,-47056.19402658,
+Realized & Unrealized Performance Summary,Data,Stocks,IAUM,0,0,0,0,0,0,104506.318162,-22756.796637,0,0,81749.521525,81749.521525,
+Realized & Unrealized Performance Summary,Data,Stocks,IBIT,0,0,0,0,0,0,82283.311107,0,0,0,82283.311107,82283.311107,
+Realized & Unrealized Performance Summary,Data,Stocks,IBM,0,0,0,0,0,0,0,-33921.178863,0,0,-33921.178863,-33921.178863,
+Realized & Unrealized Performance Summary,Data,Stocks,ICE,0,0,0,0,0,0,17106.080431,0,0,0,17106.080431,17106.080431,
+Realized & Unrealized Performance Summary,Data,Stocks,IOT,0,0,0,0,0,0,0,-4563.47411,0,0,-4563.47411,-4563.47411,
+Realized & Unrealized Performance Summary,Data,Stocks,JNJ,0,0,0,0,0,0,0,-7929.601985,0,0,-7929.601985,-7929.601985,
+Realized & Unrealized Performance Summary,Data,Stocks,JPIB,0,0,0,0,0,0,15576.34519,0,0,0,15576.34519,15576.34519,
+Realized & Unrealized Performance Summary,Data,Stocks,JPM,0,0,0,0,0,0,33101.994258,0,0,0,33101.994258,33101.994258,
+Realized & Unrealized Performance Summary,Data,Stocks,KO,0,0,0,0,0,0,37965.165895,-10322.436769,0,0,27642.729126,27642.729126,
+Realized & Unrealized Performance Summary,Data,Stocks,MCD,0,0,0,0,0,0,0,-34840.350384,0,0,-34840.350384,-34840.350384,
+Realized & Unrealized Performance Summary,Data,Stocks,MELI,0,0,0,0,0,0,0,-91843.313501,0,0,-91843.313501,-91843.313501,
+Realized & Unrealized Performance Summary,Data,Stocks,MRK,0,0,0,0,0,0,12225.168107,0,0,0,12225.168107,12225.168107,
+Realized & Unrealized Performance Summary,Data,Stocks,NDAQ,0,0,0,0,0,0,63706.387993,0,0,0,63706.387993,63706.387993,
+Realized & Unrealized Performance Summary,Data,Stocks,NOC,0,0,0,0,0,0,39568.266292,0,0,0,39568.266292,39568.266292,
+Realized & Unrealized Performance Summary,Data,Stocks,NOW,0,0,0,0,0,0,0,-1944.73301,0,0,-1944.73301,-1944.73301,
+Realized & Unrealized Performance Summary,Data,Stocks,NVDA,0,0,0,0,0,0,339985.237871,0,0,0,339985.237871,339985.237871,
+Realized & Unrealized Performance Summary,Data,Stocks,NVO,0,0,0,0,0,0,19116.277638,0,0,0,19116.277638,19116.277638,
+Realized & Unrealized Performance Summary,Data,Stocks,PANW,0,0,0,0,0,0,0,-29463.979829,0,0,-29463.979829,-29463.979829,
+Realized & Unrealized Performance Summary,Data,Stocks,PG,0,0,0,0,0,0,0,-8440.40271,0,0,-8440.40271,-8440.40271,
+Realized & Unrealized Performance Summary,Data,Stocks,PLTR,0,0,0,0,0,0,7033.573172,-85064.348046,0,0,-78030.774874,-78030.774874,
+Realized & Unrealized Performance Summary,Data,Stocks,PM,0,0,0,0,0,0,0,-84500.438121,0,0,-84500.438121,-84500.438121,
+Realized & Unrealized Performance Summary,Data,Stocks,PONY,0,0,0,0,0,0,4648.688591,-31446.697412,0,0,-26798.008821,-26798.008821,
+Realized & Unrealized Performance Summary,Data,Stocks,QQQ,0,0,0,0,0,0,3951.62644,0,0,0,3951.62644,3951.62644,
+Realized & Unrealized Performance Summary,Data,Stocks,RHMd,0,0,0,0,0,0,5726.51290012,-52807.35390412,0,0,-47080.841004,-47080.841004,
+Realized & Unrealized Performance Summary,Data,Stocks,RTX,0,0,0,0,0,0,61471.393131,-260.207294,0,0,61211.185837,61211.185837,
+Realized & Unrealized Performance Summary,Data,Stocks,SGOV,0,0,0,0,0,0,5184.387056,-60.954705,0,0,5123.432351,5123.432351,
+Realized & Unrealized Performance Summary,Data,Stocks,SHOP,0,0,0,0,0,0,46903.384925,0,0,0,46903.384925,46903.384925,
+Realized & Unrealized Performance Summary,Data,Stocks,SHYG,0,0,0,0,0,0,30423.392788,0,0,0,30423.392788,30423.392788,
+Realized & Unrealized Performance Summary,Data,Stocks,SPLV,0,0,0,0,0,0,1027.487437,0,0,0,1027.487437,1027.487437,
+Realized & Unrealized Performance Summary,Data,Stocks,SQQQ,0,13092.508474,0,0,0,13092.508474,143.842407,-15562.686182,0,0,-15418.843775,-2326.335301,
+Realized & Unrealized Performance Summary,Data,Stocks,STZ,0,0,0,0,0,0,0,-19389.353244,0,0,-19389.353244,-19389.353244,
+Realized & Unrealized Performance Summary,Data,Stocks,TLT,0,0,0,0,0,0,367064.361275,-950.523523,0,0,366113.837752,366113.837752,
+Realized & Unrealized Performance Summary,Data,Stocks,TQQQ,0,232554.26425013,0,0,0,232554.26425013,72137.17618,0,0,0,72137.17618,304691.44043013,
+Realized & Unrealized Performance Summary,Data,Stocks,TSM,0,0,0,0,0,0,101999.29865,0,0,0,101999.29865,101999.29865,
+Realized & Unrealized Performance Summary,Data,Stocks,U96,0,0,0,0,0,0,6291.85460112,0,0,0,6291.85460112,6291.85460112,
+Realized & Unrealized Performance Summary,Data,Stocks,UNH,0,0,0,0,0,0,0,-134087.157066,0,0,-134087.157066,-134087.157066,
+Realized & Unrealized Performance Summary,Data,Stocks,USMV,0,0,0,0,0,0,139.38394,0,0,0,139.38394,139.38394,
+Realized & Unrealized Performance Summary,Data,Stocks,UVXY,0,0,0,0,0,0,153.460297,-965.82288,0,0,-812.362583,-812.362583,
+Realized & Unrealized Performance Summary,Data,Stocks,VRT,0,0,0,0,0,0,0,-2874.03647,0,0,-2874.03647,-2874.03647,
+Realized & Unrealized Performance Summary,Data,Stocks,VST,0,0,0,0,0,0,84581.725825,-1728.725529,0,0,82853.000296,82853.000296,
+Realized & Unrealized Performance Summary,Data,Stocks,VTIP,0,0,0,0,0,0,0,-9.305471,0,0,-9.305471,-9.305471,
+Realized & Unrealized Performance Summary,Data,Stocks,VZ,0,0,0,0,0,0,0,-5706.975749,0,0,-5706.975749,-5706.975749,
+Realized & Unrealized Performance Summary,Data,Total,,0,245646.77272413,0,0,0,245646.77272413,3367906.527780628,-1304387.842399043,0,0,2063518.685381585,2309165.458105715,
+Realized & Unrealized Performance Summary,Data,Forex,AUD,0,0,0,0,0,0,0,-76.531624919,0,0,-76.531624919,-76.531624919,
+Realized & Unrealized Performance Summary,Data,Forex,EUR,0,0,0,0,0,0,1.73674,-42312.135765,0,0,-42310.399025,-42310.399025,
+Realized & Unrealized Performance Summary,Data,Forex,HKD,0,0,0,0,0,0,7195.737003506,-15.632324,0,0,7180.104679506,7180.104679506,
+Realized & Unrealized Performance Summary,Data,Forex,SGD,0,0,0,0,0,0,0.938244,-39879.444100055,0,0,-39878.505856055,-39878.505856055,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,7198.411987506,-82283.743852974,0,0,-75085.331865468,-75085.331865468,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,245646.77272413,0,0,0,245646.77272413,3375104.939768134,-1386671.586252017,0,0,1988433.353516117,2234080.126240246,
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,IB-UKL,
+Cash Report,Data,Starting Cash,Base Currency Summary,-124495693.0318074,-124495783.63246448,0.0010199,90.599637192,
+Cash Report,Data,Commissions,Base Currency Summary,-2018.94618158,-2018.94618158,0,0,
+Cash Report,Data,Trades (Sales),Base Currency Summary,7490992.6177,7490992.6177,0,0,
+Cash Report,Data,Trades (Purchase),Base Currency Summary,-22927235.91,-22927235.91,0,0,
+Cash Report,Data,Cash FX Translation Gain/Loss,Base Currency Summary,1929.51736729,1929.50806131,0,0.00930598,
+Cash Report,Data,Ending Cash,Base Currency Summary,-139932025.75292173,-139932116.3628848,0.0010199,90.608943177,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,-121832190.5121888,-121832281.12215188,0.0010199,90.608943177,
+Cash Report,Data,Starting Cash,AUD,-15035.682709623,-15035.682709623,0,0,
+Cash Report,Data,Ending Cash,AUD,-15035.682709623,-15035.682709623,0,0,
+Cash Report,Data,Ending Settled Cash,AUD,-15035.682709623,-15035.682709623,0,0,
+Cash Report,Data,Starting Cash,EUR,-2644300.775971957,-2644285.265971958,0,-15.51,
+Cash Report,Data,Ending Cash,EUR,-2644300.775971957,-2644285.265971958,0,-15.51,
+Cash Report,Data,Ending Settled Cash,EUR,-2644300.775971957,-2644285.265971958,0,-15.51,
+Cash Report,Data,Starting Cash,HKD,-132155881.40529837,-132167510.16533142,0,11628.76003306,
+Cash Report,Data,Ending Cash,HKD,-132155881.40529837,-132167510.16533142,0,11628.76003306,
+Cash Report,Data,Ending Settled Cash,HKD,-111246925.06309837,-111258553.82313143,0,11628.76003306,
+Cash Report,Data,Starting Cash,SGD,-4305505.86834833,-4305505.86828889,0,-0.00005944,
+Cash Report,Data,Ending Cash,SGD,-4305505.86834833,-4305505.86828889,0,-0.00005944,
+Cash Report,Data,Ending Settled Cash,SGD,-4305505.86834833,-4305505.86828889,0,-0.00005944,
+Cash Report,Data,Starting Cash,USD,-101145759.8525808,-101144387.37663949,0.0010199,-1372.476961216,
+Cash Report,Data,Commissions,USD,-2018.94618158,-2018.94618158,0,0,
+Cash Report,Data,Trades (Sales),USD,7490992.6177,7490992.6177,0,0,
+Cash Report,Data,Trades (Purchase),USD,-22927235.91,-22927235.91,0,0,
+Cash Report,Data,Ending Cash,USD,-116584022.09106238,-116582649.61512107,0.0010199,-1372.476961216,
+Cash Report,Data,Ending Settled Cash,USD,-101147778.79876238,-101146406.32282107,0.0010199,-1372.476961216,
+Cash Report,Disclaimer,"This section shows your combined total cash position in each currency, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,EUR,HO,5181,1,245.996994891,1274510.430531,238.3,1234632.3,-39878.130531,
+Open Positions,Data,Summary,Stocks,EUR,RHMd,766,1,1781.587490601,1364696.0178,1729.5,1324797,-39899.0178,
+Open Positions,Total,,Stocks,EUR,,,,,2639206.448331,,2559429.3,-79777.148331,
+Open Positions,Total,,Stocks,USD,,,,,3114263.60903058,,3020126.574,-94137.03503058,
+Open Positions,Data,Summary,Stocks,HKD,1288,6132000,1,5.339054345,32739081.243279997,5.76,35320320,2581238.75672,
+Open Positions,Data,Summary,Stocks,HKD,1398,3852000,1,6.19541675,23864745.32226,6.34,24421680,556934.67774,
+Open Positions,Data,Summary,Stocks,HKD,1810,100000,1,55.076040595,5507604.0595,60.15,6015000,507395.9405,
+Open Positions,Data,Summary,Stocks,HKD,2359,72000,1,71.44260668,5143867.68095,79.25,5706000,562132.31905,
+Open Positions,Data,Summary,Stocks,HKD,2800,121000,1,24.7949919,3000194.0199,24.64,2981440,-18754.0199,
+Open Positions,Data,Summary,Stocks,HKD,2828,120000,1,87.934300523,10552116.06274,89,10680000,127883.93726,
+Open Positions,Data,Summary,Stocks,HKD,2899,376000,1,19.456600683,7315681.8567,20.6,7745600,429918.1433,
+Open Positions,Data,Summary,Stocks,HKD,3067,570000,1,11.126103222,6341878.836735001,11.1,6327000,-14878.836735,
+Open Positions,Data,Summary,Stocks,HKD,388,15300,1,420.754691448,6437546.77916,423.2,6474960,37413.22084,
+Open Positions,Data,Summary,Stocks,HKD,3888,150000,1,40.515328593,6077299.2889,36.95,5542500,-534799.2889,
+Open Positions,Data,Summary,Stocks,HKD,3988,3840000,1,4.58227558,17595938.2272,4.63,17779200,183261.7728,
+Open Positions,Data,Summary,Stocks,HKD,700,20000,1,501.79096065,10035819.213,501.5,10030000,-5819.213,
+Open Positions,Data,Summary,Stocks,HKD,857,208000,1,6.851615611,1425136.0471,6.8,1414400,-10736.0471,
+Open Positions,Data,Summary,Stocks,HKD,883,87000,1,18.688944177,1625938.1434,17.88,1555560,-70378.1434,
+Open Positions,Data,Summary,Stocks,HKD,941,120000,1,85.396980755,10247637.690625,86.9,10428000,180362.309375,
+Open Positions,Data,Summary,Stocks,HKD,9961,11000,1,490.281071309,5393091.7844,462,5082000,-311091.7844,
+Open Positions,Total,,Stocks,HKD,,,,,153303576.25585,,157503660,4200083.74415,
+Open Positions,Total,,Stocks,USD,,,,,19529342.579232734,,20064391.247400004,535048.668167269,
+Open Positions,Data,Summary,Stocks,SGD,BN4,143000,1,7.422395411,1061402.54376,7.6,1086800,25397.45624,
+Open Positions,Data,Summary,Stocks,SGD,D05,50000,1,43.940187411,2197009.370536,44.85,2242500,45490.629464,
+Open Positions,Data,Summary,Stocks,SGD,U96,150000,1,7.06660816,1059991.224,7.12,1068000,8008.776,
+Open Positions,Total,,Stocks,SGD,,,,,4318403.138296,,4397300,78896.861704,
+Open Positions,Total,,Stocks,USD,,,,,3392623.873508103,,3454606.826,61982.952491896,
+Open Positions,Data,Summary,Stocks,USD,AAPL,1380,1,201.06826486,277474.205507,212.44,293167.2,15692.994493,
+Open Positions,Data,Summary,Stocks,USD,AMD,18600,1,136.696746494,2542559.484795,138.52,2576472,33912.515205,
+Open Positions,Data,Summary,Stocks,USD,AMGN,8700,1,290.946312428,2531232.918122,296.85,2582595,51362.081878,
+Open Positions,Data,Summary,Stocks,USD,APP,113,1,380.55022323,43002.175225,336,37968,-5034.175225,
+Open Positions,Data,Summary,Stocks,USD,AVAV,6200,1,240.560272277,1491473.688116,246.25,1526750,35276.311884,
+Open Positions,Data,Summary,Stocks,USD,AVEM,18300,1,66.961064562,1225387.481476,69.04,1263432,38044.518524,
+Open Positions,Data,Summary,Stocks,USD,BABA,22375,1,120.75859529,2701973.569624,110.71,2477136.25,-224837.319624,
+Open Positions,Data,Summary,Stocks,USD,BWXT,10800,1,140.122910914,1513327.437873,140.77,1520316,6988.562127,
+Open Positions,Data,Summary,Stocks,USD,CEG,5000,1,304.616762149,1523083.810743,306.63,1533150,10066.189257,
+Open Positions,Data,Summary,Stocks,USD,CME,9175,1,272.642111974,2501491.377357,275.82,2530648.5,29157.122643,
+Open Positions,Data,Summary,Stocks,USD,COIN,1000,1,285.760936469,285760.936469,354.45,354450,68689.063531,
+Open Positions,Data,Summary,Stocks,USD,CRWD,3600,1,482.085266751,1735506.960305,496.1,1785960,50453.039695,
+Open Positions,Data,Summary,Stocks,USD,CSCO,36250,1,68.105744302,2468833.230943,68.59,2486387.5,17554.269057,
+Open Positions,Data,Summary,Stocks,USD,CTAS,11000,1,223.972392645,2463696.319095,215.66,2372260,-91436.319095,
+Open Positions,Data,Summary,Stocks,USD,CVX,17200,1,146.097934115,2512884.466775,147.98,2545256,32371.533225,
+Open Positions,Data,Summary,Stocks,USD,DAX,20025,1,42.80374183,857144.930147,44.77,896519.25,39374.319853,
+Open Positions,Data,Summary,Stocks,USD,DG,9000,1,106.493246837,958439.221531,115.46,1039140,80700.778469,
+Open Positions,Data,Summary,Stocks,USD,EBND,358491,1,20.886167726,7487503.154422,21.37,7660952.67,173449.515578,
+Open Positions,Data,Summary,Stocks,USD,EFA,28000,1,89.186727743,2497228.37679,89.5,2506000,8771.62321,
+Open Positions,Data,Summary,Stocks,USD,EWW,48750,1,60.476470758,2948227.949466,61.59,3002512.5,54284.550534,
+Open Positions,Data,Summary,Stocks,USD,EWZ,87600,1,27.597065491,2417502.936997,28.91,2532516,115013.063003,
+Open Positions,Data,Summary,Stocks,USD,GE,1400,1,247.916750756,347083.451058,244.75,342650,-4433.451058,
+Open Positions,Data,Summary,Stocks,USD,GEV,2475,1,485.888510096,1202574.062488,505.07,1250048.25,47474.187512,
+Open Positions,Data,Summary,Stocks,USD,GS,3600,1,696.730710111,2508230.556401,715.89,2577204,68973.443599,
+Open Positions,Data,Summary,Stocks,USD,HD,6800,1,373.999199131,2543194.55409,371.85,2528580,-14614.55409,
+Open Positions,Data,Summary,Stocks,USD,IAUM,239559,1,33.148749947,7941081.388475001,33.49,8022830.91,81749.521525,
+Open Positions,Data,Summary,Stocks,USD,IBIT,41600,1,60.442035791,2514388.688893,62.42,2596672,82283.311107,
+Open Positions,Data,Summary,Stocks,USD,IBM,8700,1,291.548986076,2536476.178863,287.65,2502555,-33921.178863,
+Open Positions,Data,Summary,Stocks,USD,ICE,5200,1,178.450369148,927941.919569,181.74,945048,17106.080431,
+Open Positions,Data,Summary,Stocks,USD,IOT,13000,1,38.73103647,503503.47411,38.38,498940,-4563.47411,
+Open Positions,Data,Summary,Stocks,USD,JNJ,16300,1,156.046478649,2543557.601985,155.56,2535628,-7929.601985,
+Open Positions,Data,Summary,Stocks,USD,JPIB,34119,1,48.013470055,1638171.58481,48.47,1653747.93,15576.34519,
+Open Positions,Data,Summary,Stocks,USD,JPM,8700,1,288.195173074,2507298.005742,292,2540400,33101.994258,
+Open Positions,Data,Summary,Stocks,USD,KO,35125,1,70.123018388,2463071.020874,70.91,2490713.75,27642.729126,
+Open Positions,Data,Summary,Stocks,USD,MCD,12462,1,297.425727041,3706519.410384,294.63,3671679.06,-34840.350384,
+Open Positions,Data,Summary,Stocks,USD,MELI,975,1,2566.248270257,2502092.063501,2472.05,2410248.75,-91843.313501,
+Open Positions,Data,Summary,Stocks,USD,MRK,31100,1,81.996907778,2550103.831893,82.39,2562329,12225.168107,
+Open Positions,Data,Summary,Stocks,USD,NDAQ,28817,1,87.309277579,2515991.452007,89.52,2579697.84,63706.387993,
+Open Positions,Data,Summary,Stocks,USD,NOC,3022,1,485.806596197,1468107.533708,498.9,1507675.8,39568.266292,
+Open Positions,Data,Summary,Stocks,USD,NOW,75,1,1035.689773467,77676.73301,1009.76,75732,-1944.73301,
+Open Positions,Data,Summary,Stocks,USD,NVDA,19025,1,139.379553857,2651696.012129,157.25,2991681.25,339985.237871,
+Open Positions,Data,Summary,Stocks,USD,NVO,15025,1,68.547701987,1029929.222362,69.82,1049045.5,19116.277638,
+Open Positions,Data,Summary,Stocks,USD,PANW,9425,1,200.096151706,1885906.229829,196.97,1856442.25,-29463.979829,
+Open Positions,Data,Summary,Stocks,USD,PG,15700,1,161.737605268,2539280.40271,161.2,2530840,-8440.40271,
+Open Positions,Data,Summary,Stocks,USD,PLTR,15450,1,137.170535591,2119284.774874,132.12,2041254,-78030.774874,
+Open Positions,Data,Summary,Stocks,USD,PM,14158,1,181.878388058,2575034.218121,175.91,2490533.78,-84500.438121,
+Open Positions,Data,Summary,Stocks,USD,PONY,59025,1,13.644011162,805337.758821,13.19,778539.75,-26798.008821,
+Open Positions,Data,Summary,Stocks,USD,QQQ,75,1,498.111647467,37358.37356,550.8,41310,3951.62644,
+Open Positions,Data,Summary,Stocks,USD,RTX,17663,1,141.054496641,2491445.574163,144.52,2552656.76,61211.185837,
+Open Positions,Data,Summary,Stocks,USD,SGOV,207975,1,100.345365153,20869327.317649,100.37,20874450.75,5123.432351,
+Open Positions,Data,Summary,Stocks,USD,SHOP,22600,1,112.694628986,2546898.615075,114.77,2593802,46903.384925,
+Open Positions,Data,Summary,Stocks,USD,SHYG,94015,1,42.596398524,4004700.407212,42.92,4035123.8,30423.392788,
+Open Positions,Data,Summary,Stocks,USD,SPLV,825,1,71.544560682,59024.262563,72.79,60051.75,1027.487437,
+Open Positions,Data,Summary,Stocks,USD,SQQQ,841400,1,19.678325224,16557342.843775,19.66,16541924,-15418.843775,
+Open Positions,Data,Summary,Stocks,USD,STZ,1013,1,193.010526401,195519.663244,173.87,176130.31,-19389.353244,
+Open Positions,Data,Summary,Stocks,USD,TLT,235000,1,86.022068776,20215186.162248,87.58,20581300,366113.837752,
+Open Positions,Data,Summary,Stocks,USD,TQQQ,72079,1,81.499192883,5874380.32382,82.5,5946517.5,72137.17618,
+Open Positions,Data,Summary,Stocks,USD,TSM,11400,1,224.652693101,2561040.70135,233.6,2663040,101999.29865,
+Open Positions,Data,Summary,Stocks,USD,UNH,7800,1,324.750661162,2533055.157066,307.56,2398968,-134087.157066,
+Open Positions,Data,Summary,Stocks,USD,USMV,75,1,91.521547467,6864.11606,93.38,7003.5,139.38394,
+Open Positions,Data,Summary,Stocks,USD,UVXY,72514,1,18.661202838,1353198.462589,18.65,1352386.1,-812.362583,
+Open Positions,Data,Summary,Stocks,USD,VRT,1000,1,127.20403647,127204.03647,124.33,124330,-2874.03647,
+Open Positions,Data,Summary,Stocks,USD,VST,7000,1,175.183857101,1226286.999704,187.02,1309140,82853.000296,
+Open Positions,Data,Summary,Stocks,USD,VTIP,150,1,49.902036473,7485.305471,49.84,7476,-9.305471,
+Open Positions,Data,Summary,Stocks,USD,VZ,58000,1,43.688396134,2533926.975749,43.59,2528220,-5706.975749,
+Open Positions,Total,,Stocks,USD,,,,,182787512.06025305,,184348136.16000003,1560624.099753,
+Open Positions,Total,,Stocks,USD,,,,,208823742.12202448,,210887260.80740005,2063518.685381585,
+Forex Balances,Header,Asset Category,Currency,Description,Quantity,Cost Price,Cost Basis in USD,Close Price,Value in USD,Unrealized P/L in USD,Code
+Forex Balances,Data,Forex,USD,AUD,-15035.682709,0.65331,9822.961870081,0.6584,-9899.493495,-76.531624919,
+Forex Balances,Data,Forex,USD,EUR,-2644300.775989,1.16399948,3077964.516641004,1.18,-3120274.915666009,-42310.399025,
+Forex Balances,Data,Forex,USD,HKD,-132155881.40529118,0.127444558,16842517.83689849,0.12739,-16835337.732218992,7180.104679506,
+Forex Balances,Data,Forex,USD,SGD,-4305505.868349001,0.776357466,3342613.014466942,0.78562,-3382491.520320999,-39878.505856055,
+Forex Balances,Data,Forex,USD,USD,-116584022.09106238,0,116584022.09106238,1,-116584022.09106238,0,
+Forex Balances,Data,Total,,,,,139856940.4211049,,-139932025.7529704,-75085.331865468,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,ICE,"2025-07-02, 10:39:03",700,180.524285714,181.74,-126367,-0.716429,126367.716429,0,851,O;P
+Trades,SubTotal,,Stocks,USD,ICE,,,700,,,-126367,-0.716429,126367.716429,0,851,
+Trades,Data,Order,Stocks,USD,U18135473,JPIB,"2025-07-02, 10:47:39",300,48.458333333,48.47,-14537.5,-0.487041,14537.987041,0,3.5,O;P
+Trades,SubTotal,,Stocks,USD,JPIB,,,300,,,-14537.5,-0.487041,14537.987041,0,3.5,
+Trades,Data,Order,Stocks,USD,U18135473,NOC,"2025-07-02, 10:35:06",500,491.81,498.9,-245905,-0.511735,245905.511735,0,3545,O;P
+Trades,SubTotal,,Stocks,USD,NOC,,,500,,,-245905,-0.511735,245905.511735,0,3545,
+Trades,Data,Order,Stocks,USD,U18135473,NVO,"2025-07-02, 10:34:57",500,69.506,69.82,-34753,-0.511735,34753.511735,0,157,O;P
+Trades,SubTotal,,Stocks,USD,NVO,,,500,,,-34753,-0.511735,34753.511735,0,157,
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-01, 23:23:23","-49,611",19.95,19.66,989739.45,-108.24545117,-979097.09083,10534.113721,14387.19,C;P
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-01, 23:23:59","-12,589",19.94,19.66,251024.66,-46.22198283,-248420.043264,2558.394755,3524.92,C;P
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-02, 12:17:08","16,100",19.699813665,19.66,-317167,-8.367867,317175.367867,0,-641,O;P
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-02, 12:25:54","62,800",19.689363057,19.66,-1236492,-42.703916,1236534.703916,0,-1844,O;P
+Trades,Data,Order,Stocks,USD,U18135473,SQQQ,"2025-07-02, 14:42:12","762,500",19.675121364,19.66,-15002280.040000001,-1352.731995,15003632.77199499,0,-11530.04,O;P
+Trades,SubTotal,,Stocks,USD,SQQQ,,,779200,,,-15315174.930000002,-1558.271212,15329825.70968399,13092.508476,3897.07,
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-07-01, 23:26:22","56,500",81.358529204,82.5,-4596756.9,-130.834555,4596887.734555,0,64493.1,O;P
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-07-02, 12:17:07","-26,201",82.432638021,82.5,2159817.5488,-18.92279847,-2004157.655354997,155640.970641,-1764.9512,C;IM;P
+Trades,Data,Order,Stocks,USD,U18135473,TQQQ,"2025-07-02, 15:52:03","-49,599",82.469625575,82.5,4090410.9589,-87.69805753,-4013409.967232999,76913.293609,-1506.5411,C;IM;P
+Trades,SubTotal,,Stocks,USD,TQQQ,,,-19300,,,1653471.6077,-237.455411,-1420679.888032995,232554.26425,61221.6077,
+Trades,Data,Order,Stocks,USD,U18135473,UVXY,"2025-07-02, 15:18:13","26,468",18.658662158,18.65,-493857.47,-127.48640396,493984.95640396,0,-229.27,O;P
+Trades,Data,Order,Stocks,USD,U18135473,UVXY,"2025-07-02, 15:21:36","19,103",18.67,18.65,-356653.01,-11.91014741,356664.92014741,0,-382.06,O;P
+Trades,Data,Order,Stocks,USD,U18135473,UVXY,"2025-07-02, 15:27:21","26,943",18.649259177,18.65,-502466.99,-81.59606721,502548.586067212,0,19.96,O;P
+Trades,SubTotal,,Stocks,USD,UVXY,,,72514,,,-1352977.47,-220.99261858,1353198.462618582,0,-591.37,
+Trades,Total,,Stocks,USD,,,,,,,-15436243.2923,-2018.94618158,15683909.011209577,245646.772726,69083.8077, 
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,-358959.315716
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,-14230.9485683
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,0
+Interest Accruals,Data,Base Currency Summary,FX Translation,0.9480076
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,-373189.3162767
+Interest Accruals,Data,AUD,Starting Accrual Balance,-228.22
+Interest Accruals,Data,AUD,Interest Accrued,-2.33
+Interest Accruals,Data,AUD,Accrual Reversal,0
+Interest Accruals,Data,AUD,Ending Accrual Balance,-230.55
+Interest Accruals,Data,AUD,Ending Accrual Balance in USD,-151.79412
+Interest Accruals,Data,EUR,Starting Accrual Balance,-753.84
+Interest Accruals,Data,EUR,Interest Accrued,-212.43
+Interest Accruals,Data,EUR,Accrual Reversal,0
+Interest Accruals,Data,EUR,Ending Accrual Balance,-966.27
+Interest Accruals,Data,EUR,Ending Accrual Balance in USD,-1140.1986
+Interest Accruals,Data,HKD,Starting Accrual Balance,-63798.3
+Interest Accruals,Data,HKD,Interest Accrued,-3494.67
+Interest Accruals,Data,HKD,Accrual Reversal,0
+Interest Accruals,Data,HKD,Ending Accrual Balance,-67292.97
+Interest Accruals,Data,HKD,Ending Accrual Balance in USD,-8572.4514483
+Interest Accruals,Data,SGD,Starting Accrual Balance,-6481.57
+Interest Accruals,Data,SGD,Interest Accrued,-314.25
+Interest Accruals,Data,SGD,Accrual Reversal,0
+Interest Accruals,Data,SGD,Ending Accrual Balance,-6795.82
+Interest Accruals,Data,SGD,Ending Accrual Balance in USD,-5338.9321084
+Interest Accruals,Data,USD,Starting Accrual Balance,-344699.26
+Interest Accruals,Data,USD,Interest Accrued,-13286.68
+Interest Accruals,Data,USD,Accrual Reversal,0
+Interest Accruals,Data,USD,Ending Accrual Balance,-357985.94
+Change in Dividend Accruals,Header,Asset Category,Currency,Account,Symbol,Date,Ex Date,Pay Date,Quantity,Tax,Fee,Gross Rate,Gross Amount,Net Amount,Code
+Change in Dividend Accruals,Data,Starting Dividend Accruals in USD,,,,,,,,,,,,273889.7594683,
+Change in Dividend Accruals,Data,Stocks,USD,U18135473,SHYG,2025-06-30,2025-07-01,2025-07-07,87015,6504.64,0,0.249177,21682.14,15177.5,Po
+Change in Dividend Accruals,Data,Stocks,USD,U18135473,SHYG,2025-06-30,2025-07-01,2025-07-07,87015,-6504.64,0,0.249177,-21682.13,-15177.49,Re
+Change in Dividend Accruals,Data,Total,,,,,,,,0,0,,0.01,0.01,
+Change in Dividend Accruals,Data,Ending Dividend Accruals in USD,,,,,,,,,,,,273889.7694683,
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,1288,AGRICULTURAL BANK OF CHINA-H,76788432,CNE100000Q43,1288,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,1398,IND & COMM BK OF CHINA - H,46652361,CNE1000003G1,1398,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,1810,XIAOMI CORP-CLASS B,323608988,KYG9830T1067,1810,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2359,WUXI APPTEC CO LTD-H,344422817,CNE100003F19,2359,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2800,TRACKER FUND OF HONG KONG-B,6244735,HK2800008867,2800,SEHK,1,ETF,
+Financial Instrument Information,Data,Stocks,2828,HANGSENG CHINA ENT INDEX-HKD,42474946,HK2828013055,2828,SEHK,1,ETF,
+Financial Instrument Information,Data,Stocks,2899,ZIJIN MINING GROUP CO LTD-H,46654269,CNE100000502,2899,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,3067,ISHARES HANG SENG TECH E-HKD,445194075,HK0000651213,3067,SEHK,1,ETF,
+Financial Instrument Information,Data,Stocks,388,HONG KONG EXCHANGES & CLEAR,50236684,HK0388045442,388,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,3888,KINGSOFT CORP LTD,46477626,KYG5264Y1089,3888,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,3988,BANK OF CHINA LTD-H,46639425,CNE1000001Z5,3988,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,700,TENCENT HOLDINGS LTD,152791428,KYG875721634,700,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,857,PETROCHINA CO LTD-H,46636681,CNE1000003W8,857,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,883,CNOOC LTD,12150119,HK0883013259,883,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,941,CHINA MOBILE LTD,3408229,HK0941009539,941,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,9961,TRIP.COM GROUP LTD,481432897,KYG9066F1019,9961,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,AAPL,APPLE INC,265598,US0378331005,AAPL,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,AMD,ADVANCED MICRO DEVICES,4391,US0079031078,AMD,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,AMGN,AMGEN INC,266145,US0311621009,AMGN,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,APP,APPLOVIN CORP-CLASS A,481863646,US03831W1080,APP,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,AVAV,AEROVIRONMENT INC,42464367,US0080731088,AVAV,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,AVEM,AVANTIS EMERGING MARKETS EQ,383858503,US0250726041,AVEM,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,BABA,ALIBABA GROUP HOLDING-SP ADR,166090175,US01609W1027,BABA,NYSE,1,ADR,
+Financial Instrument Information,Data,Stocks,BN4,KEPPEL LTD,92216592,SG1U68934629,BN4,SGX,1,COMMON,
+Financial Instrument Information,Data,Stocks,BWXT,BWX TECHNOLOGIES INC,196689572,US05605H1005,BWXT,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,CEG,CONSTELLATION ENERGY,538132976,US21037T1097,CEG,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,CME,CME GROUP INC,45127739,US12572Q1058,CME,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,COIN,COINBASE GLOBAL INC -CLASS A,481691285,US19260Q1076,COIN,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,CRWD,CROWDSTRIKE HOLDINGS INC - A,370757467,US22788C1053,CRWD,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,CSCO,CISCO SYSTEMS INC,268084,US17275R1023,CSCO,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,CTAS,CINTAS CORP,268149,US1729081059,CTAS,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,CVX,CHEVRON CORP,5684,US1667641005,CVX,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,D05,DBS GROUP HOLDINGS LTD,15785538,SG1L01001701,D05,SGX,1,COMMON,
+Financial Instrument Information,Data,Stocks,DAX,GLOBAL X DAX GERMANY ETF,346727821,US37954Y4917,DAX,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,DG,DOLLAR GENERAL CORP,70212228,US2566771059,DG,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,EBND,SPDR BLOOMBERG EM BOND,84648107,US78464A3914,EBND,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EFA,ISHARES MSCI EAFE ETF,13002510,US4642874659,EFA,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EWW,ISHARES MSCI MEXICO ETF,2586566,US4642868222,EWW,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,EWZ,ISHARES MSCI BRAZIL ETF,10753244,US4642864007,EWZ,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,GE,GENERAL ELECTRIC,498843743,US3696043013,GE,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,GEV,GE VERNOVA INC,691984365,US36828A1016,GEV,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,GS,GOLDMAN SACHS GROUP INC,4627828,US38141G1040,GS,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,HD,HOME DEPOT INC,7930,US4370761029,HD,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,HO,THALES SA.,917799,FR0000121329,HO,SBF,1,COMMON,
+Financial Instrument Information,Data,Stocks,IAUM,ISHARES GOLD TRUST MICRO,499640636,US46436F1030,IAUM,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IBIT,ISHARES BITCOIN TRUST ETF,677037673,US46438F1012,IBIT,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,IBM,INTL BUSINESS MACHINES CORP,8314,US4592001014,IBM,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,ICE,INTERCONTINENTAL EXCHANGE IN,136370275,US45866F1049,ICE,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,IOT,SAMSARA INC-CL A,532274461,US79589L1061,IOT,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,JNJ,JOHNSON & JOHNSON,8719,US4781601046,JNJ,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,JPIB,JPMORGAN INTL BND ETF,272356189,US46641Q8520,JPIB,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,JPM,JPMORGAN CHASE & CO,1520593,US46625H1005,JPM,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,KO,COCA-COLA CO/THE,8894,US1912161007,KO,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,MCD,MC DONALD'S-CORP,9408,US5801351017,MCD,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,MELI,MERCADOLIBRE INC,45602025,US58733R1023,MELI,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,MRK,MERCK & CO INC,70101545,US58933Y1055,MRK,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,NDAQ,NASDAQ INC,29380756,US6311031081,NDAQ,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,NOC,NORTHROP GRUMMAN CORP,10376,US6668071029,NOC,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,NOW,SERVICENOW INC,109911821,US81762P1021,NOW,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,NVDA,NVIDIA CORP,4815747,US67066G1040,NVDA,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,NVO,NOVO-NORDISK A/S-SPONS ADR,10611,US6701002056,NVO,NYSE,1,ADR,
+Financial Instrument Information,Data,Stocks,PANW,PALO ALTO NETWORKS INC,110619459,US6974351057,PANW,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,PG,PROCTER & GAMBLE CO/THE,11054,US7427181091,PG,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,PLTR,PALANTIR TECHNOLOGIES INC-A,444857009,US69608A1088,PLTR,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,PM,PHILIP MORRIS INTERNATIONAL,49588376,US7181721090,PM,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,PONY,PONY AI INC,744874842,US7329081084,PONY,NASDAQ,1,ADR,
+Financial Instrument Information,Data,Stocks,QQQ,INVESCO QQQ TRUST SERIES 1,320227571,US46090E1038,QQQ,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,RHMd,RHEINMETALL AG,15085,DE0007030009,RHM,IBIS,1,COMMON,
+Financial Instrument Information,Data,Stocks,RTX,RTX CORP,415342104,US75513E1010,RTX,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,SGOV,ISHARES 0-3 MONTH TREASURY B,424099317,US46436E7186,SGOV,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SHOP,SHOPIFY INC - CLASS A,195014116,CA82509L1076,SHOP,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,SHYG,ISHARES 0-5 YR HY CORP BOND,136374385,US46434V4077,SHYG,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SPLV,INVESCO S&P 500 LOW VOLATILI,319357142,US46138E3541,SPLV,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SQQQ,PROSHARES ULTRAPRO SHORT QQQ,739810416,US74347G1922,SQQQ,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,STZ,CONSTELLATION BRANDS INC-A,276066,US21036P1084,STZ,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,TLT,ISHARES 20+ YEAR TREASURY BD,15547841,US4642874329,TLT,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,TQQQ,PROSHARES ULTRAPRO QQQ,72539702,US74347X8314,TQQQ,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,TSM,TAIWAN SEMICONDUCTOR-SP ADR,6223250,US8740391003,TSM,NYSE,1,ADR,
+Financial Instrument Information,Data,Stocks,U96,SEMBCORP INDUSTRIES LTD,15785505,SG1R50925390,U96,SGX,1,COMMON,
+Financial Instrument Information,Data,Stocks,UNH,UNITEDHEALTH GROUP INC,13272,US91324P1021,UNH,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,USMV,ISHARES MSCI USA MIN VOL FAC,96079929,US46429B6974,USMV,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,UVXY,PROSHARES ULTRA VIX ST FUTUR,694112250,US74347Y7554,UVXY,BATS,1,ETF,
+Financial Instrument Information,Data,Stocks,VRT,VERTIV HOLDINGS CO-A,402783527,US92537N1081,VRT,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,VST,VISTRA CORP,254457731,US92840M1027,VST,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,VTIP,VANGUARD SHORT-TERM TIPS,115664156,US9220208055,VTIP,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,VZ,VERIZON COMMUNICATIONS INC,4901,US92343V1044,VZ,NYSE,1,COMMON,
+Base Currency Exchange Rate,Header,Currency,Rate
+Base Currency Exchange Rate,Data,AED,0.272250
+Base Currency Exchange Rate,Data,AUD,0.658400
+Base Currency Exchange Rate,Data,BGN,0.601450
+Base Currency Exchange Rate,Data,BHD,2.652700
+Base Currency Exchange Rate,Data,BRL,0.184360
+Base Currency Exchange Rate,Data,CAD,0.735720
+Base Currency Exchange Rate,Data,CHF,1.262500
+Base Currency Exchange Rate,Data,CNH,0.139640
+Base Currency Exchange Rate,Data,CNY,0.139550
+Base Currency Exchange Rate,Data,CZK,0.047856
+Base Currency Exchange Rate,Data,DKK,0.158130
+Base Currency Exchange Rate,Data,EUR,1.180000
+Base Currency Exchange Rate,Data,GBP,1.363500
+Base Currency Exchange Rate,Data,HKD,0.127390
+Base Currency Exchange Rate,Data,HUF,0.002949
+Base Currency Exchange Rate,Data,IDR,0.000062
+Base Currency Exchange Rate,Data,ILS,0.296790
+Base Currency Exchange Rate,Data,INR,0.011679
+Base Currency Exchange Rate,Data,JPY,0.006961
+Base Currency Exchange Rate,Data,KRW,0.000737
+Base Currency Exchange Rate,Data,KWD,3.277000
+Base Currency Exchange Rate,Data,MXN,0.053196
+Base Currency Exchange Rate,Data,MYR,0.236460
+Base Currency Exchange Rate,Data,NOK,0.099405
+Base Currency Exchange Rate,Data,NZD,0.608870
+Base Currency Exchange Rate,Data,OMR,2.597400
+Base Currency Exchange Rate,Data,PHP,-1.000000
+Base Currency Exchange Rate,Data,PLN,0.276650
+Base Currency Exchange Rate,Data,QAR,0.274370
+Base Currency Exchange Rate,Data,RON,0.233090
+Base Currency Exchange Rate,Data,RUB,0.012670
+Base Currency Exchange Rate,Data,RUS,0.012670
+Base Currency Exchange Rate,Data,SAR,0.266650
+Base Currency Exchange Rate,Data,SEK,0.105050
+Base Currency Exchange Rate,Data,SGD,0.785620
+Base Currency Exchange Rate,Data,THB,0.030943
+Base Currency Exchange Rate,Data,TRY,0.025142
+Base Currency Exchange Rate,Data,TWD,0.034509
+Base Currency Exchange Rate,Data,ZAR,0.056933
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

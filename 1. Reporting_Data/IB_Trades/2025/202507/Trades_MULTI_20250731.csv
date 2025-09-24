@@ -1,0 +1,28 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"July 31, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 00:07:27 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Equity and Index Options,USD,U18135473,SPOT 18JUN26 690 C,"2025-07-31, 12:38:54",20,90.3,84.6431,-180600,-7.953,180607.953,0,-11313.8,O;P
+Trades,SubTotal,,Equity and Index Options,USD,SPOT 18JUN26 690 C,,,20,,,-180600,-7.953,180607.953,0,-11313.8,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,SPOT 18JUN26 650 P,"2025-07-31, 12:38:54",-40,97.4,101.6606,389600,-16.0176,-389583.9824,0,-17042.4,O;P
+Trades,SubTotal,,Equity and Index Options,USD,SPOT 18JUN26 650 P,,,-40,,,389600,-16.0176,-389583.9824,0,-17042.4,
+Trades,Data,Order,Equity and Index Options,USD,U18135473,SPOT 18JUN26 660 P,"2025-07-31, 12:38:54",-10,102.95,107.1805,102950,-4.0044,-102945.9956,0,-4230.5,O;P
+Trades,SubTotal,,Equity and Index Options,USD,SPOT 18JUN26 660 P,,,-10,,,102950,-4.0044,-102945.9956,0,-4230.5,
+Trades,Total,,Equity and Index Options,USD,,,,,,,311950,-27.975,-311922.025,0,-32586.7, 
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Options On Futures,USD,U18135473,NQ 19SEP25 22100 P,"2025-07-31, 16:23:29",-60,241.025,240.75,289230,-85.2,-289144.8,0,330,O;P
+Trades,SubTotal,,Options On Futures,USD,NQ 19SEP25 22100 P,,,-60,,,289230,-85.2,-289144.8,0,330,
+Trades,Data,Order,Options On Futures,USD,U18135473,NQ 19SEP25 22800 P,"2025-07-31, 11:56:25",-1,307.5,382.5,6150,-1.42,-6148.58,0,-1500,O
+Trades,Data,Order,Options On Futures,USD,U18135473,NQ 19SEP25 22800 P,"2025-07-31, 12:29:53",1,292.75,382.5,-5855,-1.42,6148.58,292.16,1795,C
+Trades,SubTotal,,Options On Futures,USD,NQ 19SEP25 22800 P,,,0,,,295,-2.84,0,292.16,295,
+Trades,Data,Order,Options On Futures,USD,U18135473,NQ 19SEP25 23400 P,"2025-07-31, 16:23:29",60,610.470833333,582,-732565,-85.2,732650.2,0,-34165,O;P
+Trades,SubTotal,,Options On Futures,USD,NQ 19SEP25 23400 P,,,60,,,-732565,-85.2,732650.2,0,-34165,
+Trades,Data,Order,Options On Futures,USD,U18135473,NQ 19SEP25 23600 P,"2025-07-31, 11:56:25",1,555,676,-11100,-1.42,11101.42,0,2420,O
+Trades,Data,Order,Options On Futures,USD,U18135473,NQ 19SEP25 23600 P,"2025-07-31, 12:29:53",-1,530.75,676,10615,-1.42,-11101.42,-487.84,-2905,C
+Trades,SubTotal,,Options On Futures,USD,NQ 19SEP25 23600 P,,,0,,,-485,-2.84,0,-487.84,-485,
+Trades,Total,,Options On Futures,USD,,,,,,,-443525,-176.08,443505.4,-195.68,-34025, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

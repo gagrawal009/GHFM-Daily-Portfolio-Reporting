@@ -1,0 +1,14 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"April 17, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 01:51:24 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-04-17, 12:09:59","4,200",47.455371429,47.26,-199312.56,-5.942074,199318.502074,0,-820.56,IM;O;P
+Trades,SubTotal,,Stocks,USD,EXC,,,4200,,,-199312.56,-5.942074,199318.502074,0,-820.56,
+Trades,Data,Order,Stocks,USD,U18135473,IAUM,"2025-04-17, 12:12:10",200,32.89,33.13,-6578,-0.047294,6578.047294,0,48,O
+Trades,SubTotal,,Stocks,USD,IAUM,,,200,,,-6578,-0.047294,6578.047294,0,48,
+Trades,Total,,Stocks,USD,,,,,,,-205890.56,-5.989368,205896.549368,0,-772.56, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

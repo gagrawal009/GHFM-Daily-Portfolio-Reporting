@@ -1,0 +1,1011 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"April 22, 2025"
+Statement,Data,WhenGenerated,"2025-08-05, 22:26:37 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Account Information,Header,Field Name,Field Value
+Account Information,Data,Name,Golden Horse Global Macro Discretionary Fund
+Account Information,Data,Account,U8251256 (Custom Consolidated)
+Account Information,Data,Accounts Included,"U18135473, U18135473F, U8251256, U8251256F"
+Account Information,Data,Master Name,Golden Horse Fund Management Pte Ltd
+Account Information,Data,Account Type,Institution Master
+Account Information,Data,Customer Type,Corporate
+Account Information,Data,Account Capabilities,Portfolio Margin
+Account Information,Data,Base Currency,USD
+Net Asset Value,Header,Asset Class,Prior Total,Current Long,Current Short,Current Total,Change
+Net Asset Value,Data,Cash ,-12556330.479140379,43013.974385535,-13569511.567220425,-13526497.59283489,-970167.113694511
+Net Asset Value,Data,Stock,71441288.29376,73817639.92719999,0,73817639.92719999,2376351.633439988
+Net Asset Value,Data,Interest Accruals,-29214.24,35607.33,-66588.09,-30980.76,-1766.52
+Net Asset Value,Data,Dividend Accruals,897.11,934.11,-37,897.11,0
+Net Asset Value,Data,Total,58856640.68461962,73897195.34158552,-13636136.657220425,60261058.68436509,1404417.999745473
+Net Asset Value,Header,Time Weighted Rate of Return
+Net Asset Value,Data,2.386167446%
+Change in Combined NAV,Header,Field Name,Field Value
+Change in NAV,Data,Starting Value,58856640.68461962
+Change in NAV,Data,Mark-to-Market,1406873.85091262
+Change in NAV,Data,Change in Interest Accruals,-1766.52
+Change in NAV,Data,Commissions,-262.18410018
+Change in NAV,Data,Transaction Fees,-427.14706696
+Change in NAV,Data,Ending Value,60261058.68436509
+Change in NAV,Disclaimer,"This section shows your combined total cash position, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Mark-to-Market Performance Summary,Header,Asset Category,Symbol,Prior Quantity,Current Quantity,Prior Price,Current Price,Mark-to-Market P/L Position,Mark-to-Market P/L Transaction,Mark-to-Market P/L Commissions,Mark-to-Market P/L Other,Mark-to-Market P/L Total,Code
+Mark-to-Market Performance Summary,Data,Stocks,1810,10000,10000,41.9500,44.4000,3158.05,0,0,0,3158.05,
+Mark-to-Market Performance Summary,Data,Stocks,2097,700,700,466.6000,470.6000,360.92,0,0,0,360.92,
+Mark-to-Market Performance Summary,Data,Stocks,2359,5600,5600,51.9500,54.8000,2057.244,0,0,0,2057.244,
+Mark-to-Market Performance Summary,Data,Stocks,2828,10400,10400,80.9800,81.5200,723.9024,0,0,0,723.9024,
+Mark-to-Market Performance Summary,Data,Stocks,3067,67500,67500,10.2600,10.3600,870.075,0,0,0,870.075,
+Mark-to-Market Performance Summary,Data,Stocks,700,2400,2400,458.0000,460.4000,742.464,0,0,0,742.464,
+Mark-to-Market Performance Summary,Data,Stocks,857,104000,104000,5.6700,5.7700,1340.56,0,0,0,1340.56,
+Mark-to-Market Performance Summary,Data,Stocks,883,32000,32000,16.8200,17.0000,742.464,0,0,0,742.464,
+Mark-to-Market Performance Summary,Data,Stocks,941,10000,20000,83.5500,82.9000,-837.85,499.4875,-175.651788312,0,-514.014288312,
+Mark-to-Market Performance Summary,Data,Stocks,981,0,50000,--,46.6000,0,609.0525,-504.293649287,0,104.758850712,
+Mark-to-Market Performance Summary,Data,Stocks,9961,1000,1000,449.8000,442.4000,-953.86,0,0,0,-953.86,
+Mark-to-Market Performance Summary,Data,Stocks,AMZN,3590,3590,167.3200,173.1800,21037.4,0,0,0,21037.4,
+Mark-to-Market Performance Summary,Data,Stocks,DG,0,3200,--,96.7900,0,2431,-3.46681425,0,2427.53318575,
+Mark-to-Market Performance Summary,Data,Stocks,EXC,7500,12932,46.2300,47.3700,8550,1235.8,-5.91891529,0,9779.88108471,
+Mark-to-Market Performance Summary,Data,Stocks,FXY,2200,2200,65.5200,65.1400,-836,0,0,0,-836,
+Mark-to-Market Performance Summary,Data,Stocks,GS,260,260,501.3600,519.9900,4843.8,0,0,0,4843.8,
+Mark-to-Market Performance Summary,Data,Stocks,IAUM,106400,106400,34.1500,33.6600,-52136,0,0,0,-52136,
+Mark-to-Market Performance Summary,Data,Stocks,IBIT,750,750,49.7200,52.0800,1770,0,0,0,1770,
+Mark-to-Market Performance Summary,Data,Stocks,ICE,1500,1500,155.0300,160.6800,8475,0,0,0,8475,
+Mark-to-Market Performance Summary,Data,Stocks,IYK,6300,6300,70.6900,71.6400,5985,0,0,0,5985,
+Mark-to-Market Performance Summary,Data,Stocks,MDT,1800,1800,81.8000,83.3700,2826,0,0,0,2826,
+Mark-to-Market Performance Summary,Data,Stocks,MSTR,1610,1610,317.7600,343.0300,40684.7,0,0,0,40684.7,
+Mark-to-Market Performance Summary,Data,Stocks,NVDA,9490,9490,96.9100,98.8900,18790.2,0,0,0,18790.2,
+Mark-to-Market Performance Summary,Data,Stocks,QQQ,2250,2250,433.1100,444.4800,25582.5,0,0,0,25582.5,
+Mark-to-Market Performance Summary,Data,Stocks,RSP,3050,3050,159.3900,163.3200,11986.5,0,0,0,11986.5,
+Mark-to-Market Performance Summary,Data,Stocks,SGOV,378900,378900,100.5700,100.5800,3789,0,0,0,3789,
+Mark-to-Market Performance Summary,Data,Stocks,SPLV,6800,6800,70.8000,72.1600,9248,0,0,0,9248,
+Mark-to-Market Performance Summary,Data,Stocks,TIP,41000,41000,108.4700,108.8700,16400,0,0,0,16400,
+Mark-to-Market Performance Summary,Data,Stocks,TLT,24600,24600,86.0000,86.4800,11808,0,0,0,11808,
+Mark-to-Market Performance Summary,Data,Stocks,TQQQ,378800,378800,41.8600,45.0600,1212160,0,0,0,1212160,
+Mark-to-Market Performance Summary,Data,Stocks,TSLA,3690,3690,227.5000,237.9700,38634.3,0,0,0,38634.3,
+Mark-to-Market Performance Summary,Data,Stocks,UBER,2757,2757,72.9200,74.4400,4190.64,0,0,0,4190.64,
+Mark-to-Market Performance Summary,Data,Total,,,,,,1401993.0094,4775.34,-689.33116714,0,1406079.01823286,
+Mark-to-Market Performance Summary,Data,Forex,CAD,0.000004515,0.000004515,0.72252,0.72388,0.00000001,0,0,0,0.00000001,
+Mark-to-Market Performance Summary,Data,Forex,CHF,-0.000029287,-0.000029287,1.2360,1.2209,0.00000044,0,0,0,0.00000044,
+Mark-to-Market Performance Summary,Data,Forex,EUR,2.372357913,2.372357913,1.1513,1.1421,-0.02182569,0,0,0,-0.02182569,
+Mark-to-Market Performance Summary,Data,Forex,HKD,-803037.32053856,-3958712.30453856,0.12888,0.1289,105.62329358,0,0,0,105.62329358,
+Mark-to-Market Performance Summary,Data,Forex,JPY,-0.0002138,-0.0002138,0.0070991,0.0070621,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Forex,MXN,-0.00382842,-0.00382842,0.050684,0.05098,-0.00000113,0,0,0,-0.00000113,
+Mark-to-Market Performance Summary,Data,Forex,SEK,0.000335185,0.000335185,0.10499,0.10445,-0.00000018,0,0,0,-0.00000018,
+Mark-to-Market Performance Summary,Data,Forex,SGD,27.30994767,27.30994767,0.7662,0.76254,-0.09995441,0,0,0,-0.09995441,
+Mark-to-Market Performance Summary,Data,Forex,USD,-12452858.685253635,-13016243.110983174,1.0000,1.0000,0,0,0,0,0,
+Mark-to-Market Performance Summary,Data,Total,,,,,,105.50151262,0,0,0,105.50151262,
+Mark-to-Market Performance Summary,Data,Total (All Assets),,,,,,1402098.51091262,4775.34,-689.33116714,0,1406184.51974548,
+Realized & Unrealized Performance Summary,Header,Asset Category,Symbol,Cost Adj.,Realized S/T Profit,Realized S/T Loss,Realized L/T Profit,Realized L/T Loss,Realized Total,Unrealized S/T Profit,Unrealized S/T Loss,Unrealized L/T Profit,Unrealized L/T Loss,Unrealized Total,Total,Code
+Realized & Unrealized Performance Summary,Data,Stocks,1810,0,0,0,0,0,0,0,-11158.90407779,0,0,-11158.90407779,-11158.90407779,
+Realized & Unrealized Performance Summary,Data,Stocks,2097,0,0,0,0,0,0,4475.00599957,0,0,0,4475.00599957,4475.00599957,
+Realized & Unrealized Performance Summary,Data,Stocks,2359,0,0,0,0,0,0,0,-9436.119811262,0,0,-9436.119811262,-9436.119811262,
+Realized & Unrealized Performance Summary,Data,Stocks,2828,0,0,0,0,0,0,0,-8697.249846822,0,0,-8697.249846822,-8697.249846822,
+Realized & Unrealized Performance Summary,Data,Stocks,3067,0,0,0,0,0,0,0,-10458.942037614,0,0,-10458.942037614,-10458.942037614,
+Realized & Unrealized Performance Summary,Data,Stocks,700,0,0,0,0,0,0,0,-17303.5816306,0,0,-17303.5816306,-17303.5816306,
+Realized & Unrealized Performance Summary,Data,Stocks,857,0,0,0,0,0,0,0,-8734.47265043,0,0,-8734.47265043,-8734.47265043,
+Realized & Unrealized Performance Summary,Data,Stocks,883,0,0,0,0,0,0,0,-8420.56549669,0,0,-8420.56549669,-8420.56549669,
+Realized & Unrealized Performance Summary,Data,Stocks,941,0,0,0,0,0,0,323.835711688,-881.78846525,0,0,-557.952753562,-557.952753562,
+Realized & Unrealized Performance Summary,Data,Stocks,981,0,0,0,0,0,0,581.910010887,-477.151160175,0,0,104.758850712,104.758850712,
+Realized & Unrealized Performance Summary,Data,Stocks,9961,0,0,0,0,0,0,0,-7745.78911666,0,0,-7745.78911666,-7745.78911666,
+Realized & Unrealized Performance Summary,Data,Stocks,AMZN,0,0,0,0,0,0,0,-85199.562648,0,0,-85199.562648,-85199.562648,
+Realized & Unrealized Performance Summary,Data,Stocks,DG,0,0,0,0,0,0,2427.533188,0,0,0,2427.533188,2427.533188,
+Realized & Unrealized Performance Summary,Data,Stocks,EXC,0,0,0,0,0,0,3784.347079,-543.418417,0,0,3240.928662,3240.928662,
+Realized & Unrealized Performance Summary,Data,Stocks,FXY,0,0,0,0,0,0,3157.315836,0,0,0,3157.315836,3157.315836,
+Realized & Unrealized Performance Summary,Data,Stocks,GS,0,0,0,0,0,0,0,-12236.311008,0,0,-12236.311008,-12236.311008,
+Realized & Unrealized Performance Summary,Data,Stocks,IAUM,0,0,0,0,0,0,233555.271392,0,0,0,233555.271392,233555.271392,
+Realized & Unrealized Performance Summary,Data,Stocks,IBIT,0,0,0,0,0,0,2381.578347,0,0,0,2381.578347,2381.578347,
+Realized & Unrealized Performance Summary,Data,Stocks,ICE,0,0,0,0,0,0,0,-18163.594019,0,0,-18163.594019,-18163.594019,
+Realized & Unrealized Performance Summary,Data,Stocks,IYK,0,0,0,0,0,0,0,-5211.19286,0,0,-5211.19286,-5211.19286,
+Realized & Unrealized Performance Summary,Data,Stocks,MDT,0,0,0,0,0,0,0,-11388.021275,0,0,-11388.021275,-11388.021275,
+Realized & Unrealized Performance Summary,Data,Stocks,MSTR,0,0,0,0,0,0,56547.137011,0,0,0,56547.137011,56547.137011,
+Realized & Unrealized Performance Summary,Data,Stocks,NVDA,0,0,0,0,0,0,0,-112040.191319,0,0,-112040.191319,-112040.191319,
+Realized & Unrealized Performance Summary,Data,Stocks,QQQ,0,0,0,0,0,0,0,-76746.706371,0,0,-76746.706371,-76746.706371,
+Realized & Unrealized Performance Summary,Data,Stocks,RSP,0,0,0,0,0,0,0,-31211.910722,0,0,-31211.910722,-31211.910722,
+Realized & Unrealized Performance Summary,Data,Stocks,SGOV,0,0,0,0,0,0,89010.380441,0,0,0,89010.380441,89010.380441,
+Realized & Unrealized Performance Summary,Data,Stocks,SPLV,0,0,0,0,0,0,0,-16891.663462,0,0,-16891.663462,-16891.663462,
+Realized & Unrealized Performance Summary,Data,Stocks,TIP,0,0,0,0,0,0,0,-95735.917594,0,0,-95735.917594,-95735.917594,
+Realized & Unrealized Performance Summary,Data,Stocks,TLT,0,0,0,0,0,0,0,-153272.368988,0,0,-153272.368988,-153272.368988,
+Realized & Unrealized Performance Summary,Data,Stocks,TQQQ,0,0,0,0,0,0,0,-3082929.546206,0,0,-3082929.546206,-3082929.546206,
+Realized & Unrealized Performance Summary,Data,Stocks,TSLA,0,0,0,0,0,0,0,-140293.595981,0,0,-140293.595981,-140293.595981,
+Realized & Unrealized Performance Summary,Data,Stocks,UBER,0,0,0,0,0,0,2869.682561,-462.889885,0,0,2406.792676,2406.792676,
+Realized & Unrealized Performance Summary,Data,Total,,0,0,0,0,0,0,399113.997577145,-3925641.455048293,0,0,-3526527.457471149,-3526527.457471149,
+Realized & Unrealized Performance Summary,Data,Forex,EUR,0,0,0,0,0,0,1.248499,-2.483776,0,0,-1.235277,-1.235277,
+Realized & Unrealized Performance Summary,Data,Forex,HKD,0,1.126702,0,0,0,1.126702,7.640801,-66.863443808,0,0,-59.222642808,-58.095940808,
+Realized & Unrealized Performance Summary,Data,Forex,SGD,0,0,0,0,0,0,0.34274,-0.000002,0,0,0.342738,0.342738,
+Realized & Unrealized Performance Summary,Data,Total,,0,1.126702,0,0,0,1.126702,9.23204,-69.347253808,0,0,-60.115213808,-58.988511808,
+Realized & Unrealized Performance Summary,Data,Total (All Assets),,0,1.126702,0,0,0,1.126702,399123.229617145,-3925710.802302101,0,0,-3526587.572684956,-3526586.445982956,
+Cash Report,Header,Currency Summary,Currency,Total,Securities,Futures,IB-UKL,
+Cash Report,Data,Starting Cash,Base Currency Summary,-12556330.479140379,-12556428.91499747,0.0010199,98.43483719,
+Cash Report,Data,Commissions,Base Currency Summary,-262.18410018,-262.18410018,0,0,
+Cash Report,Data,Trades (Purchase),Base Currency Summary,-969461.6,-969461.6,0,0,
+Cash Report,Data,Transaction Fees,Base Currency Summary,-427.14706696,-427.14706696,0,0,
+Cash Report,Data,Cash FX Translation Gain/Loss,Base Currency Summary,-16.18252738,-16.55461254,0,0.37208516,
+Cash Report,Data,Ending Cash,Base Currency Summary,-13526497.592834888,-13526596.40077714,0.0010199,98.806922352,
+Cash Report,Data,Ending Settled Cash,Base Currency Summary,-12556608.845767926,-12556707.653710179,0.0010199,98.806922352,
+Cash Report,Data,Starting Cash,EUR,2.372357913,17.882357913,0,-15.51,
+Cash Report,Data,Ending Cash,EUR,2.372357913,17.882357913,0,-15.51,
+Cash Report,Data,Ending Settled Cash,EUR,2.372357913,17.882357913,0,-15.51,
+Cash Report,Data,Starting Cash,HKD,-803037.32053856,-814506.97057162,0,11469.65003306,
+Cash Report,Data,Commissions,HKD,-1961.1976,-1961.1976,0,0,
+Cash Report,Data,Trades (Purchase),HKD,-3150400,-3150400,0,0,
+Cash Report,Data,Transaction Fees,HKD,-3313.7864,-3313.7864,0,0,
+Cash Report,Data,Ending Cash,HKD,-3958712.30453856,-3970181.95457162,0,11469.65003306,
+Cash Report,Data,Ending Settled Cash,HKD,-804998.51813856,-816468.16817162,0,11469.65003306,
+Cash Report,Data,Starting Cash,SGD,27.30994767,27.31000711,0,-0.00005944,
+Cash Report,Data,Ending Cash,SGD,27.30994767,27.31000711,0,-0.00005944,
+Cash Report,Data,Ending Settled Cash,SGD,27.30994767,27.31000711,0,-0.00005944,
+Cash Report,Data,Starting Cash,USD,-12452858.685253635,-12451496.76931232,0.0010199,-1361.916961216,
+Cash Report,Data,Commissions,USD,-9.38572954,-9.38572954,0,0,
+Cash Report,Data,Trades (Purchase),USD,-563375.04,-563375.04,0,0,
+Cash Report,Data,Ending Cash,USD,-13016243.110983174,-13014881.19504186,0.0010199,-1361.916961216,
+Cash Report,Data,Ending Settled Cash,USD,-12452868.070983173,-12451506.155041859,0.0010199,-1361.916961216,
+Cash Report,Disclaimer,"This section shows your combined total cash position in each currency, and these totals may include cash held at multiple Interactive Brokers companies in different jurisdictions subject to different regulatory protections. Please refer to your separate customer statements from each IB company to see the exact positions held at each company."
+Open Positions,Header,DataDiscriminator,Asset Category,Currency,Symbol,Quantity,Mult,Cost Price,Cost Basis,Close Price,Value,Unrealized P/L,Code
+Open Positions,Data,Summary,Stocks,HKD,1810,10000,1,53.05702411,530570.2411,44.4,444000,-86570.2411,
+Open Positions,Data,Summary,Stocks,HKD,2097,700,1,421.004455286,294703.1187,470.6,329420,34716.8813,
+Open Positions,Data,Summary,Stocks,HKD,2359,5600,1,67.872314933,380084.963625,54.8,306880,-73204.963625,
+Open Positions,Data,Summary,Stocks,HKD,2828,10400,1,88.007773652,915280.84598,81.52,847808,-67472.84598,
+Open Positions,Data,Summary,Stocks,HKD,3067,67500,1,11.562073619,780439.96926,10.36,699300,-81139.96926,
+Open Positions,Data,Summary,Stocks,HKD,700,2400,1,516.333480833,1239200.354,460.4,1104960,-134240.354,
+Open Positions,Data,Summary,Stocks,HKD,857,104000,1,6.421554026,667841.6187,5.77,600080,-67761.6187,
+Open Positions,Data,Summary,Stocks,HKD,883,32000,1,19.041448191,609326.3421,17,544000,-65326.3421,
+Open Positions,Data,Summary,Stocks,HKD,941,20000,1,83.116428531,1662328.570625,82.9,1658000,-4328.570625,
+Open Positions,Data,Summary,Stocks,HKD,981,50000,1,46.583745718,2329187.285875,46.6,2330000,812.714125,
+Open Positions,Data,Summary,Stocks,HKD,9961,1000,1,502.4914594,502491.4594,442.4,442400,-60091.4594,
+Open Positions,Total,,Stocks,HKD,,,,,9911454.769365,,9306848,-604606.769365,
+Open Positions,Total,,Stocks,USD,,,,,1277586.519771148,,1199652.7072,-77933.812571149,
+Open Positions,Data,Summary,Stocks,USD,AMZN,3590,1,196.912468704,706915.762648,173.18,621716.2,-85199.562648,
+Open Positions,Data,Summary,Stocks,USD,DG,3200,1,96.031395879,307300.466812,96.79,309728,2427.533188,
+Open Positions,Data,Summary,Stocks,USD,EXC,12932,1,47.119386896,609347.911338,47.37,612588.84,3240.928662,
+Open Positions,Data,Summary,Stocks,USD,FXY,2200,1,63.704856438,140150.684164,65.14,143308,3157.315836,
+Open Positions,Data,Summary,Stocks,USD,GS,260,1,567.052734646,147433.711008,519.99,135197.4,-12236.311008,
+Open Positions,Data,Summary,Stocks,USD,IAUM,106400,1,31.46493166,3347868.728608,33.66,3581424,233555.271392,
+Open Positions,Data,Summary,Stocks,USD,IBIT,750,1,48.904562204,36678.421653,52.08,39060,2381.578347,
+Open Positions,Data,Summary,Stocks,USD,ICE,1500,1,172.789062679,259183.594019,160.68,241020,-18163.594019,
+Open Positions,Data,Summary,Stocks,USD,IYK,6300,1,72.46717347,456543.19286,71.64,451332,-5211.19286,
+Open Positions,Data,Summary,Stocks,USD,MDT,1800,1,89.696678486,161454.021275,83.37,150066,-11388.021275,
+Open Positions,Data,Summary,Stocks,USD,MSTR,1610,1,307.907554652,495731.162989,343.03,552278.3,56547.137011,
+Open Positions,Data,Summary,Stocks,USD,NVDA,9490,1,110.696131857,1050506.291319,98.89,938466.1,-112040.191319,
+Open Positions,Data,Summary,Stocks,USD,QQQ,2250,1,478.589647276,1076826.706371,444.48,1000080,-76746.706371,
+Open Positions,Data,Summary,Stocks,USD,RSP,3050,1,173.553413351,529337.910722,163.32,498126,-31211.910722,
+Open Positions,Data,Summary,Stocks,USD,SGOV,378900,1,100.345082131,38020751.619559,100.58,38109762,89010.380441,
+Open Positions,Data,Summary,Stocks,USD,SPLV,6800,1,74.644068156,507579.663462,72.16,490688,-16891.663462,
+Open Positions,Data,Summary,Stocks,USD,TIP,41000,1,111.20502238,4559405.917594,108.87,4463670,-95735.917594,
+Open Positions,Data,Summary,Stocks,USD,TLT,24600,1,92.710584105,2280680.368988,86.48,2127408,-153272.368988,
+Open Positions,Data,Summary,Stocks,USD,TQQQ,378800,1,53.198673564,20151657.546206,45.06,17068728,-3082929.546206,
+Open Positions,Data,Summary,Stocks,USD,TSLA,3690,1,275.98994471,1018402.895981,237.97,878109.3,-140293.595981,
+Open Positions,Data,Summary,Stocks,USD,UBER,2757,1,73.567024782,202824.287324,74.44,205231.08,2406.792676,
+Open Positions,Total,,Stocks,USD,,,,,76066580.8649,,72617987.22,-3448593.6449,
+Open Positions,Total,,Stocks,USD,,,,,77344167.38467114,,73817639.9272,-3526527.457471149,
+Forex Balances,Header,Asset Category,Currency,Description,Quantity,Cost Price,Cost Basis in USD,Close Price,Value in USD,Unrealized P/L in USD,Code
+Forex Balances,Data,Forex,USD,EUR,2.372342,1.134874547,-3.944729,1.1421,2.709452,-1.235277,
+Forex Balances,Data,Forex,USD,HKD,-3958712.304542,0.128881486,510218.793409192,0.1289,-510278.016052,-59.222642808,
+Forex Balances,Data,Forex,USD,SGD,27.309947,0.749989976,-20.482189,0.76254,20.824927,0.342738,
+Forex Balances,Data,Forex,USD,USD,-13016243.110983174,0,13016243.110983174,1,-13016243.110983174,0,
+Forex Balances,Data,Total,,,,,13526437.477640366,,-13526497.592852173,-60.115213808,
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,U18135473,941,"2025-04-22, 02:34:31","10,000",82.5125,82.9,-825125,-1362.698125,826487.698125,0,3875,O;P
+Trades,SubTotal,,Stocks,HKD,941,,,10000,,,-825125,-1362.698125,826487.698125,0,3875,
+Trades,Data,Order,Stocks,HKD,U18135473,981,"2025-04-22, 02:00:03","50,000",46.5055,46.6,-2325275,-3912.285875,2329187.285875001,0,4725,O;P
+Trades,SubTotal,,Stocks,HKD,981,,,50000,,,-2325275,-3912.285875,2329187.285875001,0,4725,
+Trades,Total,,Stocks,HKD,,,,,,,-3150400,-5274.984,3155674.984,0,8600, 
+Trades,Total,,Stocks,USD,,,,,,,-406086.56,-679.9454376,406766.5054376,0,1108.54, 
+Trades,Data,Order,Stocks,USD,U18135473,DG,"2025-04-22, 10:48:39",100,95.98,96.79,-9598,-0.25375725,9598.25375725,0,81,O
+Trades,Data,Order,Stocks,USD,U18135473,DG,"2025-04-22, 11:22:54",300,96.22,96.79,-28866,-0.310941,28866.310941,0,171,O;P
+Trades,Data,Order,Stocks,USD,U18135473,DG,"2025-04-22, 11:45:12","2,800",96.011785714,96.79,-268833,-2.902116,268835.902116,0,2179,O;P
+Trades,SubTotal,,Stocks,USD,DG,,,3200,,,-307297,-3.46681425,307300.46681425,0,2431,
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-04-22, 10:30:11",200,47.12,47.37,-9424,-0.027294,9424.027294,0,50,O;P
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-04-22, 11:08:06",100,47.18,47.37,-4718,-0.17375725,4718.17375725,0,19,O;P
+Trades,Data,Order,Stocks,USD,U18135473,EXC,"2025-04-22, 11:22:11","5,132",47.142642245,47.37,-241936.04,-5.71786404,241941.75786404,0,1166.8,O;P
+Trades,SubTotal,,Stocks,USD,EXC,,,5432,,,-256078.04,-5.91891529,256083.95891529,0,1235.8,
+Trades,Total,,Stocks,USD,,,,,,,-563375.04,-9.38572954,563384.42572954,0,3666.8, 
+Transaction Fees,Header,Asset Category,Currency,Account,Date/Time,Symbol,Description,Quantity,Trade Price,Amount,Code
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:00:03",981,SEMICONDUCTOR MANUFACTURING,500,46.7,-24.665475,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:03",981,FRC Transaction Levy,0,0,-0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:03",981,SFC Transaction Levy,0,0,-0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:03",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:03",981,FRC Transaction Levy,0,0,0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:03",981,SFC Transaction Levy,0,0,0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:03",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:00:06",981,SEMICONDUCTOR MANUFACTURING,500,46.7,-24.665475,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:06",981,FRC Transaction Levy,0,0,-0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:06",981,SFC Transaction Levy,0,0,-0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:06",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:06",981,FRC Transaction Levy,0,0,0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:06",981,SFC Transaction Levy,0,0,0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:06",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:00:34",981,SEMICONDUCTOR MANUFACTURING,500,46.75,-24.6661875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:34",981,FRC Transaction Levy,0,0,-0.0350625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:34",981,SFC Transaction Levy,0,0,-0.631125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:34",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:34",981,FRC Transaction Levy,0,0,0.0350625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:34",981,SFC Transaction Levy,0,0,0.631125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:00:34",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:01:10",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.75,-48.332375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:01:10",981,FRC Transaction Levy,0,0,-0.070125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:01:10",981,SFC Transaction Levy,0,0,-1.26225,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:01:10",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:01:10",981,FRC Transaction Levy,0,0,0.070125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:01:10",981,SFC Transaction Levy,0,0,1.26225,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:01:10",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:02:16",981,SEMICONDUCTOR MANUFACTURING,500,46.65,-24.6647625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:16",981,FRC Transaction Levy,0,0,-0.0349875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:16",981,SFC Transaction Levy,0,0,-0.629775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:16",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:16",981,FRC Transaction Levy,0,0,0.0349875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:16",981,SFC Transaction Levy,0,0,0.629775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:16",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:02:33",981,SEMICONDUCTOR MANUFACTURING,500,46.65,-24.6647625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:33",981,FRC Transaction Levy,0,0,-0.0349875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:33",981,SFC Transaction Levy,0,0,-0.629775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:33",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:33",981,FRC Transaction Levy,0,0,0.0349875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:33",981,SFC Transaction Levy,0,0,0.629775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:02:33",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:04:03",981,SEMICONDUCTOR MANUFACTURING,500,46.7,-24.665475,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:04:03",981,FRC Transaction Levy,0,0,-0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:04:03",981,SFC Transaction Levy,0,0,-0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:04:03",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:04:03",981,FRC Transaction Levy,0,0,0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:04:03",981,SFC Transaction Levy,0,0,0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:04:03",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:06:12",981,SEMICONDUCTOR MANUFACTURING,500,46.8,-24.6669,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:12",981,FRC Transaction Levy,0,0,-0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:12",981,SFC Transaction Levy,0,0,-0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:12",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:12",981,FRC Transaction Levy,0,0,0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:12",981,SFC Transaction Levy,0,0,0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:12",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:06:49",981,SEMICONDUCTOR MANUFACTURING,500,46.8,-24.6669,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:49",981,FRC Transaction Levy,0,0,-0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:49",981,SFC Transaction Levy,0,0,-0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:49",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:49",981,FRC Transaction Levy,0,0,0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:49",981,SFC Transaction Levy,0,0,0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:06:49",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:08:20",981,SEMICONDUCTOR MANUFACTURING,500,46.8,-24.6669,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:08:20",981,SFC Transaction Levy,0,0,-0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:08:20",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:08:20",981,FRC Transaction Levy,0,0,-0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:08:20",981,FRC Transaction Levy,0,0,0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:08:20",981,SFC Transaction Levy,0,0,0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:08:20",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:09:41",981,SEMICONDUCTOR MANUFACTURING,500,46.85,-24.6676125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:09:41",981,FRC Transaction Levy,0,0,-0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:09:41",981,SFC Transaction Levy,0,0,-0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:09:41",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:09:41",981,FRC Transaction Levy,0,0,0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:09:41",981,SFC Transaction Levy,0,0,0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:09:41",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:11:52",981,SEMICONDUCTOR MANUFACTURING,500,46.85,-24.6676125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:11:52",981,FRC Transaction Levy,0,0,-0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:11:52",981,SFC Transaction Levy,0,0,-0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:11:52",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:11:52",981,FRC Transaction Levy,0,0,0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:11:52",981,SFC Transaction Levy,0,0,0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:11:52",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:14:54",981,SEMICONDUCTOR MANUFACTURING,500,46.85,-24.6676125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:14:54",981,FRC Transaction Levy,0,0,-0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:14:54",981,SFC Transaction Levy,0,0,-0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:14:54",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:14:54",981,FRC Transaction Levy,0,0,0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:14:54",981,SFC Transaction Levy,0,0,0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:14:54",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:15:54",981,SEMICONDUCTOR MANUFACTURING,500,46.85,-24.6676125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:15:54",981,FRC Transaction Levy,0,0,-0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:15:54",981,SFC Transaction Levy,0,0,-0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:15:54",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:15:54",981,FRC Transaction Levy,0,0,0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:15:54",981,SFC Transaction Levy,0,0,0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:15:54",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:16:57",981,SEMICONDUCTOR MANUFACTURING,500,46.85,-24.6676125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:16:57",981,FRC Transaction Levy,0,0,-0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:16:57",981,SFC Transaction Levy,0,0,-0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:16:57",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:16:57",981,FRC Transaction Levy,0,0,0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:16:57",981,SFC Transaction Levy,0,0,0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:16:57",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:18:53",981,SEMICONDUCTOR MANUFACTURING,500,46.7,-24.665475,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:18:53",981,FRC Transaction Levy,0,0,-0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:18:53",981,SFC Transaction Levy,0,0,-0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:18:53",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:18:53",981,FRC Transaction Levy,0,0,0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:18:53",981,SFC Transaction Levy,0,0,0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:18:53",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:21:51",981,SEMICONDUCTOR MANUFACTURING,500,46.7,-24.665475,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:21:51",981,FRC Transaction Levy,0,0,-0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:21:51",981,SFC Transaction Levy,0,0,-0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:21:51",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:21:51",981,FRC Transaction Levy,0,0,0.035025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:21:51",981,SFC Transaction Levy,0,0,0.63045,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:21:51",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:23:30",981,SEMICONDUCTOR MANUFACTURING,500,46.8,-24.6669,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:23:30",981,FRC Transaction Levy,0,0,-0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:23:30",981,SFC Transaction Levy,0,0,-0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:23:30",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:23:30",981,FRC Transaction Levy,0,0,0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:23:30",981,SFC Transaction Levy,0,0,0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:23:30",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:25:02",981,SEMICONDUCTOR MANUFACTURING,500,46.8,-24.6669,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:25:02",981,FRC Transaction Levy,0,0,-0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:25:02",981,SFC Transaction Levy,0,0,-0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:25:02",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:25:02",981,FRC Transaction Levy,0,0,0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:25:02",981,SFC Transaction Levy,0,0,0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:25:02",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:27:09",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.85,-48.335225,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:09",981,FRC Transaction Levy,0,0,-0.070275,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:09",981,SFC Transaction Levy,0,0,-1.26495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:09",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:09",981,FRC Transaction Levy,0,0,0.070275,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:09",981,SFC Transaction Levy,0,0,1.26495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:09",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:27:44",981,SEMICONDUCTOR MANUFACTURING,500,46.85,-24.6676125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:44",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:44",981,FRC Transaction Levy,0,0,-0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:44",981,SFC Transaction Levy,0,0,-0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:44",981,FRC Transaction Levy,0,0,0.0351375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:44",981,SFC Transaction Levy,0,0,0.632475,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:27:44",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:29:44",981,SEMICONDUCTOR MANUFACTURING,500,46.8,-24.6669,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:29:44",981,FRC Transaction Levy,0,0,-0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:29:44",981,SFC Transaction Levy,0,0,-0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:29:44",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:29:44",981,FRC Transaction Levy,0,0,0.0351,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:29:44",981,SFC Transaction Levy,0,0,0.6318,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:29:44",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:30:48",981,SEMICONDUCTOR MANUFACTURING,500,46.75,-24.6661875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:30:48",981,FRC Transaction Levy,0,0,0.0350625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:30:48",981,SFC Transaction Levy,0,0,0.631125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:30:48",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:30:48",981,FRC Transaction Levy,0,0,-0.0350625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:30:48",981,SFC Transaction Levy,0,0,-0.631125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:30:48",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:31:49",981,SEMICONDUCTOR MANUFACTURING,500,46.6,-24.66405,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:31:49",981,FRC Transaction Levy,0,0,0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:31:49",981,SFC Transaction Levy,0,0,0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:31:49",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:31:49",981,FRC Transaction Levy,0,0,-0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:31:49",981,SFC Transaction Levy,0,0,-0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:31:49",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:32:38",981,SEMICONDUCTOR MANUFACTURING,500,46.5,-24.662625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:32:38",981,FRC Transaction Levy,0,0,0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:32:38",981,SFC Transaction Levy,0,0,0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:32:38",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:32:38",981,FRC Transaction Levy,0,0,-0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:32:38",981,SFC Transaction Levy,0,0,-0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:32:38",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:34:04",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:04",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:04",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:04",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:04",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:04",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:04",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:34:31",941,CHINA MOBILE LTD,500,82.6,-43.17705,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:31",941,FRC Transaction Levy,0,0,0.06195,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:31",941,SFC Transaction Levy,0,0,1.1151,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:31",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:31",941,FRC Transaction Levy,0,0,-0.06195,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:31",941,SFC Transaction Levy,0,0,-1.1151,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:34:31",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:35:11",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:35:11",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:35:11",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:35:11",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:35:11",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:35:11",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:35:11",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:38:12",981,SEMICONDUCTOR MANUFACTURING,500,46.6,-24.66405,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:38:12",981,FRC Transaction Levy,0,0,-0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:38:12",981,SFC Transaction Levy,0,0,-0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:38:12",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:38:12",981,FRC Transaction Levy,0,0,0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:38:12",981,SFC Transaction Levy,0,0,0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:38:12",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:39:55",981,SEMICONDUCTOR MANUFACTURING,500,46.6,-24.66405,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:39:55",981,FRC Transaction Levy,0,0,0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:39:55",981,FRC Transaction Levy,0,0,-0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:39:55",981,SFC Transaction Levy,0,0,-0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:39:55",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:39:55",981,SFC Transaction Levy,0,0,0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:39:55",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:43:18",981,SEMICONDUCTOR MANUFACTURING,500,46.6,-24.66405,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:43:18",981,FRC Transaction Levy,0,0,-0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:43:18",981,SFC Transaction Levy,0,0,-0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:43:18",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:43:18",981,FRC Transaction Levy,0,0,0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:43:18",981,SFC Transaction Levy,0,0,0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:43:18",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:44:32",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:44:32",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:44:32",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:44:32",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:44:32",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:44:32",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:44:32",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:45:09",981,SEMICONDUCTOR MANUFACTURING,500,46.5,-24.662625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:45:09",981,FRC Transaction Levy,0,0,-0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:45:09",981,SFC Transaction Levy,0,0,-0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:45:09",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:45:09",981,FRC Transaction Levy,0,0,0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:45:09",981,SFC Transaction Levy,0,0,0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:45:09",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:46:12",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:46:12",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:46:12",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:46:12",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:46:12",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:46:12",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:46:12",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:47:00",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:00",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:00",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:00",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:00",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:00",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:00",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:47:36",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:36",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:36",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:36",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:36",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:36",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:47:36",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:48:16",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.55,-48.326675,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:48:16",981,FRC Transaction Levy,0,0,-0.069825,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:48:16",981,SFC Transaction Levy,0,0,-1.25685,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:48:16",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:48:16",981,FRC Transaction Levy,0,0,0.069825,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:48:16",981,SFC Transaction Levy,0,0,1.25685,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:48:16",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:49:09",981,SEMICONDUCTOR MANUFACTURING,500,46.45,-24.6619125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:49:09",981,FRC Transaction Levy,0,0,-0.0348375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:49:09",981,SFC Transaction Levy,0,0,-0.627075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:49:09",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:49:09",981,FRC Transaction Levy,0,0,0.0348375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:49:09",981,SFC Transaction Levy,0,0,0.627075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:49:09",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:53:25",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:25",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:25",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:25",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:25",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:25",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:25",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:53:58",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.35,-48.320975,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:58",981,FRC Transaction Levy,0,0,-0.069525,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:58",981,SFC Transaction Levy,0,0,-1.25145,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:58",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:58",981,FRC Transaction Levy,0,0,0.069525,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:58",981,SFC Transaction Levy,0,0,1.25145,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:53:58",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:56:33",981,SEMICONDUCTOR MANUFACTURING,500,46.45,-24.6619125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:56:33",981,FRC Transaction Levy,0,0,-0.0348375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:56:33",981,SFC Transaction Levy,0,0,-0.627075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:56:33",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:56:33",981,FRC Transaction Levy,0,0,0.0348375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:56:33",981,SFC Transaction Levy,0,0,0.627075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:56:33",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 02:57:23",981,SEMICONDUCTOR MANUFACTURING,500,46.4,-24.6612,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:57:23",981,FRC Transaction Levy,0,0,-0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:57:23",981,SFC Transaction Levy,0,0,-0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:57:23",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:57:23",981,FRC Transaction Levy,0,0,0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:57:23",981,SFC Transaction Levy,0,0,0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 02:57:23",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:00:06",981,SEMICONDUCTOR MANUFACTURING,500,46.4,-24.6612,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:00:06",981,FRC Transaction Levy,0,0,-0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:00:06",981,SFC Transaction Levy,0,0,-0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:00:06",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:00:06",981,FRC Transaction Levy,0,0,0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:00:06",981,SFC Transaction Levy,0,0,0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:00:06",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:03:21",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.45,-48.323825,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:03:21",981,FRC Transaction Levy,0,0,-0.069675,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:03:21",981,SFC Transaction Levy,0,0,-1.25415,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:03:21",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:03:21",981,FRC Transaction Levy,0,0,0.069675,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:03:21",981,SFC Transaction Levy,0,0,1.25415,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:03:21",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:06:25",981,SEMICONDUCTOR MANUFACTURING,500,46.5,-24.662625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:06:25",981,FRC Transaction Levy,0,0,-0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:06:25",981,SFC Transaction Levy,0,0,-0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:06:25",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:06:25",981,FRC Transaction Levy,0,0,0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:06:25",981,SFC Transaction Levy,0,0,0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:06:25",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:09:50",981,SEMICONDUCTOR MANUFACTURING,500,46.4,-24.6612,
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:09:50",981,SEMICONDUCTOR MANUFACTURING,500,46.4,-24.6612,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,FRC Transaction Levy,0,0,-0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,SFC Transaction Levy,0,0,-0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,FRC Transaction Levy,0,0,0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,SFC Transaction Levy,0,0,0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,FRC Transaction Levy,0,0,-0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,SFC Transaction Levy,0,0,-0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,FRC Transaction Levy,0,0,0.0348,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,SFC Transaction Levy,0,0,0.6264,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:09:50",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:12:20",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:12:20",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:12:20",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:13:21",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:13:21",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:13:21",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:13:21",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:13:21",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:13:21",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:13:21",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:15:20",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:20",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:20",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:20",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:20",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:20",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:20",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:15:59",941,CHINA MOBILE LTD,500,82.55,-43.1763375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:59",941,FRC Transaction Levy,0,0,-0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:59",941,SFC Transaction Levy,0,0,-1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:59",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:59",941,FRC Transaction Levy,0,0,0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:59",941,SFC Transaction Levy,0,0,1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:15:59",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:17:10",941,CHINA MOBILE LTD,500,82.55,-43.1763375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:17:10",941,FRC Transaction Levy,0,0,-0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:17:10",941,SFC Transaction Levy,0,0,-1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:17:10",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:17:10",941,FRC Transaction Levy,0,0,0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:17:10",941,SFC Transaction Levy,0,0,1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:17:10",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:18:21",981,SEMICONDUCTOR MANUFACTURING,500,46.3,-24.659775,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:21",981,FRC Transaction Levy,0,0,-0.034725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:21",981,SFC Transaction Levy,0,0,-0.62505,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:21",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:21",981,FRC Transaction Levy,0,0,0.034725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:21",981,SFC Transaction Levy,0,0,0.62505,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:21",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:18:55",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.25,-48.318125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:55",981,FRC Transaction Levy,0,0,-0.069375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:55",981,SFC Transaction Levy,0,0,-1.24875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:55",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:55",981,FRC Transaction Levy,0,0,0.069375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:55",981,SFC Transaction Levy,0,0,1.24875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:55",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:18:57",981,SEMICONDUCTOR MANUFACTURING,500,46.25,-24.6590625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:57",981,FRC Transaction Levy,0,0,-0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:57",981,SFC Transaction Levy,0,0,-0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:57",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:57",981,FRC Transaction Levy,0,0,0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:57",981,SFC Transaction Levy,0,0,0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:18:57",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:19:31",981,SEMICONDUCTOR MANUFACTURING,500,46.25,-24.6590625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:19:31",981,FRC Transaction Levy,0,0,-0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:19:31",981,SFC Transaction Levy,0,0,-0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:19:31",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:19:31",981,SFC Transaction Levy,0,0,0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:19:31",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:19:31",981,FRC Transaction Levy,0,0,0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:20:46",981,SEMICONDUCTOR MANUFACTURING,500,46.3,-24.659775,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:20:46",981,FRC Transaction Levy,0,0,-0.034725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:20:46",981,SFC Transaction Levy,0,0,-0.62505,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:20:46",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:20:46",981,FRC Transaction Levy,0,0,0.034725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:20:46",981,SFC Transaction Levy,0,0,0.62505,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:20:46",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:21:49",981,SEMICONDUCTOR MANUFACTURING,500,46.25,-24.6590625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:21:49",981,FRC Transaction Levy,0,0,-0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:21:49",981,SFC Transaction Levy,0,0,-0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:21:49",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:21:49",981,FRC Transaction Levy,0,0,0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:21:49",981,SFC Transaction Levy,0,0,0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:21:49",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:22:21",941,CHINA MOBILE LTD,500,82.55,-43.1763375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:21",941,FRC Transaction Levy,0,0,0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:21",941,FRC Transaction Levy,0,0,-0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:21",941,SFC Transaction Levy,0,0,-1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:21",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:21",941,SFC Transaction Levy,0,0,1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:21",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:22:29",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.15,-48.315275,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:29",981,FRC Transaction Levy,0,0,-0.069225,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:29",981,FRC Transaction Levy,0,0,0.069225,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:29",981,SFC Transaction Levy,0,0,1.24605,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:29",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:29",981,SFC Transaction Levy,0,0,-1.24605,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:29",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:22:45",941,CHINA MOBILE LTD,500,82.55,-43.1763375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:45",941,FRC Transaction Levy,0,0,0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:45",941,SFC Transaction Levy,0,0,1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:45",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:45",941,FRC Transaction Levy,0,0,-0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:45",941,SFC Transaction Levy,0,0,-1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:22:45",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:24:04",981,SEMICONDUCTOR MANUFACTURING,500,46.15,-24.6576375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:24:04",981,FRC Transaction Levy,0,0,-0.0346125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:24:04",981,SFC Transaction Levy,0,0,-0.623025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:24:04",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:24:04",981,FRC Transaction Levy,0,0,0.0346125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:24:04",981,SFC Transaction Levy,0,0,0.623025,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:24:04",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:25:43",941,CHINA MOBILE LTD,500,82.55,-43.1763375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:25:43",941,FRC Transaction Levy,0,0,-0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:25:43",941,SFC Transaction Levy,0,0,-1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:25:43",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:25:43",941,FRC Transaction Levy,0,0,0.0619125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:25:43",941,SFC Transaction Levy,0,0,1.114425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:25:43",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:27:43",981,SEMICONDUCTOR MANUFACTURING,500,46.2,-24.65835,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:27:43",981,FRC Transaction Levy,0,0,-0.03465,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:27:43",981,SFC Transaction Levy,0,0,-0.6237,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:27:43",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:27:43",981,FRC Transaction Levy,0,0,0.03465,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:27:43",981,SFC Transaction Levy,0,0,0.6237,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:27:43",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:28:25",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.25,-48.318125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:25",981,FRC Transaction Levy,0,0,-0.069375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:25",981,SFC Transaction Levy,0,0,-1.24875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:25",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:25",981,FRC Transaction Levy,0,0,0.069375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:25",981,SFC Transaction Levy,0,0,1.24875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:25",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:28:53",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:53",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:53",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:53",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:53",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:53",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:53",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:28:57",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:57",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:57",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:57",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:57",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:57",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:57",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:28:58",981,SEMICONDUCTOR MANUFACTURING,500,46.25,-24.6590625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:58",981,FRC Transaction Levy,0,0,-0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:58",981,SFC Transaction Levy,0,0,-0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:58",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:58",981,FRC Transaction Levy,0,0,0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:58",981,SFC Transaction Levy,0,0,0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:28:58",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:30:21",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:30:21",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:30:21",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:30:21",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:30:21",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:30:21",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:30:21",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:31:18",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:31:18",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:31:18",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:31:18",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:31:18",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:31:18",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:31:18",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:32:06",981,SEMICONDUCTOR MANUFACTURING,500,46.25,-24.6590625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:06",981,FRC Transaction Levy,0,0,-0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:06",981,SFC Transaction Levy,0,0,-0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:06",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:06",981,FRC Transaction Levy,0,0,0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:06",981,SFC Transaction Levy,0,0,0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:06",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:32:45",981,SEMICONDUCTOR MANUFACTURING,500,46.25,-24.6590625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:45",981,FRC Transaction Levy,0,0,-0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:45",981,SFC Transaction Levy,0,0,-0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:45",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:45",981,FRC Transaction Levy,0,0,0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:45",981,SFC Transaction Levy,0,0,0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:32:45",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:33:33",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:33:33",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:33:33",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:33:33",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:33:33",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:33:33",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:33:33",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:36:03",981,SEMICONDUCTOR MANUFACTURING,500,46.25,-24.6590625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:03",981,FRC Transaction Levy,0,0,0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:03",981,SFC Transaction Levy,0,0,0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:03",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:03",981,FRC Transaction Levy,0,0,-0.0346875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:03",981,SFC Transaction Levy,0,0,-0.624375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:03",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:36:59",941,CHINA MOBILE LTD,500,82.45,-43.1749125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:59",941,FRC Transaction Levy,0,0,0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:59",941,SFC Transaction Levy,0,0,1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:59",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:59",941,FRC Transaction Levy,0,0,-0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:59",941,SFC Transaction Levy,0,0,-1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:36:59",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:38:20",941,CHINA MOBILE LTD,500,82.45,-43.1749125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:38:20",941,FRC Transaction Levy,0,0,-0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:38:20",941,SFC Transaction Levy,0,0,-1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:38:20",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:38:20",941,FRC Transaction Levy,0,0,0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:38:20",941,SFC Transaction Levy,0,0,1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:38:20",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:39:44",981,SEMICONDUCTOR MANUFACTURING,500,46.2,-24.65835,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:39:44",981,FRC Transaction Levy,0,0,0.03465,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:39:44",981,SFC Transaction Levy,0,0,0.6237,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:39:44",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:39:44",981,FRC Transaction Levy,0,0,-0.03465,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:39:44",981,SFC Transaction Levy,0,0,-0.6237,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:39:44",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:40:44",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:40:44",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:40:44",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:40:44",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:40:44",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:40:44",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:40:44",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:41:44",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:41:44",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:41:44",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:41:44",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:41:44",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:41:44",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:41:44",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:42:15",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.35,-48.320975,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:15",981,SFC Transaction Levy,0,0,1.25145,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:15",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:15",981,FRC Transaction Levy,0,0,0.069525,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:15",981,FRC Transaction Levy,0,0,-0.069525,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:15",981,SFC Transaction Levy,0,0,-1.25145,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:15",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:42:20",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:20",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:20",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:20",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:20",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:20",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:20",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:42:30",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:30",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:30",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:30",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:30",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:30",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:30",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:42:37",981,SEMICONDUCTOR MANUFACTURING,"1,500",46.35,-71.9814625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:37",981,FRC Transaction Levy,0,0,-0.1042875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:37",981,SFC Transaction Levy,0,0,-1.877175,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:37",981,HK Stamp Tax,0,0,-70,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:37",981,FRC Transaction Levy,0,0,0.1042875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:37",981,SFC Transaction Levy,0,0,1.877175,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:42:37",981,HK Stamp Tax,0,0,70,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:44:03",981,SEMICONDUCTOR MANUFACTURING,500,46.35,-24.6604875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:03",981,FRC Transaction Levy,0,0,-0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:03",981,SFC Transaction Levy,0,0,-0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:03",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:03",981,FRC Transaction Levy,0,0,0.0347625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:03",981,SFC Transaction Levy,0,0,0.625725,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:03",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:44:10",941,CHINA MOBILE LTD,500,82.45,-43.1749125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:10",941,FRC Transaction Levy,0,0,-0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:10",941,SFC Transaction Levy,0,0,-1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:10",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:10",941,FRC Transaction Levy,0,0,0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:10",941,SFC Transaction Levy,0,0,1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:44:10",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:45:31",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.45,-48.323825,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:45:31",981,FRC Transaction Levy,0,0,-0.069675,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:45:31",981,SFC Transaction Levy,0,0,-1.25415,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:45:31",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:45:31",981,FRC Transaction Levy,0,0,0.069675,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:45:31",981,SFC Transaction Levy,0,0,1.25415,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:45:31",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:47:05",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:05",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:05",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:05",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:05",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:05",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:05",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:47:34",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.45,-48.323825,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:34",981,FRC Transaction Levy,0,0,-0.069675,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:34",981,SFC Transaction Levy,0,0,-1.25415,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:34",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:34",981,FRC Transaction Levy,0,0,0.069675,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:34",981,SFC Transaction Levy,0,0,1.25415,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:47:34",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:48:49",981,SEMICONDUCTOR MANUFACTURING,500,46.5,-24.662625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:49",981,FRC Transaction Levy,0,0,-0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:49",981,SFC Transaction Levy,0,0,-0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:49",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:49",981,FRC Transaction Levy,0,0,0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:49",981,SFC Transaction Levy,0,0,0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:49",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:48:56",941,CHINA MOBILE LTD,500,82.45,-43.1749125,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:56",941,FRC Transaction Levy,0,0,-0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:56",941,SFC Transaction Levy,0,0,-1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:56",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:56",941,FRC Transaction Levy,0,0,0.0618375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:56",941,SFC Transaction Levy,0,0,1.113075,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:48:56",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:49:05",981,SEMICONDUCTOR MANUFACTURING,"1,500",46.5,-71.987875,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:05",981,FRC Transaction Levy,0,0,-0.104625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:05",981,SFC Transaction Levy,0,0,-1.88325,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:05",981,HK Stamp Tax,0,0,-70,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:05",981,FRC Transaction Levy,0,0,0.104625,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:05",981,SFC Transaction Levy,0,0,1.88325,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:05",981,HK Stamp Tax,0,0,70,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:49:55",981,SEMICONDUCTOR MANUFACTURING,500,46.5,-24.662625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:55",981,FRC Transaction Levy,0,0,-0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:55",981,SFC Transaction Levy,0,0,-0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:55",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:55",981,FRC Transaction Levy,0,0,0.034875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:55",981,SFC Transaction Levy,0,0,0.62775,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:49:55",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:51:50",941,CHINA MOBILE LTD,500,82.5,-43.175625,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:51:50",941,FRC Transaction Levy,0,0,-0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:51:50",941,SFC Transaction Levy,0,0,-1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:51:50",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:51:50",941,FRC Transaction Levy,0,0,0.061875,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:51:50",941,SFC Transaction Levy,0,0,1.11375,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:51:50",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:54:03",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:03",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:03",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:03",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:03",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:03",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:03",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:54:35",941,CHINA MOBILE LTD,500,82.6,-43.17705,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:35",941,FRC Transaction Levy,0,0,-0.06195,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:35",941,SFC Transaction Levy,0,0,-1.1151,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:35",941,HK Stamp Tax,0,0,-42,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:35",941,FRC Transaction Levy,0,0,0.06195,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:35",941,SFC Transaction Levy,0,0,1.1151,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:35",941,HK Stamp Tax,0,0,42,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:54:49",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:49",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:49",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:49",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:49",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:49",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:54:49",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:55:44",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:55:44",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:55:44",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:55:44",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:55:44",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:55:44",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:55:44",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:56:08",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:08",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:08",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:08",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:08",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:08",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:08",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:56:56",981,SEMICONDUCTOR MANUFACTURING,500,46.6,-24.66405,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:56",981,FRC Transaction Levy,0,0,-0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:56",981,SFC Transaction Levy,0,0,-0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:56",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:56",981,FRC Transaction Levy,0,0,0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:56",981,SFC Transaction Levy,0,0,0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:56:56",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:57:20",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:57:20",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:57:20",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:57:20",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:57:20",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:57:20",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:57:20",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:58:00",981,SEMICONDUCTOR MANUFACTURING,500,46.55,-24.6633375,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:00",981,FRC Transaction Levy,0,0,-0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:00",981,SFC Transaction Levy,0,0,-0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:00",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:00",981,FRC Transaction Levy,0,0,0.0349125,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:00",981,SFC Transaction Levy,0,0,0.628425,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:00",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:58:34",981,SEMICONDUCTOR MANUFACTURING,"1,000",46.6,-48.3281,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:34",981,FRC Transaction Levy,0,0,-0.0699,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:34",981,SFC Transaction Levy,0,0,-1.2582,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:34",981,HK Stamp Tax,0,0,-47,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:34",981,FRC Transaction Levy,0,0,0.0699,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:34",981,SFC Transaction Levy,0,0,1.2582,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:58:34",981,HK Stamp Tax,0,0,47,Adj
+Transaction Fees,Data,Stocks,HKD,U18135473,"2025-04-22, 03:59:21",981,SEMICONDUCTOR MANUFACTURING,500,46.6,-24.66405,
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:59:21",981,FRC Transaction Levy,0,0,-0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:59:21",981,SFC Transaction Levy,0,0,-0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:59:21",981,HK Stamp Tax,0,0,-24,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:59:21",981,FRC Transaction Levy,0,0,0.03495,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:59:21",981,SFC Transaction Levy,0,0,0.6291,Adj
+Transaction Fees,Data,Stocks,HKD,U8251256,"2025-04-22, 03:59:21",981,HK Stamp Tax,0,0,24,Adj
+Transaction Fees,Data,Total,,,,,,,,-3313.7864,
+Transaction Fees,Data,Total in USD,,,,,,,,-427.14706696,
+Interest Accruals,Header,Currency,Field Name,Field Value
+Interest Accruals,Data,Base Currency Summary,Starting Accrual Balance,-29214.24
+Interest Accruals,Data,Base Currency Summary,Interest Accrued,-1766.52
+Interest Accruals,Data,Base Currency Summary,Accrual Reversal,0
+Interest Accruals,Data,Base Currency Summary,Ending Accrual Balance,-30980.76
+Financial Instrument Information,Header,Asset Category,Symbol,Description,Conid,Security ID,Underlying,Listing Exch,Multiplier,Type,Code
+Financial Instrument Information,Data,Stocks,1810,XIAOMI CORP-CLASS B,323608988,KYG9830T1067,1810,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2097,MIXUE GROUP,763554903,CNE100006T36,2097,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2359,WUXI APPTEC CO LTD-H,344422817,CNE100003F19,2359,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,2828,HANGSENG CHINA ENT INDEX-HKD,42474946,HK2828013055,2828,SEHK,1,ETF,
+Financial Instrument Information,Data,Stocks,3067,ISHARES HANG SENG TECH E-HKD,445194075,HK0000651213,3067,SEHK,1,ETF,
+Financial Instrument Information,Data,Stocks,700,TENCENT HOLDINGS LTD,152791428,KYG875721634,700,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,857,PETROCHINA CO LTD-H,46636681,CNE1000003W8,857,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,883,CNOOC LTD,12150119,HK0883013259,883,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,941,CHINA MOBILE LTD,3408229,HK0941009539,941,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,981,SEMICONDUCTOR MANUFACTURING,259933925,KYG8020E1199,981,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,9961,TRIP.COM GROUP LTD,481432897,KYG9066F1019,9961,SEHK,1,COMMON,
+Financial Instrument Information,Data,Stocks,AMZN,AMAZON.COM INC,3691937,US0231351067,AMZN,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,DG,DOLLAR GENERAL CORP,70212228,US2566771059,DG,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,EXC,EXELON CORP,11000,US30161N1019,EXC,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,FXY,INVESCO CURRENCYSHARES JAPAN,319355967,US46138W1071,FXY,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,GS,GOLDMAN SACHS GROUP INC,4627828,US38141G1040,GS,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,IAUM,ISHARES GOLD TRUST MICRO,499640636,US46436F1030,IAUM,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,IBIT,ISHARES BITCOIN TRUST ETF,677037673,US46438F1012,IBIT,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,ICE,INTERCONTINENTAL EXCHANGE IN,136370275,US45866F1049,ICE,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,IYK,ISHARES US CONSUMER STAPLES,10753235,US4642878122,IYK,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,MDT,MEDTRONIC PLC,181387075,IE00BTN1Y115,MDT,NYSE,1,COMMON,
+Financial Instrument Information,Data,Stocks,MSTR,MICROSTRATEGY INC-CL A,272110,US5949724083,MSTR,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,NVDA,NVIDIA CORP,4815747,US67066G1040,NVDA,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,QQQ,INVESCO QQQ TRUST SERIES 1,320227571,US46090E1038,QQQ,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,RSP,INVESCO S&P 500 EQUAL WEIGHT,319359375,US46137V3574,RSP,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SGOV,ISHARES 0-3 MONTH TREASURY B,424099317,US46436E7186,SGOV,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,SPLV,INVESCO S&P 500 LOW VOLATILI,319357142,US46138E3541,SPLV,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,TIP,ISHARES TIPS BOND ETF,26787475,US4642871762,TIP,ARCA,1,ETF,
+Financial Instrument Information,Data,Stocks,TLT,ISHARES 20+ YEAR TREASURY BD,15547841,US4642874329,TLT,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,TQQQ,PROSHARES ULTRAPRO QQQ,72539702,US74347X8314,TQQQ,NASDAQ,1,ETF,
+Financial Instrument Information,Data,Stocks,TSLA,TESLA INC,76792991,US88160R1014,TSLA,NASDAQ,1,COMMON,
+Financial Instrument Information,Data,Stocks,UBER,UBER TECHNOLOGIES INC,365207014,US90353T1007,UBER,NYSE,1,COMMON,
+Base Currency Exchange Rate,Header,Currency,Rate
+Base Currency Exchange Rate,Data,AED,0.272250
+Base Currency Exchange Rate,Data,AUD,0.636500
+Base Currency Exchange Rate,Data,BGN,0.583960
+Base Currency Exchange Rate,Data,BHD,2.653200
+Base Currency Exchange Rate,Data,BRL,0.174690
+Base Currency Exchange Rate,Data,CAD,0.723880
+Base Currency Exchange Rate,Data,CHF,1.220900
+Base Currency Exchange Rate,Data,CNH,0.136780
+Base Currency Exchange Rate,Data,CNY,0.136760
+Base Currency Exchange Rate,Data,CZK,0.045562
+Base Currency Exchange Rate,Data,DKK,0.152950
+Base Currency Exchange Rate,Data,EUR,1.142100
+Base Currency Exchange Rate,Data,GBP,1.333100
+Base Currency Exchange Rate,Data,HKD,0.128900
+Base Currency Exchange Rate,Data,HUF,0.002792
+Base Currency Exchange Rate,Data,IDR,0.000059
+Base Currency Exchange Rate,Data,ILS,0.270420
+Base Currency Exchange Rate,Data,INR,0.011740
+Base Currency Exchange Rate,Data,JPY,0.007062
+Base Currency Exchange Rate,Data,KRW,0.000699
+Base Currency Exchange Rate,Data,KWD,3.270900
+Base Currency Exchange Rate,Data,MXN,0.050980
+Base Currency Exchange Rate,Data,MYR,0.227710
+Base Currency Exchange Rate,Data,NOK,0.096177
+Base Currency Exchange Rate,Data,NZD,0.596480
+Base Currency Exchange Rate,Data,OMR,2.597400
+Base Currency Exchange Rate,Data,PHP,-1.000000
+Base Currency Exchange Rate,Data,PLN,0.266460
+Base Currency Exchange Rate,Data,QAR,0.274320
+Base Currency Exchange Rate,Data,RON,0.229460
+Base Currency Exchange Rate,Data,RUB,0.012266
+Base Currency Exchange Rate,Data,RUS,0.012266
+Base Currency Exchange Rate,Data,SAR,0.266600
+Base Currency Exchange Rate,Data,SEK,0.104450
+Base Currency Exchange Rate,Data,SGD,0.762540
+Base Currency Exchange Rate,Data,THB,0.029851
+Base Currency Exchange Rate,Data,TRY,0.026135
+Base Currency Exchange Rate,Data,TWD,0.030686
+Base Currency Exchange Rate,Data,ZAR,0.053710
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

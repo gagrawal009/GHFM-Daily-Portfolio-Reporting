@@ -1,0 +1,24 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"May 23, 2025"
+Statement,Data,WhenGenerated,"2025-08-06, 01:59:37 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,CTAS,"2025-05-23, 10:28:23",100,220.53,222.29,-22053,-0.24375725,22053.24375725,0,176,O
+Trades,SubTotal,,Stocks,USD,CTAS,,,100,,,-22053,-0.24375725,22053.24375725,0,176,
+Trades,Data,Order,Stocks,USD,U18135473,DAX,"2025-05-23, 12:21:44","4,700",43.294787234,43.3,-203485.5,-4.11398175,203489.61398175,0,24.5,O;P
+Trades,SubTotal,,Stocks,USD,DAX,,,4700,,,-203485.5,-4.11398175,203489.61398175,0,24.5,
+Trades,Data,Order,Stocks,USD,U18135473,EFA,"2025-05-23, 10:19:30",100,87.56,88.04,-8756,-0.17375725,8756.17375725,0,48,O
+Trades,SubTotal,,Stocks,USD,EFA,,,100,,,-8756,-0.17375725,8756.17375725,0,48,
+Trades,Data,Order,Stocks,USD,U18135473,EWW,"2025-05-23, 10:20:24",100,59.7,60.67,-5970,-0.21375725,5970.21375725,0,97,O
+Trades,SubTotal,,Stocks,USD,EWW,,,100,,,-5970,-0.21375725,5970.21375725,0,97,
+Trades,Data,Order,Stocks,USD,U18135473,EWZ,"2025-05-23, 10:17:15",100,27.2,27.65,-2720,-0.67375725,2720.67375725,0,45,O
+Trades,Data,Order,Stocks,USD,U18135473,EWZ,"2025-05-23, 14:20:45",200,27.465,27.65,-5493,-0.69835725,5493.69835725,0,37,O;P
+Trades,SubTotal,,Stocks,USD,EWZ,,,300,,,-8213,-1.3721145,8214.3721145,0,82,
+Trades,Data,Order,Stocks,USD,U18135473,MELI,"2025-05-23, 10:14:13",80,2548.073125,2507.83,-203845.85,-0.32971725,203846.17971725,0,-3219.45,O;P
+Trades,Data,Order,Stocks,USD,U18135473,MELI,"2025-05-23, 13:34:03",400,2525.6979,2507.83,-1010279.16,-0.659511,1010279.819511,0,-7147.16,IM;O;P
+Trades,SubTotal,,Stocks,USD,MELI,,,480,,,-1214125.01,-0.98922825,1214125.99922825,0,-10366.61,
+Trades,Total,,Stocks,USD,,,,,,,-1462602.51,-7.10659625,1462609.61659625,0,-9939.11, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

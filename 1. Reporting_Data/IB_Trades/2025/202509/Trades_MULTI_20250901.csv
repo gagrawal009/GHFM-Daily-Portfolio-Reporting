@@ -1,0 +1,17 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"September 1, 2025"
+Statement,Data,WhenGenerated,"2025-09-02, 01:26:28 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,JPY,U18135473,8346.T,"2025-09-01, 01:53:52","1,800",397,400,-714600,-376.5942,714976.5942,0,5400,O;P
+Trades,SubTotal,,Stocks,JPY,8346.T,,,1800,,,-714600,-376.5942,714976.5942,0,5400,
+Trades,Total,,Stocks,JPY,,,,,,,-714600,-376.5942,714976.5942,0,5400, 
+Trades,Total,,Stocks,USD,,,,,,,-4855.42116,-2.558806951,4857.979966951,0,36.69084, 
+Trades,Data,Order,Stocks,SGD,U18135473,S68,"2025-09-01, 03:09:25","24,300",16.463950617,16.44,-400074,-494.491464,400568.491464,0,-582,O;P
+Trades,SubTotal,,Stocks,SGD,S68,,,24300,,,-400074,-494.491464,400568.491464,0,-582,
+Trades,Total,,Stocks,SGD,,,,,,,-400074,-494.491464,400568.491464,0,-582, 
+Trades,Total,,Stocks,USD,,,,,,,-311545.625279999,-385.070392846,311930.695672846,0,-453.21504, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

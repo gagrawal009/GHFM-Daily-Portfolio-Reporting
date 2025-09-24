@@ -1,0 +1,16 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"September 8, 2025"
+Statement,Data,WhenGenerated,"2025-09-09, 01:18:14 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,O,"2025-09-08, 13:17:00","15,948",58.749004264,59.1,-936929.12,-44.432057232,936973.552057233,0,5597.68,O;P
+Trades,SubTotal,,Stocks,USD,O,,,15948,,,-936929.12,-44.432057232,936973.552057233,0,5597.68,
+Trades,Data,Order,Stocks,USD,U8251256,SGOV,"2025-09-08, 11:10:17","-8,630",100.46,100.47,866969.8,-30.610140676,-866570.433547,368.756313,-86.3,C;P
+Trades,SubTotal,,Stocks,USD,SGOV,,,-8630,,,866969.8,-30.610140676,-866570.433547,368.756313,-86.3,
+Trades,Data,Order,Stocks,USD,U18135473,XSMO,"2025-09-08, 11:19:41","5,000",73.072429,73.36,-365362.145,-12.031247498,365374.176247498,0,1437.855,O;P
+Trades,SubTotal,,Stocks,USD,XSMO,,,5000,,,-365362.145,-12.031247498,365374.176247498,0,1437.855,
+Trades,Total,,Stocks,USD,,,,,,,-435321.465,-87.073445406,435777.294757731,368.756313,6949.235, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

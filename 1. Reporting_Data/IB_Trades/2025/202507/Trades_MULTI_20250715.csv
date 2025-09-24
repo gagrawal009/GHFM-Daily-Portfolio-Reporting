@@ -1,0 +1,16 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,BrokerName,Interactive Brokers LLC
+Statement,Data,BrokerAddress,"Two Pickwick Plaza, Greenwich, CT 06830"
+Statement,Data,Title,Activity Statement
+Statement,Data,Period,"July 15, 2025"
+Statement,Data,WhenGenerated,"2025-07-15, 23:27:36 EDT"
+Trades,Header,DataDiscriminator,Asset Category,Currency,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,HKD,1109,"2025-07-14, 22:07:58","200,000",29.35,29.05,-5870000,-9550.49,5879550.49,0,-60000,O
+Trades,SubTotal,,Stocks,HKD,1109,,200000,,,-5870000,-9550.49,5879550.49,0,-60000,
+Trades,Total,,Stocks,HKD,,,,,,-5870000,-9550.49,5879550.49,0,-60000, 
+Trades,Total,,Stocks,USD,,,,,,-747779.3,-1216.6369211,748995.9369211,0,-7643.4, 
+Trades,Data,Order,Stocks,USD,IBIT,"2025-07-15, 09:30:00","7,500",66.95,66.16,-502125,-24.17326875,502149.17326875,0,-5925,O
+Trades,SubTotal,,Stocks,USD,IBIT,,7500,,,-502125,-24.17326875,502149.17326875,0,-5925,
+Trades,Data,Order,Stocks,USD,TQQQ,"2025-07-14, 21:57:02","57,500",85.84,84.83,-4935800,-67.125893751,4935867.125893751,0,-58075,O;P
+Trades,SubTotal,,Stocks,USD,TQQQ,,57500,,,-4935800,-67.125893751,4935867.125893751,0,-58075,
+Trades,Total,,Stocks,USD,,,,,,-5437925,-91.299162501,5438016.299162501,0,-64000, 

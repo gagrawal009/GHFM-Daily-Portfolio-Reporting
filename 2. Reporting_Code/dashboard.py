@@ -137,6 +137,7 @@ def load_data(today_str):
        
         return perf_df, mv_df, pnl_df, all_symbol_pnl_df, trades_df
     except FileNotFoundError as e:
+
         st.error(f"❌ Missing file: {e.filename}")
         st.write("🔎 Paths attempted:")
         st.write(pnl_file)
@@ -144,7 +145,8 @@ def load_data(today_str):
         st.write(mv_file)
         st.write(all_symbol_pnl_file)
         st.write(trade_file)
-        
+        st.write("Current working directory:", os.getcwd())
+
         return pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
 # --- Create Tables ---

@@ -113,7 +113,7 @@ def clean_dataframe_for_display(df):
 @st.cache_data
 def load_data(today_str):
     """Load data files for the specified date"""
-    ghfm_reporting_dir = r"../"
+    ghfm_reporting_dir = "../"
     year_str = today_str[:4]
     month_str = today_str[:6]
 

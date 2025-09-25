@@ -73,8 +73,8 @@ Update paths in the scripts according to your setup. Current structure:
 │   ├── Performance_History/
 │   ├── Market_Value/
 │   └── IB_Daily Statement/
-├── dashboard.py
-└── Daily_Reporting_Automated.py
+├── 2. Reporting_Code
+└── requirements.txt
 ```
 
 - **`IB_Mark-to-Market PnL/AssetCategory`** – Daily P&L summary by asset category  

@@ -2,7 +2,7 @@ from Report_Module_Automated import PortfolioReportingFramework
 
 today_str = "20250930"
 previous_day_str = "20250929"
-ghfm_reporting_dir = "../"
+ghfm_reporting_dir = "./"
     
 reporter = PortfolioReportingFramework(today_str, previous_day_str, ghfm_reporting_dir)
 reporter.run_complete_daily_report()

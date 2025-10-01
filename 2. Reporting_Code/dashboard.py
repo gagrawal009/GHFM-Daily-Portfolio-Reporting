@@ -9,7 +9,8 @@ import os
 USERS = {
     "admin": "admin123",
     "gaurav": "gaurav123",
-    "lawrence": "lawrence123"
+    "lawrence": "lawrence123",
+    "yiling": "yiling123"
 }
 
 def check_authentication():

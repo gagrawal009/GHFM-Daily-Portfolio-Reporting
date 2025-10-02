@@ -1,8 +1,7 @@
 import pandas as pd
 from Report_Module_Automated import PortfolioReportingFramework
 
-ghfm_reporting_dir = "C:/Users/Guarav/OneDrive - Golden Horse Fund Management Pte. Ltd/Investment Team's files - Investments Team/01. GHFM Reporting/"
-
+ghfm_reporting_dir = "./"
 
 def run_reports_for_trading_days(csv_path, ghfm_reporting_dir):
     """

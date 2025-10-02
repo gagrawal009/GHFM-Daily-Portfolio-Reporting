@@ -268,6 +268,20 @@ def create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df, mv_curr
     selected_mv_currency = mv_currency_df[mv_currency_df["Date"] == selected_datetime].iloc[0]
     selected_pnl_currency = pnl_currency_df[pnl_currency_df["Date"] == selected_datetime].iloc[0]
     
+    # Filter out countries with zero count
+    countries_to_keep = []
+    for country in countries:
+        count_col = f"{country} Count"
+        if count_col in selected_mv_currency.index:
+            count_value = selected_mv_currency[count_col]
+            if not pd.isna(count_value) and count_value > 0:
+                countries_to_keep.append(country)
+        else:
+            # If count column doesn't exist, keep the country
+            countries_to_keep.append(country)
+    
+    countries = countries_to_keep
+
     total_mv_geo = sum(selected_mv_currency[f"{c} MarketValueUSD"] for c in countries)
     total_daily_pnl_geo = sum(selected_pnl_currency[f"{c} MTM"] for c in countries)
     total_daily_return_geo = sum(selected_pnl_currency[f"{c} Return"] for c in countries)

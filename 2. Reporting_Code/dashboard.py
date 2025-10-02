@@ -172,8 +172,8 @@ def load_data(today_str):
     ib_mtmpnl_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/IB_Mark-to-Market PnL/")
     ibtradessummary_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Daily Trades/")
     performance_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Performance_History/")
-    marketvalue_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/AssetCategory")
-    marketvalue_currency_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/AssetCurrency")
+    marketvalue_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCategory")
+    marketvalue_currency_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCurrency")
 
     pnl_file = os.path.join(ib_mtmpnl_dir, "AssetCategory", year_str, month_str, f"Category_P&L_{today_str}.xlsx")
     perf_file = os.path.join(performance_dir, year_str, month_str, f"Performance_{today_str}.csv")

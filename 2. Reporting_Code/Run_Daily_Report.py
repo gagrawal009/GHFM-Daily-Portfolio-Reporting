@@ -1,7 +1,7 @@
 from Report_Module_Automated import PortfolioReportingFramework
 
-today_str = "20250930"
-previous_day_str = "20250929"
+today_str = "20251001"
+previous_day_str = "20250930"
 ghfm_reporting_dir = "./"
     
 reporter = PortfolioReportingFramework(today_str, previous_day_str, ghfm_reporting_dir)

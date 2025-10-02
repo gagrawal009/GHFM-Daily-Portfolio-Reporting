@@ -378,6 +378,8 @@ def main():
     # Initialize session state for button toggles
     if 'show_all_symbols' not in st.session_state:
         st.session_state.show_all_symbols = False
+    if 'show_top20_symbols' not in st.session_state:
+        st.session_state.show_top20_symbols = False
     if 'show_pnl_daily' not in st.session_state:
         st.session_state.show_pnl_daily = False
 
@@ -419,6 +421,20 @@ def main():
         performance_by_asset_class.set_index('Metric'), 
         width='stretch'
     )
+
+    # Top 20 symbols by Market Value view
+    if not all_symbol_pnl_df.empty:
+        button_text_top20 = f"Hide List of Top 20 Symbols by Market Value as on {selected_date}" if st.session_state.show_top20_symbols else f"View List of Top 20 Symbols by Market Value as on {selected_date}"
+        
+        if st.button(button_text_top20, key="top20_symbols_btn"):
+            st.session_state.show_top20_symbols = not st.session_state.show_top20_symbols
+            st.rerun()
+        
+        if st.session_state.show_top20_symbols:
+            st.markdown('<h3 class="section-header">🏆 Top 20 Symbols by Market Value</h3>', unsafe_allow_html=True)
+            top20_df = all_symbol_pnl_df.nlargest(20, 'Market Value USD')
+            top20_clean = clean_dataframe_for_display(top20_df)
+            st.dataframe(top20_clean, width='stretch', height=500, hide_index=True)
 
     # Detailed symbols view
     if not all_symbol_pnl_df.empty:

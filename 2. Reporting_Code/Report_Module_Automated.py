@@ -40,6 +40,50 @@ class PortfolioReportingFramework:
         self.prev_month_str = previous_day_str[:6]
         
         self.risk_free = 0.04  # annual risk-free rate
+
+        # Currency to country mapping
+        self.currency_country_map = {
+            'CHF': 'Switzerland',
+            'MXN': 'Mexico',
+            'QAR': 'Qatar',
+            'SAR': 'Saudi Arabia',
+            'ZAR': 'South Africa',
+            'INR': 'India',
+            'THB': 'Thailand',
+            'CNY': 'China',
+            'AUD': 'Australia',
+            'KRW': 'South Korea',
+            'ILS': 'Israel',
+            'JPY': 'Japan',
+            'PLN': 'Poland',
+            'GBP': 'United Kingdom',
+            'IDR': 'Indonesia',
+            'HUF': 'Hungary',
+            'KWD': 'Kuwait',
+            'PHP': 'Philippines',
+            'TRY': 'Turkey',
+            'RUB': 'Russia',
+            'AED': 'UAE',
+            'HKD': 'Hong Kong',
+            'TWD': 'Taiwan',
+            'EUR': 'Europe',
+            'DKK': 'Denmark',
+            'CAD': 'Canada',
+            'MYR': 'Malaysia',
+            'BGN': 'Bulgaria',
+            'NOK': 'Norway',
+            'RON': 'Romania',
+            'RUS': 'Russia',
+            'SGD': 'Singapore',
+            'OMR': 'Oman',
+            'CZK': 'Czech Republic',
+            'SEK': 'Sweden',
+            'NZD': 'New Zealand',
+            'CNH': 'China',
+            'BRL': 'Brazil',
+            'BHD': 'Bahrain',
+            'USD': 'United States'
+        }
         
         # Initialize all directory paths
         self._setup_directories()
@@ -896,7 +940,7 @@ class PortfolioReportingFramework:
         # Save cumulative Market Value CSV
         master_df.to_csv(market_value_file_path, index=False, float_format="%.2f")
 
-        return master_df
+        return 
     
     def prepare_currency_pnl(self, df_ticker, prior_day_nav, current_nav):
         """Prepare currency-based P&L analysis."""
@@ -922,10 +966,11 @@ class PortfolioReportingFramework:
         # Create today's row for time series
         today_row = {'Date': pd.to_datetime(self.today_str, format='%Y%m%d'), 'NAV': current_nav}
         for curr in currencies:
+            country = self.currency_country_map.get(curr, curr)  # fallback to currency code if not found
             mtm = currencypnl_df.get(curr, 0.0)
-            today_row[f'{curr} MTM'] = mtm
+            today_row[f'{country} MTM'] = mtm
             # Return based on prior day NAV
-            today_row[f'{curr} Return'] = mtm / prior_day_nav if prior_day_nav != 0 else 0
+            today_row[f'{country} Return'] = mtm / prior_day_nav if prior_day_nav != 0 else 0
 
         today_df = pd.DataFrame([today_row])
 
@@ -962,8 +1007,9 @@ class PortfolioReportingFramework:
         # Create today's row
         mv_row = {'Date': pd.to_datetime(self.today_str, format='%Y%m%d').date()}
         for curr in currencies:
-            mv_row[f'{curr} MarketValueUSD'] = mv_df.get(curr, 0.0)
-            mv_row[f'{curr} Count'] = count_df.get(curr, 0)  # add count of tickers
+            country = self.currency_country_map.get(curr, curr)  # fallback to currency code if not found
+            mv_row[f'{country} MarketValue'] = mv_df.get(curr, 0.0)
+            mv_row[f'{country} Count'] = count_df.get(curr, 0)  # add count of tickers
 
         today_df = pd.DataFrame([mv_row])
 
@@ -986,7 +1032,7 @@ class PortfolioReportingFramework:
         # Save cumulative Market Value CSV
         master_df.to_csv(market_value_currency_file_path, index=False, float_format="%.2f")
 
-        return master_df
+        return
 
     def send_report_email(self, daily_return, mtd_return, daypnl_df, daily_tables, df_trade):
         """Prepare Email."""
@@ -1037,14 +1083,13 @@ class PortfolioReportingFramework:
         print(daypnl_df, '\n')
 
         # Market value
-        market_value_df = self.save_market_value(merged_df)
+        self.save_market_value(merged_df)
 
         # Currency P&L breakdown
         mereged_df_currency = self.prepare_currency_pnl(df_ticker, prior_total_nav, current_total_nav)
 
         # Market value by currency
-        market_value_currency_df = self.save_market_value_currency(mereged_df_currency)
-
+        self.save_market_value_currency(mereged_df_currency)
 
         # Send email
         self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)

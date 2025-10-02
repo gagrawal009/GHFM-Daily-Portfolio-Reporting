@@ -1108,9 +1108,9 @@ class PortfolioReportingFramework:
             repo.index.commit(commit_message)
             origin = repo.remote(name='origin')
             origin.push()
-            print("Changes committed and pushed successfully!")
+            print("Changes committed and pushed successfully!\n")
         else:
-            print("No changes to commit.")
+            print("No changes to commit.\n")
     # ======================== MAIN EXECUTION METHOD ========================
 
     def run_complete_daily_report(self):

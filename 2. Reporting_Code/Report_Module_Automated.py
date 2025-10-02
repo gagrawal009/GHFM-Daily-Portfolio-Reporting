@@ -18,7 +18,7 @@ class PortfolioReportingFramework:
     Comprehensive portfolio reporting framework that combines performance and daily reporting.
     """
     
-    def __init__(self, today_str, previous_day_str, ghfm_reporting_dir):
+    def __init__(self, today_str, previous_day_str, ghfm_reporting_dir, repo_path=None):
         """
         Initialize the reporting framework.
         
@@ -30,6 +30,7 @@ class PortfolioReportingFramework:
         self.today_str = today_str
         self.previous_day_str = previous_day_str
         self.ghfm_reporting_dir = ghfm_reporting_dir
+        self.repo_path = repo_path
         
         # Date components
         self.year_str = today_str[:4]
@@ -56,7 +57,8 @@ class PortfolioReportingFramework:
         self.ib_ticker_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_daily Ticker/")
         self.ibtradessummary_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Daily Trades/")
         self.performance_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Performance_History/")
-        self.marketvalue_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Market_Value/")
+        self.marketvalue_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCategory/")
+        self.marketvalue_currency_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCurrency/")
         self.ibconsolidated_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_Consolidated/")
 
     # ======================== PERFORMANCE REPORTING METHODS ========================
@@ -895,6 +897,96 @@ class PortfolioReportingFramework:
         master_df.to_csv(market_value_file_path, index=False, float_format="%.2f")
 
         return master_df
+    
+    def prepare_currency_pnl(self, df_ticker, prior_day_nav, current_nav):
+        """Prepare currency-based P&L analysis."""
+        mtm_path = os.path.join(self.ib_mtmpnl_dir, "AllSymbols", self.year_str, self.month_str, f"AllSymbols_P&L_{self.today_str}.xlsx")
+        df = pd.read_excel(mtm_path)
+
+        df["Symbol"] = df["Symbol"].astype(str)
+        df_ticker["Symbol"] = df_ticker["Symbol"].astype(str)
+        df = df.drop(columns=[c for c in ['AssetCategory', 'Currency','AssetClass','Category','BloombergIdentifier','Sector'] if c in df.columns])
+
+        merged_df = pd.merge(df, df_ticker, on="Symbol", how="inner")
+        merged_df['MTM P&L'] = merged_df['MTM P&L'].round(2)
+        merged_df = merged_df.drop(columns=[c for c in ['AssetCategory','AssetClass','Category','BloombergIdentifier','Sector'] if c in merged_df.columns])
+        merged_df = merged_df.dropna(subset=['Symbol','Currency'])
+        merged_df = merged_df[~((merged_df["MTM P&L"] == 0) & (merged_df["Current Quantity"] == 0))]
+
+        # Get unique currencies from data
+        currencies = sorted(merged_df['Currency'].unique().tolist())
+
+        # Aggregate per-currency MTM P&L
+        currencypnl_df = merged_df.groupby('Currency')['MTM P&L'].sum().round(2)
+
+        # Create today's row for time series
+        today_row = {'Date': pd.to_datetime(self.today_str, format='%Y%m%d'), 'NAV': current_nav}
+        for curr in currencies:
+            mtm = currencypnl_df.get(curr, 0.0)
+            today_row[f'{curr} MTM'] = mtm
+            # Return based on prior day NAV
+            today_row[f'{curr} Return'] = mtm / prior_day_nav if prior_day_nav != 0 else 0
+
+        today_df = pd.DataFrame([today_row])
+
+        currencypnl_year_dir = os.path.join(self.ib_mtmpnl_dir, "AssetCurrency", self.year_str)
+        os.makedirs(currencypnl_year_dir, exist_ok=True)
+        currencypnl_month_dir = os.path.join(currencypnl_year_dir, self.month_str)
+        os.makedirs(currencypnl_month_dir, exist_ok=True)
+        currencypnl_file_path = os.path.join(currencypnl_month_dir, f"Currency_P&L_{self.today_str}.xlsx")
+        
+        prev_currencypnl_file = os.path.join(self.ib_mtmpnl_dir, "AssetCurrency", self.prev_year_str, self.prev_month_str, f"Currency_P&L_{self.previous_day_str}.xlsx")
+
+        # Read previous time series if exists and append
+        if os.path.exists(prev_currencypnl_file):
+            ts_df = pd.read_excel(prev_currencypnl_file)
+            ts_df = pd.concat([ts_df, today_df], ignore_index=True)
+        else:
+            ts_df = today_df
+
+        ts_df['Date'] = ts_df['Date'].dt.date  # remove time
+        # Save updated time series
+        ts_df.to_excel(currencypnl_file_path, index=False, float_format="%.6f")
+
+        return merged_df
+
+    def save_market_value_currency(self, merged_df):
+        """Save market value data by currency."""
+        # Get unique currencies from data
+        currencies = sorted(merged_df['Currency'].unique().tolist())
+
+        # Aggregate Market Value per currency
+        mv_df = merged_df.groupby('Currency')['Market Value USD'].sum().round(2)
+        count_df = merged_df.groupby('Currency')['Symbol'].nunique()  # counts unique tickers
+
+        # Create today's row
+        mv_row = {'Date': pd.to_datetime(self.today_str, format='%Y%m%d').date()}
+        for curr in currencies:
+            mv_row[f'{curr} MarketValueUSD'] = mv_df.get(curr, 0.0)
+            mv_row[f'{curr} Count'] = count_df.get(curr, 0)  # add count of tickers
+
+        today_df = pd.DataFrame([mv_row])
+
+        market_value_currency_year_dir = os.path.join(self.marketvalue_currency_dir, self.year_str)
+        os.makedirs(market_value_currency_year_dir, exist_ok=True)
+        market_value_currency_month_dir = os.path.join(market_value_currency_year_dir, self.month_str)
+        os.makedirs(market_value_currency_month_dir, exist_ok=True)
+        market_value_currency_file_path = os.path.join(market_value_currency_month_dir, f"MarketValue_Currency_{self.today_str}.csv")
+
+        # Previous day file path
+        prev_file_path = os.path.join(self.marketvalue_currency_dir, self.prev_year_str, self.prev_month_str, f"MarketValue_Currency_{self.previous_day_str}.csv")
+
+        # Read previous file if exists and append
+        if os.path.exists(prev_file_path):
+            master_df = pd.read_csv(prev_file_path)
+            master_df = pd.concat([master_df, today_df], ignore_index=True)
+        else:
+            master_df = today_df
+
+        # Save cumulative Market Value CSV
+        master_df.to_csv(market_value_currency_file_path, index=False, float_format="%.2f")
+
+        return master_df
 
     def send_report_email(self, daily_return, mtd_return, daypnl_df, daily_tables, df_trade):
         """Prepare Email."""
@@ -947,11 +1039,33 @@ class PortfolioReportingFramework:
         # Market value
         market_value_df = self.save_market_value(merged_df)
 
+        # Currency P&L breakdown
+        mereged_df_currency = self.prepare_currency_pnl(df_ticker, prior_total_nav, current_total_nav)
+
+        # Market value by currency
+        market_value_currency_df = self.save_market_value_currency(mereged_df_currency)
+
+
         # Send email
         self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
 
         return 
+    
+    def update_git_repository(self):
+        # Update Git repository
+        from git import Repo
 
+        commit_message = "Files upload"
+        repo = Repo(self.repo_path)
+
+        if repo.is_dirty(untracked_files=True):
+            repo.git.add(A=True)
+            repo.index.commit(commit_message)
+            origin = repo.remote(name='origin')
+            origin.push()
+            print("Changes committed and pushed successfully!")
+        else:
+            print("No changes to commit.")
     # ======================== MAIN EXECUTION METHOD ========================
 
     def run_complete_daily_report(self):
@@ -980,6 +1094,10 @@ class PortfolioReportingFramework:
         print("Step 3: Running daily reporting...")
         self.run_daily_report()
         print("Daily reporting completed.\n")
+        
+        if self.repo_path:
+            print("Step 4: Updating Git repository...")
+            self.update_git_repository()
         
         print("Daily report process completed successfully!")
         print("=" * 50)

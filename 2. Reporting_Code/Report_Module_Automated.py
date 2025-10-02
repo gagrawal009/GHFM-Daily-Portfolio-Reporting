@@ -1008,7 +1008,7 @@ class PortfolioReportingFramework:
         mv_row = {'Date': pd.to_datetime(self.today_str, format='%Y%m%d').date()}
         for curr in currencies:
             country = self.currency_country_map.get(curr, curr)  # fallback to currency code if not found
-            mv_row[f'{country} MarketValue'] = mv_df.get(curr, 0.0)
+            mv_row[f'{country} MarketValueUSD'] = mv_df.get(curr, 0.0)
             mv_row[f'{country} Count'] = count_df.get(curr, 0)  # add count of tickers
 
         today_df = pd.DataFrame([mv_row])

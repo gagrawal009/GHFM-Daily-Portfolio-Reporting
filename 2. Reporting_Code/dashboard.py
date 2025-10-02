@@ -172,13 +172,16 @@ def load_data(today_str):
     ib_mtmpnl_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/IB_Mark-to-Market PnL/")
     ibtradessummary_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Daily Trades/")
     performance_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Performance_History/")
-    marketvalue_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/")
+    marketvalue_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/AssetCategory")
+    marketvalue_currency_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/AssetCurrency")
 
     pnl_file = os.path.join(ib_mtmpnl_dir, "AssetCategory", year_str, month_str, f"Category_P&L_{today_str}.xlsx")
     perf_file = os.path.join(performance_dir, year_str, month_str, f"Performance_{today_str}.csv")
     mv_file = os.path.join(marketvalue_dir, year_str, month_str, f"MarketValue_{today_str}.csv")
     all_symbol_pnl_file = os.path.join(ib_mtmpnl_dir, "AllSymbols", year_str, month_str, f"AllSymbols_P&L_{today_str}.xlsx")
     trade_file = os.path.join(ibtradessummary_dir, year_str, month_str, f"TradeSummary_{today_str}.csv")
+    pnl_currency_file = os.path.join(ib_mtmpnl_dir, "AssetCurrency", year_str, month_str, f"Category_P&L_{today_str}.xlsx")
+    mv_currency_file = os.path.join(marketvalue_currency_dir, year_str, month_str, f"MarketValue_Currency_{today_str}.csv")
 
     try:
         pnl_df = pd.read_excel(pnl_file, parse_dates=["Date"])
@@ -186,13 +189,15 @@ def load_data(today_str):
         mv_df = pd.read_csv(mv_file, parse_dates=["Date"])
         all_symbol_pnl_df = pd.read_excel(all_symbol_pnl_file)
         trades_df = pd.read_csv(trade_file)
+        pnl_currency_df = pd.read_excel(pnl_currency_file, parse_dates=["Date"])
+        mv_currency_df = pd.read_csv(mv_currency_file, parse_dates=["Date"])
        
-        return perf_df, mv_df, pnl_df, all_symbol_pnl_df, trades_df
-    except FileNotFoundError:
-        st.error(f"Data files for {today_str} not found.")
-        return pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
+        return perf_df, mv_df, pnl_df, all_symbol_pnl_df, trades_df, pnl_currency_df, mv_currency_df
+    except FileNotFoundError as e:
+        st.error(f"Data files for {today_str} not found. Error: {str(e)}")
+        return pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
 
-def create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df):
+def create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df, mv_currency_df, pnl_currency_df):
     """Create all performance tables and metrics"""
     asset_classes = [c.replace(" MarketValue", "") for c in mv_df.columns if "MarketValue" in c]
     
@@ -257,6 +262,51 @@ def create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df):
     
     performance_by_asset_class = pd.DataFrame(performance_data)
 
+    # Create Performance by Geographical Location table
+    countries = [c.replace(" MarketValueUSD", "") for c in mv_currency_df.columns if "MarketValueUSD" in c]
+    
+    selected_mv_currency = mv_currency_df[mv_currency_df["Date"] == selected_datetime].iloc[0]
+    selected_pnl_currency = pnl_currency_df[pnl_currency_df["Date"] == selected_datetime].iloc[0]
+    
+    total_mv_geo = sum(selected_mv_currency[f"{c} MarketValueUSD"] for c in countries)
+    total_daily_pnl_geo = sum(selected_pnl_currency[f"{c} MTM"] for c in countries)
+    total_daily_return_geo = sum(selected_pnl_currency[f"{c} Return"] for c in countries)
+    
+    performance_geo_data = {
+        'Metric': ['No of Tickers', 'Market Value USD', 'Market Value %', 'Daily Return USD', 'Daily Return %']
+    }
+    
+    total_tickers_geo = 0
+    for country in countries:
+        mv_value_geo = selected_mv_currency[f"{country} MarketValueUSD"]
+        daily_pnl_geo = selected_pnl_currency[f"{country} MTM"]
+        mv_pct_geo = (mv_value_geo / total_mv_geo * 100) if total_mv_geo != 0 else 0
+        daily_return_pct_geo = selected_pnl_currency[f"{country} Return"]
+        
+        count_col_geo = f"{country} Count"
+        ticker_count_geo = selected_mv_currency.get(count_col_geo, 0)
+        if pd.isna(ticker_count_geo):
+            ticker_count_geo = 0
+        total_tickers_geo += int(ticker_count_geo)
+        
+        performance_geo_data[country] = [
+            str(int(ticker_count_geo)),
+            format_currency(mv_value_geo),
+            f"{mv_pct_geo:.2f}%",
+            format_currency(daily_pnl_geo),
+            f"{daily_return_pct_geo*100:.2f}%"
+        ]
+    
+    performance_geo_data['Total'] = [
+        str(total_tickers_geo),
+        format_currency(total_mv_geo),
+        "100.00%",
+        format_currency(total_daily_pnl_geo),
+        f"{total_daily_return_geo*100:.2f}%"
+    ]
+    
+    performance_by_geography = pd.DataFrame(performance_geo_data)
+
     pnl_df["Year"] = pnl_df["Date"].dt.year
     pnl_df["Month"] = pnl_df["Date"].dt.month
     current_year = selected_datetime.year
@@ -271,7 +321,7 @@ def create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df):
     monthly_attrib_usd.index = [datetime(current_year, m, 1).strftime("%b %y") for m in months]
     monthly_attrib_usd.loc[f"FY{current_year}"] = monthly_attrib_usd.sum()
 
-    return overall_portfolio, key_metrics, performance_by_asset_class, monthly_attrib_usd, asset_classes
+    return overall_portfolio, key_metrics, performance_by_asset_class, performance_by_geography, monthly_attrib_usd, asset_classes
 
 def create_plotly_charts(performance_by_asset_class, monthly_attrib_usd, asset_classes, perf_df, selected_datetime):
     """Create all Plotly charts"""
@@ -384,13 +434,13 @@ def main():
         st.session_state.show_pnl_daily = False
 
     # Load data dynamically
-    perf_df, mv_df, pnl_df, all_symbol_pnl_df, trades_df = load_data(today_str)
+    perf_df, mv_df, pnl_df, all_symbol_pnl_df, trades_df, pnl_currency_df, mv_currency_df = load_data(today_str)
     if perf_df.empty or mv_df.empty or pnl_df.empty:
         st.warning("No data available for this date. Please select a different date.")
         return
 
     # Create tables and get metrics
-    overall_portfolio, key_metrics, performance_by_asset_class, monthly_attrib_usd, asset_classes = create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df)
+    overall_portfolio, key_metrics, performance_by_asset_class, performance_by_geography, monthly_attrib_usd, asset_classes = create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df, mv_currency_df, pnl_currency_df)
 
     # Overall Portfolio Summary with improved metrics display
     st.markdown('<h3 class="section-header">📊 Overall Portfolio Summary</h3>', unsafe_allow_html=True)
@@ -419,6 +469,13 @@ def main():
     st.markdown('<h3 class="section-header">🏦 Performance by Asset Class</h3>', unsafe_allow_html=True)
     st.dataframe(
         performance_by_asset_class.set_index('Metric'), 
+        width='stretch'
+    )
+
+    # Performance by Geographical Location
+    st.markdown('<h3 class="section-header">🌍 Performance by Geographical Location</h3>', unsafe_allow_html=True)
+    st.dataframe(
+        performance_by_geography.set_index('Metric'), 
         width='stretch'
     )
 

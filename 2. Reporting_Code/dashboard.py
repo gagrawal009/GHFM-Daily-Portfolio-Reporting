@@ -180,7 +180,7 @@ def load_data(today_str):
     mv_file = os.path.join(marketvalue_dir, year_str, month_str, f"MarketValue_{today_str}.csv")
     all_symbol_pnl_file = os.path.join(ib_mtmpnl_dir, "AllSymbols", year_str, month_str, f"AllSymbols_P&L_{today_str}.xlsx")
     trade_file = os.path.join(ibtradessummary_dir, year_str, month_str, f"TradeSummary_{today_str}.csv")
-    pnl_currency_file = os.path.join(ib_mtmpnl_dir, "AssetCurrency", year_str, month_str, f"Category_P&L_{today_str}.xlsx")
+    pnl_currency_file = os.path.join(ib_mtmpnl_dir, "AssetCurrency", year_str, month_str, f"Currency_P&L_{today_str}.xlsx")
     mv_currency_file = os.path.join(marketvalue_currency_dir, year_str, month_str, f"MarketValue_Currency_{today_str}.csv")
 
     try:

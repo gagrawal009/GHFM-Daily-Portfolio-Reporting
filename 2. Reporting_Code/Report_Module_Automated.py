@@ -1094,7 +1094,7 @@ class PortfolioReportingFramework:
         self.save_market_value_currency(mereged_df_currency)
 
         # Send email
-        #self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
+        self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
 
         return 
     

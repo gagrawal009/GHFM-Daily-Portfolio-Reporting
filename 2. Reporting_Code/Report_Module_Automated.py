@@ -463,7 +463,7 @@ class PortfolioReportingFramework:
                     return 'Commodity'
                 elif category == 'FX':
                     return 'FX'
-            elif asset_class in ['OPT', 'FOP']:
+            elif asset_class in ['OPT', 'FOP', 'FUT']:
                 return 'Derivatives'
             return 'Other'
 
@@ -491,7 +491,7 @@ class PortfolioReportingFramework:
                 asset_class = match.iloc[0]['AssetClass']
                 category = match.iloc[0]['Category']
 
-                if category.strip().upper() == 'ETF':
+                if isinstance(category, str) and category.strip().upper() == 'ETF':
                     if sym.upper() in ['EBND','EMLC','SGOV','SHYG']:
                         category = 'BOND'
                     elif sym.upper() in ['IAUM','IBIT','AGQ', 'URA', 'UTES']:
@@ -499,6 +499,8 @@ class PortfolioReportingFramework:
                     elif sym.upper() in ['FXE','FXY']:
                         category = 'FX'
                     else:
+                        category = input(f"Enter Category for {sym} (BOND/COMMODITY/FX/ETF): ").strip().upper()
+                elif not isinstance(category, str):
                         category = input(f"Enter Category for {sym} (BOND/COMMODITY/FX/ETF): ").strip().upper()
             else:
                 currency = input(f"Enter Currency for {sym}: (HKD/JPY/SGD/USD/INR):").strip().upper()
@@ -1092,7 +1094,7 @@ class PortfolioReportingFramework:
         self.save_market_value_currency(mereged_df_currency)
 
         # Send email
-        self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
+        #self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
 
         return 
     

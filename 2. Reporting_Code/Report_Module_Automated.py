@@ -11,7 +11,7 @@ warnings.filterwarnings("ignore")
 from ibkr_tickers import ibkr_tickers
 from Extract_data_from_IB import run_flex_pipeline
 import datetime
-
+import re
 
 class PortfolioReportingFramework:
     """
@@ -485,27 +485,34 @@ class PortfolioReportingFramework:
         new_rows = []
 
         for sym in new_tickers:
-            match = df_ibkr[df_ibkr['Symbol'] == sym]
-            if not match.empty:
-                currency = match.iloc[0]['CurrencyPrimary']
-                asset_class = match.iloc[0]['AssetClass']
-                category = match.iloc[0]['Category']
-
-                if isinstance(category, str) and category.strip().upper() == 'ETF':
-                    if sym.upper() in ['EBND','EMLC','SGOV','SHYG']:
-                        category = 'BOND'
-                    elif sym.upper() in ['IAUM','IBIT','AGQ', 'URA', 'UTES']:
-                        category = 'COMMODITY'
-                    elif sym.upper() in ['FXE','FXY']:
-                        category = 'FX'
-                    else:
-                        category = input(f"Enter Category for {sym} (BOND/COMMODITY/FX/ETF): ").strip().upper()
-                elif not isinstance(category, str):
-                        category = input(f"Enter Category for {sym} (BOND/COMMODITY/FX/ETF): ").strip().upper()
+            if re.match(r'^(NQ|ES)\s+\d{1,2}[A-Z]{3}\d{2}\s+\d+\s+[CP]$', sym):
+                currency = 'USD'
+                asset_class = 'FOP'
+                category = sym.strip()[-1]  # 'C' or 'P'
             else:
-                currency = input(f"Enter Currency for {sym}: (HKD/JPY/SGD/USD/INR):").strip().upper()
-                asset_class = input(f"Enter AssetClass for {sym}: (OPT/STK/FOP):").strip().upper()
-                category = input(f"Enter Category for {sym}: (COMMON/BOND/COMMODITY/FX/ETF):").strip().upper()
+                match = df_ibkr[df_ibkr['Symbol'] == sym]
+                if not match.empty:
+                    currency = match.iloc[0]['CurrencyPrimary']
+                    asset_class = match.iloc[0]['AssetClass']
+                    category = match.iloc[0]['Category']
+
+                    if isinstance(category, str) and category.strip().upper() == 'ETF':
+                        if sym.upper() in ['EBND','EMLC','SGOV','SHYG', "BND", "AGG", "LQD", "HYG", "TLT", "SHY", "TIP", "MUB",
+                                            "EMB", "BKLN", "MBB", "VCIT", "IEF", "BIV"]:
+                            category = 'BOND'
+                        elif sym.upper() in [ "GLD", "SLV", "USO", "DBC", "CORN", "WEAT", "SOYB", "CANE", "UNG", "UGA", "BNO", "PDBC",
+                                         "IAUM", "IBIT", "AGQ", "URA", "UTES", "XLE", "XME", "XLB", "XOP", "XES"]:
+                            category = 'COMMODITY'
+                        elif sym.upper() in ["FXE", "FXY", "UUP", "UDN", "FXF", "FXA", "FXC", "FXB", "CEW", "WDTI"]:
+                            category = 'FX'
+                        else:
+                            category = input(f"Enter Category for {sym} (BOND/COMMODITY/FX/ETF): ").strip().upper()
+                    elif not isinstance(category, str):
+                            category = input(f"Enter Category for {sym} (BOND/COMMODITY/FX/ETF): ").strip().upper()
+                else:
+                    currency = input(f"Enter Currency for {sym}: (HKD/JPY/SGD/USD/INR):").strip().upper()
+                    asset_class = input(f"Enter AssetClass for {sym}: (OPT/STK/FOP):").strip().upper()
+                    category = input(f"Enter Category for {sym}: (COMMON/BOND/COMMODITY/FX/ETF):").strip().upper()
             
             if not category:
                 category = 'ETF'
@@ -1094,7 +1101,7 @@ class PortfolioReportingFramework:
         self.save_market_value_currency(mereged_df_currency)
 
         # Send email
-        self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
+        #self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
 
         return 
     

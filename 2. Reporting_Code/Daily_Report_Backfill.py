@@ -33,7 +33,7 @@ def run_reports_for_trading_days(csv_path, ghfm_reporting_dir):
         
         # You can store results if needed
         # yield results  # optional if you want a generator
-        time.sleep(60)  # Optional: to avoid overwhelming any resources
+       # time.sleep(60)  # Optional: to avoid overwhelming any resources
 
 run_reports_for_trading_days('Trading_days.csv', ghfm_reporting_dir)
 

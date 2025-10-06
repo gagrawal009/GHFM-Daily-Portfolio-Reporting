@@ -24,7 +24,7 @@ def download_ib_files(csv_path, ghfm_reporting_dir):
     date_strs = df['Date'].dt.strftime('%Y%m%d').tolist()
     flag = False
     
-    for i in range(1, len(date_strs)):
+    for i in range(0, len(date_strs)):
 
         today_str = date_strs[i]       
         year_str = today_str[:4]
@@ -52,11 +52,11 @@ def download_ib_files(csv_path, ghfm_reporting_dir):
             ibkr_tickers(today_str, today_str, ibkr_file_path)
             flag = True
 
+        print(f"Downloaded files for {today_str}")
+
         if flag:
             time.sleep(60)  
             flag = False
-            
-        print(f"Downloaded files for {today_str}")
 
 download_ib_files('Trading_days2.csv', ghfm_reporting_dir)
 

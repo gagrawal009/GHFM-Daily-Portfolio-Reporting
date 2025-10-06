@@ -505,6 +505,8 @@ class PortfolioReportingFramework:
                             category = 'COMMODITY'
                         elif sym.upper() in ["FXE", "FXY", "UUP", "UDN", "FXF", "FXA", "FXC", "FXB", "CEW", "WDTI"]:
                             category = 'FX'
+                        elif isinstance(asset_class, str) and asset_class.strip().upper() == 'FUT':
+                            category = 'FUT'
                         else:
                             category = input(f"Enter Category for {sym} (BOND/COMMODITY/FX/ETF): ").strip().upper()
                     elif not isinstance(category, str):
@@ -1101,7 +1103,7 @@ class PortfolioReportingFramework:
         self.save_market_value_currency(mereged_df_currency)
 
         # Send email
-        #self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
+        self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
 
         return 
     

@@ -55,7 +55,7 @@ def download_ib_files(csv_path, ghfm_reporting_dir):
         print(f"Downloaded files for {today_str}")
 
         if flag:
-            time.sleep(60)  
+            time.sleep(90)  
             flag = False
 
 download_ib_files('Trading_days2.csv', ghfm_reporting_dir)

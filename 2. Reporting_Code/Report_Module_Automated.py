@@ -424,7 +424,8 @@ class PortfolioReportingFramework:
             elif asset_class.upper() == "OPT":
                 parts = symbol.split()
                 if len(parts) != 4:
-                    raise ValueError(f"Unexpected option format: {symbol}")
+                    print(f"Cannot add Bloomberg ticker for {symbol} (Category: {asset_class})")
+                    return ""
 
                 underlying, expiry_str, strike, opt_type = parts
 
@@ -485,7 +486,7 @@ class PortfolioReportingFramework:
         new_rows = []
 
         for sym in new_tickers:
-            if re.match(r'^(NQ|ES)\s+\d{1,2}[A-Z]{3}\d{2}\s+\d+\s+[CP]$', sym):
+            if re.match(r'^(NQ|ES|MNQ|QQQ)\s+\d{1,2}[A-Z]{3}\d{2}\s+\d+\s+[CP]$', sym):
                 currency = 'USD'
                 asset_class = 'FOP'
                 category = sym.strip()[-1]  # 'C' or 'P'
@@ -1101,7 +1102,7 @@ class PortfolioReportingFramework:
         self.save_market_value_currency(mereged_df_currency)
 
         # Send email
-        #self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
+        self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
 
         return 
     

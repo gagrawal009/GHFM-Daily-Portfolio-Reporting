@@ -12,13 +12,15 @@ from ibkr_tickers import ibkr_tickers
 from Extract_data_from_IB import run_flex_pipeline
 import datetime
 import re
+import pandas_market_calendars as mcal
+from datetime import timedelta
 
 class PortfolioReportingFramework:
     """
     Comprehensive portfolio reporting framework that combines performance and daily reporting.
     """
     
-    def __init__(self, today_str, previous_day_str, ghfm_reporting_dir, repo_path=None):
+    def __init__(self, ghfm_reporting_dir, repo_path=None):
         """
         Initialize the reporting framework.
         
@@ -27,17 +29,35 @@ class PortfolioReportingFramework:
             previous_day_str (str): Previous day's date in YYYYMMDD format  
             ghfm_reporting_dir (str): Path to GHFM reporting directory
         """
-        self.today_str = today_str
-        self.previous_day_str = previous_day_str
+
+        # Get NYSE calendar
+        nyse = mcal.get_calendar('NYSE')
+
+        # Get today's date
+        today = datetime.datetime.now().date()
+
+        # Get all valid trading days for the last few days
+        schedule = nyse.schedule(start_date=today - timedelta(days=10), end_date=today)
+        trading_days = mcal.date_range(schedule, frequency='1D').to_pydatetime()
+
+        # Last trading day
+        last_trading_day = trading_days[-2].date()
+
+        # Previous trading day
+        previous_trading_day = trading_days[-3].date()
+
+        self.today_str = last_trading_day.strftime("%Y%m%d")
+        self.previous_day_str = previous_trading_day.strftime("%Y%m%d")
+
         self.ghfm_reporting_dir = ghfm_reporting_dir
         self.repo_path = repo_path
         
         # Date components
-        self.year_str = today_str[:4]
-        self.month_str = today_str[:6]
+        self.year_str = self.today_str[:4]
+        self.month_str = self.today_str[:6]
 
-        self.prev_year_str = previous_day_str[:4]
-        self.prev_month_str = previous_day_str[:6]
+        self.prev_year_str = self.previous_day_str[:4]
+        self.prev_month_str = self.previous_day_str[:6]
         
         self.risk_free = 0.04  # annual risk-free rate
 

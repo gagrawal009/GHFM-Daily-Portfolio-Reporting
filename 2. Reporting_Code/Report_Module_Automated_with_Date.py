@@ -27,9 +27,6 @@ class PortfolioReportingFramework:
             previous_day_str (str): Previous day's date in YYYYMMDD format  
             ghfm_reporting_dir (str): Path to GHFM reporting directory
         """
-
-       
-
         self.today_str = today_str
         self.previous_day_str = previous_day_str
 

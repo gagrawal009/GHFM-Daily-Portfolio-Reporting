@@ -470,7 +470,7 @@ def main():
 
     # Key Performance Metrics
     st.markdown('<h3 class="section-header">🎯 Key Performance Metrics</h3>', unsafe_allow_html=True)
-    st.dataframe(key_metrics, width='stretch', hide_index=True)
+    st.dataframe(key_metrics, use_container_width=True, hide_index=True)
 
     st.markdown(
         '<p style="font-size: 0.85em; color: #666; font-style: italic; margin-top: 8px;">'
@@ -483,14 +483,14 @@ def main():
     st.markdown('<h3 class="section-header">🏦 Performance by Asset Class</h3>', unsafe_allow_html=True)
     st.dataframe(
         performance_by_asset_class.set_index('Metric'), 
-        width='stretch'
+       use_container_width=True
     )
 
     # Performance by Geographical Location
     st.markdown('<h3 class="section-header">🌍 Performance by Geographical Location</h3>', unsafe_allow_html=True)
     st.dataframe(
         performance_by_geography.set_index('Metric'), 
-        width='stretch'
+       use_container_width=True
     )
 
     # Top 20 symbols by Market Value view
@@ -505,7 +505,7 @@ def main():
             st.markdown('<h3 class="section-header">🏆 Top 20 Symbols by Market Value</h3>', unsafe_allow_html=True)
             top20_df = all_symbol_pnl_df.nlargest(20, 'Market Value USD')
             top20_clean = clean_dataframe_for_display(top20_df)
-            st.dataframe(top20_clean, width='stretch', height=500, hide_index=True)
+            st.dataframe(top20_clean,use_container_width=True, height=500, hide_index=True)
 
     # Detailed symbols view
     if not all_symbol_pnl_df.empty:
@@ -518,7 +518,7 @@ def main():
         if st.session_state.show_all_symbols:
             st.markdown('<h3 class="section-header">📋 Detailed Performance for All Symbols</h3>', unsafe_allow_html=True)
             all_symbols_clean = clean_dataframe_for_display(all_symbol_pnl_df)
-            st.dataframe(all_symbols_clean, width='stretch', height=500, hide_index=True)
+            st.dataframe(all_symbols_clean,use_container_width=True, height=500, hide_index=True)
 
     # Charts
     st.markdown('<h3 class="section-header">📈 Performance Charts</h3>', unsafe_allow_html=True)
@@ -545,7 +545,7 @@ def main():
     monthly_attrib_usd_formatted = monthly_attrib_usd_with_total.copy()
     for col in monthly_attrib_usd_formatted.columns:
         monthly_attrib_usd_formatted[col] = monthly_attrib_usd_formatted[col].apply(format_currency)
-    st.dataframe(monthly_attrib_usd_formatted, width='stretch', height=500)
+    st.dataframe(monthly_attrib_usd_formatted,use_container_width=True, height=500)
 
     # PnL History
     button_text_pnl = "Hide PnL History of Asset Categories Day by Day" if st.session_state.show_pnl_daily else "View PnL History of Asset Categories Day by Day"
@@ -565,13 +565,13 @@ def main():
                 pnl_display_df[col] = (pnl_display_df[col] * 100).apply(lambda x: f"{x:.2f}%")
         pnl_display_df = pnl_display_df.drop(columns=['Year', 'Month'])
         pnl_display_df['Date'] = pnl_display_df['Date'].dt.date
-        st.dataframe(pnl_display_df, width='stretch', height=600, hide_index=True)
+        st.dataframe(pnl_display_df,use_container_width=True, height=600, hide_index=True)
 
     # Executed Trades Section
     st.markdown(f'<h3 class="section-header">💼 Executed Trades on {selected_date}</h3>', unsafe_allow_html=True)
     if not trades_df.empty:
         trades_clean = clean_dataframe_for_display(trades_df)
-        st.dataframe(trades_clean, width='stretch', height=500, hide_index=True)
+        st.dataframe(trades_clean,use_container_width=True, height=500, hide_index=True)
     else:
         st.info(f"No trade data available for {selected_date}")
 

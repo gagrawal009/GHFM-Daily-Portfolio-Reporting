@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import os
-
+from pathlib import Path
 # --- Authentication Configuration ---
 # Simple username/password combinations
 USERS = {
@@ -169,19 +169,22 @@ def load_data(today_str):
     year_str = today_str[:4]
     month_str = today_str[:6]
 
-    ib_mtmpnl_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/IB_Mark-to-Market PnL/")
-    ibtradessummary_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Daily Trades/")
-    performance_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Performance_History/")
-    marketvalue_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCategory")
-    marketvalue_currency_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCurrency")
 
-    pnl_file = os.path.join(ib_mtmpnl_dir, "AssetCategory", year_str, month_str, f"Category_P&L_{today_str}.xlsx")
-    perf_file = os.path.join(performance_dir, year_str, month_str, f"Performance_{today_str}.csv")
-    mv_file = os.path.join(marketvalue_dir, year_str, month_str, f"MarketValue_{today_str}.csv")
-    all_symbol_pnl_file = os.path.join(ib_mtmpnl_dir, "AllSymbols", year_str, month_str, f"AllSymbols_P&L_{today_str}.xlsx")
-    trade_file = os.path.join(ibtradessummary_dir, year_str, month_str, f"TradeSummary_{today_str}.csv")
-    pnl_currency_file = os.path.join(ib_mtmpnl_dir, "AssetCurrency", year_str, month_str, f"Currency_P&L_{today_str}.xlsx")
-    mv_currency_file = os.path.join(marketvalue_currency_dir, year_str, month_str, f"MarketValue_Currency_{today_str}.csv")
+    ghfm_reporting_dir = Path("/home/ubuntu/GHFM-Daily-Portfolio-Reporting")
+    
+    ib_mtmpnl_dir = ghfm_reporting_dir / "1. Reporting_Data" / "IB_Mark-to-Market PnL"
+    ibtradessummary_dir = ghfm_reporting_dir / "1. Reporting_Data" / "Daily Trades"
+    performance_dir = ghfm_reporting_dir / "1. Reporting_Data" / "Performance_History"
+    marketvalue_dir = ghfm_reporting_dir / "1. Reporting_Data" / "Market_Value" / "MV_AssetCategory"
+    marketvalue_currency_dir = ghfm_reporting_dir / "1. Reporting_Data" / "Market_Value" / "MV_AssetCurrency"
+    
+    pnl_file = ib_mtmpnl_dir / "AssetCategory" / year_str / month_str / f"Category_P&L_{today_str}.xlsx"
+    perf_file = performance_dir / year_str / month_str / f"Performance_{today_str}.csv"
+    mv_file = marketvalue_dir / year_str / month_str / f"MarketValue_{today_str}.csv"
+    all_symbol_pnl_file = ib_mtmpnl_dir / "AllSymbols" / year_str / month_str / f"AllSymbols_P&L_{today_str}.xlsx"
+    trade_file = ibtradessummary_dir / year_str / month_str / f"TradeSummary_{today_str}.csv"
+    pnl_currency_file = ib_mtmpnl_dir / "AssetCurrency" / year_str / month_str / f"Currency_P&L_{today_str}.xlsx"
+    mv_currency_file = marketvalue_currency_dir / year_str / month_str / f"MarketValue_Currency_{today_str}.csv"
 
     try:
         pnl_df = pd.read_excel(pnl_file, parse_dates=["Date"])

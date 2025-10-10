@@ -14,6 +14,8 @@ USERS = {
     "yiling": "yiling123"
 }
 
+ghfm_reporting_dir = os.getcwd()
+
 def check_authentication():
     """Check if user is authenticated"""
     return st.session_state.get('authenticated', False)
@@ -163,12 +165,11 @@ def clean_dataframe_for_display(df):
     return df_clean
 
 # --- Top 10 Symbols Feature Functions ---
-def get_all_symbols_files_for_period(ghfm_reporting_dir, period_type, period_value, year=None):
+def get_all_symbols_files_for_period(period_type, period_value, year=None):
     """
     Get all AllSymbols P&L files for a given period
     
     Args:
-        ghfm_reporting_dir: Base directory for reporting data
         period_type: 'month' or 'year'
         period_value: Month (1-12) or Year (e.g., 2025)
         year: Year (required if period_type is 'month')
@@ -219,12 +220,11 @@ def load_and_concatenate_symbols_data(file_list):
     combined_df = pd.concat(dfs, ignore_index=True)
     return combined_df
 
-def get_top_symbols_for_period(ghfm_reporting_dir, period_type, period_value, category=None, year=None, top_n=10):
+def get_top_symbols_for_period(period_type, period_value, category=None, year=None, top_n=10):
     """
     Get top N symbols by MTM PnL for a specific period and category
     
     Args:
-        ghfm_reporting_dir: Base directory for reporting data
         period_type: 'month' or 'year'
         period_value: Month (1-12) or Year (e.g., 2025)
         category: Asset category (e.g., 'Equity', 'Fixed Income') or None for total
@@ -234,7 +234,7 @@ def get_top_symbols_for_period(ghfm_reporting_dir, period_type, period_value, ca
     Returns:
         DataFrame with top symbols sorted by MTM P&L (descending by absolute value)
     """
-    files = get_all_symbols_files_for_period(ghfm_reporting_dir, period_type, period_value, year)
+    files = get_all_symbols_files_for_period(period_type, period_value, year)
     
     if not files:
         return pd.DataFrame()
@@ -286,7 +286,7 @@ def display_top_symbols_modal(symbols_df, period_display, category_display):
 @st.cache_data
 def load_data(today_str):
     """Load data files for the specified date"""
-    ghfm_reporting_dir = os.getcwd()
+    
     year_str = today_str[:4]
     month_str = today_str[:6]
 
@@ -757,9 +757,7 @@ def main():
             st.write("")  # Empty space for alignment
 
     # Button in a separate row for better visibility
-    if st.button("📊 Fetch Top 10 Symbols", use_container_width=False, type="primary"):
-        ghfm_reporting_dir = os.getcwd()
-        
+    if st.button("📊 Fetch Top 10 Symbols", use_container_width=False, type="primary"):        
         if period_select == 'Month':
             period_type = 'month'
             period_value = month_select
@@ -776,7 +774,6 @@ def main():
         category_display = category_select if category_select == 'Total' else category
         
         top_symbols = get_top_symbols_for_period(
-            ghfm_reporting_dir,
             period_type,
             period_value,
             category=category,

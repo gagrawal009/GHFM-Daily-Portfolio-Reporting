@@ -325,6 +325,7 @@ def create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df, mv_curr
     pnl_df["Month"] = pnl_df["Date"].dt.month
     current_year = selected_datetime.year
     months = range(1, 13)
+    all_rows = []
     monthly_attrib_usd = pd.DataFrame(0.0, index=months, columns=asset_classes)
     
     for m in months:
@@ -333,9 +334,22 @@ def create_performance_tables(selected_datetime, perf_df, mv_df, pnl_df, mv_curr
             monthly_attrib_usd.loc[m, asset_classes] = month_data[[f"{a} MTM" for a in asset_classes]].sum().values
     
     monthly_attrib_usd.index = [datetime(current_year, m, 1).strftime("%b %y") for m in months]
-    monthly_attrib_usd.loc[f"FY{current_year}"] = monthly_attrib_usd.sum()
 
-    return overall_portfolio, key_metrics, performance_by_asset_class, performance_by_geography, monthly_attrib_usd, asset_classes
+    all_rows.append(monthly_attrib_usd)
+
+    # --- (2) Add FY rows for all years (including current year) ---
+    for y in sorted(pnl_df["Year"].unique(), reverse=True):
+        year_data = pnl_df[pnl_df["Year"] == y]
+        if not year_data.empty:
+            fy_row = pd.DataFrame(
+                [year_data[[f"{a} MTM" for a in asset_classes]].sum().values],
+                index=[f"FY{y}"],
+                columns=asset_classes,
+            )
+            all_rows.append(fy_row)
+    final_attrib_usd = pd.concat(all_rows)
+
+    return overall_portfolio, key_metrics, performance_by_asset_class, performance_by_geography, final_attrib_usd, asset_classes
 
 def create_plotly_charts(performance_by_asset_class, monthly_attrib_usd, asset_classes, perf_df, selected_datetime):
     """Create all Plotly charts"""

@@ -90,15 +90,12 @@ Update paths in the scripts according to your setup. Current structure:
 
 ### 1. Daily Reporting Automation  
 
-1. Open `Daily_Reporting_Automated.py`  
-2. Set the variables:  
-   - `today_str` and `previous_day_str` (format `YYYYMMDD`)  
-   - `GHFM_Reporting_dir` (local folder path)  
-3. Run:  
+1. Open 'Run_Daily_Report.py'
+2. Run:  
 ```bash
-python Daily_Reporting_Automated.py
+python Run_daily_Deport.py
 ```  
-4. The script will:  
+3. The script will:  
    - Process IBKR statements for the given date  
    - Generate NAV, MTM P&L, and trade summaries  
    - Save Excel outputs  

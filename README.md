@@ -93,7 +93,7 @@ Update paths in the scripts according to your setup. Current structure:
 1. Open 'Run_Daily_Report.py'
 2. Run:  
 ```bash
-python Run_daily_Deport.py
+python Run_Daily_Deport.py
 ```  
 3. The script will:  
    - Process IBKR statements for the given date  

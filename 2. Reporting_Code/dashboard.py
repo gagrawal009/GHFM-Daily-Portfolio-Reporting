@@ -3,6 +3,7 @@ import pandas as pd
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import os
+import glob
 
 # --- Authentication Configuration ---
 # Simple username/password combinations
@@ -161,11 +162,131 @@ def clean_dataframe_for_display(df):
     
     return df_clean
 
+# --- Top 10 Symbols Feature Functions ---
+def get_all_symbols_files_for_period(ghfm_reporting_dir, period_type, period_value, year=None):
+    """
+    Get all AllSymbols P&L files for a given period
+    
+    Args:
+        ghfm_reporting_dir: Base directory for reporting data
+        period_type: 'month' or 'year'
+        period_value: Month (1-12) or Year (e.g., 2025)
+        year: Year (required if period_type is 'month')
+    
+    Returns:
+        List of file paths matching the period
+    """
+    ib_mtmpnl_dir = os.path.join(ghfm_reporting_dir, "1. Reporting_Data/IB_Mark-to-Market PnL/AllSymbols/")
+    
+    if period_type == 'month':
+        if year is None:
+            raise ValueError("Year must be provided for month period")
+        month_str = f"{year}{period_value:02d}"
+        search_pattern = os.path.join(ib_mtmpnl_dir, str(year), month_str, "AllSymbols_P&L_*.xlsx")
+    elif period_type == 'year':
+        search_pattern = os.path.join(ib_mtmpnl_dir, str(period_value), "*", "AllSymbols_P&L_*.xlsx")
+    else:
+        raise ValueError("period_type must be 'month' or 'year'")
+    
+    files = glob.glob(search_pattern)
+    return files
+
+def load_and_concatenate_symbols_data(file_list):
+    """
+    Load and concatenate all symbol P&L files
+    
+    Args:
+        file_list: List of file paths to load
+    
+    Returns:
+        Concatenated DataFrame with all symbol data
+    """
+    if not file_list:
+        return pd.DataFrame()
+    
+    dfs = []
+    for file in file_list:
+        try:
+            df = pd.read_excel(file)
+            dfs.append(df)
+        except Exception as e:
+            st.warning(f"Error reading {file}: {str(e)}")
+            continue
+    
+    if not dfs:
+        return pd.DataFrame()
+    
+    combined_df = pd.concat(dfs, ignore_index=True)
+    return combined_df
+
+def get_top_symbols_for_period(ghfm_reporting_dir, period_type, period_value, category=None, year=None, top_n=10):
+    """
+    Get top N symbols by MTM PnL for a specific period and category
+    
+    Args:
+        ghfm_reporting_dir: Base directory for reporting data
+        period_type: 'month' or 'year'
+        period_value: Month (1-12) or Year (e.g., 2025)
+        category: Asset category (e.g., 'Equity', 'Fixed Income') or None for total
+        year: Year (required if period_type is 'month')
+        top_n: Number of top symbols to return (default: 10)
+    
+    Returns:
+        DataFrame with top symbols sorted by MTM P&L (descending by absolute value)
+    """
+    files = get_all_symbols_files_for_period(ghfm_reporting_dir, period_type, period_value, year)
+    
+    if not files:
+        return pd.DataFrame()
+    
+    combined_df = load_and_concatenate_symbols_data(files)
+    
+    if combined_df.empty:
+        return pd.DataFrame()
+    
+    if category and category != 'Total':
+        combined_df = combined_df[combined_df['AssetCategory'] == category]
+    
+    if combined_df.empty:
+        return pd.DataFrame()
+    
+    symbols_grouped = combined_df.groupby('Symbol').agg({
+        'MTM P&L': 'sum',
+        'AssetCategory': 'first'
+    }).reset_index()
+    
+    symbols_grouped = symbols_grouped.sort_values('MTM P&L', ascending=False).head(top_n)
+    
+    return symbols_grouped
+
+def display_top_symbols_modal(symbols_df, period_display, category_display):
+    """
+    Display top symbols in Streamlit
+    
+    Args:
+        symbols_df: DataFrame with top symbols
+        period_display: String to display the period (e.g., "Sep 25", "FY2025")
+        category_display: String to display the category (e.g., "Equity", "Total")
+    """
+    if symbols_df.empty:
+        st.warning(f"No data found for {category_display} in {period_display}")
+        return
+    
+    display_df = symbols_df.copy()
+    if 'MTM P&L' in display_df.columns:
+        display_df['MTM P&L'] = display_df['MTM P&L'].apply(lambda x: f"${x:,.2f}")
+    if 'Current Price' in display_df.columns:
+        display_df['Current Price'] = display_df['Current Price'].apply(lambda x: f"${x:,.2f}")
+    if 'Market Value USD' in display_df.columns:
+        display_df['Market Value USD'] = display_df['Market Value USD'].apply(lambda x: f"${x:,.2f}")
+    
+    st.markdown(f"### Top 10 {category_display} Symbols by PnL - {period_display}")
+    st.dataframe(display_df, use_container_width=True, hide_index=True)
+
 @st.cache_data
 def load_data(today_str):
     """Load data files for the specified date"""
-    #ghfm_reporting_dir = "../"         # for running on local
-    ghfm_reporting_dir = os.getcwd()    # for running on Streamlit Cloud
+    ghfm_reporting_dir = os.getcwd()
     year_str = today_str[:4]
     month_str = today_str[:6]
 
@@ -460,6 +581,8 @@ def main():
         st.session_state.show_top20_symbols = False
     if 'show_pnl_daily' not in st.session_state:
         st.session_state.show_pnl_daily = False
+    if 'show_top10_symbols' not in st.session_state:
+        st.session_state.show_top10_symbols = False
 
     # Load data dynamically
     perf_df, mv_df, pnl_df, all_symbol_pnl_df, trades_df, pnl_currency_df, mv_currency_df = load_data(today_str)
@@ -580,6 +703,91 @@ def main():
         pnl_display_df = pnl_display_df.drop(columns=['Year', 'Month'])
         pnl_display_df['Date'] = pnl_display_df['Date'].dt.date
         st.dataframe(pnl_display_df,use_container_width=True, height=600, hide_index=True)
+
+    # Top 10 Symbols Feature
+    st.markdown('<h3 class="section-header">🎯 View Top 10 Symbols by Period and Category</h3>', unsafe_allow_html=True)
+    st.markdown('**Select a period and category to fetch the top 10 symbols by PnL:**')
+    
+    # Create columns for better alignment
+    col1, col2, col3, col4 = st.columns(4)
+
+    with col1:
+        period_select = st.selectbox(
+            "Select Period Type",
+            options=['Month', 'Year'],
+            key='period_select'
+        )
+
+    # Show month/year selectors based on period type
+    if period_select == 'Month':
+        with col2:
+            month_select = st.selectbox(
+                "Select Month",
+                options=range(1, 13),
+                format_func=lambda x: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][x-1],
+                key='month_select'
+            )
+        with col3:
+            year_select = st.selectbox(
+                "Select Year",
+                options=sorted([int(y) for y in pnl_df['Year'].unique()], reverse=True),
+                key='year_select'
+            )
+        with col4:
+            category_select = st.selectbox(
+                "Select Category",
+                options=['Total'] + asset_classes,
+                key='category_select'
+            )
+    else:
+        with col2:
+            year_select = st.selectbox(
+                "Select Year",
+                options=sorted([int(y) for y in pnl_df['Year'].unique()], reverse=True),
+                key='year_select_fy'
+            )
+            month_select = None
+        with col3:
+            category_select = st.selectbox(
+                "Select Category",
+                options=['Total'] + asset_classes,
+                key='category_select'
+            )
+        with col4:
+            st.write("")  # Empty space for alignment
+
+    # Button in a separate row for better visibility
+    if st.button("📊 Fetch Top 10 Symbols", use_container_width=False, type="primary"):
+        ghfm_reporting_dir = os.getcwd()
+        
+        if period_select == 'Month':
+            period_type = 'month'
+            period_value = month_select
+            year_param = year_select
+            month_names = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+            period_display = f"{month_names[month_select-1]} {str(year_select)[-2:]}"
+        else:
+            period_type = 'year'
+            period_value = year_select
+            year_param = None
+            period_display = f"FY{year_select}"
+        
+        category = category_select if category_select != 'Total' else None
+        category_display = category_select if category_select == 'Total' else category
+        
+        top_symbols = get_top_symbols_for_period(
+            ghfm_reporting_dir,
+            period_type,
+            period_value,
+            category=category,
+            year=year_param,
+            top_n=10
+        )
+        
+        if not top_symbols.empty:
+            display_top_symbols_modal(top_symbols, period_display, category_display)
+        else:
+            st.warning(f"No symbols found for {category_display} in {period_display}")
 
     # Executed Trades Section
     st.markdown(f'<h3 class="section-header">💼 Executed Trades on {selected_date}</h3>', unsafe_allow_html=True)

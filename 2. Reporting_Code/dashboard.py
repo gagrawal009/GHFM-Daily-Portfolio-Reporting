@@ -661,13 +661,13 @@ def main():
     st.markdown('<h3 class="section-header">📈 Performance Charts</h3>', unsafe_allow_html=True)
     fig1, fig2, fig3, fig4, fig5 = create_plotly_charts(performance_by_asset_class, monthly_attrib_usd, asset_classes, perf_df, selected_datetime)
     
-    tab1, tab2, tab3, tab4, tab5 = st.tabs(["Market Value", "YTD Returns", "ITD Returns", "Monthly PnL", "Yearly PnL"])
+    tab1, tab2, tab3, tab4, tab5 = st.tabs([ "YTD Returns", "ITD Returns", "Market Value", "Monthly PnL", "Yearly PnL"])
     with tab1:
-        st.plotly_chart(fig1, use_container_width=True)
-    with tab2:
         st.plotly_chart(fig2, use_container_width=True)
-    with tab3:
+    with tab2:
         st.plotly_chart(fig3, use_container_width=True)
+    with tab3:
+        st.plotly_chart(fig1, use_container_width=True)
     with tab4:
         st.plotly_chart(fig4, use_container_width=True)
     with tab5:

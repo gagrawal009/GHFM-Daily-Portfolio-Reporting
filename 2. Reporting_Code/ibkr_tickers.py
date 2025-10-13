@@ -108,8 +108,13 @@ def rewrite_using_description(csv_bytes: bytes) -> bytes:
 def ibkr_tickers(start_date: str, end_date: str,
                  out_path: str,
                  max_wait: int = MAX_WAIT_SEC) -> str:
-    ref = send_request(FLEX_TOKEN, FLEX_QUERY_ID, from_date=start_date, to_date=end_date)
-    csv_bytes = poll_until_ready(FLEX_TOKEN, ref, max_wait=max_wait)
+    
+    if not os.path.exists(out_path):
+        ref = send_request(FLEX_TOKEN, FLEX_QUERY_ID, from_date=start_date, to_date=end_date)
+        csv_bytes = poll_until_ready(FLEX_TOKEN, ref, max_wait=max_wait)
+    else:
+        with open(out_path, "rb") as f:
+            csv_bytes = f.read()
     csv_bytes = rewrite_using_description(csv_bytes)
 
     with open(out_path, "wb") as f:

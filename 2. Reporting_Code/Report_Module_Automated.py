@@ -1156,8 +1156,7 @@ class PortfolioReportingFramework:
         
         # Step 1: Run flex pipeline
         print("Step 1: Running flex pipeline...")
-        if not os.path.exists(self.consolidated_file):
-            run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
+        run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
         print("Flex pipeline completed.\n")
         
         # Step 2: Run performance reporting

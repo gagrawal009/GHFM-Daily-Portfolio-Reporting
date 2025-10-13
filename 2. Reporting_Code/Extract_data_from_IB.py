@@ -186,9 +186,13 @@ def run_flex_pipeline(startdate: str, enddate: str, filename:str) -> pd.DataFram
         date_str = current.strftime("%Y-%m-%d")
         print(f"Processing date: {date_str}")
         try:
-            ref_code = get_reference_code(FLEX_TOKEN, FLEX_QUERY_ID, date_str)
-            time.sleep(2)
-            csv_data = download_csv_report(ref_code)
+            if not os.path.exists(filename):
+                ref_code = get_reference_code(FLEX_TOKEN, FLEX_QUERY_ID, date_str)
+                time.sleep(2)
+                csv_data = download_csv_report(ref_code)
+            else:
+                with open(filename, "r", encoding="utf-8") as f:
+                    csv_data = f.read()
             csv_data = clean_all_trnt_blocks(csv_data)
             csv_data = clean_all_mtmp_blocks(csv_data)
             #filename = f"flex_data/{date_str}.csv"

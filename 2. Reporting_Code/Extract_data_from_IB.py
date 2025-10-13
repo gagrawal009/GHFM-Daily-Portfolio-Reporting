@@ -58,9 +58,9 @@ def clean_all_mtmp_blocks(csv_text):
                     try:
                         df = pd.read_csv(io.StringIO("\n".join(mtmp_lines)), skipinitialspace=True)
                         df.columns = df.columns.str.replace('\ufeff', '', regex=False).str.strip()
-                        mask = df["AssetClass"].isin(["OPT", "FOP"])
-                        df.loc[mask, "Symbol"] = df.loc[mask, "Description"]
                         if "Description" in df.columns:
+                            mask = df["AssetClass"].isin(["OPT", "FOP"])
+                            df.loc[mask, "Symbol"] = df.loc[mask, "Description"]
                             df = df.drop(columns=["Description"])
                         out = io.StringIO()
                         df.to_csv(out, index=False, quoting=csv.QUOTE_MINIMAL)

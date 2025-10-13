@@ -110,6 +110,7 @@ def ibkr_tickers(start_date: str, end_date: str,
                  max_wait: int = MAX_WAIT_SEC) -> str:
     
     if not os.path.exists(out_path):
+        print(f"Downloading ib ticker file for {start_date}")
         ref = send_request(FLEX_TOKEN, FLEX_QUERY_ID, from_date=start_date, to_date=end_date)
         csv_bytes = poll_until_ready(FLEX_TOKEN, ref, max_wait=max_wait)
     else:

@@ -187,6 +187,7 @@ def run_flex_pipeline(startdate: str, enddate: str, filename:str) -> pd.DataFram
         print(f"Processing date: {date_str}")
         try:
             if not os.path.exists(filename):
+                print(f"Downloading ib consolidated file for {startdate}")
                 ref_code = get_reference_code(FLEX_TOKEN, FLEX_QUERY_ID, date_str)
                 time.sleep(2)
                 csv_data = download_csv_report(ref_code)

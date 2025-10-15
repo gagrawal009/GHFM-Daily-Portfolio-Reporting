@@ -118,7 +118,7 @@ class PortfolioReportingFramework:
         """Setup all directory paths as class attributes."""
         self.ibaccount_str = "MULTI"
         self.ib_mtmpnl_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_Mark-to-Market PnL/")
-        self.ib_ticker_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_daily Ticker/")
+        self.ib_ticker_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_Daily Ticker/")
         self.ibtradessummary_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Daily Trades/")
         self.performance_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Performance_History/")
         self.marketvalue_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCategory/")

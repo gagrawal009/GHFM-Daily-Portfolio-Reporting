@@ -4,6 +4,8 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import os
 import glob
+import pytz
+
 
 # --- Authentication Configuration ---
 # Simple username/password combinations
@@ -796,7 +798,8 @@ def main():
 
     # Footer
     st.markdown("---")
-    st.markdown(f"*Dashboard last updated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}*")
+    tz = pytz.timezone("Asia/Singapore")
+    st.markdown(f"*Dashboard last updated: {datetime.now(tz).strftime('%Y-%m-%d %H:%M:%S')}*")
 
 if __name__ == "__main__":
     main()

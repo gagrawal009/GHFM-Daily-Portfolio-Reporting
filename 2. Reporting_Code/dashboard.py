@@ -222,19 +222,20 @@ def load_and_concatenate_symbols_data(file_list):
     combined_df = pd.concat(dfs, ignore_index=True)
     return combined_df
 
-def get_top_symbols_for_period(period_type, period_value, category=None, year=None, top_n=10):
+def get_top_bottom_symbols_for_period(period_type, period_value, category=None, year=None, top_n=10, order='top'):
     """
-    Get top N symbols by MTM PnL for a specific period and category
+    Get top or bottom N symbols by MTM PnL for a specific period and category
     
     Args:
         period_type: 'month' or 'year'
         period_value: Month (1-12) or Year (e.g., 2025)
         category: Asset category (e.g., 'Equity', 'Fixed Income') or None for total
         year: Year (required if period_type is 'month')
-        top_n: Number of top symbols to return (default: 10)
+        top_n: Number of symbols to return (default: 10)
+        order: 'top' for highest PnL or 'bottom' for lowest PnL
     
     Returns:
-        DataFrame with top symbols sorted by MTM P&L (descending by absolute value)
+        DataFrame with top/bottom symbols sorted by MTM P&L
     """
     files = get_all_symbols_files_for_period(period_type, period_value, year)
     
@@ -257,18 +258,22 @@ def get_top_symbols_for_period(period_type, period_value, category=None, year=No
         'AssetCategory': 'first'
     }).reset_index()
     
-    symbols_grouped = symbols_grouped.sort_values('MTM P&L', ascending=False).head(top_n)
+    if order == 'top':
+        symbols_grouped = symbols_grouped.sort_values('MTM P&L', ascending=False).head(top_n)
+    else:  # bottom
+        symbols_grouped = symbols_grouped.sort_values('MTM P&L', ascending=True).head(top_n)
     
     return symbols_grouped
 
-def display_top_symbols_modal(symbols_df, period_display, category_display):
+def display_top_symbols_modal(symbols_df, period_display, category_display, order='top'):
     """
-    Display top symbols in Streamlit
+    Display top/bottom symbols in Streamlit
     
     Args:
-        symbols_df: DataFrame with top symbols
+        symbols_df: DataFrame with top/bottom symbols
         period_display: String to display the period (e.g., "Sep 25", "FY2025")
         category_display: String to display the category (e.g., "Equity", "Total")
+        order: 'top' or 'bottom'
     """
     if symbols_df.empty:
         st.warning(f"No data found for {category_display} in {period_display}")
@@ -282,7 +287,8 @@ def display_top_symbols_modal(symbols_df, period_display, category_display):
     if 'Market Value USD' in display_df.columns:
         display_df['Market Value USD'] = display_df['Market Value USD'].apply(lambda x: f"${x:,.2f}")
     
-    st.markdown(f"### Top 10 {category_display} Symbols by PnL - {period_display}")
+    title_prefix = "Top 10" if order == 'top' else "Bottom 10"
+    st.markdown(f"### {title_prefix} {category_display} Symbols by PnL - {period_display}")
     st.dataframe(display_df, use_container_width=True, hide_index=True)
 
 @st.cache_data
@@ -706,9 +712,9 @@ def main():
         pnl_display_df['Date'] = pnl_display_df['Date'].dt.date
         st.dataframe(pnl_display_df,use_container_width=True, height=600, hide_index=True)
 
-    # Top 10 Symbols Feature
-    st.markdown('<h3 class="section-header">🎯 View Top 10 Symbols by Period and Category</h3>', unsafe_allow_html=True)
-    st.markdown('**Select a period and category to fetch the top 10 symbols by PnL:**')
+    # Top 10 / Bottom 10 Symbols Feature
+    st.markdown('<h3 class="section-header">🎯 View Top 10 or Bottom 10 Symbols by Period and Category</h3>', unsafe_allow_html=True)
+    st.markdown('**Select a period and category to fetch the top 10 or bottom 10 symbols by PnL:**')
     
     # Create columns for better alignment
     col1, col2, col3, col4 = st.columns(4)
@@ -758,8 +764,19 @@ def main():
         with col4:
             st.write("")  # Empty space for alignment
 
-    # Button in a separate row for better visibility
-    if st.button("📊 Fetch Top 10 Symbols", use_container_width=False, type="primary"):        
+    # Buttons in a separate row side by side
+    btn_col1, btn_col2, btn_col3 = st.columns([1, 1, 3])
+    
+    with btn_col1:
+        fetch_top = st.button("Fetch Top 10 Symbols", use_container_width=True, type="primary")
+    
+    with btn_col2:
+        fetch_bottom = st.button("Fetch Bottom 10 Symbols", use_container_width=True, type="primary")
+    
+    # Handle button clicks
+    if fetch_top or fetch_bottom:
+        order = 'top' if fetch_top else 'bottom'
+        
         if period_select == 'Month':
             period_type = 'month'
             period_value = month_select
@@ -775,16 +792,17 @@ def main():
         category = category_select if category_select != 'Total' else None
         category_display = category_select if category_select == 'Total' else category
         
-        top_symbols = get_top_symbols_for_period(
+        symbols = get_top_bottom_symbols_for_period(
             period_type,
             period_value,
             category=category,
             year=year_param,
-            top_n=10
+            top_n=10,
+            order=order
         )
         
-        if not top_symbols.empty:
-            display_top_symbols_modal(top_symbols, period_display, category_display)
+        if not symbols.empty:
+            display_top_symbols_modal(symbols, period_display, category_display, order=order)
         else:
             st.warning(f"No symbols found for {category_display} in {period_display}")
 

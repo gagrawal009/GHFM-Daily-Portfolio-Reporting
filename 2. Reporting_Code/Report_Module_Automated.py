@@ -1093,8 +1093,8 @@ class PortfolioReportingFramework:
         os.makedirs(ibkr_month_dir, exist_ok=True)
         ibkr_file_path = os.path.join(ibkr_month_dir, f"IB_Ticker_{self.today_str}.csv")
         
-        if not os.path.exists(ibkr_file_path):
-            ibkr_tickers(self.today_str, self.today_str, ibkr_file_path)
+        #if not os.path.exists(ibkr_file_path):
+        ibkr_tickers(self.today_str, self.today_str, ibkr_file_path)
 
         # NAV (from performance file)
         current_total_nav, prior_total_nav, cash_injection, daily_return, mtd_return = self.calculate_returns_from_performance()

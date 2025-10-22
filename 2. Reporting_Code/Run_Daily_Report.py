@@ -5,7 +5,6 @@ from Report_Module_Automated import PortfolioReportingFramework
 reporter = PortfolioReportingFramework(ghfm_reporting_dir, repo_path)
 reporter.run_complete_daily_report()
 
-# repo_path = None
 # from Report_Module_Automated_with_Date import PortfolioReportingFramework
 # today_str = "20251021"
 # previous_day_str = "20251020"

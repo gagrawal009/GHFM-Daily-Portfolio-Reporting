@@ -12,6 +12,8 @@ from ibkr_tickers import ibkr_tickers
 from Extract_data_from_IB import run_flex_pipeline
 import datetime
 import re
+import pandas_market_calendars as mcal
+from datetime import timedelta
 
 class PortfolioReportingFramework:
     """
@@ -99,7 +101,7 @@ class PortfolioReportingFramework:
         """Setup all directory paths as class attributes."""
         self.ibaccount_str = "MULTI"
         self.ib_mtmpnl_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_Mark-to-Market PnL/")
-        self.ib_ticker_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_daily Ticker/")
+        self.ib_ticker_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/IB_Daily Ticker/")
         self.ibtradessummary_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Daily Trades/")
         self.performance_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Performance_History/")
         self.marketvalue_dir = os.path.join(self.ghfm_reporting_dir, "1. Reporting_Data/Market_Value/MV_AssetCategory/")
@@ -1074,8 +1076,8 @@ class PortfolioReportingFramework:
         os.makedirs(ibkr_month_dir, exist_ok=True)
         ibkr_file_path = os.path.join(ibkr_month_dir, f"IB_Ticker_{self.today_str}.csv")
         
-        if not os.path.exists(ibkr_file_path):
-            ibkr_tickers(self.today_str, self.today_str, ibkr_file_path)
+        #if not os.path.exists(ibkr_file_path):
+        ibkr_tickers(self.today_str, self.today_str, ibkr_file_path)
 
         # NAV (from performance file)
         current_total_nav, prior_total_nav, cash_injection, daily_return, mtd_return = self.calculate_returns_from_performance()
@@ -1137,8 +1139,7 @@ class PortfolioReportingFramework:
         
         # Step 1: Run flex pipeline
         print("Step 1: Running flex pipeline...")
-        if not os.path.exists(self.consolidated_file):
-            run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
+        run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
         print("Flex pipeline completed.\n")
         
         # Step 2: Run performance reporting

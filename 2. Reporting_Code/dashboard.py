@@ -5,6 +5,7 @@ from datetime import datetime, timedelta
 import os
 import glob
 import pytz
+from GHDCM import GHDCM  # Import GHDCM class
 
 
 # --- Authentication Configuration ---
@@ -165,6 +166,29 @@ def clean_dataframe_for_display(df):
     df_clean = df_clean.replace('nan', '')
     
     return df_clean
+
+# --- GHDCM Computation Function ---
+@st.cache_data(show_spinner=False)
+def compute_ghdcm_correlation(perf_df, ghfm_reporting_dir, window=None):
+    """
+    Compute GHDCM correlation matrix
+    
+    Args:
+        perf_df: Performance DataFrame with DATE and Daily Return columns
+        ghfm_reporting_dir: Path to GHFM reporting directory
+        window: Number of recent days to use (None for all data)
+    
+    Returns:
+        Correlation matrix DataFrame
+    """
+    try:
+        ghdcm = GHDCM(threshold_factor=0.5)
+        ghdcm.load_data(portfolio_df=perf_df, ghfm_reporting_dir=ghfm_reporting_dir)
+        correlation_matrix, _ = ghdcm.compute(window=window)
+        return correlation_matrix
+    except Exception as e:
+        st.error(f"Error computing GHDCM: {str(e)}")
+        return None
 
 # --- Top 10 Symbols Feature Functions ---
 def get_all_symbols_files_for_period(period_type, period_value, year=None):
@@ -623,6 +647,41 @@ def main():
         '1-year is based on 252 trading days per year.</p>', 
         unsafe_allow_html=True
     )
+
+    # GHDCM Correlation Matrix
+    st.markdown('<h3 class="section-header">🔗 Golden Horse Directional Coefficient Matrix</h3>', unsafe_allow_html=True)
+    
+    with st.spinner('Computing GHDCM correlation matrix...'):
+        ghdcm_corr = compute_ghdcm_correlation(perf_df, ghfm_reporting_dir, window=252)
+    
+    if ghdcm_corr is not None:
+        # Format correlation values to 4 decimal places
+        column_mapping = {
+            'nifty_return': 'Nifty 50',
+            'snp_return': 'S&P 500',
+            'portfolio_return': 'GHFM Portfolio',
+            'msci_return': 'MSCI World',
+            'legatruu_return': 'LEGATRUU Bond'
+        }
+        ghdcm_display = ghdcm_corr.copy()
+        ghdcm_display = ghdcm_display.rename(columns=column_mapping, index=column_mapping)
+        ghdcm_display = ghdcm_display.round(4)
+        
+        st.dataframe(
+            ghdcm_display.style.format("{:.4f}").background_gradient(cmap='Blues', vmin=0, vmax=1),
+            use_container_width=True
+        )
+        
+        st.markdown(
+            '<p style="font-size: 0.85em; color: #666; font-style: italic; margin-top: 8px;">'
+            '📝 <strong>Note:</strong> GHDCM measures directional agreement between assets using weighted binary transformations taking last 52 days of data. '
+            '<br>Values range from 0 (no agreement) to 1 (perfect agreement). Darker blue indicates stronger agreement. '
+            '<br>• <strong>Nifty 50:</strong> Indian stock market index representing the top 50 companies listed on the National Stock Exchange of India. '
+            '<br>• <strong>LEGATRUU:</strong> Bloomberg US Aggregate Bond Index, a broad-based benchmark for the US investment-grade bond market.</p>', 
+            unsafe_allow_html=True
+        )
+    else:
+        st.warning("Unable to compute GHDCM correlation matrix.")
 
     # Performance by Asset Class
     st.markdown('<h3 class="section-header">🏦 Performance by Asset Class</h3>', unsafe_allow_html=True)

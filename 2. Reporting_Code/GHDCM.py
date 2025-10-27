@@ -23,9 +23,7 @@ class GHDCM:
             
         Returns:
             Merged DataFrame with all returns
-        """
-        print("Loading data...")
-        
+        """        
         # Path to index data file
         index_file = os.path.join(ghfm_reporting_dir, "1. Reporting_Data", "Index_Daily_Close_Price.xlsx")
         
@@ -73,9 +71,6 @@ class GHDCM:
         )
         self.df_merged = self.df_merged.dropna().reset_index(drop=True)
         
-        print(f"Data loaded. Shape: {self.df_merged.shape}")
-        print(f"Date range: {self.df_merged['Date'].min()} to {self.df_merged['Date'].max()}")
-        
         return self.df_merged
     
     def _binary_transform(self, series: pd.Series) -> Tuple[np.ndarray, float]:
@@ -111,33 +106,20 @@ class GHDCM:
         return (weighted_agreement - weighted_disagreement) / total if total > 0 else 0.0
     
     def compute(self, window: int = None) -> Tuple[pd.DataFrame, pd.DataFrame]:
-        """
-        Compute GHDCM correlation and covariance matrices using absolute return weighting.
-        
-        Args:
-            window: Number of recent days to use (None for all data)
-            
-        Returns:
-            Tuple of (correlation_matrix, covariance_matrix)
-        """
+        """Compute GHDCM correlation and covariance matrices using absolute return weighting."""
         if self.df_merged is None:
             raise ValueError("Data not loaded. Call load_data() first.")
         
         # Get windowed data
         if window is not None:
             df_windowed = self.df_merged.tail(window).reset_index(drop=True)
-            print(f"\nUsing last {window} days")
-            print(f"Window: {df_windowed['Date'].min()} to {df_windowed['Date'].max()}")
         else:
             df_windowed = self.df_merged.copy()
-            print(f"\nUsing all data ({len(df_windowed)} days)")
         
         df_returns = df_windowed.drop(columns=['Date'])
         assets = df_returns.columns
         N = len(assets)
-        
-        print(f"Computing GHDCM with absolute return weighting...")
-        
+                
         # Binary transformation for all assets
         U_dict = {}
         sigma_dict = {}
@@ -170,33 +152,5 @@ class GHDCM:
         
         self.correlation_matrix = G
         self.covariance_matrix = Sigma
-        
-        print("Computation complete.")
-        
-        return G, Sigma
-
-
-# # USAGE
-# if __name__ == "__main__":
-#     # Load portfolio data (example)
-    
-#     # Initialize and load data
-#     ghdcm = GHDCM(threshold_factor=0.5)
-#     ghdcm.load_data(
-#         portfolio_df=perf_df,
-#         ghfm_reporting_dir=ghfm_reporting_dir
-#     )
-    
-#     # Compute GHDCM matrices
-#     correlation_matrix, covariance_matrix = ghdcm.compute(window=None)
-    
-#     # Print results
-#     print("\nGHDCM Correlation Matrix:")
-#     print(correlation_matrix)
-    
-#     print("\nGHDCM Covariance Matrix:")
-#     print(covariance_matrix)
-    
-#     # Export if needed
-#     # correlation_matrix.to_csv('ghdcm_correlation.csv')
-#     # covariance_matrix.to_csv('ghdcm_covariance.csv')
+                
+        return G, Sigma, df_windowed["Date"].min(), df_windowed["Date"].max()

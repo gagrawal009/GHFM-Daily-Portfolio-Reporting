@@ -184,8 +184,8 @@ def compute_ghdcm_correlation(perf_df, ghfm_reporting_dir, window=None):
     try:
         ghdcm = GHDCM(threshold_factor=0.5)
         ghdcm.load_data(portfolio_df=perf_df, ghfm_reporting_dir=ghfm_reporting_dir)
-        correlation_matrix, _ = ghdcm.compute(window=window)
-        return correlation_matrix
+        correlation_matrix, cov, start_date, end_date = ghdcm.compute(window=window)
+        return correlation_matrix, start_date, end_date
     except Exception as e:
         st.error(f"Error computing GHDCM: {str(e)}")
         return None
@@ -652,7 +652,7 @@ def main():
     st.markdown('<h3 class="section-header">🔗 Golden Horse Directional Coefficient Matrix</h3>', unsafe_allow_html=True)
     
     with st.spinner('Computing GHDCM correlation matrix...'):
-        ghdcm_corr = compute_ghdcm_correlation(perf_df, ghfm_reporting_dir, window=252)
+        ghdcm_corr, start_date, end_date = compute_ghdcm_correlation(perf_df, ghfm_reporting_dir, window=252)
     
     if ghdcm_corr is not None:
         # Format correlation values to 4 decimal places
@@ -674,7 +674,7 @@ def main():
         
         st.markdown(
             '<p style="font-size: 0.85em; color: #666; font-style: italic; margin-top: 8px;">'
-            '📝 <strong>Note:</strong> GHDCM measures directional agreement between assets using weighted binary transformations taking last 52 days of data. '
+            f'📝 <strong>Note:</strong> GHDCM measures directional agreement between assets using weighted binary transformations taking last 252 trading days of data. (<strong>{start_date:%Y-%m-%d}</strong> to <strong>{end_date:%Y-%m-%d}</strong>)'
             '<br>Values range from 0 (no agreement) to 1 (perfect agreement). Darker blue indicates stronger agreement. '
             '<br>• <strong>Nifty 50:</strong> Indian stock market index representing the top 50 companies listed on the National Stock Exchange of India. '
             '<br>• <strong>LEGATRUU:</strong> Bloomberg US Aggregate Bond Index, a broad-based benchmark for the US investment-grade bond market.</p>', 

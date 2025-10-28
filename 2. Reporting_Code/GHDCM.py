@@ -64,11 +64,12 @@ class GHDCM:
         
         # Merge all data
         self.df_merged = (
-            nifty_ret.merge(snp_ret, on="Date", how="inner")
-                    .merge(port_ret, on="Date", how="inner")
-                    .merge(msci_ret, on="Date", how="inner")
-                    .merge(legatruu_ret, on="Date", how="inner")
+            port_ret.merge(snp_ret, on="Date", how="inner")
+                .merge(nifty_ret, on="Date", how="inner")
+                .merge(msci_ret, on="Date", how="inner")
+                .merge(legatruu_ret, on="Date", how="inner")
         )
+
         self.df_merged = self.df_merged.dropna().reset_index(drop=True)
         
         return self.df_merged

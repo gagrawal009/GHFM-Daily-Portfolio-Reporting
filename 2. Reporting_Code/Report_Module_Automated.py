@@ -1154,20 +1154,20 @@ class PortfolioReportingFramework:
         print(f"Starting daily report for {self.today_str}")
         print("=" * 50)
         
-        # # Step 1: Run flex pipeline
-        # print("Step 1: Running flex pipeline...")
-        # run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
-        # print("Flex pipeline completed.\n")
+        # Step 1: Run flex pipeline
+        print("Step 1: Running flex pipeline...")
+        run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
+        print("Flex pipeline completed.\n")
         
-        # # Step 2: Run performance reporting
-        # print("Step 2: Running performance reporting...")
-        # self.run_performance_report()
-        # print("Performance reporting completed.\n")
+        # Step 2: Run performance reporting
+        print("Step 2: Running performance reporting...")
+        self.run_performance_report()
+        print("Performance reporting completed.\n")
         
-        # # Step 3: Run daily reporting (uses performance results)
-        # print("Step 3: Running daily reporting...")
-        # self.run_daily_report()
-        # print("Daily reporting completed.\n")
+        # Step 3: Run daily reporting (uses performance results)
+        print("Step 3: Running daily reporting...")
+        self.run_daily_report()
+        print("Daily reporting completed.\n")
         
         if self.repo_path:
             print("Step 4: Updating Git repository...")

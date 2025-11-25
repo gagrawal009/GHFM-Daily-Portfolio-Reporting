@@ -41,10 +41,10 @@ class PortfolioReportingFramework:
         trading_days = mcal.date_range(schedule, frequency='1D').to_pydatetime()
 
         # Last trading day
-        last_trading_day = trading_days[-6].date()
+        last_trading_day = trading_days[-5].date()
 
         # Previous trading day
-        previous_trading_day = trading_days[-7].date()
+        previous_trading_day = trading_days[-6].date()
 
         self.today_str = last_trading_day.strftime("%Y%m%d")
         self.previous_day_str = previous_trading_day.strftime("%Y%m%d")

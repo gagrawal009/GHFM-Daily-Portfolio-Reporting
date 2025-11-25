@@ -37,14 +37,14 @@ class PortfolioReportingFramework:
         today = datetime.datetime.now().date()
 
         # Get all valid trading days for the last few days
-        schedule = nyse.schedule(start_date=today - timedelta(days=10), end_date=today)
+        schedule = nyse.schedule(start_date=today - timedelta(days=20), end_date=today)
         trading_days = mcal.date_range(schedule, frequency='1D').to_pydatetime()
 
         # Last trading day
-        last_trading_day = trading_days[-2].date()
+        last_trading_day = trading_days[-10].date()
 
         # Previous trading day
-        previous_trading_day = trading_days[-3].date()
+        previous_trading_day = trading_days[-11].date()
 
         self.today_str = last_trading_day.strftime("%Y%m%d")
         self.previous_day_str = previous_trading_day.strftime("%Y%m%d")

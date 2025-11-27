@@ -42,10 +42,10 @@ class PortfolioReportingFramework:
         print("Trading days:", trading_days)
 
         # Last trading day
-        last_trading_day = trading_days[-2].date()
+        last_trading_day = trading_days[-1].date()
 
         # Previous trading day
-        previous_trading_day = trading_days[-3].date()
+        previous_trading_day = trading_days[-2].date()
 
         self.today_str = last_trading_day.strftime("%Y%m%d")
         self.previous_day_str = previous_trading_day.strftime("%Y%m%d")

@@ -39,6 +39,7 @@ class PortfolioReportingFramework:
         # Get all valid trading days for the last few days
         schedule = nyse.schedule(start_date=today - timedelta(days=20), end_date=today)
         trading_days = mcal.date_range(schedule, frequency='1D').to_pydatetime()
+        print("Trading days:", trading_days)
 
         # Last trading day
         last_trading_day = trading_days[-2].date()

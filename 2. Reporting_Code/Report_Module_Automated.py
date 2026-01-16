@@ -1078,7 +1078,7 @@ class PortfolioReportingFramework:
             ib_text += f'<p style="font-size:14px;"><b>{asset_class}:</b></p>{html_table}<br>'
 
         html_trade_table = self.df_to_styled_html(df_trade)
-        intro_text = f"Hi Team,<br><br>Our macro buy & hold strategy earned {daily_return}% on the last trading day, and earned {mtd_return}% MTD. Today's cash injection is {cash_injection}<br><br>"
+        intro_text = f"Hi Team,<br><br>Our macro buy & hold strategy earned {daily_return}% on the last trading day, and earned {mtd_return}% MTD. Cash injection for the day was {cash_injection}<br><br>"
         trade_text = "<br><br>Executed trades on the last trading day:<br><br>"
 
         mail.HTMLBody = intro_text + ib_text + trade_text + html_trade_table

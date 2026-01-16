@@ -1064,7 +1064,7 @@ class PortfolioReportingFramework:
 
         return
 
-    def send_report_email(self, daily_return, mtd_return, daypnl_df, daily_tables, df_trade):
+    def send_report_email(self, cash_injection, daily_return, mtd_return, daypnl_df, daily_tables, df_trade):
         """Prepare Email."""
         outlook = win32.Dispatch('outlook.application')
         mail = outlook.CreateItem(0)
@@ -1078,7 +1078,7 @@ class PortfolioReportingFramework:
             ib_text += f'<p style="font-size:14px;"><b>{asset_class}:</b></p>{html_table}<br>'
 
         html_trade_table = self.df_to_styled_html(df_trade)
-        intro_text = f"Hi Team,<br><br>Our macro buy & hold strategy earned {daily_return}% on the last trading day, and earned {mtd_return}% MTD. <br><br>"
+        intro_text = f"Hi Team,<br><br>Our macro buy & hold strategy earned {daily_return}% on the last trading day, and earned {mtd_return}% MTD. Today's cash injection is {cash_injection}<br><br>"
         trade_text = "<br><br>Executed trades on the last trading day:<br><br>"
 
         mail.HTMLBody = intro_text + ib_text + trade_text + html_trade_table
@@ -1122,7 +1122,7 @@ class PortfolioReportingFramework:
         self.save_market_value_currency(mereged_df_currency)
 
         # Send email
-        self.send_report_email(daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
+        self.send_report_email(cash_injection, daily_return, mtd_return, daypnl_df, daily_tables, df_trade)
 
         return 
     

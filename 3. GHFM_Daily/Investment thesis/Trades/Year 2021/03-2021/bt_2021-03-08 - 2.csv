@@ -1,0 +1,4 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,BasketTag,Account,OrderRef,LastTradingDayOrContractMonth,DivPrt,Multiplier,
+BUY,100,XACTOMXS3,STK,SFB,SEK,DAY,MKT,Basket,U8251256,Basket,,,,
+BUY,1,VIX,FUT,CFE,USD,DAY,LMT,,U8251256,bt_2021-03-08 - 2.csv,20210317,false,1000,
+BUY,1,VIX,FUT,CFE,USD,DAY,LMT,,U8251256,bt_2021-03-08 - 2.csv,20210421,false,1000,

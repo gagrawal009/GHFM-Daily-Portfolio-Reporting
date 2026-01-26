@@ -1,0 +1,45 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo strategyType,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+BUY,1244,TPR,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+BUY,1892,QQQ,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+,,,,,,,,,,,,,,,
+SELL,137,EWT,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+BUY,444,XLE,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+BUY,241,DIA,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+BUY,57646,2823,STK,SEHK,HKD,DAY,MKT,U8251256,FALSE,Marketable,20210508 09:45:00 SGT,20210508 12:00:00 SGT,Twap,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+BUY,138160,CYBA,STK,SMART/AEB,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+BUY,3,TSR20,FUT,SGX,USD,DAY,MKT,U8251256,FALSE,Marketable,20210508 09:15:00 SGT,20210508 12:15:00 SGT,Twap,20210531,50
+,,,,,,,,,,,,,,,
+BUY,1,PA,FUT,NYMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20210628,100
+SELL,3,SCI,FUT,SGX,USD,DAY,MKT,U8251256,FALSE,Marketable,20210508 09:00:00 SGT,20210508 12:00:00 SGT,Twap,20210531,100
+BUY,1,ZC,FUT,ECBOT,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20211214,5000
+BUY,2,RB,FUT,NYMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20210630,42000
+,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,
+BUY,1,HO,FUT,NYMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20210528,42000
+BUY,1,HE,FUT,GLOBEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20210614,40000
+,,,,,,,,,,,,,,,
+BUY,5,SB,FUT,NYBOT,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20210630,112000

@@ -1,0 +1,3 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+SELL,1,CC,FUT,NYBOT,USD,DAY,MKT,U8251256,FALSE,09:45:00 EST,12:45:00 EST,Twap,20231213,10
+SELL,1,SB,FUT,NYBOT,USD,DAY,MKT,U8251256,FALSE,09:45:00 EST,12:45:00 EST,Twap,20240229,112000

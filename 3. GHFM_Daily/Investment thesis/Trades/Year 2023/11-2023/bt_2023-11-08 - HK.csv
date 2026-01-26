@@ -1,0 +1,4 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+BUY,900,600519,STK,SMART/AMEX,CNH,DAY,MKT,U8251256,FALSE,14:35:00 HKT,13:00:00 HKT,Twap,,
+BUY,6100,700,STK,SMART/AMEX,HKD,DAY,MKT,U8251256,FALSE,14:35:00 HKT,16:10:00 EST,Twap,,
+BUY,22000,9988,STK,SMART/AMEX,HKD,DAY,MKT,U8251256,FALSE,14:35:00 HKT,16:10:00 EST,Twap,,

@@ -1,0 +1,6 @@
+Action,Quantity,Symbol,SecType,LastTradingDayOrContractMonth,DivPrt,Exchange,Currency,TimeInForce,OrderType,BasketTag,Account,OrderRef,Multiplier,
+BUY,1,PB,FUT,20230920,false,LMEOTC,USD,DAY,LMT,Basket,U8251256,Basket,25,
+BUY,1,ALI,FUT,20230927,false,COMEX,USD,DAY,LMT,Basket,U8251256,Basket,25,
+BUY,1,TSR20,FUT,20230731,false,SGX,USD,DAY,LMT,Basket,U8251256,Basket,50,
+BUY,1,KC,FUT,20230919,false,NYBOT,USD,DAY,LMT,Basket,U8251256,Basket,37500,
+BUY,1,CT,FUT,20231206,false,NYBOT,USD,DAY,LMT,Basket,U8251256,Basket,50000,

@@ -1,0 +1,4 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo strategyType,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+SELL,130,NUE,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+BUY,1,ZO,FUT,ECBOT,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20211214,5000
+BUY,1,SB,FUT,NYBOT,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,20220228,112000

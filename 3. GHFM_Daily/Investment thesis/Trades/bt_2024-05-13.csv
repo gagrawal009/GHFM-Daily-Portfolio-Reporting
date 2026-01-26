@@ -1,0 +1,4 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+SELL,38335,EPI,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,9:45:05 EST,15:59:05 EST,Vwap,,
+SELL,64129,EWY,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,9:45:05 EST,15:59:05 EST,Vwap,,
+BUY,919,GLD,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,9:45:05 EST,15:59:05 EST,Vwap,,

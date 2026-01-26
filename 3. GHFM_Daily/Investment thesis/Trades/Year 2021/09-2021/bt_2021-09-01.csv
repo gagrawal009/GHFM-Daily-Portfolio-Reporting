@@ -1,0 +1,4 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo strategyType,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+SELL,63,COF,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+SELL,304,IPG,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,
+BUY,99,NUE,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,Marketable,09:45:00 EST,12:45:00 EST,Twap,,

@@ -1,0 +1,4 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+SELL,1,GOIL,FUT,IPE,USD,DAY,MKT,U8251256,FALSE,09:45:00 EST,12:45:00 EST,Twap,20230310,100
+BUY,1,ZC,FUT,CBOT,USD,DAY,MKT,U8251256,FALSE,09:45:00 EST,12:45:00 EST,Twap,20230512,5000
+,,,,,,,,,,,,,,

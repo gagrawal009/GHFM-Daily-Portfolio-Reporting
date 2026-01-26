@@ -1,0 +1,100 @@
+Asset_Class,Asset_Name,BBG_Ticker,IB_Ticker,Data_Source
+Bond,2 Year US,TU1 Comdty,ZT,
+Bond,3 Year US,3Y1 Comdty,Z3N,
+Bond,5 Year US,FV1 Comdty,ZF,
+Bond,10 Year US,TY1 Comdty,ZN,
+Bond,30 Year US,US1 Comdty,ZB,
+Bond,Ultra 10-Year US,UXY1 Comdty,TN,
+Bond,Ultra Treasury Bond,WN1 Comdty,UB,
+Bond,2 Year Canadian,CV1 Comdty,CGZ,
+Bond,5 Year Canadian,XQ1 Comdty,CGF,
+Bond,10 Year Canadian,CN1 Comdty,CGB,
+Bond,3 Year Korean,KE1 Comdty,3KTB,
+Bond,10 Year Korean,KAA1 Comdty,FLKTB,
+Bond,10 Year Japanese,JB1 Comdty,JGB,
+Bond,3 Year Australian,YM1 Comdty,YT,
+Bond,5 Year Australian,VTA1 Comdty,,
+Bond,10 Year Australian,XM1 Comdty,XT,
+Bond,20 Year Australian,LTY1 Comdty,,
+Bond,Euro Buxl,UB1 Comdty,GBX,
+Bond,Euro Schatz,DU1 Comdty,GBS,
+Bond,Short-Term Euro-BTP,BTS1 Comdty,BTS,
+Bond,Euro BTP,IK1 Comdty,BTP,
+Bond,Euro BOBL,OE1 Comdty,GBM,
+Bond,Euro OAT,OAT1 Comdty,OAT,
+Bond,Euro Bund,RX1 Comdty,GBL,
+Bond,2 Year Swedish,BTL1 Comdty,,
+Bond,5 Year Swedish,BTO1 Comdty,,
+Bond,10 Year Swedish,BUO1 Comdty,,
+Bond,long-term Swiss,FB1 Comdty,CONF,
+Bond,long-term Spanish,KOA1 Comdty,FBON,
+Bond,30 Day Fed Funds,FF1 Comdty,ZQ,
+Bond,1 Month SOFR,SER1 Comdty,SOFR1,
+Bond,3 Month SOFR,SFR1 Comdty,SOFR3,
+Bond,30 Day Interbank Cash Rate,IB1 Comdty,IB,
+Bond,90 Day Bills,IR1 Comdty,IR,
+Bond,3 Month Sterling Interest Rate,SFI1 Comdty,SONIA.N,
+Bond,3 Month EURIBOR Interest Rate,ER1 Comdty,I,
+Bond,3 Month Saron Index,SSY1 Comdty,SRFXON3,
+Bond,Long Gilt,G 1 Comdty,R,
+Bond,STIP,STIP US Equity,STIP,algoseek
+Bond,TIP,TIP US Equity,TIP,algoseek
+Bond,LTPZ,LTPZ US Equity,LTPZ,algoseek
+Bond,IGSB,IGSB US Equity,IGSB,algoseek
+Bond,IGIB,IGIB US Equity,IGIB,algoseek
+Bond,IGLB,IGLB US Equity,IGLB,algoseek
+Bond,HYG,HYG US Equity,HYG,algoseek
+Bond,CYBA,CYBA NA Equity,CYBA,
+Bond,CNYB,CNYB NA Equity,CNYB,
+Bond,SHYD,SHYD US Equity,SHYD,algoseek
+Bond,HYD,HYD US Equity,HYD,algoseek
+Bond,FMB,FMB US Equity,FMB,algoseek
+Bond,FPE,FPE US Equity,FPE,algoseek
+Bond,ZPR,ZPR CN Equity,ZPR,
+Bond,VCIT,VCIT US Equity,VCIT,algoseek
+Bond,CWB,CWB US Equity,CWB,algoseek
+Bond,JPST,JPST US Equity,JPST,algoseek
+Bond,BIL,BIL US Equity,BIL,algoseek
+Bond,AGG,AGG US Equity,AGG,algoseek
+Bond,IEF,IEF US Equity,IEF,algoseek
+Bond,LQD,LQD US Equity,LQD,algoseek
+Bond,TLT,TLT US Equity,TLT,algoseek
+Bond,TMF,TMF US Equity,TMF,algoseek
+Bond,USHY,USHY US Equity,USHY,algoseek
+Bond,ISTB,ISTB US Equity,ISTB,algoseek
+Commodity,Gold Futures - CME,GC1 Comdty,GC,
+Commodity,BTC Futures - CME,BTC1 Curncy,BTC,
+Commodity,Aluminum Futures - LME,LA1 Comdty,AH,
+Commodity,Brent Oil Futures - ICE,CO1 Comdty,COIL,
+Commodity,WTI Crude Futures - NYMEX,CL1 Comdty,CL,
+Commodity,Copper Futures - COMEX,HG1 Comdty,HG,
+Commodity,Gasoline RBOB Futures-NYMEX,XB1 Comdty,RB,
+Commodity,Heating Oil Futures-NYMEX,HO1 Comdty,HO,
+Commodity,Iron ore fines 62% Fe CFR Futures - SGX,SCO1 Comdty,SCI,
+Commodity,Lead Futures - LME,LL1 Comdty,PB,
+Commodity,London Gas Oil Futures - ICE,QS1 Comdty,GOIL,
+Commodity,Natural Gas Futures - NYMEX,NG1 Comdty,NG,
+Commodity,Nickel Futures - LME,LN1 Comdty,NI,
+Commodity,Palladium Futures - NYMEX,PA1 Comdty,PA,
+Commodity,Platinum Futures - NYMEX,PL1 Comdty,PL,
+Commodity,Rubber TSR20 Futures - SGX,OR1 Comdty,TSR20,
+Commodity,Silver Futures - COMEX ,SI1 Comdty,SI,
+Commodity,Zinc Futures - LME,LX1 Comdty,ZSLME,
+Commodity,Coffee 'C' Futures - ICE,KC1 Comdty,KC,
+Commodity,Corn Futures - CBT ,C 1 Comdty,ZC,
+Commodity,Cotton No.2 Futures - ICE,CT1 Comdty,CT,
+Commodity,KC HRW Wheat Futures - CBT,KW1 Comdty,KE,
+Commodity,Lean Hogs Futures - CME,LH1 Comdty,HE,
+Commodity,Live Cattle Futures - CME,LC1 Comdty,LE,
+Commodity,Soybean Futures - CBT,S 1 Comdty,ZS,
+Commodity,Soybean Meal Futures - CBT,SM1 Comdty,ZM,
+Commodity,Soybean Oil Futures - CBT,BO1 Comdty,ZL,
+Commodity,Sugar #11 - ICE,SB1 Comdty,SB,
+Commodity,Wheat Futures - CBT,W 1 Comdty,ZW,
+Commodity,Oat Futures - CBT,O 1 Comdty,ZO,
+Commodity,Class III Milk Futures - CME,DA1 COMB Comdty,DA,
+Commodity,Feeder Cattle Futures - CME,FC1 COMB Comdty,GF,
+Commodity,Cocoa Futures - ICE,CC1 Comdty,CC,
+Commodity,S&P GSCI Index,SPGSCI Index,,
+Commodity,BCOM Index Open,BCOM Index,,
+Commodity,Aluminum Futures - LME,ALE1 COMB Comdty,ALI,

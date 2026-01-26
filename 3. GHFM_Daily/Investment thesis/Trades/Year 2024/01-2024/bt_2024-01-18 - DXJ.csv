@@ -1,0 +1,3 @@
+Action,Quantity,Symbol,SecType,Exchange,Currency,TimeInForce,OrderType,Account,Algo allowPastEndTime,Algo startTime,Algo endTime,Algo strategy,LastTradingDayOrContractMonth,Multiplier
+BUY,8200,DXJ,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,09:30:05 EST,15:59:05 EST,Vwap,,
+SELL,12600,UCO,STK,SMART/AMEX,USD,DAY,MKT,U8251256,FALSE,09:30:05 EST,15:59:05 EST,Vwap,,

@@ -1,0 +1,3 @@
+Action,Quantity,Symbol,SecType,LastTradingDayOrContractMonth,DivPrt,Exchange,Currency,TimeInForce,OrderType,BasketTag,Account,OrderRef,Multiplier
+BUY,1,HE,FUT,20230214,FALSE,CME,USD,DAY,LMT,Basket,U8251256,Basket,40000
+BUY,1,SB,FUT,20230228,FALSE,NYBOT,USD,DAY,LMT,Basket,U8251256,Basket,112000

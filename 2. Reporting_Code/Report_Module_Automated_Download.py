@@ -227,8 +227,8 @@ class PortfolioReportingFrameworkDownload:
 
         df_hist = self.load_previous_perf()
 
-        pct_cols = ["Daily Return","Weekly Return","MTD %","30 Days Return","90 Days Return","365 Days Return","LTD ROR%","YTD ROR%",
-                    "Annualised Return","Annualised Volatility","Excess Return","CAGR", "Negative Excess Returns","Trailing 365D Annualised Return"]
+        pct_cols = ["Daily Return","Weekly Return","MTD %","30 Days Return","90 Days Return","252 Days Return","LTD ROR%","YTD ROR%",
+                    "Annualised Return","Annualised Volatility","Excess Return","CAGR", "Negative Excess Returns","Trailing 252D Annualised Return"]
 
         df_hist[pct_cols] = df_hist[pct_cols] / 100
         df_hist = self.append_today_row(df_hist, today_nav, today_cash, today_date)

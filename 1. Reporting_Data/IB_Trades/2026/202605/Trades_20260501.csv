@@ -1,0 +1,18 @@
+﻿Statement,Header,Field Name,Field Value
+Statement,Data,Title,Activity Summary
+Statement,Data,Period,"May 1, 2026"
+Statement,Data,WhenGenerated,"2026-05-06, 02:20:43 EDT"
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"This Activity Summary is provided as a convenience to customers who have accounts with multiple Interactive Brokers companies in multiple jurisdictions. Positions and cash shown on this Activity Summary may be held at different Interactive Brokers companies in different countries, subject to different regulatory rules and protections. This Activity Summary does not serve as your formal customer statement. Customer statements for each IB company are available under Account Management when you log in to the IB website."
+Trades,Header,DataDiscriminator,Asset Category,Currency,Account,Symbol,Date/Time,Quantity,T. Price,C. Price,Proceeds,Comm/Fee,Basis,Realized P/L,MTM P/L,Code
+Trades,Data,Order,Stocks,USD,U18135473,HGER,"2026-05-01, 10:01:10","15,500",32.340309677,32.36,-501274.8,-57.487373749,501332.287373749,0,305.2,O;P
+Trades,Data,Order,Stocks,USD,U18135473,HGER,"2026-05-01, 10:13:01",120,32.3,32.36,-3876,-0.2206687,3876.2206687,0,7.2,O;P
+Trades,SubTotal,,Stocks,USD,HGER,,,15620,,,-505150.8,-57.708042449,505208.508042449,0,312.4,
+Trades,Data,Order,Stocks,USD,U18135473,KMLM,"2026-05-01, 09:59:45","17,300",29.320262428,29.33,-507240.54,-49.92640425,507290.46640425,0,168.46,IM;O;P
+Trades,Data,Order,Stocks,USD,U18135473,KMLM,"2026-05-01, 10:04:51","17,000",29.25,29.33,-497250,-35.794732499,497285.794732499,0,1360,O;P
+Trades,SubTotal,,Stocks,USD,KMLM,,,34300,,,-1004490.54,-85.721136749,1004576.261136749,0,1528.46,
+Trades,Data,Order,Stocks,USD,U8251256,SGOV,"2026-05-01, 10:05:44",200,100.41,100.41,-20082,-0.7011145,20082.7011145,0,0,O
+Trades,SubTotal,,Stocks,USD,SGOV,,,200,,,-20082,-0.7011145,20082.7011145,0,0,
+Trades,Total,,Stocks,USD,,,,,,,-1529723.34,-144.130293698,1529867.470293698,0,1840.86, 
+Disclaimer,Header,Field Name,Field Value
+Disclaimer,Data,Disclaimer,"Assets held at Interactive Brokers (U.K.) Limited are subject to the UK Financial Services Compensation Scheme but are not protected by the U.S. Securities Investor Protection Corporation ("SIPC"). Assets held at Interactive Brokers LLC are subject to SIPC but are not protected under the UK Financial Services Compensation Scheme. As with all securities firms, SIPC coverage provides protection against failure of a broker-dealer, not against loss of market value of securities.  Futures and options on futures are not covered by SIPC."

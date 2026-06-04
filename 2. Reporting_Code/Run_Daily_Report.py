@@ -5,8 +5,8 @@ from Report_Module_Automated import PortfolioReportingFramework
 reporter = PortfolioReportingFramework(ghfm_reporting_dir, repo_path)
 reporter.run_complete_daily_report()
 
-# today_str = "20260505"
-# previous_day_str = "20260504"
+# today_str = "20260602"
+# previous_day_str = "20260601"
 # from Report_Module_Automated_Download import PortfolioReportingFrameworkDownload
 # reporter = PortfolioReportingFrameworkDownload(today_str, previous_day_str, ghfm_reporting_dir)
 # reporter.run_complete_daily_report()

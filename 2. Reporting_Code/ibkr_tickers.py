@@ -8,15 +8,15 @@ import io
 import csv
 
 SEND_REQUEST_URL = "https://ndcdyn.interactivebrokers.com/AccountManagement/FlexWebService/SendRequest"
-GET_STATEMENT_URL = "https://ndcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
-#GET_STATEMENT_URL = "https://gdcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
+#GET_STATEMENT_URL = "https://ndcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
+GET_STATEMENT_URL = "https://gdcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
 
 
 DEFAULT_TIMEOUT = 30
 POLL_INTERVAL_SEC = 3
 MAX_WAIT_SEC = 180
 
-FLEX_TOKEN = "483753156930088647680000"
+FLEX_TOKEN = "515551121527747666596127"
 FLEX_QUERY_ID = "1278888"
 
 ASSET_KEYS = ("AssetClass", "Asset Class", "Asset Category")

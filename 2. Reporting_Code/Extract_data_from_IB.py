@@ -9,7 +9,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 import argparse
 
-FLEX_TOKEN = "515551121527747666596127"
+FLEX_TOKEN = "20903289747936343646528"
 FLEX_QUERY_ID = "1260546"
 
 SEND_URL = "https://ndcdyn.interactivebrokers.com/AccountManagement/FlexWebService/SendRequest"

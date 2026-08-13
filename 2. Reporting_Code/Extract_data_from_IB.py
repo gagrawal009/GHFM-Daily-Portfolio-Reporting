@@ -231,7 +231,7 @@ def run_flex_pipeline(startdate: str, enddate: str, filename:str) -> pd.DataFram
         current += timedelta(days=1)
         time.sleep(5)
     print("All processing done")
-    return pd.DataFrame(summary_rows)
+    return 
 
 
 if __name__ == "__main__":

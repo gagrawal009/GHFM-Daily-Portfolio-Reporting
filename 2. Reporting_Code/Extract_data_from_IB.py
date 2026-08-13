@@ -212,13 +212,38 @@ def run_flex_pipeline(startdate: str, enddate: str, filename:str) -> pd.DataFram
                     try:
                         start_val = float(str(row["StartingValue"]).replace('"', ''))
                         end_val = float(str(row["EndingValue"]).replace('"', ''))
-                        pnl = end_val - start_val
-                        pnl_pct = pnl / start_val * 100
-                        print(f"Account: {acct_id} | Start: {start_val:.2f} | End: {end_val:.2f} | P&L: {pnl:.2f} ({pnl_pct:+.2f}%)")
+                        cash_flow = float(str(row["DepositsWithdrawals"]).replace('"', '') or 0)
+
+                        # Cash-adjusted P&L
+                        pnl = end_val - start_val - cash_flow
+
+                        # Same return convention as portfolio return
+                        if start_val != 0:
+                            pnl_pct = pnl / start_val * 100
+                        else:
+                            pnl_pct = np.nan
+
+                        print(
+                            f"Account: {acct_id} | "
+                            f"Start: {start_val:.2f} | "
+                            f"Cash Flow: {cash_flow:.2f} | "
+                            f"End: {end_val:.2f} | "
+                            f"P&L: {pnl:.2f} | "
+                            f"Return: {pnl_pct:+.2f}%"
+                            if not np.isnan(pnl_pct)
+                            else
+                            f"Account: {acct_id} | "
+                            f"Start: {start_val:.2f} | "
+                            f"Cash Flow: {cash_flow:.2f} | "
+                            f"End: {end_val:.2f} | "
+                            f"P&L: {pnl:.2f} | Return: N/A"
+                        )
+
                         summary_rows.append({
                             "Date": date_str,
                             "Account": acct_id,
                             "StartingValue": start_val,
+                            "DepositsWithdrawals": cash_flow,
                             "EndingValue": end_val,
                             "PnL": pnl,
                             "PnL(%)": pnl_pct
@@ -231,7 +256,7 @@ def run_flex_pipeline(startdate: str, enddate: str, filename:str) -> pd.DataFram
         current += timedelta(days=1)
         time.sleep(5)
     print("All processing done")
-    return 
+    return pd.DataFrame(summary_rows)
 
 
 if __name__ == "__main__":

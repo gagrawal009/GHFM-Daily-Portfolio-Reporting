@@ -1078,7 +1078,29 @@ class PortfolioReportingFramework:
             ib_text += f'<p style="font-size:14px;"><b>{asset_class}:</b></p>{html_table}<br>'
 
         html_trade_table = self.df_to_styled_html(df_trade)
-        intro_text = f"Hi Team,<br><br>Our macro buy & hold strategy earned {daily_return}% on the last trading day, and earned {mtd_return}% MTD. Cash injection for the day was {cash_injection}<br><br>"
+        account_returns_text = ""
+
+        if hasattr(self, "account_returns_df") and not self.account_returns_df.empty:
+            for _, row in self.account_returns_df.iterrows():
+
+                if pd.isna(row["PnL(%)"]):
+                    ret_text = "N/A"
+                else:
+                    ret_text = f"{row['PnL(%)']:+.2f}%"
+
+                account_returns_text += (
+                    f"<b>Account {row['Account']}:</b> {ret_text}<br>"
+                )
+
+        intro_text = (
+            "Hi Team,<br><br>"
+            "<b>Performance on the last trading day:</b><br>"
+            f"{account_returns_text}"
+            f"<b>Portfolio:</b> {daily_return:+.2f}%<br>"
+            f"<b>Portfolio MTD:</b> {mtd_return:+.2f}%<br>"
+            f"Cash injection for the day was {cash_injection}<br><br>"
+        )
+
         trade_text = "<br><br>Executed trades on the last trading day:<br><br>"
 
         mail.HTMLBody = intro_text + ib_text + trade_text + html_trade_table
@@ -1156,7 +1178,7 @@ class PortfolioReportingFramework:
         
         # Step 1: Run flex pipeline
         print("Step 1: Running flex pipeline...")
-        run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
+        self.account_returns_df = run_flex_pipeline(self.today_str, self.today_str, self.consolidated_file)
         print("Flex pipeline completed.\n")
         
         # Step 2: Run performance reporting

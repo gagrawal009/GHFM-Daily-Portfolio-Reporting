@@ -1051,8 +1051,8 @@ class PortfolioReportingFramework:
         """Prepare Email."""
         outlook = win32.Dispatch('outlook.application')
         mail = outlook.CreateItem(0)
-        mail.To = "lc@ghfm.fund"
-        mail.CC = "nicol@ghfm.fund; gaurav@ghfm.fund"
+        mail.To = "lc@ghfm.fund; yiling@ghfm.fund; nicol@ghfm.fund"
+        mail.CC = "gaurav@ghfm.fund"
         mail.Subject = "Daily Trades and P&L Breakdowns " + self.today_str
 
         daypnl_table = self.df_to_styled_html(daypnl_df)

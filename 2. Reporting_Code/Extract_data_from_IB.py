@@ -13,8 +13,8 @@ FLEX_TOKEN = "20903289747936343646528"
 FLEX_QUERY_ID = "1260546"
 
 SEND_URL = "https://ndcdyn.interactivebrokers.com/AccountManagement/FlexWebService/SendRequest"
-#GET_URL = "https://gdcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
-GET_URL = "https://cdcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
+GET_URL = "https://gdcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
+#GET_URL = "https://cdcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
 #GET_URL = "https://ndcdyn.interactivebrokers.com/AccountManagement/FlexWebService/GetStatement"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
 
